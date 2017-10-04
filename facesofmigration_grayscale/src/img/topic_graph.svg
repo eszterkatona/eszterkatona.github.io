@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+    "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg contentScriptType="text/ecmascript" width="2315.4702"
+     xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify"
+     contentStyleType="text/css"
+     viewBox="-1157.735107 -1159.683594 2315.470215 2220.683594"
+     height="2220.6836" preserveAspectRatio="xMidYMid meet"
+     xmlns="http://www.w3.org/2000/svg" version="1.1">
+    <g id="edges">
+        <path fill="none" stroke-width="0.0"
+              d="M -789.570618,690.238647 C -1016.081482,229.091095 -664.126465,-802.396606 -202.978943,-1028.907471"
+              class="6 4" stroke-opacity="0.69803923" stroke="#993404"/>
+        <path fill="none" stroke-width="3.7949948"
+              d="M -789.570618,690.238647 C -1035.947876,525.052917 -1157.735107,-92.291626 -992.549438,-338.668884"
+              class="6 0" stroke-opacity="0.69803923" stroke="#993404"/>
+        <path fill="none" stroke-width="3.702434"
+              d="M -789.570618,690.238647 C -523.326965,559.462524 72.202782,762.663940 202.978897,1028.907593"
+              class="6 1" stroke-opacity="0.69803923" stroke="#993404"/>
+        <path fill="none" stroke-width="0.6993486"
+              d="M -789.570618,690.238647 C -769.704224,394.276764 -295.961731,-19.866333 0.000128,0.000121"
+              class="6 2" stroke-opacity="0.69803923" stroke="#993404"/>
+        <path fill="none" stroke-width="11.755228"
+              d="M -789.570618,690.238647 C -503.460571,263.500671 565.811584,52.558716 992.549561,338.668762"
+              class="6 5" stroke-opacity="0.69803923" stroke="#993404"/>
+        <path fill="none" stroke-width="0.051422693"
+              d="M -789.570618,690.238647 C -749.837891,98.315002 197.646667,-729.971436 789.570313,-690.238708"
+              class="6 3" stroke-opacity="0.69803923" stroke="#993404"/>
+        <path fill="none" stroke-width="2.159753"
+              d="M -202.978943,-1028.907471 C -222.845306,-732.945679 -696.587646,-318.802521 -992.549438,-338.668884"
+              class="4 0" stroke-opacity="0.69803923" stroke="#993404"/>
+        <path fill="none" stroke-width="2.3243058"
+              d="M -202.978943,-1028.907471 C 289.775604,-698.536072 533.350342,536.153015 202.978897,1028.907593"
+              class="4 1" stroke-opacity="0.69803923" stroke="#993404"/>
+        <path fill="none" stroke-width="1.717518"
+              d="M -202.978943,-1028.907471 C 63.264671,-1159.683594 658.794189,-956.482300 789.570313,-690.238708"
+              class="4 3" stroke-opacity="0.69803923" stroke="#993404"/>
+        <path fill="none" stroke-width="4.1652384"
+              d="M -202.978943,-1028.907471 C 309.641998,-994.497925 1026.959106,-173.952179 992.549561,338.668762"
+              class="4 5" stroke-opacity="0.69803923" stroke="#993404"/>
+        <path fill="none" stroke-width="2.8796709"
+              d="M -202.978943,-1028.907471 C 43.398376,-863.721802 165.185822,-246.377197 0.000128,0.000121"
+              class="4 2" stroke-opacity="0.69803923" stroke="#993404"/>
+        <path fill="none" stroke-width="7.291738"
+              d="M -992.549438,-338.668884 C -479.928497,-304.259277 237.388519,516.286682 202.978897,1028.907593"
+              class="0 1" stroke-opacity="0.69803923" stroke="#993404"/>
+        <path fill="none" stroke-width="0.051422693"
+              d="M -992.549438,-338.668884 C -726.305725,-469.445007 -130.775970,-266.243591 0.000128,0.000121"
+              class="0 2" stroke-opacity="0.69803923" stroke="#993404"/>
+        <path fill="none" stroke-width="17.247171"
+              d="M -992.549438,-338.668884 C -460.062134,-600.221191 730.997314,-193.818573 992.549561,338.668762"
+              class="0 5" stroke-opacity="0.69803923" stroke="#993404"/>
+        <path fill="none" stroke-width="5.8313336"
+              d="M -992.549438,-338.668884 C -706.439453,-765.406799 362.832397,-976.348694 789.570313,-690.238708"
+              class="0 3" stroke-opacity="0.69803923" stroke="#993404"/>
+        <path fill="none" stroke-width="1.7792252"
+              d="M 202.978897,1028.907593 C -23.532043,567.760071 328.422791,-463.727783 789.570313,-690.238708"
+              class="1 3" stroke-opacity="0.69803923" stroke="#993404"/>
+        <path fill="none" stroke-width="9.739458"
+              d="M 202.978897,1028.907593 C 222.845276,732.945740 696.587646,318.802368 992.549561,338.668762"
+              class="1 5" stroke-opacity="0.69803923" stroke="#993404"/>
+        <path fill="none" stroke-width="1.5221118"
+              d="M 202.978897,1028.907593 C -43.398346,863.721863 -165.185608,246.377365 0.000128,0.000121"
+              class="1 2" stroke-opacity="0.69803923" stroke="#993404"/>
+        <path fill="none" stroke-width="3.1882071"
+              d="M 789.570313,-690.238708 C 769.704041,-394.276855 295.961945,19.866394 0.000128,0.000121"
+              class="3 2" stroke-opacity="0.69803923" stroke="#993404"/>
+        <path fill="none" stroke-width="30.0"
+              d="M 789.570313,-690.238708 C 1035.947632,-525.053040 1157.735229,92.291412 992.549561,338.668762"
+              class="3 5" stroke-opacity="0.69803923" stroke="#993404"/>
+        <path fill="none" stroke-width="2.9825163"
+              d="M 992.549561,338.668762 C 726.305908,469.444916 130.776276,266.243744 0.000128,0.000121"
+              class="5 2" stroke-opacity="0.69803923" stroke="#993404"/>
+    </g>
+    <g id="nodes">
+        <circle fill-opacity="0.6" fill="#993404" r="26.721886" cx="-789.5706"
+                class="6" cy="690.23865" stroke="#000000" stroke-opacity="0.6"
+                stroke-width="1.0"/>
+        <circle fill-opacity="0.6" fill="#993404" r="21.489328" cx="-202.97894"
+                class="4" cy="-1028.9075" stroke="#000000" stroke-opacity="0.6"
+                stroke-width="1.0"/>
+        <circle fill-opacity="0.6" fill="#993404" r="39.401085" cx="-992.54944"
+                class="0" cy="-338.66888" stroke="#000000" stroke-opacity="0.6"
+                stroke-width="1.0"/>
+        <circle fill-opacity="0.6" fill="#993404" r="31.643837" cx="202.9789"
+                class="1" cy="1028.9076" stroke="#000000" stroke-opacity="0.6"
+                stroke-width="1.0"/>
+        <circle fill-opacity="0.6" fill="#993404" r="44.195602" cx="789.5703"
+                class="3" cy="-690.2387" stroke="#000000" stroke-opacity="0.6"
+                stroke-width="1.0"/>
+        <circle fill-opacity="0.6" fill="#993404" r="70.0" cx="992.54956"
+                class="5" cy="338.66876" stroke="#000000" stroke-opacity="0.6"
+                stroke-width="1.0"/>
+        <circle fill-opacity="0.6" fill="#993404" r="20.0" cx="1.2777613E-4"
+                class="2" cy="1.20603196E-4" stroke="#000000"
+                stroke-opacity="0.6" stroke-width="1.0"/>
+    </g>
+    <g id="node-labels">
+        <text font-size="48" x="-789.5706" y="701.6019" fill="#ffffff"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="6">
+            Átkelés
+        </text>
+        <text font-size="48" x="-202.97894" y="-1016.8137" fill="#ffffff"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="4">
+            Egyéni portrék, politikusok, stb.
+        </text>
+        <text font-size="48" x="-992.54944" y="-327.0556" fill="#ffffff"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="0">
+            Nagyobb csoportok
+        </text>
+        <text font-size="48" x="202.9789" y="1041.0013" fill="#ffffff"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="1">
+            Kisebb csoportok: egyéni portrék, stb.
+        </text>
+        <text font-size="48" x="789.5703" y="-678.14496" fill="#ffffff"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="3">
+            Kisebb csoportok: családok, egyének
+        </text>
+        <text font-size="48" x="992.54956" y="347.95782" fill="#ffffff"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="5">
+            Adatok
+        </text>
+        <text font-size="48" x="1.2777613E-4" y="11.363401" fill="#ffffff"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="2">
+            Úton
+        </text>
+    </g>
+</svg>

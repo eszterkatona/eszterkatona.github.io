@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link href="../css/nv.d3.css" rel="stylesheet" type="text/css">
+    <script src="../js/d3.min.js" charset="utf-8"></script>
+    <script src="../js/nv.d3.js"></script>
+    <script src="../lib/stream_layers.js"></script>
+
+    <style>
+        text {
+            font: 12px sans-serif;
+        }
+        svg {
+            display: block;
+			margin: auto;
+        }
+        html, body, #chart1, svg {
+            padding: 10px;
+            height: 50vw;
+            width: 90vw;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<div id="chart1" class='with-3d-shadow with-transitions'>
+    <svg></svg>
+</div>
+
+<script>
+
+
+    var long_short_data = [
+        {
+        key: 'Nő',
+        values: [
+{
+"label":  "55+",
+"value": 0},
+{
+"label":  "50-54",
+"value": 1},
+{
+"label":  "45-49",
+"value": 7},
+{
+"label":  "40-44",
+"value": 21},
+{
+"label":  "35-39",
+"value": 70},
+{
+"label":  "30-34",
+"value": 148},
+{
+"label":  "25-29",
+"value": 145},
+{
+"label":  "20-24",
+"value": 48},
+{
+"label":  "15-19",
+"value": 10},
+{
+"label":  "10-14",
+"value": 0},
+{
+"label":  "0-9",
+"value": 0}
+        ]
+},
+        {key: 'Férfi',
+         values: [
+{
+"label":  "55+",
+"value": 0},
+{
+"label":  "50-54",
+"value": 2},
+{
+"label":  "45-49",
+"value": -14},
+{
+"label":  "40-44",
+"value": -57},
+{
+"label":  "35-39",
+"value": -250},
+{
+"label":  "30-34",
+"value": -408},
+{
+"label":  "25-29",
+"value": -266},
+{
+"label":  "20-24",
+"value": -86},
+{
+"label":  "15-19",
+"value": -36},
+{
+"label":  "10-14",
+"value": -3},
+{
+"label":  "0-9",
+"value": 0},
+
+]}];
+
+
+
+    var chart;
+    nv.addGraph(function() {
+        chart = nv.models.multiBarHorizontalChart()
+            .x(function(d) { return d.label })
+            .y(function(d) { return d.value })
+            //.yErr(function(d) { return [-Math.abs(d.value * Math.random() * 0.3), Math.abs(d.value * Math.random() * 0.3)] })
+            //.barColor(d3.scale.category20().range())
+            .duration(250)
+            .showControls(false)
+            .showLegend(true)
+            .legendPosition("bottom")
+            .controlsPosition("bottom")
+            .margin({left: 100})
+            .stacked(true)
+	    .yDomain([-450,450]); 
+
+        chart.yAxis.tickFormat(function(d){
+        return d3.format(',f')(Math.abs(d)); });
+
+        chart.yAxis.axisLabel('Képek száma');
+        chart.xAxis.axisLabel('Korcsoport').axisLabelDistance(20);
+
+        d3.select('#chart1 svg').attr("align","center")
+			.attr("width", "30%")
+			.attr("height", "30%")
+            .datum(long_short_data)
+            .call(chart);
+
+        nv.utils.windowResize(chart.update);
+
+        chart.dispatch.on('stateChange', function(e) { nv.log('New State:', JSON.stringify(e)); });
+        chart.state.dispatch.on('change', function(state){
+            nv.log('state', JSON.stringify(state));
+        });
+        return chart;
+    });
+
+</script>
+</body>
+</html>

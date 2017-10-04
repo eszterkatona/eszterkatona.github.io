@@ -1,0 +1,6 @@
+faces-of-migration:
+  net: development
+  container_name: faces-of-migration
+  image: docker.precognox.com/labs/faces-of-migration:1.0.2
+  ports:
+  - "12345:80"
