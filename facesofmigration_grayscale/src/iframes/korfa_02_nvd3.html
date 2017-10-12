@@ -34,7 +34,7 @@
 
     var long_short_data = [
         {
-        key: 'Nő',
+        key: 'Woman',
         values: [
 {
 "label":  "55+",
@@ -71,7 +71,7 @@
 "value": 0}
         ]
 },
-        {key: 'Férfi',
+        {key: 'Man',
          values: [
 {
 "label":  "55+",
@@ -130,8 +130,8 @@
         chart.yAxis.tickFormat(function(d){
         return d3.format(',f')(Math.abs(d)); });
 
-        chart.yAxis.axisLabel('Képek száma');
-        chart.xAxis.axisLabel('Korcsoport').axisLabelDistance(20);
+        chart.yAxis.axisLabel('Number of images');
+        chart.xAxis.axisLabel('Age group').axisLabelDistance(20);
 
         d3.select('#chart1 svg').attr("align","center")
 			.attr("width", "30%")
