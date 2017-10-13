@@ -1089,16 +1089,25 @@
      <section id="summary-intro" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-                Our article aimed to study images of articles published in online media from September 2014 to June 2016. Roughly 10,000 unique images were extracted from the articles – which were detected around 55,000 times – and then processed automatically. <br>
                 
-                The images were classified into seven topics: 1) Bigger groups: in camps, by the Keleti railway station, demonstrations, in front lines, 2) Smaller groups: individual portraits: refugees, figures of the media, religious leaders, 3) On the way: train, bus, ship, on foot, 4) Smaller groups: families, individuals, refugees, politicians, members of armed forces, 5) Individual portraits, smaller groups: politicians, public figures who shape the public opinion, well-known figures, 6) Data: tables, maps, diagrams, screenshots, drawings, illustrations and 7) Crossing: fence, border, sea. The most common was the sixth one, which is the consequence of the fact that images often display signs, e.g. signposts or tags on T-shirts or name cards.
-                <br>
+                <p>Our article aimed to study images of articles published in online media from September 2014 to June 2016. Roughly 10,000 unique images were extracted from the articles – which were detected around 55,000 times – and then processed automatically. </p>
                 
-                After testing several freely available face detection devices, we used the pre-trained Haar Cascade model of the OpenCV library for face detection. Furthermore, we created a sex and age classifier on our own. As a result, we managed to train an algorithm, which errors +/- 5 years regarding women, while in case of men this value is +/- 3 years on average. For emotion recognition, we came up with an individual solution as well: we trained a convolutional neural network to this task with the use of the Keras deep learning framework. Our algorithm performed the best in case of middle-aged men, since it guessed their emotion the best from their facial expressions. 
-                <br>
-                To sum up the results of face, sex, age and emotion detection, it was found that men are represented in the highest percentage in topic 6 (Crossing: fence, border, sea: 74%), which is followed by topic 2 (On the way: train, bus, ship, on foot: 72%) and by topic 4 (Individual portraits, small groups: politicians, persons who shape public opinion, well-known persons: 71%). Women and the youngest age group (people/youngsters below 15) rather appear on group images as members of the crowd. As for age, it is typical for each topic that persons between 30 and 34 are present in the greatest proportion everywhere. Regarding each topic, anger is the most commonly identified emotion, which is followed by sadness – lagging far behind.
-                <br>
-                Finally, as for image metaphors, Threat of epidemics, On the way, Stream, Criminalization, Being face-less and personality-less, The refugee mother, Photo report, Statistics, Comments of other relevant figures were the most significant ones identified in the dataset.
+                <p>The images were classified into seven topics: 
+                1) Bigger groups: in camps, by the Keleti railway station, demonstrations, in front lines, 
+                2) Smaller groups: individual portraits: refugees, figures of the media, religious leaders, <br>
+                3) On the way: train, bus, ship, on foot, 
+                4) Smaller groups: families, individuals, refugees, politicians, members of armed forces,
+                5) Individual portraits, smaller groups: politicians, public figures who shape the public opinion, well-known figures,
+                6) Data: tables, maps, diagrams, screenshots, drawings, illustrations and
+                7) Crossing: fence, border, sea.
+                The most common was the sixth one, which is the consequence of the fact that images often display signs, e.g. signposts or tags on T-shirts or name cards.
+                </p>
+                
+                <p>After testing several freely available face detection devices, we used the pre-trained Haar Cascade model of the  <a href="https://opencv.org/"> OpenCV </a> library for face detection. Furthermore, we created a sex and age classifier on our own. As a result, we managed to train an algorithm, which errors +/- 5 years regarding women, while in case of men this value is +/- 3 years on average. For emotion recognition, we came up with an individual solution as well: we trained a <a href="https://en.wikipedia.org/wiki/Convolutional_neural_network">convolutional neural network </a> to this task with the use of the <a href="https://keras.io/">Keras</a> deep learning framework. Our algorithm performed the best in case of middle-aged men, since it guessed their emotion the best from their facial expressions. </p>
+    
+                <p>To sum up the results of face, sex, age and emotion detection, it was found that men are represented in the highest percentage in topic 6 (Crossing: fence, border, sea: 74%), which is followed by topic 2 (On the way: train, bus, ship, on foot: 72%) and by topic 4 (Individual portraits, small groups: politicians, persons who shape public opinion, well-known persons: 71%). Women and the youngest age group (people/youngsters below 15) rather appear on group images as members of the crowd. As for age, it is typical for each topic that persons between 30 and 34 are present in the greatest proportion everywhere. Regarding each topic, anger is the most commonly identified emotion, which is followed by sadness – lagging far behind.
+                
+                Finally, as for image metaphors, Threat of epidemics, On the way, Stream, Criminalization, Being face-less and personality-less, The refugee mother, Photo report, Statistics, Comments of other relevant figures were the most significant ones identified in the dataset.</p>
             </div>
          </div>
     </section>

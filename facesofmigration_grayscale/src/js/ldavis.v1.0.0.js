@@ -350,7 +350,7 @@ var LDAvis = function(to_select, data_or_file_name) {
             .attr('class', "circleGuideTitle")
             .style("text-anchor", "left")
             .style("fontWeight", "bold")
-            .text("Marginális eloszlás")
+            .text("Marginal topic distribution")
             .attr("fill", "white");
         d3.select("#" + leftPanelID).append("text")
             .attr("x", cx2 + 10)
@@ -378,13 +378,13 @@ var LDAvis = function(to_select, data_or_file_name) {
         var points = mdsplot.selectAll("points")
                 .data(mdsData)
                 .enter();
-        var topicnames = {1 : "Nagyobb csoportok",
-                         2 : "Egyéni portrék, kis csoportok",
-                         3 : "Úton",
-                         4 : "Adatok",
-                         5 : "Kisebb csoportok: egyéni portrék",
-                         6 : "Átkelés",
-                         7 : "Kisebb csoportok: családok, egyének",};
+        var topicnames = {1 : "Bigger groups",
+                         2 : "Smaller groups: individual portraits",
+                         3 : "On the way",
+                         4 : "Data",
+                         5 : "Smaller groups: families, individuals",
+                         6 : "Crossing",
+                         7 : "Individual portraits, smaller groups",};
         
         // text to indicate topic
         points.append("text")
@@ -496,7 +496,7 @@ var LDAvis = function(to_select, data_or_file_name) {
             .attr("x", barguide.width + 5)
             .attr("y", mdsheight + 10 + barguide.height/2)
             .style("dominant-baseline", "middle")
-            .text("A címke gyakorisága a teljes korpuszban")
+            .text("Overall term frequency")
             .attr("fill", "white");
 
         d3.select("#" + barFreqsID).append("rect")
@@ -510,7 +510,7 @@ var LDAvis = function(to_select, data_or_file_name) {
             .attr("x", barguide.width/2 + 5)
             .attr("y", mdsheight + 10 + (3/2)*barguide.height + 5)
             .style("dominant-baseline", "middle")
-            .text("A címke gyakorisága a kiválasztott topikban")
+            .text("Estimated term frequency within the selected topic")
             .attr("fill", "white");
 
         // footnotes:
@@ -1284,7 +1284,7 @@ var LDAvis = function(to_select, data_or_file_name) {
 
             // Alter the guide
             d3.select(to_select + " .circleGuideTitle")
-                .text("A '" + term.innerHTML + "' kifejezés feltételes eloszlása");
+                .text("Conditional topic distribution given term = '" + term.innerHTML);
         }
 
         function term_off(term) {
@@ -1306,7 +1306,7 @@ var LDAvis = function(to_select, data_or_file_name) {
 
             // Go back to the default guide
             d3.select(to_select + " .circleGuideTitle")
-                .text("Marginális eloszlás")
+                .text("Marginal topic distribution")
                 .attr("fill", "white");
             d3.select(to_select + " .circleGuideLabelLarge")
                 .text(defaultLabelLarge)
