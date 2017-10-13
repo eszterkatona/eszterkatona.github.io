@@ -350,7 +350,7 @@ var LDAvis = function(to_select, data_or_file_name) {
             .attr('class', "circleGuideTitle")
             .style("text-anchor", "left")
             .style("fontWeight", "bold")
-            .text("Marginal topic distribution")
+            .text("Marginal distribution")
             .attr("fill", "white");
         d3.select("#" + leftPanelID).append("text")
             .attr("x", cx2 + 10)
@@ -384,7 +384,7 @@ var LDAvis = function(to_select, data_or_file_name) {
                          4 : "Data",
                          5 : "Smaller groups: families, individuals",
                          6 : "Crossing",
-                         7 : "Individual portraits, smaller groups",};
+                         7 : "Individual portraits, etc.",};
         
         // text to indicate topic
         points.append("text")
@@ -1306,7 +1306,7 @@ var LDAvis = function(to_select, data_or_file_name) {
 
             // Go back to the default guide
             d3.select(to_select + " .circleGuideTitle")
-                .text("Marginal topic distribution")
+                .text("Marginal distribution")
                 .attr("fill", "white");
             d3.select(to_select + " .circleGuideLabelLarge")
                 .text(defaultLabelLarge)
