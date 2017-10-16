@@ -1,0 +1,108 @@
+[
+ 
+   {
+      "key”:”Smaller groups: families, etc.”,
+      "values":[
+         {
+            "device":"Smaller groups: families, etc.”,
+            "reason”:”Anger”,
+            "value":47.8
+         },
+         {
+            "device":"Smaller groups: families, etc.",
+            "reason”:”Sadness”,
+            "value":20.1
+         },
+         {
+            "device":"Smaller groups: families, etc.",
+            "reason”:”Neutral”,
+            "value":11.4
+         },
+         {
+            "device":"Smaller groups: families, etc.",
+            "reason”:”Happiness”,
+            "value":8.5
+         },
+         {
+            "device":"Smaller groups: families, etc.",
+            "reason”:”Fear”,
+            "value":7.1
+         },
+         {
+            "device":"Smaller groups: families, etc.",
+            "reason”:”Disgust”,
+            "value":4.3
+         }
+      ]
+   },
+   {
+      "key”:”Bigger groups”,
+      "values":[
+         {
+            "device":"Bigger groups",
+            "reason”:”Anger”,
+            "value":71.3
+         },
+         {
+            "device":"Bigger groups",
+            "reason”:”Sadness”,
+            "value":7.7
+         },
+         {
+            "device”:”Bigger groups”,
+            "reason”:”Neutral”,
+            "value":5.8
+         },
+         {
+            "device":"Bigger groups",
+            "reason”:”Hapiiness”,
+            "value":5.1
+         },
+         {
+            "device":"Bigger groups",
+            "reason”:”Fear”,
+            "value":5.1
+         },
+         {
+            "device":"Bigger groups",
+            "reason”:”Disgust”,
+            "value":4.9
+         }
+      ]
+   },
+   {
+      "key”:”On the way”,
+      "values":[
+         {
+            "device":"On the way",
+            "reason”:”Anger”,
+            "value":61.0
+         },
+         {
+            "device":"On the way",
+            "reason”:”Sadness”,
+            "value":9.9
+         },
+         {
+            "device":"On the way",
+            "reason”:”Neutral”,
+            "value":8.5
+         },
+         {
+            "device":"On the way",
+            "reason”:”Happiness”,
+            "value":8.0
+         },
+         {
+            "device":"On the way",
+            "reason”:”Fear”,
+            "value":8.0
+         },
+         {
+            "device":"On the way",
+            "reason”:”Disgust”,
+            "value":4.2
+         }
+      ]
+   }
+]

@@ -1,0 +1,212 @@
+[
+   {
+      "key":"Átkelés: kerítésnél, határon, tengeren",
+      "values":[
+         {
+            "device":"Átkelés: kerítésnél, határon, tengeren",
+            "reason":"Düh",
+            "value":67.6
+         },
+         {
+            "device":"Átkelés: kerítésnél, határon, tengeren",
+            "reason":"Szomorúság",
+            "value":10.5
+         },
+         {
+            "device":"Átkelés: kerítésnél, határon, tengeren",
+            "reason":"Semleges",
+            "value":8.1
+         },
+         {
+            "device":"Átkelés: kerítésnél, határon, tengeren",
+            "reason":"Öröm",
+            "value":5.9
+         },
+         {
+            "device":"Átkelés: kerítésnél, határon, tengeren",
+            "reason":"Félelem",
+            "value":5.2
+         },
+         {
+            "device":"Átkelés: kerítésnél, határon, tengeren",
+            "reason":"Undor",
+            "value":2.5
+         }
+      ]
+   },
+   {
+      "key":"Egyéni portrék, kis csoportok: politikusok, véleményformálók, ismert emberek",
+      "values":[
+         {
+            "device":"Egyéni portrék, kis csoportok: politikusok, véleményformálók, ismert emberek",
+            "reason":"Düh",
+            "value":35.7
+         },
+         {
+            "device":"Egyéni portrék, kis csoportok: politikusok, véleményformálók, ismert emberek",
+            "reason":"Szomorúság",
+            "value":29.8
+         },
+         {
+            "device":"Egyéni portrék, kis csoportok: politikusok, véleményformálók, ismert emberek",
+            "reason":"Semleges",
+            "value":9.7
+         },
+         {
+            "device":"Egyéni portrék, kis csoportok: politikusok, véleményformálók, ismert emberek",
+            "reason":"Öröm",
+            "value":9.6
+         },
+         {
+            "device":"Egyéni portrék, kis csoportok: politikusok, véleményformálók, ismert emberek",
+            "reason":"Félelem",
+            "value":8.2
+         },
+         {
+            "device":"Egyéni portrék, kis csoportok: politikusok, véleményformálók, ismert emberek",
+            "reason":"Undor",
+            "value":5.6
+         }
+      ]
+   },
+   {
+      "key":"Kisebb csoportok: családok, egyének, menekültek, politikusok, fegyveres testületek tagjai",
+      "values":[
+         {
+            "device":"Kisebb csoportok: családok, egyének, menekültek, politikusok, fegyveres testületek tagjai",
+            "reason":"Düh",
+            "value":47.8
+         },
+         {
+            "device":"Kisebb csoportok: családok, egyének, menekültek, politikusok, fegyveres testületek tagjai",
+            "reason":"Szomorúság",
+            "value":20.1
+         },
+         {
+            "device":"Kisebb csoportok: családok, egyének, menekültek, politikusok, fegyveres testületek tagjai",
+            "reason":"Semleges",
+            "value":11.4
+         },
+         {
+            "device":"Kisebb csoportok: családok, egyének, menekültek, politikusok, fegyveres testületek tagjai",
+            "reason":"Öröm",
+            "value":8.5
+         },
+         {
+            "device":"Kisebb csoportok: családok, egyének, menekültek, politikusok, fegyveres testületek tagjai",
+            "reason":"Félelem",
+            "value":7.1
+         },
+         {
+            "device":"Kisebb csoportok: családok, egyének, menekültek, politikusok, fegyveres testületek tagjai",
+            "reason":"Undor",
+            "value":4.3
+         }
+      ]
+   },
+   {
+      "key":"Kisebb csoportok: egyéni portrék: menekültek, média személyiségek, vallási vezetők",
+      "values":[
+         {
+            "device":"Kisebb csoportok: egyéni portrék: menekültek, média személyiségek, vallási vezetők",
+            "reason":"Düh",
+            "value":44.2
+         },
+         {
+            "device":"Kisebb csoportok: egyéni portrék: menekültek, média személyiségek, vallási vezetők",
+            "reason":"Szomorúság",
+            "value":16.7
+         },
+         {
+            "device":"Kisebb csoportok: egyéni portrék: menekültek, média személyiségek, vallási vezetők",
+            "reason":"Semleges",
+            "value":13.8
+         },
+         {
+            "device":"Kisebb csoportok: egyéni portrék: menekültek, média személyiségek, vallási vezetők",
+            "reason":"Öröm",
+            "value":11.3
+         },
+         {
+            "device":"Kisebb csoportok: egyéni portrék: menekültek, média személyiségek, vallási vezetők",
+            "reason":"Félelem",
+            "value":8.2
+         },
+         {
+            "device":"Kisebb csoportok: egyéni portrék: menekültek, média személyiségek, vallási vezetők",
+            "reason":"Undor",
+            "value":4.8
+         }
+      ]
+   },
+   {
+      "key":"Nagyobb csoportok: táborban, Keletinél, tüntetésen, fronton",
+      "values":[
+         {
+            "device":"Nagyobb csoportok: táborban, Keletinél, tüntetésen, fronton",
+            "reason":"Düh",
+            "value":71.3
+         },
+         {
+            "device":"Nagyobb csoportok: táborban, Keletinél, tüntetésen, fronton",
+            "reason":"Szomorúság",
+            "value":7.7
+         },
+         {
+            "device":"Nagyobb csoportok: táborban, Keletinél, tüntetésen, fronton",
+            "reason":"Semleges",
+            "value":5.8
+         },
+         {
+            "device":"Nagyobb csoportok: táborban, Keletinél, tüntetésen, fronton",
+            "reason":"Öröm",
+            "value":5.1
+         },
+         {
+            "device":"Nagyobb csoportok: táborban, Keletinél, tüntetésen, fronton",
+            "reason":"Félelem",
+            "value":5.1
+         },
+         {
+            "device":"Nagyobb csoportok: táborban, Keletinél, tüntetésen, fronton",
+            "reason":"Undor",
+            "value":4.9
+         }
+      ]
+   },
+   {
+      "key":"Úton: vonat, busz, hajó, gyalog",
+      "values":[
+         {
+            "device":"Úton: vonat, busz, hajó, gyalog",
+            "reason":"Düh",
+            "value":61.0
+         },
+         {
+            "device":"Úton: vonat, busz, hajó, gyalog",
+            "reason":"Szomorúság",
+            "value":9.9
+         },
+         {
+            "device":"Úton: vonat, busz, hajó, gyalog",
+            "reason":"Semleges",
+            "value":8.5
+         },
+         {
+            "device":"Úton: vonat, busz, hajó, gyalog",
+            "reason":"Öröm",
+            "value":8.0
+         },
+         {
+            "device":"Úton: vonat, busz, hajó, gyalog",
+            "reason":"Félelem",
+            "value":8.0
+         },
+         {
+            "device":"Úton: vonat, busz, hajó, gyalog",
+            "reason":"Undor",
+            "value":4.2
+         }
+      ]
+   }
+]

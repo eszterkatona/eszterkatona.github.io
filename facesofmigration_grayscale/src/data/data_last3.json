@@ -1,0 +1,107 @@
+[
+   {
+      "key":"Crossing",
+      "values":[
+         {
+            "device":"Crossing",
+            "reason":"Anger",
+            "value":67.6
+         },
+         {
+            "device":"Crossing",
+            "reason":"Sadness",
+            "value":10.5
+         },
+         {
+            "device":"Crossing",
+            "reason":"Neutral",
+            "value":8.1
+         },
+         {
+            "device":"Crossing",
+            "reason":"Happiness",
+            "value":5.9
+         },
+         {
+            "device":"Crossing",
+            "reason":"Fear",
+            "value":5.2
+         },
+         {
+            "device":"Crossing",
+            "reason":"Disgust",
+            "value":2.5
+         }
+      ]
+   },
+   {
+      "key":"Individual portraits, smaller groups",
+      "values":[
+         {
+            "device":"Individual portraits, smaller groups",
+            "reason":"Anger",
+            "value":35.7
+         },
+         {
+            "device":"EIndividual portraits, smaller groups",
+            "reason":"Sadness",
+            "value":29.8
+         },
+         {
+            "device":"Individual portraits, smaller groups",
+            "reason":"Neutral",
+            "value":9.7
+         },
+         {
+            "device":"Individual portraits, smaller groups",
+            "reason":"Happiness",
+            "value":9.6
+         },
+         {
+            "device":"Individual portraits, smaller groups",
+            "reason":"Fear",
+            "value":8.2
+         },
+         {
+            "device":"Individual portraits, smaller groups",
+            "reason":"Disgust",
+            "value":5.6
+         }
+      ]
+   },
+   {
+      "key":"Smaller groups: individual portraits",
+      "values":[
+         {
+            "device":"Smaller groups: individual portraits",
+            "reason":"Anger",
+            "value":44.2
+         },
+         {
+            "device":"Smaller groups: individual portraits",
+            "reason":"Sadness",
+            "value":16.7
+         },
+         {
+            "device":"Smaller groups: individual portraits",
+            "reason":"Neutral",
+            "value":13.8
+         },
+         {
+            "device":"Smaller groups: individual portraits",
+            "reason":"Happiness",
+            "value":11.3
+         },
+         {
+            "device":"Smaller groups: individual portraits",
+            "reason":"Fear",
+            "value":8.2
+         },
+         {
+            "device":"Smaller groups: individual portraits",
+            "reason":"Disgust",
+            "value":4.8
+         }
+      ]
+   }
+]
