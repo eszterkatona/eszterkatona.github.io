@@ -1,106 +1,106 @@
 [
  
    {
-      "key”:”Smaller groups: families, etc.”,
+      "key":"Smaller groups: families, etc.",
       "values":[
          {
-            "device":"Smaller groups: families, etc.”,
-            "reason”:”Anger”,
+            "device":"Smaller groups: families, etc.",
+            "reason":"Anger",
             "value":47.8
          },
          {
             "device":"Smaller groups: families, etc.",
-            "reason”:”Sadness”,
+            "reason":"Sadness",
             "value":20.1
          },
          {
             "device":"Smaller groups: families, etc.",
-            "reason”:”Neutral”,
+            "reason":"Neutral",
             "value":11.4
          },
          {
             "device":"Smaller groups: families, etc.",
-            "reason”:”Happiness”,
+            "reason":"Happiness",
             "value":8.5
          },
          {
             "device":"Smaller groups: families, etc.",
-            "reason”:”Fear”,
+            "reason":"Fear",
             "value":7.1
          },
          {
             "device":"Smaller groups: families, etc.",
-            "reason”:”Disgust”,
+            "reason":"Disgust",
             "value":4.3
          }
       ]
    },
    {
-      "key”:”Bigger groups”,
+      "key":"Bigger groups",
       "values":[
          {
             "device":"Bigger groups",
-            "reason”:”Anger”,
+            "reason":"Anger",
             "value":71.3
          },
          {
             "device":"Bigger groups",
-            "reason”:”Sadness”,
+            "reason":"Sadness",
             "value":7.7
          },
          {
-            "device”:”Bigger groups”,
-            "reason”:”Neutral”,
+            "device":"Bigger groups",
+            "reason":"Neutral",
             "value":5.8
          },
          {
             "device":"Bigger groups",
-            "reason”:”Hapiiness”,
+            "reason":"Hapiiness",
             "value":5.1
          },
          {
             "device":"Bigger groups",
-            "reason”:”Fear”,
+            "reason":"Fear",
             "value":5.1
          },
          {
             "device":"Bigger groups",
-            "reason”:”Disgust”,
+            "reason":"Disgust",
             "value":4.9
          }
       ]
    },
    {
-      "key”:”On the way”,
+      "key":"On the way",
       "values":[
          {
             "device":"On the way",
-            "reason”:”Anger”,
+            "reason":"Anger",
             "value":61.0
          },
          {
             "device":"On the way",
-            "reason”:”Sadness”,
+            "reason":"Sadness",
             "value":9.9
          },
          {
             "device":"On the way",
-            "reason”:”Neutral”,
+            "reason":"Neutral",
             "value":8.5
          },
          {
             "device":"On the way",
-            "reason”:”Happiness”,
+            "reason":"Happiness",
             "value":8.0
          },
          {
             "device":"On the way",
-            "reason”:”Fear”,
+            "reason":"Fear",
             "value":8.0
          },
          {
             "device":"On the way",
-            "reason”:”Disgust”,
+            "reason":"Disgust",
             "value":4.2
          }
       ]
