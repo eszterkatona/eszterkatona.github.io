@@ -10,9 +10,14 @@
     <meta name="author" content="">
     
      <!-- facebook data -->
+    <meta property="og:url" content="http://labs.precognox.com/faces-of-migration" />
+    <meta property="og:type" content="website" />
     <meta property="og:title" content="What images were published in the online media on migration?" />
     <meta property="og:description" content="In recent years, news on migration have been part of our everyday lives. Our analysis studies the images of articles published online between 27th September 2014 and 11th June 2016. The analysis of images is considered highly significant, since the visual representation of refugees drastically shape the receivers’ thoughts about this group. The visualization of refugees strongly influence public opinion about migration crisis as the majority of the population do not tend to meet the refugees in person." />
-    <meta property="og:image" content="http://labs.precognox.com/facesofmigration_grayscale/img/header/bevezetes.jpg" /> <!-- kép? -->
+    <meta property="og:image" content="http://labs.precognox.com/faces-of-migration/img/header/bevezetes.jpg" />
+    <meta property="og:image:width" content="400" />
+    <meta property="og:image:height" content="300" />
+    
     <!-- end of facebook data -->
 
     <title>The faces of migration</title>
@@ -141,7 +146,7 @@
                 
                 <h2>Data</h2>        
                 
-                <p>The corpus was compiled from the articles of the most significant Hungarian online news websites. The full list is available on the dashboard by clicking on the domain filter. Applying the search engines of the web pages, we made a search on the key words of the migration crisis (e.g. bevándorló ‘immigrant’ and migráns ‘migrant’). Then, following the records, the articles were harvested. Raw data were classified on the basis of similarity measures. Then the classes were examined by our annotator team, who filtered the majority of the non-relevant contents and duplicates. The data gathering resulted in 42,845 articles, from which 42,311 images were extracted. A significant amount of the images were not relevant. Most of these images were filtered by a simple heuristic: images below a certain size are usually logos of the web page they are displayed on or that of any other companies. The same procedure was followed in the analysis of images that of texts: the pictures were classified on the basis of similarity, supported by simhash algorithm. These groups were also checked by the annotator team to remove duplicates and non-relevant images. Finally, many images that were irrelevant to the research were also filtered with the help of topic models, which will be introduced in a later section of the article. As a result, we got 10,330 unique images, which were detected 55,003 times in the articles.</p>
+                <p>The corpus was compiled from the articles of the most significant Hungarian online news websites. The full list is available <a href="https://labs.precognox.com/migration-dashboard/#/dashboard"> on the dashboard </a> by clicking on the domain filter. Applying the search engines of the web pages, we made a search on the key words of the migration crisis (e.g. bevándorló ‘immigrant’ and migráns ‘migrant’). Then, following the records, the articles were harvested. Raw data were classified on the basis of similarity measures. Then the classes were examined by our annotator team, who filtered the majority of the non-relevant contents and duplicates. The data gathering resulted in 42,845 articles, from which 42,311 images were extracted. A significant amount of the images were not relevant. Most of these images were filtered by a simple heuristic: images below a certain size are usually logos of the web page they are displayed on or that of any other companies. The same procedure was followed in the analysis of images that of texts: the pictures were classified on the basis of similarity, supported by simhash algorithm. These groups were also checked by the annotator team to remove duplicates and non-relevant images. Finally, many images that were irrelevant to the research were also filtered with the help of topic models, which will be introduced in a later section of the article. As a result, we got 10,330 unique images, which were detected 55,003 times in the articles.</p>
 
                 <h2>How to interpret the results</h2>
                 
@@ -489,8 +494,8 @@
         <div class="item">
 			<div class="new">
             	<iframe src="iframes/korfa_03_nvd3.html" style="width:100%;height:100%;" frameBorder="0" scrolling="no" class="embed-responsive-item"></iframe>
+            </div>	
             <div class="carousel-caption">
-			</div>
       	         <h5>Smaller groups: families, individuals, refugees, politicians, members of armed forces</h5>
             </div>
         </div>
@@ -509,7 +514,7 @@
             	<iframe src="iframes/korfa_06_nvd3.html" style="width:100%;height:100%;" frameBorder="0" scrolling="no" class="embed-responsive-item"></iframe>
 			</div>
             <div class="carousel-caption">
-      	         <h5>Data: tables, maps, diagrams, screenshots, drawings, illustrations</h5>
+      	         <h5>Crossing: fence, border, sea</h5>
             </div>
         </div>
     </div>
@@ -1149,17 +1154,25 @@
             <p>Copyright &copy; <a href="http://precognox.com/">Precognox</a>, <a href="https://www.nyest.hu/">Nyelv és Tudomány</a> 2017</p>
             <p>
                 <!-- facebook button -->
-				<div class="fb-like" data-href="http://labs.precognox.com/facesofmigration_grayscale/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true" style="vertical-align:top;*display:inline">
-				</div> 
-				<a href="https://twitter.com/share" class="twitter-share-button"{count} data-text="Faces of migration" data-url="http://labs.precognox.com/facesofmigration_grayscale/" data-via="precognox">Tweet
+				<div class="fb-like" data-href="http://labs.precognox.com/faces-of-migration/" data-layout="button_count" data-action="like" data-show-faces="true" style="vertical-align:top;*display:inline"></div>
+            
+                <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Flabs.precognox.com%2Ffaces-of-migration%2F&layout=button_count&size=small&mobile_iframe=true&appId=1021300474585355&width=69&height=20" width="69" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+
+
+            
+                <!-- twitter button -->
+				<a href="https://twitter.com/share" class="twitter-share-button"{count} data-text="Faces of migration" data-url="http://labs.precognox.com/faces-of-migration/" data-via="precognox">Tweet
 				</a>
 				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+            
+                <!-- linkedin button -->
 				<script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>
-				<script type="IN/Share" data-url="http://labs.precognox.com/facesofmigration_grayscale/" data-counter="right"></script>
-			  </p>	
+				<script type="IN/Share" data-url="http://labs.precognox.com/faces-of-migration/" data-counter="right"></script>
+			 </p>	
 		</div>
     </footer>
-        <!-- /container -->
+    
+    <!-- /container -->
 
 	
     <!-- jQuery -->
