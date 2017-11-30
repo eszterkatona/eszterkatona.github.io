@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>Topics and Words</title>
+    <link rel="stylesheet" href="stylesheet.css">
+<script type="text/javascript"
+  src="https://www.google.com/jsapi?autoload={'modules':[{'name':'visualization','version':'1.1','packages':['sankey']}]}">
+</script>    
+    
+    
+<div id="sankey_basic" style="width: 900px; height: 300px;"></div>
+
+
+<script type="text/javascript">
+google.setOnLoadCallback(drawChart);
+    
+    
+    
+      function drawChart() {
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'From');
+        data.addColumn('string', 'To');
+        data.addColumn('number', 'Weight');
+        data.addRows([
+            ['Bevándorlók és bevándorlás', 'állam', 0.005] ,
+            ['Segélyszervezetek munkája', 'állam', 0.005] ,
+            ['Török helyzet', 'állam', 0.005] ,
+            ['Segélyszervezetek munkája', 'amerikai', 0.005] ,
+            ['Német bevándorláspolitika', 'bevándorlás', 0.006] ,
+            ['Bevándorlók és bevándorlás', 'bevándorlás', 0.008] ,
+            ['EU-s menekültpolitika kritikája', 'bevándorlás', 0.011000000000000001] ,
+            ['Határátkelés', 'bevándorlás', 0.006999999999999999] ,
+            ['Kormánypolitikai érvelés', 'bevándorlás', 0.005] ,
+            ['Török helyzet', 'bevándorlás', 0.005] ,
+            ['Menekülttábor', 'bevándorlás', 0.006] ,
+            ['Határzár', 'bevándorlás', 0.006] ,
+            ['Német bevándorláspolitika', 'bevándorló', 0.012] ,
+            ['Bevándorlók és bevándorlás', 'bevándorló', 0.016] ,
+            ['EU-s menekültpolitika kritikája', 'bevándorló', 0.018000000000000002] ,
+            ['Határátkelés', 'bevándorló', 0.015] ,
+            ['Kormánypolitikai érvelés', 'bevándorló', 0.01] ,
+            ['EU és Törökország', 'bevándorló', 0.009000000000000001] ,
+            ['Török helyzet', 'bevándorló', 0.006999999999999999] ,
+            ['Utazás, vándorlás', 'bevándorló', 0.006999999999999999] ,
+            ['Menekülttábor', 'bevándorló', 0.016] ,
+            ['Szír helyzet', 'bevándorló', 0.006999999999999999] ,
+            ['Határzár', 'bevándorló', 0.017] ,
+            ['Hajós balesetek', 'bevándorló', 0.005] ,
+            ['EU-s menekültpolitika kritikája', 'brit', 0.008] ,
+            ['Hajós balesetek', 'brit', 0.005] ,
+            ['Bevándorlók és bevándorlás', 'család', 0.006999999999999999] ,
+            ['Kormánypolitikai érvelés', 'elnök', 0.005] ,
+            ['Segélyszervezetek munkája', 'elnök', 0.005] ,
+            ['Török helyzet', 'elnök', 0.006] ,
+            ['Utazás, vándorlás', 'elnök', 0.006] ,
+            ['Szír helyzet', 'elnök', 0.006999999999999999] ,
+            ['Hajós balesetek', 'elnök', 0.006999999999999999] ,
+            ['EU és Törökország', 'görög', 0.01] ,
+            ['Segélyszervezetek munkája', 'gyerek', 0.004] ,
+            ['Szír helyzet', 'gyerek', 0.005] ,
+            ['Hajós balesetek', 'hajó', 0.006999999999999999] ,
+            ['EU-s menekültpolitika kritikája', 'halálbüntetés', 0.008] ,
+            ['Német bevándorláspolitika', 'hatóság', 0.006] ,
+            ['Határátkelés', 'hatóság', 0.006999999999999999] ,
+            ['Kormánypolitikai érvelés', 'hatóság', 0.005] ,
+            ['EU és Törökország', 'hatóság', 0.006999999999999999] ,
+            ['Menekülttábor', 'hatóság', 0.008] ,
+            ['Szír helyzet', 'hatóság', 0.005] ,
+            ['Határzár', 'hatóság', 0.006] ,
+            ['Bevándorlók és bevándorlás', 'heti', 0.006999999999999999] ,
+            ['Német bevándorláspolitika', 'horvát', 0.006] ,
+            ['Utazás, vándorlás', 'horvát', 0.006999999999999999] ,
+            ['Német bevándorláspolitika', 'illegális', 0.006] ,
+            ['Bevándorlók és bevándorlás', 'illegális', 0.006] ,
+            ['EU-s menekültpolitika kritikája', 'illegális', 0.006999999999999999] ,
+            ['Határátkelés', 'illegális', 0.009000000000000001] ,
+            ['Kormánypolitikai érvelés', 'illegális', 0.005] ,
+            ['EU és Törökország', 'illegális', 0.009000000000000001] ,
+            ['Török helyzet', 'illegális', 0.006] ,
+            ['Utazás, vándorlás', 'illegális', 0.006] ,
+            ['Menekülttábor', 'illegális', 0.01] ,
+            ['Határzár', 'illegális', 0.01] ,
+            ['Határátkelés', 'jobbik', 0.009000000000000001] ,
+            ['Segélyszervezetek munkája', 'kapcsolat', 0.004] ,
+            ['Menekülttábor', 'kerítés', 0.006] ,
+            ['Határzár', 'kerítés', 0.008] ,
+            ['EU-s menekültpolitika kritikája', 'konzultáció', 0.006999999999999999] ,
+            ['EU és Törökország', 'megállapodás', 0.006999999999999999] ,
+            ['Német bevándorláspolitika', 'menedékkérő', 0.006999999999999999] ,
+            ['Bevándorlók és bevándorlás', 'menedékkérő', 0.006] ,
+            ['Határátkelés', 'menedékkérő', 0.006999999999999999] ,
+            ['Kormánypolitikai érvelés', 'menedékkérő', 0.005] ,
+            ['Utazás, vándorlás', 'menedékkérő', 0.005] ,
+            ['Menekülttábor', 'menedékkérő', 0.011000000000000001] ,
+            ['Határzár', 'menedékkérő', 0.006999999999999999] ,
+            ['EU és Törökország', 'migrációs', 0.008] ,
+            ['Német bevándorláspolitika', 'migráns', 0.013999999999999999] ,
+            ['Bevándorlók és bevándorlás', 'migráns', 0.015] ,
+            ['Határátkelés', 'migráns', 0.019] ,
+            ['Kormánypolitikai érvelés', 'migráns', 0.01] ,
+            ['Segélyszervezetek munkája', 'migráns', 0.005] ,
+            ['EU és Törökország', 'migráns', 0.026000000000000002] ,
+            ['Török helyzet', 'migráns', 0.01] ,
+            ['Utazás, vándorlás', 'migráns', 0.015] ,
+            ['Menekülttábor', 'migráns', 0.02] ,
+            ['Szír helyzet', 'migráns', 0.006] ,
+            ['Határzár', 'migráns', 0.013000000000000001] ,
+            ['Hajós balesetek', 'migráns', 0.006999999999999999] ,
+            ['EU-s menekültpolitika kritikája', 'miniszterelnök', 0.009000000000000001] ,
+            ['Kormánypolitikai érvelés', 'miniszterelnök', 0.005] ,
+            ['Török helyzet', 'miniszterelnök', 0.006] ,
+            ['Utazás, vándorlás', 'miniszterelnök', 0.006] ,
+            ['Szír helyzet', 'miniszterelnök', 0.005] ,
+            ['Hajós balesetek', 'népszavazás', 0.006] ,
+            ['EU-s menekültpolitika kritikája', 'nemzeti', 0.006999999999999999] ,
+            ['Hajós balesetek', 'olasz', 0.005] ,
+            ['Határátkelés', 'osztrák', 0.008] ,
+            ['EU és Törökország', 'osztrák', 0.006] ,
+            ['Utazás, vándorlás', 'osztrák', 0.006] ,
+            ['Szír helyzet', 'osztrák', 0.008] ,
+            ['EU-s menekültpolitika kritikája', 'párt', 0.006999999999999999] ,
+            ['Kormánypolitikai érvelés', 'párt', 0.004] ,
+            ['Segélyszervezetek munkája', 'párt', 0.006999999999999999] ,
+            ['Török helyzet', 'párt', 0.006] ,
+            ['Szír helyzet', 'párt', 0.005] ,
+            ['Hajós balesetek', 'párt', 0.008] ,
+            ['Segélyszervezetek munkája', 'politika, politikai', 0.004] ,
+            ['EU-s menekültpolitika kritikája', 'politika, politikai', 0.006999999999999999] ,
+            ['Segélyszervezetek munkája', 'politika, politikai', 0.008] ,
+            ['Török helyzet', 'politika, politikai', 0.005] ,
+            ['Hajós balesetek', 'politika, politikai', 0.005] ,
+            ['Bevándorlók és bevándorlás', 'probléma', 0.006] ,
+            ['Határzár', 'probléma', 0.006] ,
+            ['Német bevándorláspolitika', 'rendőr, rendőrség', 0.012] ,
+            ['Határátkelés', 'rendőr, rendőrség', 0.01] ,
+            ['Kormánypolitikai érvelés', 'rendőr, rendőrség', 0.005] ,
+            ['EU és Törökország', 'rendőr, rendőrség', 0.006] ,
+            ['Utazás, vándorlás', 'rendőr, rendőrség', 0.013999999999999999] ,
+            ['Menekülttábor', 'rendőr, rendőrség', 0.016] ,
+            ['Szír helyzet', 'rendőr, rendőrség', 0.012] ,
+            ['Határzár', 'rendőr, rendőrség', 0.024] ,
+            ['Török helyzet', 'rendőr, rendőrség', 0.004] ,
+            ['Segélyszervezetek munkája', 'rendszer', 0.004] ,
+            ['Menekülttábor', 'szíriai', 0.005] ,
+            ['Hajós balesetek', 'tábor', 0.004] ,
+            ['EU és Törökország', 'török', 0.006999999999999999] ,
+            ['Bevándorlók és bevándorlás', 'válasz', 0.005] ,
+            ['Német bevándorláspolitika', 'zsidó', 0.006]
+         ]);
+
+        // Sets chart options.
+        var w = window.innerWidth;
+        var h = window.innerHeight;
+          
+        var colors = ['#2c7873', '#2c7873', '#2c7873', '#2c7873', '#2c7873', '#2c7873', '#2c7873', '#2c7873', '#2c7873', '#2c7873', '#2c7873', '#2c7873', '#2c7873', '#2c7873', '#2c7873', '#2c7873', '#2c7873', '#2c7873', '#2c7873', '#2c7873', '#2c7873', '#2c7873', '#2c7873', '#2c7873', '#2c7873', '#2c7873', '#2c7873', '#2c7873', '#2c7873', '#2c7873', '#2c7873', '#2c7873', '#2c7873', '#2c7873', '#2c7873', '#2c7873', '#2c7873', '#2c7873', '#2c7873', '#2c7873', '#2c7873', '#2c7873', '#2c7873', '#2c7873', '#2c7873', '#2c7873', '#2c7873', '#2c7873', '#2c7873', '#2c7873', '#2c7873', '#2c7873', '#2c7873', '#2c7873', '#2c7873', '#2c7873', '#2c7873', '#2c7873', '#2c7873', '#2c7873', '#2c7873', '#2c7873', '#2c7873', '#2c7873', '#2c7873', '#2c7873', '#2c7873', '#2c7873', '#2c7873', '#2c7873', '#2c7873'];
+
+        var options = {
+          width: w * 0.80,
+          height: h * 0.80,
+            
+            sankey: {
+                link: {
+                    label: {
+                        fontSize: 8,
+                    }
+                },
+                node: {
+                    colors: colors,
+                    fontSize: 20,
+                    label: { color:'#2c7873', fontSize: 11}
+                }
+            }
+        }; 
+        
+        // Instantiates and draws our chart, passing in some options.
+        var chart = new google.visualization.Sankey(document.getElementById('sankey_basic'));
+        chart.draw(data, options);
+      }
+    
+    </script>
+  </head>
+  <body>
+    <div id="sankey_basic" style="width: 80vw; height: 70vh;"></div>
+  </body>
+</html>
