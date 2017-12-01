@@ -1,3 +1,21 @@
-svg path:hover {
-    fill: yellow;
+svg path[fill-opacity="0.8"] {
+	fill: yellow;
+}
+
+#legend {
+    text-align: center;
+    font-family: sans-serif;
+    color: darkgrey
+}
+
+#sankey_basic {
+    padding-top: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#sankey_multiple {
+    padding-top: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
 }

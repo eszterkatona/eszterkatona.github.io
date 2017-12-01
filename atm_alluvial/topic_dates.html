@@ -7,9 +7,6 @@
 <script type="text/javascript"
   src="https://www.google.com/jsapi?autoload={'modules':[{'name':'visualization','version':'1.1','packages':['sankey']}]}">
 </script>    
-    
-    
-<div id="sankey_basic" style="width: 900px; height: 300px;"></div>
 
 
 <script type="text/javascript">
@@ -283,21 +280,18 @@ google.setOnLoadCallback(drawChart);
         var colors = ['#505160', '#505160', '#505160', '#505160', '#505160', '#505160', '#505160', '#505160', '#505160', '#505160', '#505160', '#505160', '#505160', '#505160', '#505160', '#505160', '#505160', '#505160', '#505160', '#505160', '#505160', '#505160', '#505160', '#505160', '#505160', '#505160', '#505160', '#505160', '#505160', '#505160', '#505160', '#505160', '#505160', '#505160', '#505160', '#505160', '#505160', '#505160', '#505160', '#505160', '#505160', '#505160', '#505160', '#505160', '#505160', '#505160'];
 
         var options = {
-          width: w * 0.80,
-          height: h * 0.80,
-            
+            width: w * 0.80,
+            height: h * 0.80,
             sankey: {
-                link: {
-                    label: {
-                        fontSize: 8,
-                    }
-                },
                 node: {
                     colors: colors,
                     fontSize: 20,
-                    label: { color:'#505160', fontSize: 11}
+                    label: { color:'#505160', fontSize: 11},
+                    interactivity: true
                 }
-            }
+            },
+            
+            tooltip: { textStyle: {fontSize: 11} }
         };
 
           
@@ -309,6 +303,7 @@ google.setOnLoadCallback(drawChart);
     </script>
   </head>
   <body>
-    <div id="sankey_basic" style="width: 80vw; height: 70vh;"></div>
+     <div id="legend"><h1>Dátumok eloszlása topikok szerint</h1></div>
+     <div id="sankey_basic" style="width: 80vw; height: 70vh;"></div>
   </body>
 </html>

@@ -8,10 +8,6 @@
   src="https://www.google.com/jsapi?autoload={'modules':[{'name':'visualization','version':'1.1','packages':['sankey']}]}">
 </script>    
     
-    
-<div id="sankey_basic" style="width: 900px; height: 300px;"></div>
-
-
 <script type="text/javascript">
 google.setOnLoadCallback(drawChart);
     
@@ -160,17 +156,14 @@ google.setOnLoadCallback(drawChart);
           height: h * 0.80,
             
             sankey: {
-                link: {
-                    label: {
-                        fontSize: 8,
-                    }
-                },
                 node: {
                     colors: colors,
                     fontSize: 20,
                     label: { color:'#2c7873', fontSize: 11}
                 }
-            }
+             },
+            
+            tooltip: { textStyle: {fontSize: 11} }
         }; 
         
         // Instantiates and draws our chart, passing in some options.
@@ -181,6 +174,7 @@ google.setOnLoadCallback(drawChart);
     </script>
   </head>
   <body>
+    <div id="legend"><h1>Szavak eloszlása topik szerint</h1></div>
     <div id="sankey_basic" style="width: 80vw; height: 70vh;"></div>
   </body>
 </html>
