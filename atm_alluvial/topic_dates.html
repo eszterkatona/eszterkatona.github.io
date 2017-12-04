@@ -283,6 +283,7 @@ google.setOnLoadCallback(drawChart);
             width: w * 0.80,
             height: h * 0.80,
             sankey: {
+                iterations: 0,
                 node: {
                     colors: colors,
                     fontSize: 20,
@@ -291,7 +292,7 @@ google.setOnLoadCallback(drawChart);
                 }
             },
             
-            tooltip: { textStyle: {fontSize: 11} }
+            tooltip: { textStyle: {fontSize: 11} },
         };
 
           
