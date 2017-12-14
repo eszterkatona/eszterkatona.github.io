@@ -230,10 +230,10 @@
       },
       "cameraStates": {
         "layer1": {
-          "cx": 350.7089957827125,
-          "cy": 2679.0353243724303,
-          "width": 253.77205838248017,
-          "height": 30.502768581253573,
+          "cx": 350.7246207827125,
+          "cy": 2681.1993868724303,
+          "width": 253.5619000244751,
+          "height": 16.98836922878185,
           "opacity": 1,
           "angle": 0,
           "clipped": false,
@@ -258,10 +258,10 @@
       },
       "cameraOffsets": {
         "layer1": {
-          "deltaX": 5.16993328271252,
-          "deltaY": -42.407058440069704,
-          "widthFactor": 2.242979110133784,
-          "heightFactor": 2.4071235378547824,
+          "deltaX": 5.19337078271252,
+          "deltaY": -39.828933440069704,
+          "widthFactor": 2.239575158924428,
+          "heightFactor": 1.2791242713435744,
           "deltaAngle": 0
         }
       }
@@ -296,10 +296,10 @@
       },
       "cameraStates": {
         "layer1": {
-          "cx": 682.975908879847,
-          "cy": 2680.765649519337,
-          "width": 233.9247064224037,
-          "height": 30.502768581253573,
+          "cx": 682.897783879847,
+          "cy": 2682.929712019337,
+          "width": 233.70686698521948,
+          "height": 16.98836922878185,
           "opacity": 1,
           "angle": 0,
           "clipped": false,
@@ -324,10 +324,10 @@
       },
       "cameraOffsets": {
         "layer1": {
-          "deltaX": 0.9134088798469975,
-          "deltaY": -40.457983293163124,
-          "widthFactor": 1.3950038400143343,
-          "heightFactor": 2.4071235378547824,
+          "deltaX": 0.7727838798469975,
+          "deltaY": -37.879858293163124,
+          "widthFactor": 1.3926666189063357,
+          "heightFactor": 1.2791242713435744,
           "deltaAngle": 0
         }
       }
@@ -362,10 +362,10 @@
       },
       "cameraStates": {
         "layer1": {
-          "cx": 1126.9826185898494,
-          "cy": 2657.256535350967,
-          "width": 373.39151544388807,
-          "height": 360.6766194029043,
+          "cx": 1126.8576185898494,
+          "cy": 2660.326847850967,
+          "width": 372.74474444006864,
+          "height": 399.10469088891386,
           "opacity": 1,
           "angle": 0,
           "clipped": false,
@@ -390,10 +390,10 @@
       },
       "cameraOffsets": {
         "layer1": {
-          "deltaX": -103.24394391015062,
-          "deltaY": -15.71709746153283,
-          "widthFactor": 2.587101546866822,
-          "heightFactor": 4.495287953609712,
+          "deltaX": -103.42363141015062,
+          "deltaY": -12.88115996153283,
+          "widthFactor": 2.5806646088451313,
+          "heightFactor": 5.027101007063666,
           "deltaAngle": 0
         }
       }
@@ -494,10 +494,10 @@
       },
       "cameraStates": {
         "layer1": {
-          "cx": 727.4681076907191,
-          "cy": 3112.8232814659737,
-          "width": 1135.1198193500397,
-          "height": 977.5984479579442,
+          "cx": 726.7884201907191,
+          "cy": 3114.9092189659737,
+          "width": 1133.2737279396365,
+          "height": 981.7055852138769,
           "opacity": 1,
           "angle": 0,
           "clipped": false,
@@ -522,10 +522,10 @@
       },
       "cameraOffsets": {
         "layer1": {
-          "deltaX": 16.00717019071908,
-          "deltaY": 284.90433615347365,
-          "widthFactor": 1.3585351741636753,
-          "heightFactor": 10.420769598485748,
+          "deltaX": 15.33529519071908,
+          "deltaY": 286.91996115347365,
+          "widthFactor": 1.3563510975078867,
+          "heightFactor": 10.42461547265441,
           "deltaAngle": 0
         }
       }
@@ -560,10 +560,10 @@
       },
       "cameraStates": {
         "layer1": {
-          "cx": 768.2434645305568,
-          "cy": 3862.915877807019,
-          "width": 1143.5020083100374,
-          "height": 886.2839939029893,
+          "cx": 767.3997145305568,
+          "cy": 3864.861190307019,
+          "width": 1141.7048091991062,
+          "height": 894.5598291422616,
           "opacity": 1,
           "angle": 0,
           "clipped": false,
@@ -588,10 +588,10 @@
       },
       "cameraOffsets": {
         "layer1": {
-          "deltaX": -10.569035469443179,
-          "deltaY": 366.7781824945191,
-          "widthFactor": 1.0654572637410085,
-          "heightFactor": 0.792142775881788,
+          "deltaX": -11.444035469443179,
+          "deltaY": 368.6063074945191,
+          "widthFactor": 1.0637207795484598,
+          "heightFactor": 0.8004897731450168,
           "deltaAngle": 0
         }
       }
@@ -824,10 +824,10 @@
       },
       "cameraStates": {
         "layer1": {
-          "cx": 3199.0304557887657,
-          "cy": 1534.4408839619537,
-          "width": 944.748036883621,
-          "height": 601.4292743179457,
+          "cx": 3198.8820182887657,
+          "cy": 1541.2690089619537,
+          "width": 944.4104301447169,
+          "height": 603.1043799774371,
           "opacity": 1,
           "angle": 0,
           "clipped": false,
@@ -852,10 +852,10 @@
       },
       "cameraOffsets": {
         "layer1": {
-          "deltaX": -5.102356711234279,
-          "deltaY": 22.53756364945366,
-          "widthFactor": 1.1372016468346544,
-          "heightFactor": 2.5115146519867233,
+          "deltaX": -5.274231711234279,
+          "deltaY": 29.27975114945366,
+          "widthFactor": 1.1367311278353622,
+          "heightFactor": 2.531891132735715,
           "deltaAngle": 0
         }
       }
@@ -956,10 +956,10 @@
       },
       "cameraStates": {
         "layer1": {
-          "cx": 4582.021446905188,
-          "cy": 1689.0287340851955,
-          "width": 1131.53934594561,
-          "height": 872.3484546633425,
+          "cx": 4581.857384405188,
+          "cy": 1695.8568590851955,
+          "width": 1131.1118890960893,
+          "height": 873.2191697736718,
           "opacity": 1,
           "angle": 0,
           "clipped": false,
@@ -984,10 +984,10 @@
       },
       "cameraOffsets": {
         "layer1": {
-          "deltaX": 71.27144690518799,
-          "deltaY": -37.51521122730446,
-          "widthFactor": 1.3027256366346291,
-          "heightFactor": 1.3190545078309768,
+          "deltaX": 71.09175940518799,
+          "deltaY": -30.773023727304462,
+          "widthFactor": 1.3021866617885616,
+          "heightFactor": 1.3229027545393537,
           "deltaAngle": 0
         }
       }
@@ -1022,10 +1022,10 @@
       },
       "cameraStates": {
         "layer1": {
-          "cx": 3192.112398449281,
-          "cy": 2607.756699468566,
-          "width": 1054.591917721826,
-          "height": 792.5026783519396,
+          "cx": 3191.963960949281,
+          "cy": 2614.584824468566,
+          "width": 1054.2383590991758,
+          "height": 793.425243652898,
           "opacity": 1,
           "angle": 0,
           "clipped": false,
@@ -1050,10 +1050,10 @@
       },
       "cameraOffsets": {
         "layer1": {
-          "deltaX": -36.020414050718955,
-          "deltaY": -66.64662084393422,
-          "widthFactor": 1.1909354142924649,
-          "heightFactor": 1.3962498324760264,
+          "deltaX": -36.192289050718955,
+          "deltaY": -59.904433343934215,
+          "widthFactor": 1.1904731276439278,
+          "heightFactor": 1.400999188682176,
           "deltaAngle": 0
         }
       }
@@ -1125,72 +1125,6 @@
       }
     },
     {
-      "frameId": "frame3057",
-      "title": "New frame",
-      "timeoutMs": 0,
-      "timeoutEnable": false,
-      "transitionDurationMs": 1000,
-      "showInFrameList": true,
-      "showFrameNumber": true,
-      "layerProperties": {
-        "layer1": {
-          "link": false,
-          "referenceElementId": "image6100",
-          "outlineElementId": "image6100",
-          "outlineElementAuto": true,
-          "transitionTimingFunction": "linear",
-          "transitionRelativeZoom": 0,
-          "transitionPathId": ""
-        },
-        "__sozi_auto__": {
-          "link": false,
-          "referenceElementId": "",
-          "outlineElementId": "image6100",
-          "outlineElementAuto": true,
-          "transitionTimingFunction": "linear",
-          "transitionRelativeZoom": 0,
-          "transitionPathId": ""
-        }
-      },
-      "cameraStates": {
-        "layer1": {
-          "cx": 4518.53268084668,
-          "cy": 2772.7660180868415,
-          "width": 1209.669183399293,
-          "height": 907.2518875494698,
-          "opacity": 1,
-          "angle": 0,
-          "clipped": false,
-          "clipXOffset": 0,
-          "clipYOffset": 0,
-          "clipWidthFactor": 1,
-          "clipHeightFactor": 1
-        },
-        "__sozi_auto__": {
-          "cx": 4566.044644345832,
-          "cy": 3254.5730859925575,
-          "width": 1209.4445704869813,
-          "height": 907.083427865236,
-          "opacity": 1,
-          "angle": 0,
-          "clipped": false,
-          "clipXOffset": 0,
-          "clipYOffset": 0,
-          "clipWidthFactor": 1,
-          "clipHeightFactor": 1
-        }
-      },
-      "cameraOffsets": {
-        "layer1": {
-          "deltaX": 11.760219909179796,
-          "deltaY": 34.04800050871654,
-          "widthFactor": 1.1547997043324882,
-          "heightFactor": 1.7346084550011567,
-          "deltaAngle": 0
-        }
-      }
-    },
-    {
       "frameId": "frame6967",
       "title": "New frame",
       "timeoutMs": 0,
@@ -1220,10 +1154,10 @@
       },
       "cameraStates": {
         "layer1": {
-          "cx": 4510.541645159888,
-          "cy": 2757.5777035661836,
-          "width": 902.6737694894088,
-          "height": 677.0053271170566,
+          "cx": 4512.171674037378,
+          "cy": 2758.4832751647887,
+          "width": 859.6893042756275,
+          "height": 644.7669782067206,
           "opacity": 1,
           "angle": 0,
           "clipped": false,
@@ -1233,10 +1167,10 @@
           "clipHeightFactor": 1
         },
         "__sozi_auto__": {
-          "cx": 4558.055092444718,
-          "cy": 3239.3875916574807,
-          "width": 902.5061598759585,
-          "height": 676.8796199069689,
+          "cx": 4559.684818656372,
+          "cy": 3240.2929951083997,
+          "width": 859.5296760723413,
+          "height": 644.647257054256,
           "opacity": 1,
           "angle": 0,
           "clipped": false,
@@ -1248,10 +1182,10 @@
       },
       "cameraOffsets": {
         "layer1": {
-          "deltaX": 3.7691842223875938,
-          "deltaY": 18.859685988058573,
-          "widthFactor": 0.861729319404328,
-          "heightFactor": 1.294391536257936,
+          "deltaX": 5.39921309987767,
+          "deltaY": 19.765257586663665,
+          "widthFactor": 0.8206945899088838,
+          "heightFactor": 1.232753844055177,
           "deltaAngle": 0
         }
       }
@@ -1418,10 +1352,10 @@
       },
       "cameraStates": {
         "layer1": {
-          "cx": 4909.000207128662,
-          "cy": 381.45498405432255,
-          "width": 319.70641295551235,
-          "height": 367.2108163116506,
+          "cx": 4908.984582128662,
+          "cy": 382.70498405432255,
+          "width": 318.5689899536923,
+          "height": 389.46669310344737,
           "opacity": 1,
           "angle": 0,
           "clipped": false,
@@ -1446,10 +1380,10 @@
       },
       "cameraOffsets": {
         "layer1": {
-          "deltaX": -0.7576053713382862,
-          "deltaY": -39.37021125817745,
-          "widthFactor": 1.3006935623388716,
-          "heightFactor": 2.3319599368868467,
+          "deltaX": -0.7732303713382862,
+          "deltaY": -38.01864875817745,
+          "widthFactor": 1.2957365972059935,
+          "heightFactor": 2.4779668315558836,
           "deltaAngle": 0
         }
       }
