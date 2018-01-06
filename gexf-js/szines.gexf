@@ -3082,487 +3082,487 @@
     </nodes>
     <edges>
       <edge id="324" source="origo" target="videa">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="325" source="origo" target="freemail">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="326" source="origo" target="origorandi">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="327" source="origo" target="sztaki">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="328" source="origo" target="instagram">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="329" source="origo" target="pinterest">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="330" source="origo" target="origomediagroup">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="331" source="origo" target="she" weight="2.0">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="119" b="47"></viz:color>
       </edge>
       <edge id="332" source="origo" target="nwmgroup" weight="2.0">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="119" b="47"></viz:color>
       </edge>
       <edge id="333" source="origo" target="investor" weight="5.0">
-        <viz:color r="218" g="235" b="38" a="0.99607843"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="334" source="origo" target="gphirek" weight="5.0">
-        <viz:color r="218" g="235" b="38" a="0.99607843"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="335" source="origo" target="facebook" weight="9.0">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="336" source="origo" target="uzletresz" weight="9.0">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="337" source="origo" target="travelo" weight="12.0">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="119" b="48" a="0.99607843"></viz:color>
       </edge>
       <edge id="338" source="origo" target="reblog" weight="34.0">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="339" source="origo" target="life" weight="38.0">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="340" source="origo" target="origo" weight="165.0">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="341" source="pestisracok" target="facebook">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="342" source="pestisracok" target="youtube">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="343" source="pestisracok" target="pestisracok" weight="42.0">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="344" source="magyaridok" target="facebook">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="345" source="magyaridok" target="digitalstand">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="346" source="magyaridok" target="karcfm" weight="2.0">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="119" b="47"></viz:color>
       </edge>
       <edge id="347" source="magyaridok" target="magyaridok" weight="127.0">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="348" source="444" target="qz">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="349" source="444" target="scmp">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="350" source="444" target="hvg">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="351" source="444" target="azenpenzem">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="352" source="444" target="nepszava">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="353" source="444" target="mno">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="354" source="444" target="index">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="355" source="444" target="9news">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="356" source="444" target="forbes">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="357" source="444" target="sofar">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="358" source="444" target="streamable">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="359" source="444" target="kettősmérce">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="360" source="444" target="pestisracok">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="361" source="444" target="cbsnews">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="362" source="444" target="wikipedia">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="363" source="444" target="bla">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="364" source="444" target="bonchon">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="365" source="444" target="time">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="366" source="444" target="radiofarda">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="367" source="444" target="rferl">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="368" source="444" target="dw">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="369" source="444" target="mojahedin">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="370" source="444" target="vakonesh">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="371" source="444" target="theconversation">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="372" source="444" target="bbelements">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="373" source="444" target="ppke">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="374" source="444" target="ft">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="375" source="444" target="aljazeera">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="376" source="444" target="baon">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="377" source="444" target="rtl">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="378" source="444" target="thediplomat">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="379" source="444" target="cnbc">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="380" source="444" target="instagram">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="381" source="444" target="24">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="382" source="444" target="politico">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="383" source="444" target="police">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="384" source="444" target="facebook" weight="2.0">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="119" b="47"></viz:color>
       </edge>
       <edge id="385" source="444" target="theguardian" weight="2.0">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="119" b="47"></viz:color>
       </edge>
       <edge id="386" source="444" target="hirtv" weight="2.0">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="119" b="47"></viz:color>
       </edge>
       <edge id="387" source="444" target="iranwire" weight="2.0">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="119" b="47"></viz:color>
       </edge>
       <edge id="388" source="444" target="google" weight="2.0">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="119" b="47"></viz:color>
       </edge>
       <edge id="389" source="444" target="amadnews" weight="2.0">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="119" b="47"></viz:color>
       </edge>
       <edge id="390" source="444" target="atlatszo" weight="2.0">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="119" b="47"></viz:color>
       </edge>
       <edge id="391" source="444" target="bbc" weight="3.0">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="392" source="444" target="youtube" weight="5.0">
-        <viz:color r="218" g="235" b="38" a="0.99607843"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="393" source="444" target="twitter" weight="7.0">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="394" source="444" target="444" weight="14.0">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="395" source="hvg" target="google">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="396" source="hvg" target="eduline" weight="2.0">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="119" b="47"></viz:color>
       </edge>
       <edge id="397" source="hvg" target="hvgkonyvek" weight="4.0">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="119" b="47"></viz:color>
       </edge>
       <edge id="398" source="hvg" target="jobline" weight="5.0">
-        <viz:color r="218" g="235" b="38" a="0.99607843"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="399" source="hvg" target="adozona" weight="6.0">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="119" b="48"></viz:color>
       </edge>
       <edge id="400" source="hvg" target="hvg" weight="112.0">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="401" source="nepszava" target="mgkiado">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="402" source="nepszava" target="facebook">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="403" source="nepszava" target="twitter">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="404" source="nepszava" target="tumblr">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="405" source="nepszava" target="youtube">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="406" source="nepszava" target="nepszava">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="407" source="index" target="indafoto">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="408" source="index" target="indamail">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="409" source="index" target="totalcar">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="410" source="index" target="joautok">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="411" source="index" target="divany">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="412" source="index" target="femina">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="413" source="index" target="otthonterkep">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="414" source="index" target="allas">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="415" source="index" target="twitter">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="416" source="index" target="google">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="417" source="index" target="instagram">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="418" source="index" target="messenger">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="419" source="index" target="viber">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="420" source="index" target="portfolio">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="421" source="index" target="napi">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="422" source="index" target="velvet">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="423" source="index" target="inforadio">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="424" source="index" target="port">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="425" source="index" target="iplocation">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="426" source="index" target="indavideo" weight="2.0">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="119" b="47"></viz:color>
       </edge>
       <edge id="427" source="index" target="kettősmérce" weight="3.0">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="428" source="index" target="facebook" weight="16.0">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48" a="0.99607843"></viz:color>
       </edge>
       <edge id="429" source="index" target="index" weight="350.0">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="430" source="kettősmérce" target="merce">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="431" source="kettősmérce" target="theguardian">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="432" source="kettősmérce" target="pewglobal">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="433" source="kettősmérce" target="24">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="434" source="kettősmérce" target="mozgasterblog">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="435" source="kettősmérce" target="adhat">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="436" source="kettősmérce" target="politicalcritique">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="437" source="kettősmérce" target="visegradfund">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="438" source="kettősmérce" target="creativecommons">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="439" source="kettősmérce" target="tumblr">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="440" source="kettősmérce" target="twitter">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="441" source="kettősmérce" target="youtube">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="442" source="kettősmérce" target="facebook" weight="2.0">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="119" b="47"></viz:color>
       </edge>
       <edge id="443" source="kettősmérce" target="kettősmérce" weight="72.0">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="444" source="24" target="startlap" weight="2.0">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="119" b="47"></viz:color>
       </edge>
       <edge id="445" source="24" target="24" weight="8.0">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="119" b="48"></viz:color>
       </edge>
       <edge id="446" source="atlatszo" target="list-manage">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="447" source="atlatszo" target="facebook">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="448" source="atlatszo" target="twitter">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="449" source="atlatszo" target="youtube">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="450" source="atlatszo" target="tumblr">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="451" source="atlatszo" target="vimeo">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="452" source="atlatszo" target="soundcloud">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="453" source="atlatszo" target="cloudfront">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="454" source="atlatszo" target="atlatszo" weight="10.0">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="119" b="47"></viz:color>
       </edge>
       <edge id="455" source="hirado" target="telesport">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="456" source="hirado" target="profit7">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="457" source="hirado" target="hirado" weight="5.0">
-        <viz:color r="218" g="235" b="38" a="0.99607843"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="458" source="vs" target="welovebudapest">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="459" source="vs" target="youtube">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="460" source="vs" target="facebook">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="461" source="vs" target="instagram">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="462" source="vs" target="vs" weight="23.0">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="463" source="kuruc" target="feedburner">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="464" source="kuruc" target="disqus">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="465" source="kuruc" target="autodoc">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="466" source="kuruc" target="kuruc" weight="133.0">
-        <viz:color r="218" g="234" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="467" source="azonnali" target="facebook">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="468" source="azonnali" target="youtube">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="469" source="azonnali" target="tumblr">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="470" source="azonnali" target="instagram">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="471" source="azonnali" target="audio-technica">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="472" source="azonnali" target="azonnali" weight="51.0">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="473" source="merce" target="merce" weight="3.0">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="474" source="168ora" target="facebook">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="475" source="168ora" target="twitter">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="476" source="168ora" target="youtube">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="477" source="168ora" target="adaptivemedia">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="478" source="168ora" target="klubradio" weight="2.0">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="119" b="47"></viz:color>
       </edge>
       <edge id="479" source="168ora" target="bbelements" weight="4.0">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="119" b="47"></viz:color>
       </edge>
       <edge id="480" source="168ora" target="168ora" weight="46.0">
-        <viz:color r="218" g="235" b="37"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="481" source="magyarnarancs" target="bbelements" weight="2.0">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="119" b="47"></viz:color>
       </edge>
       <edge id="482" source="magyarnarancs" target="twitter" weight="18.0">
-        <viz:color r="218" g="235" b="38"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
       <edge id="483" source="magyarnarancs" target="magyarnarancs" weight="48.0">
-        <viz:color r="217" g="235" b="38" a="0.99607843"></viz:color>
+        <viz:color r="0" g="119" b="48"></viz:color>
       </edge>
       <edge id="484" source="mandiner" target="mandiner" weight="152.0">
-        <viz:color r="218" g="235" b="38" a="0.99607843"></viz:color>
+        <viz:color r="0" g="120" b="48"></viz:color>
       </edge>
     </edges>
   </graph>
