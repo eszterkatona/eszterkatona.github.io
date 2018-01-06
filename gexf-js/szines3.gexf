@@ -1413,7 +1413,7 @@
         </attvalues>
         <viz:size value="54.162075"></viz:size>
         <viz:position x="1083.9382" y="-213.5572"></viz:position>
-        <viz:color r="110" g="65" b="79"></viz:color>
+        <viz:color r="104" g="187" b="194"></viz:color>
       </node>
       <node id="divany" label="divany">
         <attvalues>
@@ -1491,7 +1491,7 @@
         </attvalues>
         <viz:size value="54.162075"></viz:size>
         <viz:position x="1024.011" y="-394.5716"></viz:position>
-        <viz:color r="110" g="65" b="79"></viz:color>
+        <viz:color r="104" g="187" b="194"></viz:color>
       </node>
       <node id="allas" label="allas">
         <attvalues>
@@ -1517,7 +1517,7 @@
         </attvalues>
         <viz:size value="54.162075"></viz:size>
         <viz:position x="868.51434" y="417.66232"></viz:position>
-        <viz:color r="110" g="65" b="79"></viz:color>
+        <viz:color r="104" g="187" b="194"></viz:color>
       </node>
       <node id="twitter" label="twitter">
         <attvalues>
@@ -2193,7 +2193,7 @@
         </attvalues>
         <viz:size value="79.96738"></viz:size>
         <viz:position x="421.31183" y="1171.8723"></viz:position>
-        <viz:color r="110" g="65" b="79"></viz:color>
+        <viz:color r="104" g="187" b="194"></viz:color>
       </node>
       <node id="azonnali" label="azonnali">
         <attvalues>
@@ -2245,7 +2245,7 @@
         </attvalues>
         <viz:size value="67.98042"></viz:size>
         <viz:position x="-208.55766" y="724.27435"></viz:position>
-        <viz:color r="110" g="65" b="79"></viz:color>
+        <viz:color r="104" g="187" b="194"></viz:color>
       </node>
       <node id="merce" label="merce">
         <attvalues>
@@ -2921,7 +2921,7 @@
         </attvalues>
         <viz:size value="68.31313"></viz:size>
         <viz:position x="-569.15466" y="1113.6478"></viz:position>
-        <viz:color r="110" g="65" b="79"></viz:color>
+        <viz:color r="104" g="187" b="194"></viz:color>
       </node>
       <node id="adozona" label="adozona">
         <attvalues>
