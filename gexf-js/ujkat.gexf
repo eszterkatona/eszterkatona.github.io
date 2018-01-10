@@ -1,0 +1,3027 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.3" version="1.3" xmlns:viz="http://www.gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.3 http://www.gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2018-01-10">
+    <creator>Gephi 0.9</creator>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="directed" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="d0" title="cat" type="string"></attribute>
+      <attribute id="indegree" title="In-Degree" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="outdegree" title="Out-Degree" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="degree" title="Degree" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="weighted indegree" title="Weighted In-Degree" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="weighted outdegree" title="Weighted Out-Degree" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="weighted degree" title="Weighted Degree" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="eccentricity" title="Eccentricity" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="closnesscentrality" title="Closeness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="harmonicclosnesscentrality" title="Harmonic Closeness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="betweenesscentrality" title="Betweenness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="authority" title="Authority" type="float">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="hub" title="Hub" type="float">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="modularity_class" title="Modularity Class" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="pageranks" title="PageRank" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="componentnumber" title="Component ID" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="strongcompnum" title="Strongly-Connected ID" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="clustering" title="Clustering Coefficient" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="eigencentrality" title="Eigenvector Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="origo" label="origo">
+        <attvalues>
+          <attvalue for="d0" value="initial sites"></attvalue>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="outdegree" value="15"></attvalue>
+          <attvalue for="degree" value="15"></attvalue>
+          <attvalue for="weighted indegree" value="0.0"></attvalue>
+          <attvalue for="weighted outdegree" value="130.0"></attvalue>
+          <attvalue for="weighted degree" value="130.0"></attvalue>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.0"></attvalue>
+          <attvalue for="hub" value="0.19143899"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+          <attvalue for="pageranks" value="0.008791146940623284"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="15"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="484.45605" y="26.0921"></viz:position>
+        <viz:color r="227" g="120" b="105"></viz:color>
+      </node>
+      <node id="videa" label="videa">
+        <attvalues>
+          <attvalue for="d0" value="socialmedia"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted indegree" value="1.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="1.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.032816894"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+          <attvalue for="pageranks" value="0.0092891596051117"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="14"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.026652325347838193"></attvalue>
+        </attvalues>
+        <viz:size value="55.963345"></viz:size>
+        <viz:position x="872.53937" y="328.43796"></viz:position>
+        <viz:color r="224" g="187" b="95"></viz:color>
+      </node>
+      <node id="freemail" label="freemail">
+        <attvalues>
+          <attvalue for="d0" value="media/news"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted indegree" value="1.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="1.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.032816894"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+          <attvalue for="pageranks" value="0.0092891596051117"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="13"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.026652325347838193"></attvalue>
+        </attvalues>
+        <viz:size value="55.963345"></viz:size>
+        <viz:position x="1060.471" y="-255.31433"></viz:position>
+        <viz:color r="182" g="137" b="142"></viz:color>
+      </node>
+      <node id="origorandi" label="origorandi">
+        <attvalues>
+          <attvalue for="d0" value="other"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted indegree" value="1.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="1.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.032816894"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+          <attvalue for="pageranks" value="0.0092891596051117"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="12"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.026652325347838193"></attvalue>
+        </attvalues>
+        <viz:size value="55.963345"></viz:size>
+        <viz:position x="0.25087553" y="1086.9496"></viz:position>
+        <viz:color r="115" g="182" b="71"></viz:color>
+      </node>
+      <node id="sztaki" label="sztaki">
+        <attvalues>
+          <attvalue for="d0" value="other"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted indegree" value="1.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="1.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.032816894"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+          <attvalue for="pageranks" value="0.0092891596051117"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="11"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.026652325347838193"></attvalue>
+        </attvalues>
+        <viz:size value="55.963345"></viz:size>
+        <viz:position x="577.8922" y="465.83658"></viz:position>
+        <viz:color r="115" g="182" b="71"></viz:color>
+      </node>
+      <node id="instagram" label="instagram">
+        <attvalues>
+          <attvalue for="d0" value="socialmedia"></attvalue>
+          <attvalue for="indegree" value="4"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="4"></attvalue>
+          <attvalue for="weighted indegree" value="4.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="4.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.17577638"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+          <attvalue for="pageranks" value="0.013002878441150306"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="10"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.23842117022359585"></attvalue>
+        </attvalues>
+        <viz:size value="100.432465"></viz:size>
+        <viz:position x="-650.5821" y="-128.98761"></viz:position>
+        <viz:color r="224" g="187" b="95"></viz:color>
+      </node>
+      <node id="pinterest" label="pinterest">
+        <attvalues>
+          <attvalue for="d0" value="socialmedia"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted indegree" value="1.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="1.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.032816894"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+          <attvalue for="pageranks" value="0.0092891596051117"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="9"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.026652325347838193"></attvalue>
+        </attvalues>
+        <viz:size value="55.963345"></viz:size>
+        <viz:position x="-284.90454" y="-491.57428"></viz:position>
+        <viz:color r="224" g="187" b="95"></viz:color>
+      </node>
+      <node id="origomediagroup" label="origomediagroup">
+        <attvalues>
+          <attvalue for="d0" value="media/news"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted indegree" value="1.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="1.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.032816894"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+          <attvalue for="pageranks" value="0.0092891596051117"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="8"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.026652325347838193"></attvalue>
+        </attvalues>
+        <viz:size value="55.963345"></viz:size>
+        <viz:position x="-671.3905" y="248.83194"></viz:position>
+        <viz:color r="182" g="137" b="142"></viz:color>
+      </node>
+      <node id="pestisracok" label="pestisracok">
+        <attvalues>
+          <attvalue for="d0" value="media/news"></attvalue>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="outdegree" value="2"></attvalue>
+          <attvalue for="degree" value="2"></attvalue>
+          <attvalue for="weighted indegree" value="0.0"></attvalue>
+          <attvalue for="weighted outdegree" value="2.0"></attvalue>
+          <attvalue for="weighted degree" value="2.0"></attvalue>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.0"></attvalue>
+          <attvalue for="hub" value="0.15573855"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+          <attvalue for="pageranks" value="0.008791146940623284"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="17"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="-959.21075" y="-106.56926"></viz:position>
+        <viz:color r="182" g="137" b="142"></viz:color>
+      </node>
+      <node id="facebook" label="facebook">
+        <attvalues>
+          <attvalue for="d0" value="socialmedia"></attvalue>
+          <attvalue for="indegree" value="11"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="11"></attvalue>
+          <attvalue for="weighted indegree" value="35.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="35.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.5143729"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+          <attvalue for="pageranks" value="0.02382336326390195"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="4"></attvalue>
+          <attvalue for="clustering" value="0.0181818176060915"></attvalue>
+          <attvalue for="eigencentrality" value="0.8790619818173279"></attvalue>
+        </attvalues>
+        <viz:size value="230.0"></viz:size>
+        <viz:position x="106.0016" y="91.91103"></viz:position>
+        <viz:color r="224" g="187" b="95"></viz:color>
+      </node>
+      <node id="youtube" label="youtube">
+        <attvalues>
+          <attvalue for="d0" value="socialmedia"></attvalue>
+          <attvalue for="indegree" value="8"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="8"></attvalue>
+          <attvalue for="weighted indegree" value="12.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="12.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.3941357"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+          <attvalue for="pageranks" value="0.020483153926229656"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="16"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.6672931369415707"></attvalue>
+        </attvalues>
+        <viz:size value="190.00339"></viz:size>
+        <viz:position x="-364.35645" y="383.50052"></viz:position>
+        <viz:color r="224" g="187" b="95"></viz:color>
+      </node>
+      <node id="magyaridok" label="magyaridok">
+        <attvalues>
+          <attvalue for="d0" value="initial sites"></attvalue>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="outdegree" value="3"></attvalue>
+          <attvalue for="degree" value="3"></attvalue>
+          <attvalue for="weighted indegree" value="0.0"></attvalue>
+          <attvalue for="weighted outdegree" value="4.0"></attvalue>
+          <attvalue for="weighted degree" value="4.0"></attvalue>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.0"></attvalue>
+          <attvalue for="hub" value="0.09368066"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+          <attvalue for="pageranks" value="0.008791146940623284"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="20"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="384.65106" y="-324.48578"></viz:position>
+        <viz:color r="227" g="120" b="105"></viz:color>
+      </node>
+      <node id="digitalstand" label="digitalstand">
+        <attvalues>
+          <attvalue for="d0" value="lifestyle"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted indegree" value="1.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="1.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.016058944"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+          <attvalue for="pageranks" value="0.011281210263065368"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="19"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.026652325347838193"></attvalue>
+        </attvalues>
+        <viz:size value="79.81673"></viz:size>
+        <viz:position x="1102.6943" y="-39.33501"></viz:position>
+        <viz:color r="242" g="224" b="205"></viz:color>
+      </node>
+      <node id="444" label="444">
+        <attvalues>
+          <attvalue for="d0" value="initial sites"></attvalue>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="outdegree" value="23"></attvalue>
+          <attvalue for="degree" value="23"></attvalue>
+          <attvalue for="weighted indegree" value="0.0"></attvalue>
+          <attvalue for="weighted outdegree" value="36.0"></attvalue>
+          <attvalue for="weighted degree" value="36.0"></attvalue>
+          <attvalue for="eccentricity" value="4.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5588235294117647"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.6710526315789472"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.0"></attvalue>
+          <attvalue for="hub" value="0.5619935"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+          <attvalue for="pageranks" value="0.008791146940623284"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="75"></attvalue>
+          <attvalue for="clustering" value="0.003952569328248501"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="251.96695" y="-310.16342"></viz:position>
+        <viz:color r="227" g="120" b="105"></viz:color>
+      </node>
+      <node id="wikipedia" label="wikipedia">
+        <attvalues>
+          <attvalue for="d0" value="socialmedia"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted indegree" value="1.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="1.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.09633816"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+          <attvalue for="pageranks" value="0.009115937808767903"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="74"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.026652325347838193"></attvalue>
+        </attvalues>
+        <viz:size value="53.889137"></viz:size>
+        <viz:position x="573.08356" y="681.47473"></viz:position>
+        <viz:color r="224" g="187" b="95"></viz:color>
+      </node>
+      <node id="hvg" label="hvg">
+        <attvalues>
+          <attvalue for="d0" value="media/news"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="5"></attvalue>
+          <attvalue for="degree" value="6"></attvalue>
+          <attvalue for="weighted indegree" value="1.0"></attvalue>
+          <attvalue for="weighted outdegree" value="18.0"></attvalue>
+          <attvalue for="weighted degree" value="19.0"></attvalue>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="4.5"></attvalue>
+          <attvalue for="authority" value="0.09633816"></attvalue>
+          <attvalue for="hub" value="0.014339841"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+          <attvalue for="pageranks" value="0.009115937808767903"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="73"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.026652325347838193"></attvalue>
+        </attvalues>
+        <viz:size value="53.889137"></viz:size>
+        <viz:position x="169.39389" y="-674.7851"></viz:position>
+        <viz:color r="182" g="137" b="142"></viz:color>
+      </node>
+      <node id="mti" label="mti">
+        <attvalues>
+          <attvalue for="d0" value="media/news"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted indegree" value="1.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="1.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.09633816"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+          <attvalue for="pageranks" value="0.009115937808767903"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="68"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.026652325347838193"></attvalue>
+        </attvalues>
+        <viz:size value="53.889137"></viz:size>
+        <viz:position x="727.8416" y="513.94257"></viz:position>
+        <viz:color r="182" g="137" b="142"></viz:color>
+      </node>
+      <node id="valasz" label="valasz">
+        <attvalues>
+          <attvalue for="d0" value="media/news"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted indegree" value="1.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="1.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.09633816"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+          <attvalue for="pageranks" value="0.009115937808767903"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="67"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.026652325347838193"></attvalue>
+        </attvalues>
+        <viz:size value="53.889137"></viz:size>
+        <viz:position x="1042.2893" y="153.38339"></viz:position>
+        <viz:color r="182" g="137" b="142"></viz:color>
+      </node>
+      <node id="index" label="index">
+        <attvalues>
+          <attvalue for="d0" value="initial sites"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="22"></attvalue>
+          <attvalue for="degree" value="23"></attvalue>
+          <attvalue for="weighted indegree" value="1.0"></attvalue>
+          <attvalue for="weighted outdegree" value="40.0"></attvalue>
+          <attvalue for="weighted degree" value="41.0"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.723404255319149"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.8186274509803921"></attvalue>
+          <attvalue for="betweenesscentrality" value="29.5"></attvalue>
+          <attvalue for="authority" value="0.09633816"></attvalue>
+          <attvalue for="hub" value="0.41628996"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+          <attvalue for="pageranks" value="0.009115937808767903"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="66"></attvalue>
+          <attvalue for="clustering" value="0.007905138656497002"></attvalue>
+          <attvalue for="eigencentrality" value="0.026652325347838193"></attvalue>
+        </attvalues>
+        <viz:size value="53.889137"></viz:size>
+        <viz:position x="-540.218" y="103.11446"></viz:position>
+        <viz:color r="227" g="120" b="105"></viz:color>
+      </node>
+      <node id="konyv7" label="konyv7">
+        <attvalues>
+          <attvalue for="d0" value="lifestyle"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted indegree" value="1.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="1.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.09633816"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+          <attvalue for="pageranks" value="0.009115937808767903"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="36"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.026652325347838193"></attvalue>
+        </attvalues>
+        <viz:size value="53.889137"></viz:size>
+        <viz:position x="-710.3782" y="106.61311"></viz:position>
+        <viz:color r="242" g="224" b="205"></viz:color>
+      </node>
+      <node id="nationalmap" label="nationalmap">
+        <attvalues>
+          <attvalue for="d0" value="other"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted indegree" value="1.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="1.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.09633816"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+          <attvalue for="pageranks" value="0.009115937808767903"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="35"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.026652325347838193"></attvalue>
+        </attvalues>
+        <viz:size value="53.889137"></viz:size>
+        <viz:position x="892.94824" y="-73.01823"></viz:position>
+        <viz:color r="115" g="182" b="71"></viz:color>
+      </node>
+      <node id="nytimes" label="nytimes">
+        <attvalues>
+          <attvalue for="d0" value="media/news in"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted indegree" value="1.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="1.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.09633816"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+          <attvalue for="pageranks" value="0.009115937808767903"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="34"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.026652325347838193"></attvalue>
+        </attvalues>
+        <viz:size value="53.889137"></viz:size>
+        <viz:position x="390.7969" y="673.1296"></viz:position>
+        <viz:color r="194" g="132" b="171"></viz:color>
+      </node>
+      <node id="streamable" label="streamable">
+        <attvalues>
+          <attvalue for="d0" value="socialmedia"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted indegree" value="1.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="1.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.09633816"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+          <attvalue for="pageranks" value="0.009115937808767903"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="33"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.026652325347838193"></attvalue>
+        </attvalues>
+        <viz:size value="53.889137"></viz:size>
+        <viz:position x="94.71447" y="586.5548"></viz:position>
+        <viz:color r="224" g="187" b="95"></viz:color>
+      </node>
+      <node id="twitter" label="twitter">
+        <attvalues>
+          <attvalue for="d0" value="socialmedia"></attvalue>
+          <attvalue for="indegree" value="7"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="7"></attvalue>
+          <attvalue for="weighted indegree" value="27.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="27.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.3799753"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="8"></attvalue>
+          <attvalue for="pageranks" value="0.017473701791674633"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="32"></attvalue>
+          <attvalue for="clustering" value="0.0476190485060215"></attvalue>
+          <attvalue for="eigencentrality" value="0.7724526804259753"></attvalue>
+        </attvalues>
+        <viz:size value="153.96735"></viz:size>
+        <viz:position x="-302.04108" y="-151.02234"></viz:position>
+        <viz:color r="224" g="187" b="95"></viz:color>
+      </node>
+      <node id="theverge" label="theverge">
+        <attvalues>
+          <attvalue for="d0" value="media/news in"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted indegree" value="1.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="1.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.09633816"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+          <attvalue for="pageranks" value="0.009115937808767903"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="31"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.026652325347838193"></attvalue>
+        </attvalues>
+        <viz:size value="53.889137"></viz:size>
+        <viz:position x="771.3709" y="-477.79413"></viz:position>
+        <viz:color r="194" g="132" b="171"></viz:color>
+      </node>
+      <node id="europa" label="europa">
+        <attvalues>
+          <attvalue for="d0" value="other"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted indegree" value="1.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="1.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.09633816"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+          <attvalue for="pageranks" value="0.009115937808767903"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="30"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.026652325347838193"></attvalue>
+        </attvalues>
+        <viz:size value="53.889137"></viz:size>
+        <viz:position x="609.55457" y="-292.79123"></viz:position>
+        <viz:color r="115" g="182" b="71"></viz:color>
+      </node>
+      <node id="idokep" label="idokep">
+        <attvalues>
+          <attvalue for="d0" value="other"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted indegree" value="1.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="1.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.09633816"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+          <attvalue for="pageranks" value="0.009115937808767903"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="29"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.026652325347838193"></attvalue>
+        </attvalues>
+        <viz:size value="53.889137"></viz:size>
+        <viz:position x="-658.3314" y="513.50275"></viz:position>
+        <viz:color r="115" g="182" b="71"></viz:color>
+      </node>
+      <node id="met" label="met">
+        <attvalues>
+          <attvalue for="d0" value="other"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted indegree" value="1.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="1.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.09633816"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+          <attvalue for="pageranks" value="0.009115937808767903"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="28"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.026652325347838193"></attvalue>
+        </attvalues>
+        <viz:size value="53.889137"></viz:size>
+        <viz:position x="-40.570435" y="-745.62274"></viz:position>
+        <viz:color r="115" g="182" b="71"></viz:color>
+      </node>
+      <node id="nyugat" label="nyugat">
+        <attvalues>
+          <attvalue for="d0" value="media/news"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted indegree" value="1.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="1.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.09633816"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+          <attvalue for="pageranks" value="0.009115937808767903"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="27"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.026652325347838193"></attvalue>
+        </attvalues>
+        <viz:size value="53.889137"></viz:size>
+        <viz:position x="-590.9097" y="-921.1487"></viz:position>
+        <viz:color r="182" g="137" b="142"></viz:color>
+      </node>
+      <node id="bbc" label="bbc">
+        <attvalues>
+          <attvalue for="d0" value="media/news in"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted indegree" value="1.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="1.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.09633816"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+          <attvalue for="pageranks" value="0.009115937808767903"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="26"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.026652325347838193"></attvalue>
+        </attvalues>
+        <viz:size value="53.889137"></viz:size>
+        <viz:position x="282.83997" y="-857.714"></viz:position>
+        <viz:color r="194" g="132" b="171"></viz:color>
+      </node>
+      <node id="coub" label="coub">
+        <attvalues>
+          <attvalue for="d0" value="socialmedia"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted indegree" value="1.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="1.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.09633816"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+          <attvalue for="pageranks" value="0.009115937808767903"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="25"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.026652325347838193"></attvalue>
+        </attvalues>
+        <viz:size value="53.889137"></viz:size>
+        <viz:position x="875.28516" y="-679.0826"></viz:position>
+        <viz:color r="224" g="187" b="95"></viz:color>
+      </node>
+      <node id="indafoto" label="indafoto">
+        <attvalues>
+          <attvalue for="d0" value="socialmedia"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted indegree" value="1.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="1.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.07136134"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+          <attvalue for="pageranks" value="0.009143280291365076"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="65"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.15846419418008117"></attvalue>
+        </attvalues>
+        <viz:size value="54.216545"></viz:size>
+        <viz:position x="-919.4029" y="-593.2697"></viz:position>
+        <viz:color r="224" g="187" b="95"></viz:color>
+      </node>
+      <node id="indamail" label="indamail">
+        <attvalues>
+          <attvalue for="d0" value="other"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted indegree" value="1.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="1.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.07136134"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+          <attvalue for="pageranks" value="0.009143280291365076"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="64"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.15846419418008117"></attvalue>
+        </attvalues>
+        <viz:size value="54.216545"></viz:size>
+        <viz:position x="-1073.5128" y="245.01224"></viz:position>
+        <viz:color r="115" g="182" b="71"></viz:color>
+      </node>
+      <node id="totalcar" label="totalcar">
+        <attvalues>
+          <attvalue for="d0" value="lifestyle"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted indegree" value="1.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="1.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.07136134"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+          <attvalue for="pageranks" value="0.009143280291365076"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="63"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.15846419418008117"></attvalue>
+        </attvalues>
+        <viz:size value="54.216545"></viz:size>
+        <viz:position x="493.18893" y="-137.25449"></viz:position>
+        <viz:color r="242" g="224" b="205"></viz:color>
+      </node>
+      <node id="joautok" label="joautok">
+        <attvalues>
+          <attvalue for="d0" value="classified advertisements"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted indegree" value="1.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="1.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.07136134"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+          <attvalue for="pageranks" value="0.009143280291365076"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="62"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.15846419418008117"></attvalue>
+        </attvalues>
+        <viz:size value="54.216545"></viz:size>
+        <viz:position x="157.65599" y="-426.62927"></viz:position>
+        <viz:color r="104" g="187" b="194"></viz:color>
+      </node>
+      <node id="divany" label="divany">
+        <attvalues>
+          <attvalue for="d0" value="lifestyle"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted indegree" value="1.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="1.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.07136134"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+          <attvalue for="pageranks" value="0.009143280291365076"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="61"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.15846419418008117"></attvalue>
+        </attvalues>
+        <viz:size value="54.216545"></viz:size>
+        <viz:position x="-903.0517" y="639.4368"></viz:position>
+        <viz:color r="242" g="224" b="205"></viz:color>
+      </node>
+      <node id="femina" label="femina">
+        <attvalues>
+          <attvalue for="d0" value="lifestyle"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted indegree" value="1.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="1.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.07136134"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+          <attvalue for="pageranks" value="0.009143280291365076"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="60"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.15846419418008117"></attvalue>
+        </attvalues>
+        <viz:size value="54.216545"></viz:size>
+        <viz:position x="-759.5423" y="-579.5645"></viz:position>
+        <viz:color r="242" g="224" b="205"></viz:color>
+      </node>
+      <node id="otthonterkep" label="otthonterkep">
+        <attvalues>
+          <attvalue for="d0" value="classified advertisements"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted indegree" value="1.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="1.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.07136134"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+          <attvalue for="pageranks" value="0.009143280291365076"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="59"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.15846419418008117"></attvalue>
+        </attvalues>
+        <viz:size value="54.216545"></viz:size>
+        <viz:position x="-830.1549" y="-306.35236"></viz:position>
+        <viz:color r="104" g="187" b="194"></viz:color>
+      </node>
+      <node id="allas" label="allas">
+        <attvalues>
+          <attvalue for="d0" value="classified advertisements"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted indegree" value="1.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="1.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.07136134"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+          <attvalue for="pageranks" value="0.009143280291365076"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="58"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.15846419418008117"></attvalue>
+        </attvalues>
+        <viz:size value="54.216545"></viz:size>
+        <viz:position x="-622.6763" y="660.0378"></viz:position>
+        <viz:color r="104" g="187" b="194"></viz:color>
+      </node>
+      <node id="google" label="google">
+        <attvalues>
+          <attvalue for="d0" value="other"></attvalue>
+          <attvalue for="indegree" value="2"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="2"></attvalue>
+          <attvalue for="weighted indegree" value="2.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="2.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.07381951"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+          <attvalue for="pageranks" value="0.010692667034628964"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="57"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.31692838836016235"></attvalue>
+        </attvalues>
+        <viz:size value="72.76934"></viz:size>
+        <viz:position x="-23.885853" y="-533.2276"></viz:position>
+        <viz:color r="115" g="182" b="71"></viz:color>
+      </node>
+      <node id="messenger" label="messenger">
+        <attvalues>
+          <attvalue for="d0" value="socialmedia"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted indegree" value="1.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="1.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.07136134"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+          <attvalue for="pageranks" value="0.009143280291365076"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="56"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.15846419418008117"></attvalue>
+        </attvalues>
+        <viz:size value="54.216545"></viz:size>
+        <viz:position x="-422.71777" y="-433.82803"></viz:position>
+        <viz:color r="224" g="187" b="95"></viz:color>
+      </node>
+      <node id="viber" label="viber">
+        <attvalues>
+          <attvalue for="d0" value="socialmedia"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted indegree" value="1.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="1.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.07136134"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+          <attvalue for="pageranks" value="0.009143280291365076"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="55"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.15846419418008117"></attvalue>
+        </attvalues>
+        <viz:size value="54.216545"></viz:size>
+        <viz:position x="-1105.9081" y="-1.6852928"></viz:position>
+        <viz:color r="224" g="187" b="95"></viz:color>
+      </node>
+      <node id="portfolio" label="portfolio">
+        <attvalues>
+          <attvalue for="d0" value="media/news"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted indegree" value="1.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="1.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.07136134"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+          <attvalue for="pageranks" value="0.009143280291365076"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="54"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.15846419418008117"></attvalue>
+        </attvalues>
+        <viz:size value="54.216545"></viz:size>
+        <viz:position x="-783.7953" y="-770.4208"></viz:position>
+        <viz:color r="182" g="137" b="142"></viz:color>
+      </node>
+      <node id="napi" label="napi">
+        <attvalues>
+          <attvalue for="d0" value="media/news"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted indegree" value="1.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="1.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.07136134"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+          <attvalue for="pageranks" value="0.009143280291365076"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="53"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.15846419418008117"></attvalue>
+        </attvalues>
+        <viz:size value="54.216545"></viz:size>
+        <viz:position x="-801.7446" y="447.3684"></viz:position>
+        <viz:color r="182" g="137" b="142"></viz:color>
+      </node>
+      <node id="velvet" label="velvet">
+        <attvalues>
+          <attvalue for="d0" value="media/news"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted indegree" value="1.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="1.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.07136134"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+          <attvalue for="pageranks" value="0.009143280291365076"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="52"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.15846419418008117"></attvalue>
+        </attvalues>
+        <viz:size value="54.216545"></viz:size>
+        <viz:position x="-212.21715" y="1060.795"></viz:position>
+        <viz:color r="182" g="137" b="142"></viz:color>
+      </node>
+      <node id="inforadio" label="inforadio">
+        <attvalues>
+          <attvalue for="d0" value="media/news"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted indegree" value="1.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="1.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.07136134"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+          <attvalue for="pageranks" value="0.009143280291365076"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="51"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.15846419418008117"></attvalue>
+        </attvalues>
+        <viz:size value="54.216545"></viz:size>
+        <viz:position x="-631.5876" y="914.69836"></viz:position>
+        <viz:color r="182" g="137" b="142"></viz:color>
+      </node>
+      <node id="port" label="port">
+        <attvalues>
+          <attvalue for="d0" value="other"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted indegree" value="1.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="1.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.07136134"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+          <attvalue for="pageranks" value="0.009143280291365076"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="50"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.15846419418008117"></attvalue>
+        </attvalues>
+        <viz:size value="54.216545"></viz:size>
+        <viz:position x="240.16841" y="638.6918"></viz:position>
+        <viz:color r="115" g="182" b="71"></viz:color>
+      </node>
+      <node id="iplocation" label="iplocation">
+        <attvalues>
+          <attvalue for="d0" value="other"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted indegree" value="1.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="1.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.07136134"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+          <attvalue for="pageranks" value="0.009143280291365076"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="49"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.15846419418008117"></attvalue>
+        </attvalues>
+        <viz:size value="54.216545"></viz:size>
+        <viz:position x="-264.14127" y="855.2226"></viz:position>
+        <viz:color r="115" g="182" b="71"></viz:color>
+      </node>
+      <node id="atlatszo" label="atlatszo">
+        <attvalues>
+          <attvalue for="d0" value="initial sites"></attvalue>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="outdegree" value="8"></attvalue>
+          <attvalue for="degree" value="8"></attvalue>
+          <attvalue for="weighted indegree" value="0.0"></attvalue>
+          <attvalue for="weighted outdegree" value="8.0"></attvalue>
+          <attvalue for="weighted degree" value="8.0"></attvalue>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.0"></attvalue>
+          <attvalue for="hub" value="0.28843483"></attvalue>
+          <attvalue for="modularity_class" value="7"></attvalue>
+          <attvalue for="pageranks" value="0.008791146940623284"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="80"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="17.764458" y="464.45807"></viz:position>
+        <viz:color r="227" g="120" b="105"></viz:color>
+      </node>
+      <node id="list-manage" label="list-manage">
+        <attvalues>
+          <attvalue for="d0" value="other"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted indegree" value="1.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="1.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.049444135"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="7"></attvalue>
+          <attvalue for="pageranks" value="0.009724920686539065"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="79"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.026652325347838193"></attvalue>
+        </attvalues>
+        <viz:size value="61.18127"></viz:size>
+        <viz:position x="654.5415" y="71.20108"></viz:position>
+        <viz:color r="115" g="182" b="71"></viz:color>
+      </node>
+      <node id="tumblr" label="tumblr">
+        <attvalues>
+          <attvalue for="d0" value="socialmedia"></attvalue>
+          <attvalue for="indegree" value="4"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="4"></attvalue>
+          <attvalue for="weighted indegree" value="4.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="4.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.19633849"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="7"></attvalue>
+          <attvalue for="pageranks" value="0.013310688921369305"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="37"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.5606838355502183"></attvalue>
+        </attvalues>
+        <viz:size value="104.11828"></viz:size>
+        <viz:position x="343.0772" y="457.56055"></viz:position>
+        <viz:color r="224" g="187" b="95"></viz:color>
+      </node>
+      <node id="vimeo" label="vimeo">
+        <attvalues>
+          <attvalue for="d0" value="socialmedia"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted indegree" value="1.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="1.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.049444135"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="7"></attvalue>
+          <attvalue for="pageranks" value="0.009724920686539065"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="78"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.026652325347838193"></attvalue>
+        </attvalues>
+        <viz:size value="61.18127"></viz:size>
+        <viz:position x="-28.78887" y="-340.1404"></viz:position>
+        <viz:color r="224" g="187" b="95"></viz:color>
+      </node>
+      <node id="soundcloud" label="soundcloud">
+        <attvalues>
+          <attvalue for="d0" value="socialmedia"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted indegree" value="1.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="1.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.049444135"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="7"></attvalue>
+          <attvalue for="pageranks" value="0.009724920686539065"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="77"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.026652325347838193"></attvalue>
+        </attvalues>
+        <viz:size value="61.18127"></viz:size>
+        <viz:position x="138.60963" y="924.17395"></viz:position>
+        <viz:color r="224" g="187" b="95"></viz:color>
+      </node>
+      <node id="cloudfront" label="cloudfront">
+        <attvalues>
+          <attvalue for="d0" value="other"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted indegree" value="1.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="1.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.049444135"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="7"></attvalue>
+          <attvalue for="pageranks" value="0.009724920686539065"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="76"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.026652325347838193"></attvalue>
+        </attvalues>
+        <viz:size value="61.18127"></viz:size>
+        <viz:position x="-743.12946" y="752.1658"></viz:position>
+        <viz:color r="115" g="182" b="71"></viz:color>
+      </node>
+      <node id="hirado" label="hirado">
+        <attvalues>
+          <attvalue for="d0" value="initial sites"></attvalue>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="outdegree" value="2"></attvalue>
+          <attvalue for="degree" value="2"></attvalue>
+          <attvalue for="weighted indegree" value="0.0"></attvalue>
+          <attvalue for="weighted outdegree" value="2.0"></attvalue>
+          <attvalue for="weighted degree" value="2.0"></attvalue>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.0"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="pageranks" value="0.008791146940623284"></attvalue>
+          <attvalue for="componentnumber" value="1"></attvalue>
+          <attvalue for="strongcompnum" value="83"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="-185.67996" y="-387.2094"></viz:position>
+        <viz:color r="227" g="120" b="105"></viz:color>
+      </node>
+      <node id="telesport" label="telesport">
+        <attvalues>
+          <attvalue for="d0" value="media/news"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted indegree" value="1.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="1.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.0"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="pageranks" value="0.01252624192428641"></attvalue>
+          <attvalue for="componentnumber" value="1"></attvalue>
+          <attvalue for="strongcompnum" value="82"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.026652325347838193"></attvalue>
+        </attvalues>
+        <viz:size value="94.72508"></viz:size>
+        <viz:position x="-881.2608" y="257.2841"></viz:position>
+        <viz:color r="182" g="137" b="142"></viz:color>
+      </node>
+      <node id="profit7" label="profit7">
+        <attvalues>
+          <attvalue for="d0" value="media/news"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted indegree" value="1.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="1.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.0"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="pageranks" value="0.01252624192428641"></attvalue>
+          <attvalue for="componentnumber" value="1"></attvalue>
+          <attvalue for="strongcompnum" value="81"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.026652325347838193"></attvalue>
+        </attvalues>
+        <viz:size value="94.72508"></viz:size>
+        <viz:position x="511.9297" y="247.91776"></viz:position>
+        <viz:color r="182" g="137" b="142"></viz:color>
+      </node>
+      <node id="vs" label="vs">
+        <attvalues>
+          <attvalue for="d0" value="initial sites"></attvalue>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="outdegree" value="4"></attvalue>
+          <attvalue for="degree" value="4"></attvalue>
+          <attvalue for="weighted indegree" value="0.0"></attvalue>
+          <attvalue for="weighted outdegree" value="4.0"></attvalue>
+          <attvalue for="weighted degree" value="4.0"></attvalue>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.0"></attvalue>
+          <attvalue for="hub" value="0.1914978"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+          <attvalue for="pageranks" value="0.008791146940623284"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="85"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="-322.48215" y="731.5736"></viz:position>
+        <viz:color r="227" g="120" b="105"></viz:color>
+      </node>
+      <node id="welovebudapest" label="welovebudapest">
+        <attvalues>
+          <attvalue for="d0" value="lifestyle"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted indegree" value="1.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="1.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.032826975"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+          <attvalue for="pageranks" value="0.010658694432454846"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="84"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.026652325347838193"></attvalue>
+        </attvalues>
+        <viz:size value="72.36254"></viz:size>
+        <viz:position x="-418.57785" y="1014.6569"></viz:position>
+        <viz:color r="242" g="224" b="205"></viz:color>
+      </node>
+      <node id="nepszava" label="nepszava">
+        <attvalues>
+          <attvalue for="d0" value="initial sites"></attvalue>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="outdegree" value="5"></attvalue>
+          <attvalue for="degree" value="5"></attvalue>
+          <attvalue for="weighted indegree" value="0.0"></attvalue>
+          <attvalue for="weighted outdegree" value="5.0"></attvalue>
+          <attvalue for="weighted degree" value="5.0"></attvalue>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.0"></attvalue>
+          <attvalue for="hub" value="0.26223752"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+          <attvalue for="pageranks" value="0.008791146940623284"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="87"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="-65.471985" y="576.53107"></viz:position>
+        <viz:color r="227" g="120" b="105"></viz:color>
+      </node>
+      <node id="mgkiado" label="mgkiado">
+        <attvalues>
+          <attvalue for="d0" value="media/news"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted indegree" value="1.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="1.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.044953335"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+          <attvalue for="pageranks" value="0.010285184934088533"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="86"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.026652325347838193"></attvalue>
+        </attvalues>
+        <viz:size value="67.89003"></viz:size>
+        <viz:position x="363.18918" y="828.61255"></viz:position>
+        <viz:color r="182" g="137" b="142"></viz:color>
+      </node>
+      <node id="kuruc" label="kuruc">
+        <attvalues>
+          <attvalue for="d0" value="initial sites"></attvalue>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="outdegree" value="3"></attvalue>
+          <attvalue for="degree" value="3"></attvalue>
+          <attvalue for="weighted indegree" value="0.0"></attvalue>
+          <attvalue for="weighted outdegree" value="3.0"></attvalue>
+          <attvalue for="weighted degree" value="3.0"></attvalue>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.0"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="6"></attvalue>
+          <attvalue for="pageranks" value="0.008791146940623284"></attvalue>
+          <attvalue for="componentnumber" value="2"></attvalue>
+          <attvalue for="strongcompnum" value="91"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="-75.53444" y="863.2459"></viz:position>
+        <viz:color r="227" g="120" b="105"></viz:color>
+      </node>
+      <node id="feedburner" label="feedburner">
+        <attvalues>
+          <attvalue for="d0" value="other"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted indegree" value="1.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="1.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.0"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="6"></attvalue>
+          <attvalue for="pageranks" value="0.011281210263065368"></attvalue>
+          <attvalue for="componentnumber" value="2"></attvalue>
+          <attvalue for="strongcompnum" value="90"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.026652325347838193"></attvalue>
+        </attvalues>
+        <viz:size value="79.81673"></viz:size>
+        <viz:position x="797.57886" y="749.9175"></viz:position>
+        <viz:color r="115" g="182" b="71"></viz:color>
+      </node>
+      <node id="disqus" label="disqus">
+        <attvalues>
+          <attvalue for="d0" value="media/news"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted indegree" value="1.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="1.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.0"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="6"></attvalue>
+          <attvalue for="pageranks" value="0.011281210263065368"></attvalue>
+          <attvalue for="componentnumber" value="2"></attvalue>
+          <attvalue for="strongcompnum" value="89"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.026652325347838193"></attvalue>
+        </attvalues>
+        <viz:size value="79.81673"></viz:size>
+        <viz:position x="-1004.7429" y="464.73517"></viz:position>
+        <viz:color r="182" g="137" b="142"></viz:color>
+      </node>
+      <node id="autodoc" label="autodoc">
+        <attvalues>
+          <attvalue for="d0" value="classified advertisements"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted indegree" value="1.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="1.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.0"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="6"></attvalue>
+          <attvalue for="pageranks" value="0.011281210263065368"></attvalue>
+          <attvalue for="componentnumber" value="2"></attvalue>
+          <attvalue for="strongcompnum" value="88"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.026652325347838193"></attvalue>
+        </attvalues>
+        <viz:size value="79.81673"></viz:size>
+        <viz:position x="-503.4198" y="797.9401"></viz:position>
+        <viz:color r="104" g="187" b="194"></viz:color>
+      </node>
+      <node id="azonnali" label="azonnali">
+        <attvalues>
+          <attvalue for="d0" value="initial sites"></attvalue>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="outdegree" value="5"></attvalue>
+          <attvalue for="degree" value="5"></attvalue>
+          <attvalue for="weighted indegree" value="0.0"></attvalue>
+          <attvalue for="weighted outdegree" value="5.0"></attvalue>
+          <attvalue for="weighted degree" value="5.0"></attvalue>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.0"></attvalue>
+          <attvalue for="hub" value="0.22617353"></attvalue>
+          <attvalue for="modularity_class" value="7"></attvalue>
+          <attvalue for="pageranks" value="0.008791146940623284"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="93"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="358.05554" y="-184.42686"></viz:position>
+        <viz:color r="227" g="120" b="105"></viz:color>
+      </node>
+      <node id="audio-technica" label="audio-technica">
+        <attvalues>
+          <attvalue for="d0" value="classified advertisements"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted indegree" value="1.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="1.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.038771167"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="7"></attvalue>
+          <attvalue for="pageranks" value="0.010285184934088533"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="92"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.026652325347838193"></attvalue>
+        </attvalues>
+        <viz:size value="67.89003"></viz:size>
+        <viz:position x="454.6584" y="-734.01715"></viz:position>
+        <viz:color r="104" g="187" b="194"></viz:color>
+      </node>
+      <node id="kettősmérce" label="kettősmérce">
+        <attvalues>
+          <attvalue for="d0" value="initial sites"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="13"></attvalue>
+          <attvalue for="degree" value="14"></attvalue>
+          <attvalue for="weighted indegree" value="3.0"></attvalue>
+          <attvalue for="weighted outdegree" value="14.0"></attvalue>
+          <attvalue for="weighted degree" value="17.0"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.9333333333333333"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.9642857142857143"></attvalue>
+          <attvalue for="betweenesscentrality" value="22.0"></attvalue>
+          <attvalue for="authority" value="0.07136134"></attvalue>
+          <attvalue for="hub" value="0.36850446"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+          <attvalue for="pageranks" value="0.009143280291365076"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="47"></attvalue>
+          <attvalue for="clustering" value="0.010989011265337467"></attvalue>
+          <attvalue for="eigencentrality" value="0.15846419418008117"></attvalue>
+        </attvalues>
+        <viz:size value="54.216545"></viz:size>
+        <viz:position x="105.454544" y="-274.00037"></viz:position>
+        <viz:color r="227" g="120" b="105"></viz:color>
+      </node>
+      <node id="merce" label="merce">
+        <attvalues>
+          <attvalue for="d0" value="initial sites"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted indegree" value="1.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="1.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.06316985"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+          <attvalue for="pageranks" value="0.009388839188523021"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="46"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.48072685950670385"></attvalue>
+        </attvalues>
+        <viz:size value="57.156937"></viz:size>
+        <viz:position x="667.6158" y="-113.89258"></viz:position>
+        <viz:color r="227" g="120" b="105"></viz:color>
+      </node>
+      <node id="theguardian" label="theguardian">
+        <attvalues>
+          <attvalue for="d0" value="media/news in"></attvalue>
+          <attvalue for="indegree" value="2"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="2"></attvalue>
+          <attvalue for="weighted indegree" value="4.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="4.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.159508"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+          <attvalue for="pageranks" value="0.009713630056667642"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="23"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.507379184854542"></attvalue>
+        </attvalues>
+        <viz:size value="61.046074"></viz:size>
+        <viz:position x="332.96985" y="-548.9933"></viz:position>
+        <viz:color r="194" g="132" b="171"></viz:color>
+      </node>
+      <node id="pewglobal" label="pewglobal">
+        <attvalues>
+          <attvalue for="d0" value="other"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted indegree" value="1.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="1.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.06316985"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+          <attvalue for="pageranks" value="0.009388839188523021"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="45"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.48072685950670385"></attvalue>
+        </attvalues>
+        <viz:size value="57.156937"></viz:size>
+        <viz:position x="-1061.8069" y="-213.87073"></viz:position>
+        <viz:color r="115" g="182" b="71"></viz:color>
+      </node>
+      <node id="24" label="24">
+        <attvalues>
+          <attvalue for="d0" value="initial sites"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="1"></attvalue>
+          <attvalue for="degree" value="2"></attvalue>
+          <attvalue for="weighted indegree" value="1.0"></attvalue>
+          <attvalue for="weighted outdegree" value="2.0"></attvalue>
+          <attvalue for="weighted degree" value="3.0"></attvalue>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="3.0"></attvalue>
+          <attvalue for="authority" value="0.06316985"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="9"></attvalue>
+          <attvalue for="pageranks" value="0.009388839188523021"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="44"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.48072685950670385"></attvalue>
+        </attvalues>
+        <viz:size value="57.156937"></viz:size>
+        <viz:position x="-411.00314" y="-1008.88794"></viz:position>
+        <viz:color r="227" g="120" b="105"></viz:color>
+      </node>
+      <node id="mozgasterblog" label="mozgasterblog">
+        <attvalues>
+          <attvalue for="d0" value="lifestyle"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted indegree" value="1.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="1.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.06316985"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+          <attvalue for="pageranks" value="0.009388839188523021"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="42"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.48072685950670385"></attvalue>
+        </attvalues>
+        <viz:size value="57.156937"></viz:size>
+        <viz:position x="711.36566" y="292.16977"></viz:position>
+        <viz:color r="242" g="224" b="205"></viz:color>
+      </node>
+      <node id="adhat" label="adhat">
+        <attvalues>
+          <attvalue for="d0" value="other"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted indegree" value="1.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="1.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.06316985"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+          <attvalue for="pageranks" value="0.009388839188523021"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="41"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.48072685950670385"></attvalue>
+        </attvalues>
+        <viz:size value="57.156937"></viz:size>
+        <viz:position x="74.99371" y="-869.9039"></viz:position>
+        <viz:color r="115" g="182" b="71"></viz:color>
+      </node>
+      <node id="politicalcritique" label="politicalcritique">
+        <attvalues>
+          <attvalue for="d0" value="media/news in"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted indegree" value="1.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="1.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.06316985"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+          <attvalue for="pageranks" value="0.009388839188523021"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="40"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.48072685950670385"></attvalue>
+        </attvalues>
+        <viz:size value="57.156937"></viz:size>
+        <viz:position x="928.62354" y="565.0322"></viz:position>
+        <viz:color r="194" g="132" b="171"></viz:color>
+      </node>
+      <node id="visegradfund" label="visegradfund">
+        <attvalues>
+          <attvalue for="d0" value="other"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted indegree" value="1.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="1.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.06316985"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+          <attvalue for="pageranks" value="0.009388839188523021"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="39"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.48072685950670385"></attvalue>
+        </attvalues>
+        <viz:size value="57.156937"></viz:size>
+        <viz:position x="804.3408" y="112.35421"></viz:position>
+        <viz:color r="115" g="182" b="71"></viz:color>
+      </node>
+      <node id="creativecommons" label="creativecommons">
+        <attvalues>
+          <attvalue for="d0" value="other"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted indegree" value="1.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="1.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.06316985"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+          <attvalue for="pageranks" value="0.009388839188523021"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="38"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.48072685950670385"></attvalue>
+        </attvalues>
+        <viz:size value="57.156937"></viz:size>
+        <viz:position x="-829.6785" y="-25.722265"></viz:position>
+        <viz:color r="115" g="182" b="71"></viz:color>
+      </node>
+      <node id="168ora" label="168ora">
+        <attvalues>
+          <attvalue for="d0" value="initial sites"></attvalue>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="outdegree" value="6"></attvalue>
+          <attvalue for="degree" value="6"></attvalue>
+          <attvalue for="weighted indegree" value="0.0"></attvalue>
+          <attvalue for="weighted outdegree" value="10.0"></attvalue>
+          <attvalue for="weighted degree" value="10.0"></attvalue>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.0"></attvalue>
+          <attvalue for="hub" value="0.2446302"></attvalue>
+          <attvalue for="modularity_class" value="8"></attvalue>
+          <attvalue for="pageranks" value="0.008791146940623284"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="97"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="-116.255875" y="724.3476"></viz:position>
+        <viz:color r="227" g="120" b="105"></viz:color>
+      </node>
+      <node id="adaptivemedia" label="adaptivemedia">
+        <attvalues>
+          <attvalue for="d0" value="media/news"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted indegree" value="1.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="1.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.04193505"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="8"></attvalue>
+          <attvalue for="pageranks" value="0.010036178601844326"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="96"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.026652325347838193"></attvalue>
+        </attvalues>
+        <viz:size value="64.90836"></viz:size>
+        <viz:position x="233.69786" y="1082.0068"></viz:position>
+        <viz:color r="182" g="137" b="142"></viz:color>
+      </node>
+      <node id="nwmgroup" label="nwmgroup">
+        <attvalues>
+          <attvalue for="d0" value="media/news"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted indegree" value="2.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="2.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.032816894"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+          <attvalue for="pageranks" value="0.0092891596051117"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="7"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.026652325347838193"></attvalue>
+        </attvalues>
+        <viz:size value="55.963345"></viz:size>
+        <viz:position x="120.15263" y="744.03815"></viz:position>
+        <viz:color r="182" g="137" b="142"></viz:color>
+      </node>
+      <node id="karcfm" label="karcfm">
+        <attvalues>
+          <attvalue for="d0" value="media/news"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted indegree" value="2.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="2.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.016058944"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+          <attvalue for="pageranks" value="0.011281210263065368"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="18"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.026652325347838193"></attvalue>
+        </attvalues>
+        <viz:size value="79.81673"></viz:size>
+        <viz:position x="542.8402" y="-500.4955"></viz:position>
+        <viz:color r="182" g="137" b="142"></viz:color>
+      </node>
+      <node id="hirtv" label="hirtv">
+        <attvalues>
+          <attvalue for="d0" value="media/news"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted indegree" value="2.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="2.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.09633816"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+          <attvalue for="pageranks" value="0.009115937808767903"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="24"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.026652325347838193"></attvalue>
+        </attvalues>
+        <viz:size value="53.889137"></viz:size>
+        <viz:position x="-397.70618" y="-783.8114"></viz:position>
+        <viz:color r="182" g="137" b="142"></viz:color>
+      </node>
+      <node id="indavideo" label="indavideo">
+        <attvalues>
+          <attvalue for="d0" value="socialmedia"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted indegree" value="2.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="2.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.07136134"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+          <attvalue for="pageranks" value="0.009143280291365076"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="48"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.15846419418008117"></attvalue>
+        </attvalues>
+        <viz:size value="54.216545"></viz:size>
+        <viz:position x="-943.8398" y="78.45505"></viz:position>
+        <viz:color r="224" g="187" b="95"></viz:color>
+      </node>
+      <node id="eduline" label="eduline">
+        <attvalues>
+          <attvalue for="d0" value="lifestyle"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted indegree" value="2.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="2.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.0024581673"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+          <attvalue for="pageranks" value="0.010340533683887172"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="72"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.15846419418008117"></attvalue>
+        </attvalues>
+        <viz:size value="68.552795"></viz:size>
+        <viz:position x="837.29675" y="-280.3941"></viz:position>
+        <viz:color r="242" g="224" b="205"></viz:color>
+      </node>
+      <node id="magyarnarancs" label="magyarnarancs">
+        <attvalues>
+          <attvalue for="d0" value="initial sites"></attvalue>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="outdegree" value="2"></attvalue>
+          <attvalue for="degree" value="2"></attvalue>
+          <attvalue for="weighted indegree" value="0.0"></attvalue>
+          <attvalue for="weighted outdegree" value="23.0"></attvalue>
+          <attvalue for="weighted degree" value="23.0"></attvalue>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.0"></attvalue>
+          <attvalue for="hub" value="0.074514456"></attvalue>
+          <attvalue for="modularity_class" value="8"></attvalue>
+          <attvalue for="pageranks" value="0.008791146940623284"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="98"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="-205.65503" y="-870.4714"></viz:position>
+        <viz:color r="227" g="120" b="105"></viz:color>
+      </node>
+      <node id="bbelements" label="bbelements">
+        <attvalues>
+          <attvalue for="d0" value="other"></attvalue>
+          <attvalue for="indegree" value="2"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="2"></attvalue>
+          <attvalue for="weighted indegree" value="6.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="6.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.05470848"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="8"></attvalue>
+          <attvalue for="pageranks" value="0.013771273585507452"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="94"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.05330465069567639"></attvalue>
+        </attvalues>
+        <viz:size value="109.633446"></viz:size>
+        <viz:position x="-637.46643" y="-396.83234"></viz:position>
+        <viz:color r="115" g="182" b="71"></viz:color>
+      </node>
+      <node id="startlap" label="startlap">
+        <attvalues>
+          <attvalue for="d0" value="media/news"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted indegree" value="2.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="2.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.0"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="9"></attvalue>
+          <attvalue for="pageranks" value="0.016770306615046325"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="43"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="1.0"></attvalue>
+        </attvalues>
+        <viz:size value="145.54471"></viz:size>
+        <viz:position x="59.333" y="-1132.3134"></viz:position>
+        <viz:color r="182" g="137" b="142"></viz:color>
+      </node>
+      <node id="klubradio" label="klubradio">
+        <attvalues>
+          <attvalue for="d0" value="media/news"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted indegree" value="2.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="2.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.04193505"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="8"></attvalue>
+          <attvalue for="pageranks" value="0.010036178601844326"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="95"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.026652325347838193"></attvalue>
+        </attvalues>
+        <viz:size value="64.90836"></viz:size>
+        <viz:position x="448.34265" y="1006.37524"></viz:position>
+        <viz:color r="182" g="137" b="142"></viz:color>
+      </node>
+      <node id="reuters" label="reuters">
+        <attvalues>
+          <attvalue for="d0" value="media/news in"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted indegree" value="4.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="4.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.09633816"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+          <attvalue for="pageranks" value="0.009115937808767903"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="22"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.026652325347838193"></attvalue>
+        </attvalues>
+        <viz:size value="53.889137"></viz:size>
+        <viz:position x="-1007.79114" y="-407.47107"></viz:position>
+        <viz:color r="194" g="132" b="171"></viz:color>
+      </node>
+      <node id="mno" label="mno">
+        <attvalues>
+          <attvalue for="d0" value="initial sites"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted indegree" value="4.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="4.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.09633816"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+          <attvalue for="pageranks" value="0.009115937808767903"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="21"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.026652325347838193"></attvalue>
+        </attvalues>
+        <viz:size value="53.889137"></viz:size>
+        <viz:position x="-460.43832" y="-581.59283"></viz:position>
+        <viz:color r="227" g="120" b="105"></viz:color>
+      </node>
+      <node id="hvgkonyvek" label="hvgkonyvek">
+        <attvalues>
+          <attvalue for="d0" value="other"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted indegree" value="4.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="4.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.0024581673"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+          <attvalue for="pageranks" value="0.010340533683887172"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="71"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.15846419418008117"></attvalue>
+        </attvalues>
+        <viz:size value="68.552795"></viz:size>
+        <viz:position x="-247.93555" y="-1070.6985"></viz:position>
+        <viz:color r="115" g="182" b="71"></viz:color>
+      </node>
+      <node id="gphirek" label="gphirek">
+        <attvalues>
+          <attvalue for="d0" value="lifestyle"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted indegree" value="5.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="5.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.032816894"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+          <attvalue for="pageranks" value="0.0092891596051117"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="6"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.026652325347838193"></attvalue>
+        </attvalues>
+        <viz:size value="55.963345"></viz:size>
+        <viz:position x="665.3975" y="-677.0908"></viz:position>
+        <viz:color r="242" g="224" b="205"></viz:color>
+      </node>
+      <node id="jobline" label="jobline">
+        <attvalues>
+          <attvalue for="d0" value="classified advertisements"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted indegree" value="5.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="5.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.0024581673"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+          <attvalue for="pageranks" value="0.010340533683887172"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="70"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.15846419418008117"></attvalue>
+        </attvalues>
+        <viz:size value="68.552795"></viz:size>
+        <viz:position x="-600.1352" y="-709.2559"></viz:position>
+        <viz:color r="104" g="187" b="194"></viz:color>
+      </node>
+      <node id="adozona" label="adozona">
+        <attvalues>
+          <attvalue for="d0" value="other"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted indegree" value="6.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="6.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.0024581673"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+          <attvalue for="pageranks" value="0.010340533683887172"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="69"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.15846419418008117"></attvalue>
+        </attvalues>
+        <viz:size value="68.552795"></viz:size>
+        <viz:position x="678.5108" y="-878.15063"></viz:position>
+        <viz:color r="115" g="182" b="71"></viz:color>
+      </node>
+      <node id="investor" label="investor">
+        <attvalues>
+          <attvalue for="d0" value="media/news"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted indegree" value="7.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="7.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.032816894"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+          <attvalue for="pageranks" value="0.0092891596051117"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="5"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.026652325347838193"></attvalue>
+        </attvalues>
+        <viz:size value="55.963345"></viz:size>
+        <viz:position x="1050.1885" y="365.8208"></viz:position>
+        <viz:color r="182" g="137" b="142"></viz:color>
+      </node>
+      <node id="uzletresz" label="uzletresz">
+        <attvalues>
+          <attvalue for="d0" value="media/news"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted indegree" value="9.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="9.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.032816894"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+          <attvalue for="pageranks" value="0.0092891596051117"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="3"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.026652325347838193"></attvalue>
+        </attvalues>
+        <viz:size value="55.963345"></viz:size>
+        <viz:position x="629.61145" y="884.17175"></viz:position>
+        <viz:color r="182" g="137" b="142"></viz:color>
+      </node>
+      <node id="travelo" label="travelo">
+        <attvalues>
+          <attvalue for="d0" value="lifestyle"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted indegree" value="11.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="11.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.032816894"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+          <attvalue for="pageranks" value="0.0092891596051117"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="2"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.026652325347838193"></attvalue>
+        </attvalues>
+        <viz:size value="55.963345"></viz:size>
+        <viz:position x="-236.25871" y="-646.21704"></viz:position>
+        <viz:color r="242" g="224" b="205"></viz:color>
+      </node>
+      <node id="reblog" label="reblog">
+        <attvalues>
+          <attvalue for="d0" value="media/news"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted indegree" value="39.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="39.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.032816894"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+          <attvalue for="pageranks" value="0.0092891596051117"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="1"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.026652325347838193"></attvalue>
+        </attvalues>
+        <viz:size value="55.963345"></viz:size>
+        <viz:position x="482.54593" y="-966.10596"></viz:position>
+        <viz:color r="182" g="137" b="142"></viz:color>
+      </node>
+      <node id="life" label="life">
+        <attvalues>
+          <attvalue for="d0" value="media/news"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted indegree" value="41.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="41.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.032816894"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+          <attvalue for="pageranks" value="0.0092891596051117"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.026652325347838193"></attvalue>
+        </attvalues>
+        <viz:size value="55.963345"></viz:size>
+        <viz:position x="992.8579" y="-466.3433"></viz:position>
+        <viz:color r="182" g="137" b="142"></viz:color>
+      </node>
+      <node id="mandiner" label="mandiner">
+        <attvalues>
+          <attvalue for="d0" value="initial sites"></attvalue>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="0"></attvalue>
+          <attvalue for="weighted indegree" value="0.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="0.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.0"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="10"></attvalue>
+          <attvalue for="pageranks" value="0.008791146940623284"></attvalue>
+          <attvalue for="componentnumber" value="3"></attvalue>
+          <attvalue for="strongcompnum" value="99"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="318.45453" y="-1065.3212"></viz:position>
+        <viz:color r="227" g="120" b="105"></viz:color>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="1516" source="origo" target="videa">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1517" source="origo" target="freemail">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1518" source="origo" target="origorandi">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1519" source="origo" target="sztaki">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1520" source="origo" target="instagram">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1521" source="origo" target="pinterest">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1522" source="origo" target="origomediagroup">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1523" source="origo" target="nwmgroup" weight="2.0">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1524" source="origo" target="gphirek" weight="5.0">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1525" source="origo" target="investor" weight="7.0">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1526" source="origo" target="facebook" weight="9.0">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1527" source="origo" target="uzletresz" weight="9.0">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1528" source="origo" target="travelo" weight="11.0">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1529" source="origo" target="reblog" weight="39.0">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1530" source="origo" target="life" weight="41.0">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1532" source="pestisracok" target="facebook">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1533" source="pestisracok" target="youtube">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1535" source="magyaridok" target="facebook">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1536" source="magyaridok" target="digitalstand">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1537" source="magyaridok" target="karcfm" weight="2.0">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1539" source="444" target="wikipedia">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1540" source="444" target="hvg">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1541" source="444" target="mti">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1542" source="444" target="valasz">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1543" source="444" target="index">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1544" source="444" target="facebook">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1545" source="444" target="konyv7">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1546" source="444" target="nationalmap">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1547" source="444" target="nytimes">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1548" source="444" target="streamable">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1549" source="444" target="twitter">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1550" source="444" target="theverge">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1551" source="444" target="europa">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1552" source="444" target="idokep">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1553" source="444" target="met">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1554" source="444" target="nyugat">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1555" source="444" target="bbc">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1556" source="444" target="coub">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1557" source="444" target="hirtv" weight="2.0">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1558" source="444" target="theguardian" weight="3.0">
+        <viz:color r="0" g="120" b="47"></viz:color>
+      </edge>
+      <edge id="1559" source="444" target="reuters" weight="4.0">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1560" source="444" target="mno" weight="4.0">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1561" source="444" target="youtube" weight="5.0">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1563" source="hvg" target="google">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1564" source="hvg" target="eduline" weight="2.0">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1565" source="hvg" target="hvgkonyvek" weight="4.0">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1566" source="hvg" target="jobline" weight="5.0">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1567" source="hvg" target="adozona" weight="6.0">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1569" source="index" target="indafoto">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1570" source="index" target="indamail">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1571" source="index" target="totalcar">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1572" source="index" target="joautok">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1573" source="index" target="divany">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1574" source="index" target="femina">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1575" source="index" target="otthonterkep">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1576" source="index" target="allas">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1577" source="index" target="twitter">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1578" source="index" target="google">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1579" source="index" target="instagram">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1580" source="index" target="messenger">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1581" source="index" target="viber">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1582" source="index" target="portfolio">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1583" source="index" target="napi">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1584" source="index" target="velvet">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1585" source="index" target="inforadio">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1586" source="index" target="port">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1587" source="index" target="iplocation">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1588" source="index" target="indavideo" weight="2.0">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1589" source="index" target="kettősmérce" weight="3.0">
+        <viz:color r="0" g="120" b="47"></viz:color>
+      </edge>
+      <edge id="1590" source="index" target="facebook" weight="16.0">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1592" source="atlatszo" target="list-manage">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1593" source="atlatszo" target="facebook">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1594" source="atlatszo" target="twitter">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1595" source="atlatszo" target="youtube">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1596" source="atlatszo" target="tumblr">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1597" source="atlatszo" target="vimeo">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1598" source="atlatszo" target="soundcloud">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1599" source="atlatszo" target="cloudfront">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1601" source="hirado" target="telesport">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1602" source="hirado" target="profit7">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1604" source="vs" target="welovebudapest">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1605" source="vs" target="youtube">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1606" source="vs" target="facebook">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1607" source="vs" target="instagram">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1609" source="nepszava" target="mgkiado">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1610" source="nepszava" target="facebook">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1611" source="nepszava" target="twitter">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1612" source="nepszava" target="tumblr">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1613" source="nepszava" target="youtube">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1615" source="kuruc" target="feedburner">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1616" source="kuruc" target="disqus">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1617" source="kuruc" target="autodoc">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1619" source="azonnali" target="facebook">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1620" source="azonnali" target="youtube">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1621" source="azonnali" target="tumblr">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1622" source="azonnali" target="instagram">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1623" source="azonnali" target="audio-technica">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1625" source="kettősmérce" target="merce">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1626" source="kettősmérce" target="theguardian">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1627" source="kettősmérce" target="pewglobal">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1628" source="kettősmérce" target="24">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1629" source="kettősmérce" target="mozgasterblog">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1630" source="kettősmérce" target="adhat">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1631" source="kettősmérce" target="politicalcritique">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1632" source="kettősmérce" target="visegradfund">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1633" source="kettősmérce" target="creativecommons">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1634" source="kettősmérce" target="tumblr">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1635" source="kettősmérce" target="twitter">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1636" source="kettősmérce" target="youtube">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1637" source="kettősmérce" target="facebook" weight="2.0">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1640" source="24" target="startlap" weight="2.0">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1642" source="168ora" target="facebook">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1643" source="168ora" target="twitter">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1644" source="168ora" target="youtube">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1645" source="168ora" target="adaptivemedia">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1646" source="168ora" target="klubradio" weight="2.0">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1647" source="168ora" target="bbelements" weight="4.0">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1649" source="magyarnarancs" target="bbelements" weight="2.0">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+      <edge id="1650" source="magyarnarancs" target="twitter" weight="21.0">
+        <viz:color r="0" g="120" b="48"></viz:color>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
