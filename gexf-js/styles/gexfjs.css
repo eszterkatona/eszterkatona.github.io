@@ -300,7 +300,7 @@ a:hover {
 #loginScreen
 {
     height: 90vh;
-    width: 90vw;
+    width: 60vw;
     margin:0 auto;
     position:relative;
     z-index:10;
