@@ -76,7 +76,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: yellow;
+  color: gold;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
@@ -84,7 +84,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: yellow;
+  color: gold;
 }
 
 #mainNav .navbar-toggler {
@@ -111,11 +111,11 @@ section h2 {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     color: #1a252f;
-    background: yellow;
+    background: gold;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #1a252f;
-    background: yellow;
+    background: gold;
   }
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;
@@ -274,7 +274,7 @@ header.masthead h2 {
 }
 
 .floating-label-form-group-with-focus label {
-  color: yellow;
+  color: gold;
 }
 
 form .row:first-child .floating-label-form-group {
@@ -292,11 +292,11 @@ form .row:first-child .floating-label-form-group {
 }
 
 a {
-  color: yellow;
+  color: gold;
 }
 
 a:focus, a:hover, a:active {
-  color: yellow;
+  color: gold;
 }
 
 .btn {
@@ -312,7 +312,7 @@ a:focus, a:hover, a:active {
 }
 
 .text-primary {
-  color: yellow !important;
+  color: gold !important;
 }
 
 .text-secondary {
@@ -320,13 +320,13 @@ a:focus, a:hover, a:active {
 }
 
 .btn-primary {
-  background-color: yellow;
-  border-color: yellow;
+  background-color: gold;
+  border-color: gold;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: yellow;
-  border-color: yellow;
+  background-color: gold;
+  border-color: gold;
 }
 
 .btn-secondary {
