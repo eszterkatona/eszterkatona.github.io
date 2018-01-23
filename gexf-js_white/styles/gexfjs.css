@@ -12,14 +12,13 @@ body {
 }
 
 .gradient {
-    background-color: #f0f0f8; 
-    background-image: -webkit-radial-gradient(#ffffff, #d8d8e0); background-image: -moz-radial-gradient(#ffffff, #d8d8e0);
+    background-color: steelblue; 
 }
 
 /* EN HAUT */
 
 #titlebar {
-    background: #e0e0e8; border-bottom: 1px solid #CCC; position: fixed; margin: 0; padding: 0; left: 0; top: 0; right: 0; height: 45px; overflow: hidden;
+    background: steelblue; border-bottom: 1px solid #CCC; position: fixed; margin: 0; padding: 0; left: 0; top: 0; right: 0; height: 45px; overflow: hidden;
 }
 
 #maintitle {
