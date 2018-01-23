@@ -3,8 +3,8 @@
  * */
 
 body {
-    font-family: 'Roboto', Arial, sans-serif; font-size: 12px;
-    background-color: #e0e0e8; color: black; margin: 0;
+    font-family: 'Open Sans', Arial, sans-serif; font-size: 12px;
+    background-color: #e0e0e8; color: rgb(98,98,98); margin: 0;
 }
 
 .clear {
