@@ -3,8 +3,8 @@
  * */
 
 body {
-    font-family: 'Roboto', Arial, sans-serif; font-size: 12px;
-    background-color: #e0e0e8; color: rgb(0, 168,226); margin: 0;
+    font-family: 'Open Sans', Arial, sans-serif; font-size: 12px;
+    background-color: #e0e0e8; color: rgb(98,98,98); margin: 0;
 }
 
 .clear {
@@ -18,7 +18,7 @@ body {
 /* EN HAUT */
 
 #titlebar {
-    background: black; border-bottom: 1px solid #CCC; position: fixed; margin: 0; padding: 0; left: 0; top: 0; right: 0; height: 45px; overflow: hidden;
+    background: black; position: fixed; margin: 0; padding: 0; left: 0; top: 0; right: 0; height: 45px; overflow: hidden;
 }
 
 #maintitle {
@@ -39,7 +39,7 @@ h1 {
     left: 1055px;
     padding: 1px 4px; margin: 0;
     position: absolute;
-    top: 10px;
+    top: 17px;
     width: 320px;
 }
 
