@@ -87,7 +87,7 @@
         </attvalues>
         <viz:size value="72.5159"></viz:size>
         <viz:position x="-524.202" y="319.68948"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="kozbeszerzes" label="kozbeszerzes">
         <attvalues>
@@ -113,7 +113,7 @@
         </attvalues>
         <viz:size value="58.504734"></viz:size>
         <viz:position x="-1077.4767" y="982.5001"></viz:position>
-        <viz:color r="140" g="185" b="0"></viz:color>
+        <viz:color r="136" g="176" b="76"></viz:color>
       </node>
       <node id="lap" label="lap">
         <attvalues>
@@ -139,7 +139,7 @@
         </attvalues>
         <viz:size value="59.019196"></viz:size>
         <viz:position x="822.404" y="292.1747"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="google" label="google">
         <attvalues>
@@ -165,7 +165,7 @@
         </attvalues>
         <viz:size value="97.637085"></viz:size>
         <viz:position x="35.63844" y="-115.66926"></viz:position>
-        <viz:color r="140" g="185" b="0"></viz:color>
+        <viz:color r="136" g="176" b="76"></viz:color>
       </node>
       <node id="index" label="index">
         <attvalues>
@@ -191,7 +191,7 @@
         </attvalues>
         <viz:size value="83.85455"></viz:size>
         <viz:position x="455.30273" y="-1022.2439"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="fidelio" label="fidelio">
         <attvalues>
@@ -217,7 +217,7 @@
         </attvalues>
         <viz:size value="60.62799"></viz:size>
         <viz:position x="1591.4283" y="-1417.5981"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="nemzetisport" label="nemzetisport">
         <attvalues>
@@ -243,7 +243,7 @@
         </attvalues>
         <viz:size value="74.16176"></viz:size>
         <viz:position x="-700.54877" y="-1390.9235"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="jegyed" label="jegyed">
         <attvalues>
@@ -269,7 +269,7 @@
         </attvalues>
         <viz:size value="59.571968"></viz:size>
         <viz:position x="-775.536" y="-2003.0122"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="baon" label="baon">
         <attvalues>
@@ -295,7 +295,7 @@
         </attvalues>
         <viz:size value="59.619495"></viz:size>
         <viz:position x="-1151.2837" y="-1498.6433"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="blogger" label="blogger">
         <attvalues>
@@ -321,7 +321,7 @@
         </attvalues>
         <viz:size value="77.004974"></viz:size>
         <viz:position x="1255.468" y="-16.123468"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="napi" label="napi">
         <attvalues>
@@ -347,7 +347,7 @@
         </attvalues>
         <viz:size value="59.766144"></viz:size>
         <viz:position x="538.4246" y="-575.15295"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="totalcar" label="totalcar">
         <attvalues>
@@ -373,7 +373,7 @@
         </attvalues>
         <viz:size value="62.160034"></viz:size>
         <viz:position x="31.295094" y="-838.8498"></viz:position>
-        <viz:color r="255" g="112" b="69"></viz:color>
+        <viz:color r="243" g="80" b="42"></viz:color>
       </node>
       <node id="globalvoicesonline" label="globalvoicesonline">
         <attvalues>
@@ -399,7 +399,7 @@
         </attvalues>
         <viz:size value="58.504734"></viz:size>
         <viz:position x="-1131.0679" y="691.84125"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="velvet" label="velvet">
         <attvalues>
@@ -425,7 +425,7 @@
         </attvalues>
         <viz:size value="58.46954"></viz:size>
         <viz:position x="-14.178326" y="-1241.6499"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="kettősmérce" label="kettősmérce">
         <attvalues>
@@ -451,7 +451,7 @@
         </attvalues>
         <viz:size value="85.96202"></viz:size>
         <viz:position x="301.48688" y="-514.223"></viz:position>
-        <viz:color r="140" g="185" b="0"></viz:color>
+        <viz:color r="136" g="176" b="76"></viz:color>
       </node>
       <node id="indafoto" label="indafoto">
         <attvalues>
@@ -477,7 +477,7 @@
         </attvalues>
         <viz:size value="58.83231"></viz:size>
         <viz:position x="-197.63824" y="-815.1958"></viz:position>
-        <viz:color r="0" g="199" b="255"></viz:color>
+        <viz:color r="85" g="140" b="169"></viz:color>
       </node>
       <node id="indavideo" label="indavideo">
         <attvalues>
@@ -503,7 +503,7 @@
         </attvalues>
         <viz:size value="59.813942"></viz:size>
         <viz:position x="18.957142" y="-1450.9583"></viz:position>
-        <viz:color r="0" g="199" b="255"></viz:color>
+        <viz:color r="85" g="140" b="169"></viz:color>
       </node>
       <node id="indamail" label="indamail">
         <attvalues>
@@ -529,7 +529,7 @@
         </attvalues>
         <viz:size value="58.83231"></viz:size>
         <viz:position x="-138.9175" y="-1902.1626"></viz:position>
-        <viz:color r="140" g="185" b="0"></viz:color>
+        <viz:color r="136" g="176" b="76"></viz:color>
       </node>
       <node id="joautok" label="joautok">
         <attvalues>
@@ -555,7 +555,7 @@
         </attvalues>
         <viz:size value="58.83231"></viz:size>
         <viz:position x="94.98998" y="-1907.149"></viz:position>
-        <viz:color r="35" g="150" b="111"></viz:color>
+        <viz:color r="228" g="0" b="110"></viz:color>
       </node>
       <node id="divany" label="divany">
         <attvalues>
@@ -581,7 +581,7 @@
         </attvalues>
         <viz:size value="58.83231"></viz:size>
         <viz:position x="220.5126" y="-947.41376"></viz:position>
-        <viz:color r="255" g="112" b="69"></viz:color>
+        <viz:color r="243" g="80" b="42"></viz:color>
       </node>
       <node id="femina" label="femina">
         <attvalues>
@@ -607,7 +607,7 @@
         </attvalues>
         <viz:size value="58.83231"></viz:size>
         <viz:position x="350.5966" y="-761.6517"></viz:position>
-        <viz:color r="255" g="112" b="69"></viz:color>
+        <viz:color r="243" g="80" b="42"></viz:color>
       </node>
       <node id="allas" label="allas">
         <attvalues>
@@ -633,7 +633,7 @@
         </attvalues>
         <viz:size value="58.83231"></viz:size>
         <viz:position x="112.38069" y="-1680.0867"></viz:position>
-        <viz:color r="35" g="150" b="111"></viz:color>
+        <viz:color r="228" g="0" b="110"></viz:color>
       </node>
       <node id="hirstart" label="hirstart">
         <attvalues>
@@ -659,7 +659,7 @@
         </attvalues>
         <viz:size value="59.165623"></viz:size>
         <viz:position x="217.1994" y="886.63947"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="mmonline" label="mmonline">
         <attvalues>
@@ -685,7 +685,7 @@
         </attvalues>
         <viz:size value="58.126373"></viz:size>
         <viz:position x="261.27002" y="1887.5419"></viz:position>
-        <viz:color r="255" g="112" b="69"></viz:color>
+        <viz:color r="243" g="80" b="42"></viz:color>
       </node>
       <node id="sztarklikk" label="sztarklikk">
         <attvalues>
@@ -711,7 +711,7 @@
         </attvalues>
         <viz:size value="58.126373"></viz:size>
         <viz:position x="490.60638" y="1937.197"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="168ora" label="168ora">
         <attvalues>
@@ -737,7 +737,7 @@
         </attvalues>
         <viz:size value="58.126373"></viz:size>
         <viz:position x="-143.37512" y="626.0866"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="piacesprofit" label="piacesprofit">
         <attvalues>
@@ -763,7 +763,7 @@
         </attvalues>
         <viz:size value="58.126373"></viz:size>
         <viz:position x="-3.1062553" y="1952.3173"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="marieclaire" label="marieclaire">
         <attvalues>
@@ -789,7 +789,7 @@
         </attvalues>
         <viz:size value="58.126373"></viz:size>
         <viz:position x="904.0566" y="1681.5105"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="tutiblog" label="tutiblog">
         <attvalues>
@@ -815,7 +815,7 @@
         </attvalues>
         <viz:size value="58.942833"></viz:size>
         <viz:position x="-1836.7706" y="498.99744"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="mikroagresszor" label="mikroagresszor">
         <attvalues>
@@ -841,7 +841,7 @@
         </attvalues>
         <viz:size value="59.70612"></viz:size>
         <viz:position x="-1963.7606" y="901.83795"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="welovebudapest" label="welovebudapest">
         <attvalues>
@@ -867,7 +867,7 @@
         </attvalues>
         <viz:size value="58.53961"></viz:size>
         <viz:position x="-662.89795" y="-555.09106"></viz:position>
-        <viz:color r="255" g="112" b="69"></viz:color>
+        <viz:color r="243" g="80" b="42"></viz:color>
       </node>
       <node id="facebook" label="facebook">
         <attvalues>
@@ -893,7 +893,7 @@
         </attvalues>
         <viz:size value="120.0"></viz:size>
         <viz:position x="-169.10696" y="-366.7168"></viz:position>
-        <viz:color r="0" g="199" b="255"></viz:color>
+        <viz:color r="85" g="140" b="169"></viz:color>
       </node>
       <node id="otthonterkep" label="otthonterkep">
         <attvalues>
@@ -919,7 +919,7 @@
         </attvalues>
         <viz:size value="66.02955"></viz:size>
         <viz:position x="251.10352" y="-1418.5667"></viz:position>
-        <viz:color r="35" g="150" b="111"></viz:color>
+        <viz:color r="228" g="0" b="110"></viz:color>
       </node>
       <node id="startlapjatekok" label="startlapjatekok">
         <attvalues>
@@ -945,7 +945,7 @@
         </attvalues>
         <viz:size value="59.165623"></viz:size>
         <viz:position x="824.1855" y="525.78174"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="libri" label="libri">
         <attvalues>
@@ -971,7 +971,7 @@
         </attvalues>
         <viz:size value="59.17023"></viz:size>
         <viz:position x="1495.8978" y="-882.5966"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="wikipedia" label="wikipedia">
         <attvalues>
@@ -997,7 +997,7 @@
         </attvalues>
         <viz:size value="65.56105"></viz:size>
         <viz:position x="787.2034" y="-22.25906"></viz:position>
-        <viz:color r="140" g="185" b="0"></viz:color>
+        <viz:color r="136" g="176" b="76"></viz:color>
       </node>
       <node id="ado" label="ado">
         <attvalues>
@@ -1023,7 +1023,7 @@
         </attvalues>
         <viz:size value="58.126373"></viz:size>
         <viz:position x="152.61778" y="2116.6445"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="ng" label="ng">
         <attvalues>
@@ -1049,7 +1049,7 @@
         </attvalues>
         <viz:size value="58.126373"></viz:size>
         <viz:position x="688.84705" y="1788.2744"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="jatekstart" label="jatekstart">
         <attvalues>
@@ -1075,7 +1075,7 @@
         </attvalues>
         <viz:size value="58.272804"></viz:size>
         <viz:position x="1864.371" y="503.38776"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="brasilpost" label="brasilpost">
         <attvalues>
@@ -1101,7 +1101,7 @@
         </attvalues>
         <viz:size value="58.0"></viz:size>
         <viz:position x="2017.654" y="-767.9571"></viz:position>
-        <viz:color r="140" g="185" b="0"></viz:color>
+        <viz:color r="136" g="176" b="76"></viz:color>
       </node>
       <node id="huffingtonpost" label="huffingtonpost">
         <attvalues>
@@ -1127,7 +1127,7 @@
         </attvalues>
         <viz:size value="60.158455"></viz:size>
         <viz:position x="2135.984" y="-305.01968"></viz:position>
-        <viz:color r="140" g="185" b="0"></viz:color>
+        <viz:color r="136" g="176" b="76"></viz:color>
       </node>
       <node id="uzletresz" label="uzletresz">
         <attvalues>
@@ -1153,7 +1153,7 @@
         </attvalues>
         <viz:size value="58.975098"></viz:size>
         <viz:position x="-1740.958" y="-662.3127"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="nwmgroup" label="nwmgroup">
         <attvalues>
@@ -1179,7 +1179,7 @@
         </attvalues>
         <viz:size value="63.606293"></viz:size>
         <viz:position x="-1698.676" y="-237.23886"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="mandiner" label="mandiner">
         <attvalues>
@@ -1205,7 +1205,7 @@
         </attvalues>
         <viz:size value="58.0"></viz:size>
         <viz:position x="-1252.3555" y="-743.6469"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="mno" label="mno">
         <attvalues>
@@ -1231,7 +1231,7 @@
         </attvalues>
         <viz:size value="63.24554"></viz:size>
         <viz:position x="-660.10364" y="-107.89425"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="gphirek" label="gphirek">
         <attvalues>
@@ -1257,7 +1257,7 @@
         </attvalues>
         <viz:size value="58.975098"></viz:size>
         <viz:position x="-1262.3962" y="-176.2103"></viz:position>
-        <viz:color r="255" g="112" b="69"></viz:color>
+        <viz:color r="243" g="80" b="42"></viz:color>
       </node>
       <node id="pestisracok" label="pestisracok">
         <attvalues>
@@ -1283,7 +1283,7 @@
         </attvalues>
         <viz:size value="69.559044"></viz:size>
         <viz:position x="-1328.0237" y="118.41729"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="reblog" label="reblog">
         <attvalues>
@@ -1309,7 +1309,7 @@
         </attvalues>
         <viz:size value="59.31815"></viz:size>
         <viz:position x="-524.0612" y="-735.46027"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="mnb" label="mnb">
         <attvalues>
@@ -1335,7 +1335,7 @@
         </attvalues>
         <viz:size value="58.679672"></viz:size>
         <viz:position x="-618.2861" y="-1851.5225"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="gemius" label="gemius">
         <attvalues>
@@ -1361,7 +1361,7 @@
         </attvalues>
         <viz:size value="58.46954"></viz:size>
         <viz:position x="1507.3204" y="-653.1119"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="eduline" label="eduline">
         <attvalues>
@@ -1387,7 +1387,7 @@
         </attvalues>
         <viz:size value="58.0"></viz:size>
         <viz:position x="1197.421" y="535.7911"></viz:position>
-        <viz:color r="255" g="112" b="69"></viz:color>
+        <viz:color r="243" g="80" b="42"></viz:color>
       </node>
       <node id="adozona" label="adozona">
         <attvalues>
@@ -1413,7 +1413,7 @@
         </attvalues>
         <viz:size value="61.44299"></viz:size>
         <viz:position x="994.033" y="702.57605"></viz:position>
-        <viz:color r="140" g="185" b="0"></viz:color>
+        <viz:color r="136" g="176" b="76"></viz:color>
       </node>
       <node id="youtube" label="youtube">
         <attvalues>
@@ -1439,7 +1439,7 @@
         </attvalues>
         <viz:size value="87.0744"></viz:size>
         <viz:position x="-90.129715" y="140.44992"></viz:position>
-        <viz:color r="0" g="199" b="255"></viz:color>
+        <viz:color r="85" g="140" b="169"></viz:color>
       </node>
       <node id="teol" label="teol">
         <attvalues>
@@ -1465,7 +1465,7 @@
         </attvalues>
         <viz:size value="59.619495"></viz:size>
         <viz:position x="-875.7626" y="-961.4615"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="mediaworks" label="mediaworks">
         <attvalues>
@@ -1491,7 +1491,7 @@
         </attvalues>
         <viz:size value="86.58258"></viz:size>
         <viz:position x="-361.14243" y="-1624.8185"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="kemma" label="kemma">
         <attvalues>
@@ -1517,7 +1517,7 @@
         </attvalues>
         <viz:size value="59.619495"></viz:size>
         <viz:position x="-263.10898" y="-1424.3876"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="joy" label="joy">
         <attvalues>
@@ -1543,7 +1543,7 @@
         </attvalues>
         <viz:size value="58.126373"></viz:size>
         <viz:position x="703.29645" y="1549.3872"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="ittlakunk" label="ittlakunk">
         <attvalues>
@@ -1569,7 +1569,7 @@
         </attvalues>
         <viz:size value="58.126373"></viz:size>
         <viz:position x="453.09903" y="1707.679"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="webbeteg" label="webbeteg">
         <attvalues>
@@ -1595,7 +1595,7 @@
         </attvalues>
         <viz:size value="58.126373"></viz:size>
         <viz:position x="72.50211" y="1742.46"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="wordpress" label="wordpress">
         <attvalues>
@@ -1621,7 +1621,7 @@
         </attvalues>
         <viz:size value="60.113064"></viz:size>
         <viz:position x="-844.5678" y="-394.59375"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="tvmusor" label="tvmusor">
         <attvalues>
@@ -1647,7 +1647,7 @@
         </attvalues>
         <viz:size value="59.571968"></viz:size>
         <viz:position x="-290.9163" y="-1219.0685"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="mainap" label="mainap">
         <attvalues>
@@ -1673,7 +1673,7 @@
         </attvalues>
         <viz:size value="73.33972"></viz:size>
         <viz:position x="-915.10504" y="-1436.894"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="tumblr" label="tumblr">
         <attvalues>
@@ -1699,7 +1699,7 @@
         </attvalues>
         <viz:size value="66.528984"></viz:size>
         <viz:position x="116.856445" y="-378.16504"></viz:position>
-        <viz:color r="0" g="199" b="255"></viz:color>
+        <viz:color r="85" g="140" b="169"></viz:color>
       </node>
       <node id="retikul" label="retikul">
         <attvalues>
@@ -1725,7 +1725,7 @@
         </attvalues>
         <viz:size value="58.982407"></viz:size>
         <viz:position x="634.27594" y="-185.56076"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="enabledkids" label="enabledkids">
         <attvalues>
@@ -1751,7 +1751,7 @@
         </attvalues>
         <viz:size value="58.0"></viz:size>
         <viz:position x="-830.67786" y="-706.1883"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="twitter" label="twitter">
         <attvalues>
@@ -1777,7 +1777,7 @@
         </attvalues>
         <viz:size value="97.88385"></viz:size>
         <viz:position x="-453.24744" y="-187.16838"></viz:position>
-        <viz:color r="0" g="199" b="255"></viz:color>
+        <viz:color r="85" g="140" b="169"></viz:color>
       </node>
       <node id="24" label="24">
         <attvalues>
@@ -1803,7 +1803,7 @@
         </attvalues>
         <viz:size value="63.65735"></viz:size>
         <viz:position x="589.80884" y="569.87604"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="doubleclick" label="doubleclick">
         <attvalues>
@@ -1829,7 +1829,7 @@
         </attvalues>
         <viz:size value="58.45629"></viz:size>
         <viz:position x="1228.3712" y="1151.0137"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="lanchidradio" label="lanchidradio">
         <attvalues>
@@ -1855,7 +1855,7 @@
         </attvalues>
         <viz:size value="60.984566"></viz:size>
         <viz:position x="-897.47565" y="-160.29257"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="vs" label="vs">
         <attvalues>
@@ -1881,7 +1881,7 @@
         </attvalues>
         <viz:size value="58.0"></viz:size>
         <viz:position x="-455.14267" y="25.326439"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="abcug" label="abcug">
         <attvalues>
@@ -1907,7 +1907,7 @@
         </attvalues>
         <viz:size value="58.53961"></viz:size>
         <viz:position x="208.86678" y="32.70755"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="instagram" label="instagram">
         <attvalues>
@@ -1933,7 +1933,7 @@
         </attvalues>
         <viz:size value="66.801056"></viz:size>
         <viz:position x="-427.58572" y="-447.78278"></viz:position>
-        <viz:color r="0" g="199" b="255"></viz:color>
+        <viz:color r="85" g="140" b="169"></viz:color>
       </node>
       <node id="gov" label="gov">
         <attvalues>
@@ -1959,7 +1959,7 @@
         </attvalues>
         <viz:size value="60.82186"></viz:size>
         <viz:position x="-1232.316" y="1150.3333"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="port" label="port">
         <attvalues>
@@ -1985,7 +1985,7 @@
         </attvalues>
         <viz:size value="59.43924"></viz:size>
         <viz:position x="680.81586" y="-1074.6184"></viz:position>
-        <viz:color r="140" g="185" b="0"></viz:color>
+        <viz:color r="136" g="176" b="76"></viz:color>
       </node>
       <node id="horseracingnation" label="horseracingnation">
         <attvalues>
@@ -2011,7 +2011,7 @@
         </attvalues>
         <viz:size value="58.0"></viz:size>
         <viz:position x="392.5376" y="2144.131"></viz:position>
-        <viz:color r="140" g="185" b="0"></viz:color>
+        <viz:color r="136" g="176" b="76"></viz:color>
       </node>
       <node id="yahoo" label="yahoo">
         <attvalues>
@@ -2037,7 +2037,7 @@
         </attvalues>
         <viz:size value="60.158455"></viz:size>
         <viz:position x="904.3362" y="1950.48"></viz:position>
-        <viz:color r="0" g="199" b="255"></viz:color>
+        <viz:color r="85" g="140" b="169"></viz:color>
       </node>
       <node id="sonline" label="sonline">
         <attvalues>
@@ -2063,7 +2063,7 @@
         </attvalues>
         <viz:size value="59.619495"></viz:size>
         <viz:position x="-565.1852" y="-1595.2911"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="duol" label="duol">
         <attvalues>
@@ -2089,7 +2089,7 @@
         </attvalues>
         <viz:size value="59.64599"></viz:size>
         <viz:position x="-532.0452" y="-2090.2473"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="veol" label="veol">
         <attvalues>
@@ -2115,7 +2115,7 @@
         </attvalues>
         <viz:size value="59.64599"></viz:size>
         <viz:position x="-1339.907" y="-1635.9319"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="heol" label="heol">
         <attvalues>
@@ -2141,7 +2141,7 @@
         </attvalues>
         <viz:size value="59.619495"></viz:size>
         <viz:position x="-1178.5143" y="-1286.0901"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="atw" label="atw">
         <attvalues>
@@ -2167,7 +2167,7 @@
         </attvalues>
         <viz:size value="58.272804"></viz:size>
         <viz:position x="1769.5941" y="722.4791"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="hungarianforum" label="hungarianforum">
         <attvalues>
@@ -2193,7 +2193,7 @@
         </attvalues>
         <viz:size value="58.272804"></viz:size>
         <viz:position x="1644.8446" y="282.15356"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="magyarbrands" label="magyarbrands">
         <attvalues>
@@ -2219,7 +2219,7 @@
         </attvalues>
         <viz:size value="58.85603"></viz:size>
         <viz:position x="1174.42" y="-1208.1805"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="superbrands" label="superbrands">
         <attvalues>
@@ -2245,7 +2245,7 @@
         </attvalues>
         <viz:size value="58.85603"></viz:size>
         <viz:position x="723.6666" y="-1568.017"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="portfoliofinancial" label="portfoliofinancial">
         <attvalues>
@@ -2271,7 +2271,7 @@
         </attvalues>
         <viz:size value="58.46954"></viz:size>
         <viz:position x="1196.0696" y="-1529.7263"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="viber" label="viber">
         <attvalues>
@@ -2297,7 +2297,7 @@
         </attvalues>
         <viz:size value="58.85603"></viz:size>
         <viz:position x="600.50824" y="-829.3755"></viz:position>
-        <viz:color r="0" g="199" b="255"></viz:color>
+        <viz:color r="85" g="140" b="169"></viz:color>
       </node>
       <node id="pinterest" label="pinterest">
         <attvalues>
@@ -2323,7 +2323,7 @@
         </attvalues>
         <viz:size value="66.94039"></viz:size>
         <viz:position x="-334.69577" y="-615.86346"></viz:position>
-        <viz:color r="0" g="199" b="255"></viz:color>
+        <viz:color r="85" g="140" b="169"></viz:color>
       </node>
       <node id="automotor" label="automotor">
         <attvalues>
@@ -2349,7 +2349,7 @@
         </attvalues>
         <viz:size value="73.99342"></viz:size>
         <viz:position x="-504.79416" y="-1354.0808"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="lapcentrum" label="lapcentrum">
         <attvalues>
@@ -2375,7 +2375,7 @@
         </attvalues>
         <viz:size value="92.094864"></viz:size>
         <viz:position x="-385.77496" y="-1862.0201"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="uni-neumann" label="uni-neumann">
         <attvalues>
@@ -2401,7 +2401,7 @@
         </attvalues>
         <viz:size value="59.43897"></viz:size>
         <viz:position x="-1937.9705" y="-960.468"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="beol" label="beol">
         <attvalues>
@@ -2427,7 +2427,7 @@
         </attvalues>
         <viz:size value="60.747894"></viz:size>
         <viz:position x="-392.0298" y="-978.72205"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="alaveteli" label="alaveteli">
         <attvalues>
@@ -2453,7 +2453,7 @@
         </attvalues>
         <viz:size value="58.504734"></viz:size>
         <viz:position x="-1279.1293" y="866.342"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="opensocietyfoundations" label="opensocietyfoundations">
         <attvalues>
@@ -2479,7 +2479,7 @@
         </attvalues>
         <viz:size value="58.504734"></viz:size>
         <viz:position x="-1438.2584" y="1033.9795"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="centralmediacsoport" label="centralmediacsoport">
         <attvalues>
@@ -2505,7 +2505,7 @@
         </attvalues>
         <viz:size value="60.498333"></viz:size>
         <viz:position x="1222.8619" y="771.14575"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="reuters" label="reuters">
         <attvalues>
@@ -2531,7 +2531,7 @@
         </attvalues>
         <viz:size value="58.0"></viz:size>
         <viz:position x="864.71277" y="-2010.6027"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="thomsonreuters" label="thomsonreuters">
         <attvalues>
@@ -2557,7 +2557,7 @@
         </attvalues>
         <viz:size value="62.31691"></viz:size>
         <viz:position x="1445.9385" y="-1624.0771"></viz:position>
-        <viz:color r="140" g="185" b="0"></viz:color>
+        <viz:color r="136" g="176" b="76"></viz:color>
       </node>
       <node id="penzcentrum" label="penzcentrum">
         <attvalues>
@@ -2583,7 +2583,7 @@
         </attvalues>
         <viz:size value="64.62487"></viz:size>
         <viz:position x="1025.1725" y="-1355.9885"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="bank360" label="bank360">
         <attvalues>
@@ -2609,7 +2609,7 @@
         </attvalues>
         <viz:size value="61.783276"></viz:size>
         <viz:position x="968.88727" y="-1616.3304"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="dodsgroup" label="dodsgroup">
         <attvalues>
@@ -2635,7 +2635,7 @@
         </attvalues>
         <viz:size value="62.31691"></viz:size>
         <viz:position x="2030.6675" y="717.5431"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="totalpolitics" label="totalpolitics">
         <attvalues>
@@ -2661,7 +2661,7 @@
         </attvalues>
         <viz:size value="65.98636"></viz:size>
         <viz:position x="1952.7156" y="953.0109"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="raktar" label="raktar">
         <attvalues>
@@ -2687,7 +2687,7 @@
         </attvalues>
         <viz:size value="58.46954"></viz:size>
         <viz:position x="330.26794" y="-1673.0657"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="tielabs" label="tielabs">
         <attvalues>
@@ -2713,7 +2713,7 @@
         </attvalues>
         <viz:size value="58.942833"></viz:size>
         <viz:position x="-2151.6606" y="231.8406"></viz:position>
-        <viz:color r="140" g="185" b="0"></viz:color>
+        <viz:color r="136" g="176" b="76"></viz:color>
       </node>
       <node id="hirtv" label="hirtv">
         <attvalues>
@@ -2739,7 +2739,7 @@
         </attvalues>
         <viz:size value="61.873646"></viz:size>
         <viz:position x="-345.03207" y="193.11574"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="blogspot" label="blogspot">
         <attvalues>
@@ -2765,7 +2765,7 @@
         </attvalues>
         <viz:size value="59.91257"></viz:size>
         <viz:position x="958.3866" y="-488.9802"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="startapro" label="startapro">
         <attvalues>
@@ -2791,7 +2791,7 @@
         </attvalues>
         <viz:size value="59.165623"></viz:size>
         <viz:position x="1028.3031" y="397.1432"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="nlcafe" label="nlcafe">
         <attvalues>
@@ -2817,7 +2817,7 @@
         </attvalues>
         <viz:size value="59.292"></viz:size>
         <viz:position x="135.89307" y="256.3618"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="travelo" label="travelo">
         <attvalues>
@@ -2843,7 +2843,7 @@
         </attvalues>
         <viz:size value="59.10147"></viz:size>
         <viz:position x="-913.50354" y="792.1841"></viz:position>
-        <viz:color r="255" g="112" b="69"></viz:color>
+        <viz:color r="243" g="80" b="42"></viz:color>
       </node>
       <node id="overwatchleague" label="overwatchleague">
         <attvalues>
@@ -2869,7 +2869,7 @@
         </attvalues>
         <viz:size value="58.46954"></viz:size>
         <viz:position x="1034.9412" y="-1848.5392"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="gameinformer" label="gameinformer">
         <attvalues>
@@ -2895,7 +2895,7 @@
         </attvalues>
         <viz:size value="58.46954"></viz:size>
         <viz:position x="337.67322" y="-1912.8857"></viz:position>
-        <viz:color r="0" g="199" b="255"></viz:color>
+        <viz:color r="85" g="140" b="169"></viz:color>
       </node>
       <node id="buzzfeed" label="buzzfeed">
         <attvalues>
@@ -2921,7 +2921,7 @@
         </attvalues>
         <viz:size value="58.46954"></viz:size>
         <viz:position x="1232.8035" y="-1754.4128"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="nullahategy" label="nullahategy">
         <attvalues>
@@ -2947,7 +2947,7 @@
         </attvalues>
         <viz:size value="64.061195"></viz:size>
         <viz:position x="-1913.3417" y="-167.988"></viz:position>
-        <viz:color r="140" g="185" b="0"></viz:color>
+        <viz:color r="136" g="176" b="76"></viz:color>
       </node>
       <node id="fesztikorkep" label="fesztikorkep">
         <attvalues>
@@ -2973,7 +2973,7 @@
         </attvalues>
         <viz:size value="62.734562"></viz:size>
         <viz:position x="-2180.3503" y="-83.66293"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="bama" label="bama">
         <attvalues>
@@ -2999,7 +2999,7 @@
         </attvalues>
         <viz:size value="60.747894"></viz:size>
         <viz:position x="-982.22797" y="-1674.6451"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="szoljon" label="szoljon">
         <attvalues>
@@ -3025,7 +3025,7 @@
         </attvalues>
         <viz:size value="59.619495"></viz:size>
         <viz:position x="-1117.5448" y="-1064.9431"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="cmsales" label="cmsales">
         <attvalues>
@@ -3051,7 +3051,7 @@
         </attvalues>
         <viz:size value="59.76924"></viz:size>
         <viz:position x="1730.5647" y="958.52734"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="astronet" label="astronet">
         <attvalues>
@@ -3077,7 +3077,7 @@
         </attvalues>
         <viz:size value="74.40613"></viz:size>
         <viz:position x="-651.1603" y="-947.277"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="lakaskultura" label="lakaskultura">
         <attvalues>
@@ -3103,7 +3103,7 @@
         </attvalues>
         <viz:size value="74.56024"></viz:size>
         <viz:position x="-529.61786" y="-1133.3846"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="mindmegette" label="mindmegette">
         <attvalues>
@@ -3129,7 +3129,7 @@
         </attvalues>
         <viz:size value="75.05641"></viz:size>
         <viz:position x="-742.88586" y="-1176.6309"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="vg" label="vg">
         <attvalues>
@@ -3155,7 +3155,7 @@
         </attvalues>
         <viz:size value="76.23234"></viz:size>
         <viz:position x="-772.396" y="-1642.2495"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="polgarportal" label="polgarportal">
         <attvalues>
@@ -3181,7 +3181,7 @@
         </attvalues>
         <viz:size value="58.942833"></viz:size>
         <viz:position x="-2088.763" y="465.89816"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="addtoany" label="addtoany">
         <attvalues>
@@ -3207,7 +3207,7 @@
         </attvalues>
         <viz:size value="63.208138"></viz:size>
         <viz:position x="-2025.7634" y="673.9443"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="kult50" label="kult50">
         <attvalues>
@@ -3233,7 +3233,7 @@
         </attvalues>
         <viz:size value="58.0"></viz:size>
         <viz:position x="1360.6078" y="-1370.5051"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="chicagoreader" label="chicagoreader">
         <attvalues>
@@ -3259,7 +3259,7 @@
         </attvalues>
         <viz:size value="58.0"></viz:size>
         <viz:position x="-1431.6475" y="-367.25696"></viz:position>
-        <viz:color r="140" g="185" b="0"></viz:color>
+        <viz:color r="136" g="176" b="76"></viz:color>
       </node>
       <node id="songza" label="songza">
         <attvalues>
@@ -3285,7 +3285,7 @@
         </attvalues>
         <viz:size value="60.158455"></viz:size>
         <viz:position x="-2096.8384" y="-560.26843"></viz:position>
-        <viz:color r="140" g="185" b="0"></viz:color>
+        <viz:color r="136" g="176" b="76"></viz:color>
       </node>
       <node id="kulturpart" label="kulturpart">
         <attvalues>
@@ -3311,7 +3311,7 @@
         </attvalues>
         <viz:size value="58.46954"></viz:size>
         <viz:position x="602.34845" y="-1295.5677"></viz:position>
-        <viz:color r="255" g="112" b="69"></viz:color>
+        <viz:color r="243" g="80" b="42"></viz:color>
       </node>
       <node id="444" label="444">
         <attvalues>
@@ -3337,7 +3337,7 @@
         </attvalues>
         <viz:size value="58.631107"></viz:size>
         <viz:position x="-642.0206" y="460.10104"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="police" label="police">
         <attvalues>
@@ -3363,7 +3363,7 @@
         </attvalues>
         <viz:size value="58.373337"></viz:size>
         <viz:position x="-1340.2457" y="1366.78"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="unilad" label="unilad">
         <attvalues>
@@ -3389,7 +3389,7 @@
         </attvalues>
         <viz:size value="58.46954"></viz:size>
         <viz:position x="418.4844" y="-2117.8687"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="dailymail" label="dailymail">
         <attvalues>
@@ -3415,7 +3415,7 @@
         </attvalues>
         <viz:size value="58.0"></viz:size>
         <viz:position x="1426.9258" y="1536.8447"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="apple" label="apple">
         <attvalues>
@@ -3441,7 +3441,7 @@
         </attvalues>
         <viz:size value="63.905266"></viz:size>
         <viz:position x="865.5754" y="949.22595"></viz:position>
-        <viz:color r="140" g="185" b="0"></viz:color>
+        <viz:color r="136" g="176" b="76"></viz:color>
       </node>
       <node id="sg" label="sg">
         <attvalues>
@@ -3467,7 +3467,7 @@
         </attvalues>
         <viz:size value="58.126373"></viz:size>
         <viz:position x="486.32938" y="1479.3335"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="adhat" label="adhat">
         <attvalues>
@@ -3493,7 +3493,7 @@
         </attvalues>
         <viz:size value="59.17023"></viz:size>
         <viz:position x="1282.3254" y="-780.41486"></viz:position>
-        <viz:color r="140" g="185" b="0"></viz:color>
+        <viz:color r="136" g="176" b="76"></viz:color>
       </node>
       <node id="startlap" label="startlap">
         <attvalues>
@@ -3519,7 +3519,7 @@
         </attvalues>
         <viz:size value="60.624706"></viz:size>
         <viz:position x="746.5939" y="754.4549"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="szallas" label="szallas">
         <attvalues>
@@ -3545,7 +3545,7 @@
         </attvalues>
         <viz:size value="59.41163"></viz:size>
         <viz:position x="-464.83923" y="644.9897"></viz:position>
-        <viz:color r="140" g="185" b="0"></viz:color>
+        <viz:color r="136" g="176" b="76"></viz:color>
       </node>
       <node id="ongo" label="ongo">
         <attvalues>
@@ -3571,7 +3571,7 @@
         </attvalues>
         <viz:size value="63.253193"></viz:size>
         <viz:position x="-1347.3997" y="1653.8547"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="mti" label="mti">
         <attvalues>
@@ -3597,7 +3597,7 @@
         </attvalues>
         <viz:size value="58.46954"></viz:size>
         <viz:position x="777.4308" y="-1798.1179"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="merce" label="merce">
         <attvalues>
@@ -3623,7 +3623,7 @@
         </attvalues>
         <viz:size value="59.17023"></viz:size>
         <viz:position x="413.2958" y="-116.425476"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="mailonsunday" label="mailonsunday">
         <attvalues>
@@ -3649,7 +3649,7 @@
         </attvalues>
         <viz:size value="58.719486"></viz:size>
         <viz:position x="700.51166" y="2051.385"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="metro" label="metro">
         <attvalues>
@@ -3675,7 +3675,7 @@
         </attvalues>
         <viz:size value="58.719486"></viz:size>
         <viz:position x="1646.2368" y="1415.4388"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="and" label="and">
         <attvalues>
@@ -3701,7 +3701,7 @@
         </attvalues>
         <viz:size value="58.719486"></viz:size>
         <viz:position x="1329.9156" y="1723.1528"></viz:position>
-        <viz:color r="140" g="185" b="0"></viz:color>
+        <viz:color r="136" g="176" b="76"></viz:color>
       </node>
       <node id="mailadvertising" label="mailadvertising">
         <attvalues>
@@ -3727,7 +3727,7 @@
         </attvalues>
         <viz:size value="58.719486"></viz:size>
         <viz:position x="1114.6993" y="1841.2632"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="baleset-megelozes" label="baleset-megelozes">
         <attvalues>
@@ -3753,7 +3753,7 @@
         </attvalues>
         <viz:size value="60.317127"></viz:size>
         <viz:position x="-1532.2249" y="1520.9158"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="cafeblog" label="cafeblog">
         <attvalues>
@@ -3779,7 +3779,7 @@
         </attvalues>
         <viz:size value="59.519558"></viz:size>
         <viz:position x="689.76086" y="1084.4601"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="ingatlanhirek" label="ingatlanhirek">
         <attvalues>
@@ -3805,7 +3805,7 @@
         </attvalues>
         <viz:size value="61.997787"></viz:size>
         <viz:position x="387.63715" y="-1241.5459"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="pewinternet" label="pewinternet">
         <attvalues>
@@ -3831,7 +3831,7 @@
         </attvalues>
         <viz:size value="58.0"></viz:size>
         <viz:position x="-413.8995" y="2132.0994"></viz:position>
-        <viz:color r="140" g="185" b="0"></viz:color>
+        <viz:color r="136" g="176" b="76"></viz:color>
       </node>
       <node id="pewresearch" label="pewresearch">
         <attvalues>
@@ -3857,7 +3857,7 @@
         </attvalues>
         <viz:size value="66.63382"></viz:size>
         <viz:position x="-672.66876" y="2060.312"></viz:position>
-        <viz:color r="140" g="185" b="0"></viz:color>
+        <viz:color r="136" g="176" b="76"></viz:color>
       </node>
       <node id="hazipatika" label="hazipatika">
         <attvalues>
@@ -3883,7 +3883,7 @@
         </attvalues>
         <viz:size value="59.292"></viz:size>
         <viz:position x="411.79218" y="703.22217"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="thisismoney" label="thisismoney">
         <attvalues>
@@ -3909,7 +3909,7 @@
         </attvalues>
         <viz:size value="58.719486"></viz:size>
         <viz:position x="1799.3451" y="1207.1079"></viz:position>
-        <viz:color r="140" g="185" b="0"></viz:color>
+        <viz:color r="136" g="176" b="76"></viz:color>
       </node>
       <node id="nepitelet" label="nepitelet">
         <attvalues>
@@ -3935,7 +3935,7 @@
         </attvalues>
         <viz:size value="58.46954"></viz:size>
         <viz:position x="127.547424" y="-646.15686"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="koponyeg" label="koponyeg">
         <attvalues>
@@ -3961,7 +3961,7 @@
         </attvalues>
         <viz:size value="58.53961"></viz:size>
         <viz:position x="-88.07672" y="-608.4162"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="888" label="888">
         <attvalues>
@@ -3987,7 +3987,7 @@
         </attvalues>
         <viz:size value="58.126373"></viz:size>
         <viz:position x="38.440388" y="476.8177"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="szinhaz" label="szinhaz">
         <attvalues>
@@ -4013,7 +4013,7 @@
         </attvalues>
         <viz:size value="58.46954"></viz:size>
         <viz:position x="618.2854" y="-2016.8735"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="scmp" label="scmp">
         <attvalues>
@@ -4039,7 +4039,7 @@
         </attvalues>
         <viz:size value="58.0"></viz:size>
         <viz:position x="-1545.4656" y="1235.5475"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="cpjobs" label="cpjobs">
         <attvalues>
@@ -4065,7 +4065,7 @@
         </attvalues>
         <viz:size value="62.31691"></viz:size>
         <viz:position x="-1722.4104" y="1333.016"></viz:position>
-        <viz:color r="140" g="185" b="0"></viz:color>
+        <viz:color r="136" g="176" b="76"></viz:color>
       </node>
       <node id="digitalhungary" label="digitalhungary">
         <attvalues>
@@ -4091,7 +4091,7 @@
         </attvalues>
         <viz:size value="58.126373"></viz:size>
         <viz:position x="243.53473" y="1598.0598"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="civil" label="civil">
         <attvalues>
@@ -4117,7 +4117,7 @@
         </attvalues>
         <viz:size value="60.55918"></viz:size>
         <viz:position x="-1846.313" y="1110.8341"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="indapass" label="indapass">
         <attvalues>
@@ -4143,7 +4143,7 @@
         </attvalues>
         <viz:size value="66.34422"></viz:size>
         <viz:position x="176.6486" y="-1159.0988"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="origo" label="origo">
         <attvalues>
@@ -4169,7 +4169,7 @@
         </attvalues>
         <viz:size value="73.569885"></viz:size>
         <viz:position x="-1098.7979" y="-335.92203"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="occrp" label="occrp">
         <attvalues>
@@ -4195,7 +4195,7 @@
         </attvalues>
         <viz:size value="58.504734"></viz:size>
         <viz:position x="-1251.789" y="413.35394"></viz:position>
-        <viz:color r="140" g="185" b="0"></viz:color>
+        <viz:color r="136" g="176" b="76"></viz:color>
       </node>
       <node id="linkedin" label="linkedin">
         <attvalues>
@@ -4221,7 +4221,7 @@
         </attvalues>
         <viz:size value="58.816906"></viz:size>
         <viz:position x="-1252.4877" y="-501.64145"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="adverticum" label="adverticum">
         <attvalues>
@@ -4247,7 +4247,7 @@
         </attvalues>
         <viz:size value="71.71939"></viz:size>
         <viz:position x="463.69366" y="-359.14127"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="inforadio" label="inforadio">
         <attvalues>
@@ -4273,7 +4273,7 @@
         </attvalues>
         <viz:size value="58.126373"></viz:size>
         <viz:position x="724.04944" y="-396.87766"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="vezess" label="vezess">
         <attvalues>
@@ -4299,7 +4299,7 @@
         </attvalues>
         <viz:size value="59.292"></viz:size>
         <viz:position x="566.6876" y="880.67285"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="nol" label="nol">
         <attvalues>
@@ -4325,7 +4325,7 @@
         </attvalues>
         <viz:size value="67.010864"></viz:size>
         <viz:position x="-931.137" y="-1223.986"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="propeller" label="propeller">
         <attvalues>
@@ -4351,7 +4351,7 @@
         </attvalues>
         <viz:size value="58.44357"></viz:size>
         <viz:position x="-1522.8772" y="-1522.2129"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="bit" label="bit">
         <attvalues>
@@ -4377,7 +4377,7 @@
         </attvalues>
         <viz:size value="58.0"></viz:size>
         <viz:position x="-978.10394" y="-1916.7941"></viz:position>
-        <viz:color r="140" g="185" b="0"></viz:color>
+        <viz:color r="136" g="176" b="76"></viz:color>
       </node>
       <node id="wikidata" label="wikidata">
         <attvalues>
@@ -4403,7 +4403,7 @@
         </attvalues>
         <viz:size value="63.37201"></viz:size>
         <viz:position x="1624.2906" y="-441.3919"></viz:position>
-        <viz:color r="140" g="185" b="0"></viz:color>
+        <viz:color r="136" g="176" b="76"></viz:color>
       </node>
       <node id="portfolio" label="portfolio">
         <attvalues>
@@ -4429,7 +4429,7 @@
         </attvalues>
         <viz:size value="74.66455"></viz:size>
         <viz:position x="770.8073" y="-650.5037"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="infostart" label="infostart">
         <attvalues>
@@ -4455,7 +4455,7 @@
         </attvalues>
         <viz:size value="60.6817"></viz:size>
         <viz:position x="920.6561" y="-1121.7372"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="bircahang" label="bircahang">
         <attvalues>
@@ -4481,7 +4481,7 @@
         </attvalues>
         <viz:size value="59.17023"></viz:size>
         <viz:position x="1383.9435" y="-233.95615"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="feedburner" label="feedburner">
         <attvalues>
@@ -4507,7 +4507,7 @@
         </attvalues>
         <viz:size value="58.43169"></viz:size>
         <viz:position x="905.14777" y="-251.81148"></viz:position>
-        <viz:color r="140" g="185" b="0"></viz:color>
+        <viz:color r="136" g="176" b="76"></viz:color>
       </node>
       <node id="agroinform" label="agroinform">
         <attvalues>
@@ -4533,7 +4533,7 @@
         </attvalues>
         <viz:size value="58.126373"></viz:size>
         <viz:position x="-180.25233" y="1730.538"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="tchibo" label="tchibo">
         <attvalues>
@@ -4559,7 +4559,7 @@
         </attvalues>
         <viz:size value="58.43653"></viz:size>
         <viz:position x="1131.6831" y="1581.769"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="m4sport" label="m4sport">
         <attvalues>
@@ -4585,7 +4585,7 @@
         </attvalues>
         <viz:size value="58.126373"></viz:size>
         <viz:position x="266.56583" y="1371.4033"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="origorandi" label="origorandi">
         <attvalues>
@@ -4611,7 +4611,7 @@
         </attvalues>
         <viz:size value="59.31815"></viz:size>
         <viz:position x="-1482.3722" y="-627.5372"></viz:position>
-        <viz:color r="140" g="185" b="0"></viz:color>
+        <viz:color r="136" g="176" b="76"></viz:color>
       </node>
       <node id="startlapkupon" label="startlapkupon">
         <attvalues>
@@ -4637,7 +4637,7 @@
         </attvalues>
         <viz:size value="58.43653"></viz:size>
         <viz:position x="1430.3344" y="1298.8154"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="ask" label="ask">
         <attvalues>
@@ -4663,7 +4663,7 @@
         </attvalues>
         <viz:size value="58.373337"></viz:size>
         <viz:position x="-733.8692" y="1322.7122"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="mixcloud" label="mixcloud">
         <attvalues>
@@ -4689,7 +4689,7 @@
         </attvalues>
         <viz:size value="58.373337"></viz:size>
         <viz:position x="-1113.23" y="1366.439"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="eepurl" label="eepurl">
         <attvalues>
@@ -4715,7 +4715,7 @@
         </attvalues>
         <viz:size value="58.373337"></viz:size>
         <viz:position x="-897.268" y="1475.9368"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="mozgasterblog" label="mozgasterblog">
         <attvalues>
@@ -4741,7 +4741,7 @@
         </attvalues>
         <viz:size value="58.0"></viz:size>
         <viz:position x="-851.5715" y="303.70355"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="hirado" label="hirado">
         <attvalues>
@@ -4767,7 +4767,7 @@
         </attvalues>
         <viz:size value="58.84586"></viz:size>
         <viz:position x="-643.11633" y="1092.524"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="adventista" label="adventista">
         <attvalues>
@@ -4793,7 +4793,7 @@
         </attvalues>
         <viz:size value="58.272804"></viz:size>
         <viz:position x="1872.0808" y="278.81235"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="huffpostbrasil" label="huffpostbrasil">
         <attvalues>
@@ -4819,7 +4819,7 @@
         </attvalues>
         <viz:size value="60.158455"></viz:size>
         <viz:position x="1786.6134" y="-1239.9182"></viz:position>
-        <viz:color r="140" g="185" b="0"></viz:color>
+        <viz:color r="136" g="176" b="76"></viz:color>
       </node>
       <node id="atv" label="atv">
         <attvalues>
@@ -4845,7 +4845,7 @@
         </attvalues>
         <viz:size value="58.569942"></viz:size>
         <viz:position x="-621.21814" y="-316.46362"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="umblr" label="umblr">
         <attvalues>
@@ -4871,7 +4871,7 @@
         </attvalues>
         <viz:size value="61.85561"></viz:size>
         <viz:position x="624.49" y="279.12595"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="komment" label="komment">
         <attvalues>
@@ -4897,7 +4897,7 @@
         </attvalues>
         <viz:size value="58.0"></viz:size>
         <viz:position x="-1965.4916" y="-740.4144"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="inda" label="inda">
         <attvalues>
@@ -4923,7 +4923,7 @@
         </attvalues>
         <viz:size value="59.17023"></viz:size>
         <viz:position x="1184.2533" y="-578.24005"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="totalbike" label="totalbike">
         <attvalues>
@@ -4949,7 +4949,7 @@
         </attvalues>
         <viz:size value="58.46954"></viz:size>
         <viz:position x="545.5585" y="-1771.6296"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="spatrendonline" label="spatrendonline">
         <attvalues>
@@ -4975,7 +4975,7 @@
         </attvalues>
         <viz:size value="58.126373"></viz:size>
         <viz:position x="940.6608" y="1428.0642"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="jogtar" label="jogtar">
         <attvalues>
@@ -5001,7 +5001,7 @@
         </attvalues>
         <viz:size value="59.639767"></viz:size>
         <viz:position x="840.4289" y="-895.3939"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="audio-technica" label="audio-technica">
         <attvalues>
@@ -5027,7 +5027,7 @@
         </attvalues>
         <viz:size value="58.616703"></viz:size>
         <viz:position x="-899.68365" y="66.622406"></viz:position>
-        <viz:color r="35" g="150" b="111"></viz:color>
+        <viz:color r="228" g="0" b="110"></viz:color>
       </node>
       <node id="noinetcafe" label="noinetcafe">
         <attvalues>
@@ -5053,7 +5053,7 @@
         </attvalues>
         <viz:size value="58.126373"></viz:size>
         <viz:position x="-423.67023" y="1670.9143"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="opten" label="opten">
         <attvalues>
@@ -5079,7 +5079,7 @@
         </attvalues>
         <viz:size value="64.00986"></viz:size>
         <viz:position x="1514.1794" y="-1186.5018"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="ceginfo" label="ceginfo">
         <attvalues>
@@ -5105,7 +5105,7 @@
         </attvalues>
         <viz:size value="59.43924"></viz:size>
         <viz:position x="1327.149" y="-1043.1403"></viz:position>
-        <viz:color r="140" g="185" b="0"></viz:color>
+        <viz:color r="136" g="176" b="76"></viz:color>
       </node>
       <node id="magyarmezogazdasag" label="magyarmezogazdasag">
         <attvalues>
@@ -5131,7 +5131,7 @@
         </attvalues>
         <viz:size value="58.126373"></viz:size>
         <viz:position x="-456.73004" y="1885.6993"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="magyarnarancs" label="magyarnarancs">
         <attvalues>
@@ -5157,7 +5157,7 @@
         </attvalues>
         <viz:size value="58.504734"></viz:size>
         <viz:position x="-322.05347" y="479.55383"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="alfahir" label="alfahir">
         <attvalues>
@@ -5183,7 +5183,7 @@
         </attvalues>
         <viz:size value="58.0"></viz:size>
         <viz:position x="-142.9629" y="341.7621"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="disqus" label="disqus">
         <attvalues>
@@ -5209,7 +5209,7 @@
         </attvalues>
         <viz:size value="63.31943"></viz:size>
         <viz:position x="350.91956" y="156.01556"></viz:position>
-        <viz:color r="0" g="199" b="255"></viz:color>
+        <viz:color r="85" g="140" b="169"></viz:color>
       </node>
       <node id="paypal" label="paypal">
         <attvalues>
@@ -5235,7 +5235,7 @@
         </attvalues>
         <viz:size value="64.2679"></viz:size>
         <viz:position x="-668.70276" y="134.81471"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="femcafe" label="femcafe">
         <attvalues>
@@ -5261,7 +5261,7 @@
         </attvalues>
         <viz:size value="58.126373"></viz:size>
         <viz:position x="30.517344" y="1328.2705"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="agrarszektor" label="agrarszektor">
         <attvalues>
@@ -5287,7 +5287,7 @@
         </attvalues>
         <viz:size value="67.93861"></viz:size>
         <viz:position x="1104.811" y="-964.65674"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="azonnali" label="azonnali">
         <attvalues>
@@ -5313,7 +5313,7 @@
         </attvalues>
         <viz:size value="58.0"></viz:size>
         <viz:position x="-217.05457" y="-57.663464"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="politicalcritique" label="politicalcritique">
         <attvalues>
@@ -5339,7 +5339,7 @@
         </attvalues>
         <viz:size value="59.701397"></viz:size>
         <viz:position x="218.4968" y="-254.4674"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="wikimediafoundation" label="wikimediafoundation">
         <attvalues>
@@ -5365,7 +5365,7 @@
         </attvalues>
         <viz:size value="63.37201"></viz:size>
         <viz:position x="1532.9603" y="-39.701157"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="vasarhely24" label="vasarhely24">
         <attvalues>
@@ -5391,7 +5391,7 @@
         </attvalues>
         <viz:size value="58.126373"></viz:size>
         <viz:position x="-235.28894" y="1957.582"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="coe" label="coe">
         <attvalues>
@@ -5417,7 +5417,7 @@
         </attvalues>
         <viz:size value="58.0"></viz:size>
         <viz:position x="2150.586" y="244.78278"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="website-pace" label="website-pace">
         <attvalues>
@@ -5443,7 +5443,7 @@
         </attvalues>
         <viz:size value="62.31691"></viz:size>
         <viz:position x="2173.0054" y="-54.025482"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="twimg" label="twimg">
         <attvalues>
@@ -5469,7 +5469,7 @@
         </attvalues>
         <viz:size value="96.21919"></viz:size>
         <viz:position x="-1531.3712" y="73.45235"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="bookline" label="bookline">
         <attvalues>
@@ -5495,7 +5495,7 @@
         </attvalues>
         <viz:size value="58.83231"></viz:size>
         <viz:position x="-114.51669" y="-1674.1575"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="ksh" label="ksh">
         <attvalues>
@@ -5521,7 +5521,7 @@
         </attvalues>
         <viz:size value="58.679672"></viz:size>
         <viz:position x="-1404.3501" y="-1300.3701"></viz:position>
-        <viz:color r="140" g="185" b="0"></viz:color>
+        <viz:color r="136" g="176" b="76"></viz:color>
       </node>
       <node id="alapblog" label="alapblog">
         <attvalues>
@@ -5547,7 +5547,7 @@
         </attvalues>
         <viz:size value="67.995316"></viz:size>
         <viz:position x="1061.7439" y="-94.11585"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="hvg" label="hvg">
         <attvalues>
@@ -5573,7 +5573,7 @@
         </attvalues>
         <viz:size value="68.0331"></viz:size>
         <viz:position x="429.7661" y="386.64258"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="life" label="life">
         <attvalues>
@@ -5599,7 +5599,7 @@
         </attvalues>
         <viz:size value="58.975098"></viz:size>
         <viz:position x="-1023.9358" y="-555.96655"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="investor" label="investor">
         <attvalues>
@@ -5625,7 +5625,7 @@
         </attvalues>
         <viz:size value="59.31815"></viz:size>
         <viz:position x="-1475.5396" y="-853.54895"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="videa" label="videa">
         <attvalues>
@@ -5651,7 +5651,7 @@
         </attvalues>
         <viz:size value="59.31815"></viz:size>
         <viz:position x="-1497.4117" y="-142.22371"></viz:position>
-        <viz:color r="0" g="199" b="255"></viz:color>
+        <viz:color r="85" g="140" b="169"></viz:color>
       </node>
       <node id="freemail" label="freemail">
         <attvalues>
@@ -5677,7 +5677,7 @@
         </attvalues>
         <viz:size value="59.31815"></viz:size>
         <viz:position x="-1654.8318" y="-457.24878"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="sztaki" label="sztaki">
         <attvalues>
@@ -5703,7 +5703,7 @@
         </attvalues>
         <viz:size value="59.31815"></viz:size>
         <viz:position x="-1698.4781" y="-887.12036"></viz:position>
-        <viz:color r="140" g="185" b="0"></viz:color>
+        <viz:color r="136" g="176" b="76"></viz:color>
       </node>
       <node id="csokteszt" label="csokteszt">
         <attvalues>
@@ -5729,7 +5729,7 @@
         </attvalues>
         <viz:size value="58.343052"></viz:size>
         <viz:position x="-1576.8379" y="-1113.0286"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="csajokespasik" label="csajokespasik">
         <attvalues>
@@ -5755,7 +5755,7 @@
         </attvalues>
         <viz:size value="59.639767"></viz:size>
         <viz:position x="1010.58826" y="-743.29767"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="visualcapitalist" label="visualcapitalist">
         <attvalues>
@@ -5781,7 +5781,7 @@
         </attvalues>
         <viz:size value="58.0"></viz:size>
         <viz:position x="-1062.0211" y="-811.0632"></viz:position>
-        <viz:color r="140" g="185" b="0"></viz:color>
+        <viz:color r="136" g="176" b="76"></viz:color>
       </node>
       <node id="ridikul" label="ridikul">
         <attvalues>
@@ -5807,7 +5807,7 @@
         </attvalues>
         <viz:size value="58.126373"></viz:size>
         <viz:position x="742.8681" y="1312.9724"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="mozi24" label="mozi24">
         <attvalues>
@@ -5833,7 +5833,7 @@
         </attvalues>
         <viz:size value="58.0"></viz:size>
         <viz:position x="1372.746" y="975.36255"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="netmedia" label="netmedia">
         <attvalues>
@@ -5859,7 +5859,7 @@
         </attvalues>
         <viz:size value="64.62487"></viz:size>
         <viz:position x="499.62216" y="-1508.6969"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="cosmopolitan" label="cosmopolitan">
         <attvalues>
@@ -5885,7 +5885,7 @@
         </attvalues>
         <viz:size value="58.126373"></viz:size>
         <viz:position x="-657.2253" y="1593.449"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="adaptivemedia" label="adaptivemedia">
         <attvalues>
@@ -5911,7 +5911,7 @@
         </attvalues>
         <viz:size value="59.225296"></viz:size>
         <viz:position x="-32.025097" y="1095.7341"></viz:position>
-        <viz:color r="35" g="150" b="111"></viz:color>
+        <viz:color r="228" g="0" b="110"></viz:color>
       </node>
       <node id="azoreg" label="azoreg">
         <attvalues>
@@ -5937,7 +5937,7 @@
         </attvalues>
         <viz:size value="58.942833"></viz:size>
         <viz:position x="-1900.4648" y="269.93314"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="ingatlan" label="ingatlan">
         <attvalues>
@@ -5963,7 +5963,7 @@
         </attvalues>
         <viz:size value="58.975098"></viz:size>
         <viz:position x="-1804.3625" y="-1144.6675"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="ingatlantajolo" label="ingatlantajolo">
         <attvalues>
@@ -5989,7 +5989,7 @@
         </attvalues>
         <viz:size value="58.46954"></viz:size>
         <viz:position x="175.40855" y="-2134.1401"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="wikimedia" label="wikimedia">
         <attvalues>
@@ -6015,7 +6015,7 @@
         </attvalues>
         <viz:size value="58.0"></viz:size>
         <viz:position x="1746.2471" y="41.634426"></viz:position>
-        <viz:color r="140" g="185" b="0"></viz:color>
+        <viz:color r="136" g="176" b="76"></viz:color>
       </node>
       <node id="irodahaz" label="irodahaz">
         <attvalues>
@@ -6041,7 +6041,7 @@
         </attvalues>
         <viz:size value="58.46954"></viz:size>
         <viz:position x="-57.73968" y="-2133.3684"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="latoszogblog" label="latoszogblog">
         <attvalues>
@@ -6067,7 +6067,7 @@
         </attvalues>
         <viz:size value="58.719486"></viz:size>
         <viz:position x="-1672.6023" y="290.5387"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="pewglobal" label="pewglobal">
         <attvalues>
@@ -6093,7 +6093,7 @@
         </attvalues>
         <viz:size value="58.0"></viz:size>
         <viz:position x="-1146.1343" y="1847.5802"></viz:position>
-        <viz:color r="140" g="185" b="0"></viz:color>
+        <viz:color r="136" g="176" b="76"></viz:color>
       </node>
       <node id="061" label="061">
         <attvalues>
@@ -6119,7 +6119,7 @@
         </attvalues>
         <viz:size value="58.942833"></viz:size>
         <viz:position x="-2006.0322" y="55.341896"></viz:position>
-        <viz:color r="140" g="185" b="0"></viz:color>
+        <viz:color r="136" g="176" b="76"></viz:color>
       </node>
       <node id="telesport" label="telesport">
         <attvalues>
@@ -6145,7 +6145,7 @@
         </attvalues>
         <viz:size value="59.00718"></viz:size>
         <viz:position x="-696.994" y="1824.2251"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="dunamsz" label="dunamsz">
         <attvalues>
@@ -6171,7 +6171,7 @@
         </attvalues>
         <viz:size value="59.00718"></viz:size>
         <viz:position x="-916.3961" y="1711.1189"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="theparliamentmagazine" label="theparliamentmagazine">
         <attvalues>
@@ -6197,7 +6197,7 @@
         </attvalues>
         <viz:size value="58.0"></viz:size>
         <viz:position x="2102.7754" y="480.8223"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="profit7" label="profit7">
         <attvalues>
@@ -6223,7 +6223,7 @@
         </attvalues>
         <viz:size value="59.00718"></viz:size>
         <viz:position x="-910.5933" y="1946.5015"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="babaszoba" label="babaszoba">
         <attvalues>
@@ -6249,7 +6249,7 @@
         </attvalues>
         <viz:size value="59.76924"></viz:size>
         <viz:position x="1634.6394" y="523.6255"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="lifetvmedia" label="lifetvmedia">
         <attvalues>
@@ -6275,7 +6275,7 @@
         </attvalues>
         <viz:size value="58.343052"></viz:size>
         <viz:position x="-1893.022" y="-447.26154"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="visegradfund" label="visegradfund">
         <attvalues>
@@ -6301,7 +6301,7 @@
         </attvalues>
         <viz:size value="59.17023"></viz:size>
         <viz:position x="1159.2365" y="-320.8821"></viz:position>
-        <viz:color r="140" g="185" b="0"></viz:color>
+        <viz:color r="136" g="176" b="76"></viz:color>
       </node>
       <node id="derbywars" label="derbywars">
         <attvalues>
@@ -6327,7 +6327,7 @@
         </attvalues>
         <viz:size value="60.158455"></viz:size>
         <viz:position x="-112.562195" y="2178.0762"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="creativecommons" label="creativecommons">
         <attvalues>
@@ -6353,7 +6353,7 @@
         </attvalues>
         <viz:size value="59.67496"></viz:size>
         <viz:position x="253.09723" y="481.9188"></viz:position>
-        <viz:color r="140" g="185" b="0"></viz:color>
+        <viz:color r="136" g="176" b="76"></viz:color>
       </node>
       <node id="player" label="player">
         <attvalues>
@@ -6379,7 +6379,7 @@
         </attvalues>
         <viz:size value="58.126373"></viz:size>
         <viz:position x="-24.354105" y="1533.359"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="kozeletiskolaja" label="kozeletiskolaja">
         <attvalues>
@@ -6405,7 +6405,7 @@
         </attvalues>
         <viz:size value="58.531166"></viz:size>
         <viz:position x="1212.0159" y="232.15816"></viz:position>
-        <viz:color r="140" g="185" b="0"></viz:color>
+        <viz:color r="136" g="176" b="76"></viz:color>
       </node>
       <node id="ujegyenloseg" label="ujegyenloseg">
         <attvalues>
@@ -6431,7 +6431,7 @@
         </attvalues>
         <viz:size value="58.531166"></viz:size>
         <viz:position x="997.77466" y="128.77954"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="hu-lala" label="hu-lala">
         <attvalues>
@@ -6457,7 +6457,7 @@
         </attvalues>
         <viz:size value="58.531166"></viz:size>
         <viz:position x="1651.3284" y="-221.77585"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="klubradio" label="klubradio">
         <attvalues>
@@ -6483,7 +6483,7 @@
         </attvalues>
         <viz:size value="58.632046"></viz:size>
         <viz:position x="-507.33167" y="1420.9983"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="nepszava" label="nepszava">
         <attvalues>
@@ -6509,7 +6509,7 @@
         </attvalues>
         <viz:size value="58.0"></viz:size>
         <viz:position x="572.6621" y="62.610928"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="mgkiado" label="mgkiado">
         <attvalues>
@@ -6535,7 +6535,7 @@
         </attvalues>
         <viz:size value="58.616703"></viz:size>
         <viz:position x="1401.1692" y="392.02335"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="plex" label="plex">
         <attvalues>
@@ -6561,7 +6561,7 @@
         </attvalues>
         <viz:size value="58.616703"></viz:size>
         <viz:position x="1444.4259" y="159.94061"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="sielok" label="sielok">
         <attvalues>
@@ -6587,7 +6587,7 @@
         </attvalues>
         <viz:size value="58.43653"></viz:size>
         <viz:position x="1566.5016" y="1126.9373"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="magyaridok" label="magyaridok">
         <attvalues>
@@ -6613,7 +6613,7 @@
         </attvalues>
         <viz:size value="58.126373"></viz:size>
         <viz:position x="-272.8932" y="806.8245"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="karcfm" label="karcfm">
         <attvalues>
@@ -6639,7 +6639,7 @@
         </attvalues>
         <viz:size value="60.212166"></viz:size>
         <viz:position x="-273.01917" y="1497.374"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="netrix" label="netrix">
         <attvalues>
@@ -6665,7 +6665,7 @@
         </attvalues>
         <viz:size value="58.593246"></viz:size>
         <viz:position x="-219.8252" y="1280.7034"></viz:position>
-        <viz:color r="140" g="185" b="0"></viz:color>
+        <viz:color r="136" g="176" b="76"></viz:color>
       </node>
       <node id="bigfish" label="bigfish">
         <attvalues>
@@ -6691,7 +6691,7 @@
         </attvalues>
         <viz:size value="59.049538"></viz:size>
         <viz:position x="-30.44003" y="873.10626"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="courrierdeuropecentrale" label="courrierdeuropecentrale">
         <attvalues>
@@ -6717,7 +6717,7 @@
         </attvalues>
         <viz:size value="62.768417"></viz:size>
         <viz:position x="1994.4651" y="76.41381"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="amazonaws" label="amazonaws">
         <attvalues>
@@ -6743,7 +6743,7 @@
         </attvalues>
         <viz:size value="58.73739"></viz:size>
         <viz:position x="142.95546" y="703.1884"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="messenger" label="messenger">
         <attvalues>
@@ -6769,7 +6769,7 @@
         </attvalues>
         <viz:size value="115.488"></viz:size>
         <viz:position x="-107.623825" y="-1036.9592"></viz:position>
-        <viz:color r="0" g="199" b="255"></viz:color>
+        <viz:color r="85" g="140" b="169"></viz:color>
       </node>
       <node id="mtva" label="mtva">
         <attvalues>
@@ -6795,7 +6795,7 @@
         </attvalues>
         <viz:size value="59.00718"></viz:size>
         <viz:position x="-1135.7095" y="1604.8599"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="hvgkonyvek" label="hvgkonyvek">
         <attvalues>
@@ -6821,7 +6821,7 @@
         </attvalues>
         <viz:size value="59.284534"></viz:size>
         <viz:position x="210.3108" y="1139.6447"></viz:position>
-        <viz:color r="140" g="185" b="0"></viz:color>
+        <viz:color r="136" g="176" b="76"></viz:color>
       </node>
       <node id="benu" label="benu">
         <attvalues>
@@ -6847,7 +6847,7 @@
         </attvalues>
         <viz:size value="58.43653"></viz:size>
         <viz:position x="1196.8683" y="1372.1112"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="kuruc" label="kuruc">
         <attvalues>
@@ -6873,7 +6873,7 @@
         </attvalues>
         <viz:size value="58.0"></viz:size>
         <viz:position x="1369.1267" y="-457.24768"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="turania" label="turania">
         <attvalues>
@@ -6899,7 +6899,7 @@
         </attvalues>
         <viz:size value="58.43169"></viz:size>
         <viz:position x="1916.2513" y="-151.70953"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="bloggol" label="bloggol">
         <attvalues>
@@ -6925,7 +6925,7 @@
         </attvalues>
         <viz:size value="58.719486"></viz:size>
         <viz:position x="-1605.2986" y="551.9344"></viz:position>
-        <viz:color r="255" g="112" b="69"></viz:color>
+        <viz:color r="243" g="80" b="42"></viz:color>
       </node>
       <node id="addthis" label="addthis">
         <attvalues>
@@ -6951,7 +6951,7 @@
         </attvalues>
         <viz:size value="58.43169"></viz:size>
         <viz:position x="1919.0978" y="-984.5069"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="origomediagroup" label="origomediagroup">
         <attvalues>
@@ -6977,7 +6977,7 @@
         </attvalues>
         <viz:size value="58.975098"></viz:size>
         <viz:position x="-1351.4517" y="-1034.8467"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="tinywebgallery" label="tinywebgallery">
         <attvalues>
@@ -7003,7 +7003,7 @@
         </attvalues>
         <viz:size value="58.942833"></viz:size>
         <viz:position x="-1777.9712" y="738.34894"></viz:position>
-        <viz:color r="0" g="199" b="255"></viz:color>
+        <viz:color r="85" g="140" b="169"></viz:color>
       </node>
       <node id="nport" label="nport">
         <attvalues>
@@ -7029,7 +7029,7 @@
         </attvalues>
         <viz:size value="58.44357"></viz:size>
         <viz:position x="-305.4657" y="-2113.4944"></viz:position>
-        <viz:color r="140" g="185" b="0"></viz:color>
+        <viz:color r="136" g="176" b="76"></viz:color>
       </node>
       <node id="idokep" label="idokep">
         <attvalues>
@@ -7055,7 +7055,7 @@
         </attvalues>
         <viz:size value="58.43169"></viz:size>
         <viz:position x="1696.498" y="-1023.2032"></viz:position>
-        <viz:color r="140" g="185" b="0"></viz:color>
+        <viz:color r="136" g="176" b="76"></viz:color>
       </node>
       <node id="hírfolyam" label="hírfolyam">
         <attvalues>
@@ -7081,7 +7081,7 @@
         </attvalues>
         <viz:size value="58.43169"></viz:size>
         <viz:position x="1884.6748" y="-367.8145"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="lapszemle" label="lapszemle">
         <attvalues>
@@ -7107,7 +7107,7 @@
         </attvalues>
         <viz:size value="58.43169"></viz:size>
         <viz:position x="1745.2495" y="-785.22845"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="ipv6-test" label="ipv6-test">
         <attvalues>
@@ -7133,7 +7133,7 @@
         </attvalues>
         <viz:size value="58.43169"></viz:size>
         <viz:position x="1826.9045" y="-587.40576"></viz:position>
-        <viz:color r="140" g="185" b="0"></viz:color>
+        <viz:color r="136" g="176" b="76"></viz:color>
       </node>
       <node id="feminashop" label="feminashop">
         <attvalues>
@@ -7159,7 +7159,7 @@
         </attvalues>
         <viz:size value="58.85603"></viz:size>
         <viz:position x="811.731" y="-1356.7158"></viz:position>
-        <viz:color r="140" g="185" b="0"></viz:color>
+        <viz:color r="136" g="176" b="76"></viz:color>
       </node>
       <node id="jobline" label="jobline">
         <attvalues>
@@ -7185,7 +7185,7 @@
         </attvalues>
         <viz:size value="59.284534"></viz:size>
         <viz:position x="412.47583" y="1040.2839"></viz:position>
-        <viz:color r="35" g="150" b="111"></viz:color>
+        <viz:color r="228" g="0" b="110"></viz:color>
       </node>
       <node id="polopokol" label="polopokol">
         <attvalues>
@@ -7211,7 +7211,7 @@
         </attvalues>
         <viz:size value="58.504734"></viz:size>
         <viz:position x="-453.9364" y="1202.5167"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="hazafias" label="hazafias">
         <attvalues>
@@ -7237,7 +7237,7 @@
         </attvalues>
         <viz:size value="58.43169"></viz:size>
         <viz:position x="2076.934" y="-536.79755"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="mindenamifal" label="mindenamifal">
         <attvalues>
@@ -7263,7 +7263,7 @@
         </attvalues>
         <viz:size value="58.942833"></viz:size>
         <viz:position x="-1680.0422" y="963.18384"></viz:position>
-        <viz:color r="140" g="185" b="0"></viz:color>
+        <viz:color r="136" g="176" b="76"></viz:color>
       </node>
       <node id="soundcloud" label="soundcloud">
         <attvalues>
@@ -7289,7 +7289,7 @@
         </attvalues>
         <viz:size value="58.504734"></viz:size>
         <viz:position x="-1032.579" y="477.58704"></viz:position>
-        <viz:color r="0" g="199" b="255"></viz:color>
+        <viz:color r="85" g="140" b="169"></viz:color>
       </node>
       <node id="evoks" label="evoks">
         <attvalues>
@@ -7315,7 +7315,7 @@
         </attvalues>
         <viz:size value="58.504734"></viz:size>
         <viz:position x="-1515.533" y="788.6859"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="oktatas" label="oktatas">
         <attvalues>
@@ -7341,7 +7341,7 @@
         </attvalues>
         <viz:size value="58.504734"></viz:size>
         <viz:position x="-833.00287" y="1001.06464"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="pioneers" label="pioneers">
         <attvalues>
@@ -7367,7 +7367,7 @@
         </attvalues>
         <viz:size value="58.504734"></viz:size>
         <viz:position x="-948.21643" y="1204.1127"></viz:position>
-        <viz:color r="140" g="185" b="0"></viz:color>
+        <viz:color r="136" g="176" b="76"></viz:color>
       </node>
       <node id="fizettem" label="fizettem">
         <attvalues>
@@ -7393,7 +7393,7 @@
         </attvalues>
         <viz:size value="58.504734"></viz:size>
         <viz:position x="-1455.8572" y="343.29788"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="alhirvadasz" label="alhirvadasz">
         <attvalues>
@@ -7419,7 +7419,7 @@
         </attvalues>
         <viz:size value="58.504734"></viz:size>
         <viz:position x="-1364.5957" y="612.9211"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="bbelements" label="bbelements">
         <attvalues>
@@ -7445,7 +7445,7 @@
         </attvalues>
         <viz:size value="59.598633"></viz:size>
         <viz:position x="-663.17664" y="776.3536"></viz:position>
-        <viz:color r="140" g="185" b="0"></viz:color>
+        <viz:color r="136" g="176" b="76"></viz:color>
       </node>
       <node id="tv24" label="tv24">
         <attvalues>
@@ -7471,7 +7471,7 @@
         </attvalues>
         <viz:size value="58.45629"></viz:size>
         <viz:position x="973.793" y="1188.5745"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="nolblog" label="nolblog">
         <attvalues>
@@ -7497,7 +7497,7 @@
         </attvalues>
         <viz:size value="58.44357"></viz:size>
         <viz:position x="-1660.5387" y="-1347.0657"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="list-manage" label="list-manage">
         <attvalues>
@@ -7523,7 +7523,7 @@
         </attvalues>
         <viz:size value="58.504734"></viz:size>
         <viz:position x="-1105.2704" y="232.08578"></viz:position>
-        <viz:color r="140" g="185" b="0"></viz:color>
+        <viz:color r="136" g="176" b="76"></viz:color>
       </node>
       <node id="eoldal" label="eoldal">
         <attvalues>
@@ -7549,7 +7549,7 @@
         </attvalues>
         <viz:size value="58.45629"></viz:size>
         <viz:position x="1425.0227" y="635.1921"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="citromail" label="citromail">
         <attvalues>
@@ -7575,7 +7575,7 @@
         </attvalues>
         <viz:size value="58.45629"></viz:size>
         <viz:position x="1536.4072" y="823.89294"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="kozelben" label="kozelben">
         <attvalues>
@@ -7601,7 +7601,7 @@
         </attvalues>
         <viz:size value="58.45629"></viz:size>
         <viz:position x="503.6419" y="1252.1394"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="microsoft" label="microsoft">
         <attvalues>
@@ -7627,7 +7627,7 @@
         </attvalues>
         <viz:size value="58.45629"></viz:size>
         <viz:position x="1095.6608" y="964.1249"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="vimeo" label="vimeo">
         <attvalues>
@@ -7653,7 +7653,7 @@
         </attvalues>
         <viz:size value="58.504734"></viz:size>
         <viz:position x="-489.7125" y="923.9369"></viz:position>
-        <viz:color r="0" g="199" b="255"></viz:color>
+        <viz:color r="85" g="140" b="169"></viz:color>
       </node>
       <node id="dkt" label="dkt">
         <attvalues>
@@ -7679,7 +7679,7 @@
         </attvalues>
         <viz:size value="58.942833"></viz:size>
         <viz:position x="-2106.9978" y="-312.67917"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
       <node id="cloudfront" label="cloudfront">
         <attvalues>
@@ -7705,7 +7705,7 @@
         </attvalues>
         <viz:size value="58.504734"></viz:size>
         <viz:position x="-832.1844" y="585.8345"></viz:position>
-        <viz:color r="140" g="185" b="0"></viz:color>
+        <viz:color r="136" g="176" b="76"></viz:color>
       </node>
       <node id="europa" label="europa">
         <attvalues>
@@ -7731,7 +7731,7 @@
         </attvalues>
         <viz:size value="59.43897"></viz:size>
         <viz:position x="-265.85123" y="1043.4736"></viz:position>
-        <viz:color r="140" g="185" b="0"></viz:color>
+        <viz:color r="136" g="176" b="76"></viz:color>
       </node>
       <node id="hirmatrix" label="hirmatrix">
         <attvalues>
@@ -7757,7 +7757,7 @@
         </attvalues>
         <viz:size value="58.44357"></viz:size>
         <viz:position x="-1201.3102" y="-1806.2434"></viz:position>
-        <viz:color r="140" g="185" b="0"></viz:color>
+        <viz:color r="136" g="176" b="76"></viz:color>
       </node>
       <node id="cloudflare" label="cloudflare">
         <attvalues>
@@ -7783,7 +7783,7 @@
         </attvalues>
         <viz:size value="58.942833"></viz:size>
         <viz:position x="-1766.6786" y="35.787106"></viz:position>
-        <viz:color r="140" g="185" b="0"></viz:color>
+        <viz:color r="136" g="176" b="76"></viz:color>
       </node>
       <node id="kormany" label="kormany">
         <attvalues>
@@ -7809,7 +7809,7 @@
         </attvalues>
         <viz:size value="58.504734"></viz:size>
         <viz:position x="-1123.1569" y="-11.760932"></viz:position>
-        <viz:color r="217" g="125" b="216"></viz:color>
+        <viz:color r="242" g="207" b="86"></viz:color>
       </node>
     </nodes>
     <edges>
