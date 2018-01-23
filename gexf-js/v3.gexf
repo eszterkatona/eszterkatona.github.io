@@ -85,8 +85,8 @@
           <attvalue for="clustering" value="0.03787878900766373"></attvalue>
           <attvalue for="eigencentrality" value="0.051782463727746995"></attvalue>
         </attvalues>
-        <viz:size value="292.99612"></viz:size>
-        <viz:position x="-1673.1753" y="1141.463"></viz:position>
+        <viz:size value="68.730194"></viz:size>
+        <viz:position x="-524.202" y="319.68948"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="kozbeszerzes" label="kozbeszerzes">
@@ -111,8 +111,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.010928480298221938"></attvalue>
         </attvalues>
-        <viz:size value="246.66887"></viz:size>
-        <viz:position x="-3713.2397" y="3808.3435"></viz:position>
+        <viz:size value="50.651268"></viz:size>
+        <viz:position x="-1077.4767" y="982.5001"></viz:position>
         <viz:color r="140" g="185" b="0"></viz:color>
       </node>
       <node id="lap" label="lap">
@@ -137,8 +137,8 @@
           <attvalue for="clustering" value="0.10526315867900848"></attvalue>
           <attvalue for="eigencentrality" value="0.03346125140556283"></attvalue>
         </attvalues>
-        <viz:size value="248.36992"></viz:size>
-        <viz:position x="2931.735" y="1246.9141"></viz:position>
+        <viz:size value="51.31509"></viz:size>
+        <viz:position x="822.404" y="292.1747"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="google" label="google">
@@ -163,8 +163,8 @@
           <attvalue for="clustering" value="0.07384615391492844"></attvalue>
           <attvalue for="eigencentrality" value="0.515548563750143"></attvalue>
         </attvalues>
-        <viz:size value="376.0581"></viz:size>
-        <viz:position x="399.03033" y="-332.92044"></viz:position>
+        <viz:size value="101.14463"></viz:size>
+        <viz:position x="35.63844" y="-115.66926"></viz:position>
         <viz:color r="140" g="185" b="0"></viz:color>
       </node>
       <node id="index" label="index">
@@ -189,8 +189,8 @@
           <attvalue for="clustering" value="0.027966102585196495"></attvalue>
           <attvalue for="eigencentrality" value="0.1715995254279574"></attvalue>
         </attvalues>
-        <viz:size value="330.48685"></viz:size>
-        <viz:position x="1649.3452" y="-3529.6807"></viz:position>
+        <viz:size value="83.36072"></viz:size>
+        <viz:position x="455.30273" y="-1022.2439"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="fidelio" label="fidelio">
@@ -215,8 +215,8 @@
           <attvalue for="clustering" value="0.5"></attvalue>
           <attvalue for="eigencentrality" value="0.03930237036600731"></attvalue>
         </attvalues>
-        <viz:size value="253.68933"></viz:size>
-        <viz:position x="5859.616" y="-4954.62"></viz:position>
+        <viz:size value="53.390957"></viz:size>
+        <viz:position x="1591.4283" y="-1417.5981"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="nemzetisport" label="nemzetisport">
@@ -241,8 +241,8 @@
           <attvalue for="clustering" value="0.2509881556034088"></attvalue>
           <attvalue for="eigencentrality" value="0.7077579248195182"></attvalue>
         </attvalues>
-        <viz:size value="298.43808"></viz:size>
-        <viz:position x="-2300.0247" y="-4670.039"></viz:position>
+        <viz:size value="70.85388"></viz:size>
+        <viz:position x="-700.54877" y="-1390.9235"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="jegyed" label="jegyed">
@@ -267,8 +267,8 @@
           <attvalue for="clustering" value="0.5"></attvalue>
           <attvalue for="eigencentrality" value="0.1078897779206913"></attvalue>
         </attvalues>
-        <viz:size value="250.19763"></viz:size>
-        <viz:position x="-2162.068" y="-6774.0073"></viz:position>
+        <viz:size value="52.028343"></viz:size>
+        <viz:position x="-775.536" y="-2003.0122"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="baon" label="baon">
@@ -293,8 +293,8 @@
           <attvalue for="clustering" value="0.7678571343421936"></attvalue>
           <attvalue for="eigencentrality" value="0.11044182085348421"></attvalue>
         </attvalues>
-        <viz:size value="250.35478"></viz:size>
-        <viz:position x="-4602.219" y="-5503.43"></viz:position>
+        <viz:size value="52.089672"></viz:size>
+        <viz:position x="-1151.2837" y="-1498.6433"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="blogger" label="blogger">
@@ -319,8 +319,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.09618198973127731"></attvalue>
         </attvalues>
-        <viz:size value="307.83905"></viz:size>
-        <viz:position x="5512.0483" y="-874.7772"></viz:position>
+        <viz:size value="74.52255"></viz:size>
+        <viz:position x="1255.468" y="-16.123468"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="napi" label="napi">
@@ -345,8 +345,8 @@
           <attvalue for="clustering" value="0.2857142984867096"></attvalue>
           <attvalue for="eigencentrality" value="0.08868965013148401"></attvalue>
         </attvalues>
-        <viz:size value="250.83966"></viz:size>
-        <viz:position x="2225.5708" y="-1719.4928"></viz:position>
+        <viz:size value="52.278893"></viz:size>
+        <viz:position x="538.4246" y="-575.15295"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="totalcar" label="totalcar">
@@ -371,8 +371,8 @@
           <attvalue for="clustering" value="0.2545454502105713"></attvalue>
           <attvalue for="eigencentrality" value="0.07366339519494226"></attvalue>
         </attvalues>
-        <viz:size value="258.75494"></viz:size>
-        <viz:position x="520.6574" y="-2749.3438"></viz:position>
+        <viz:size value="55.367783"></viz:size>
+        <viz:position x="31.295094" y="-838.8498"></viz:position>
         <viz:color r="255" g="112" b="69"></viz:color>
       </node>
       <node id="globalvoicesonline" label="globalvoicesonline">
@@ -397,8 +397,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.010928480298221938"></attvalue>
         </attvalues>
-        <viz:size value="246.66887"></viz:size>
-        <viz:position x="-4815.635" y="3231.0664"></viz:position>
+        <viz:size value="50.651268"></viz:size>
+        <viz:position x="-1131.0679" y="691.84125"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="velvet" label="velvet">
@@ -423,8 +423,8 @@
           <attvalue for="clustering" value="0.1666666716337204"></attvalue>
           <attvalue for="eigencentrality" value="0.03750862171009465"></attvalue>
         </attvalues>
-        <viz:size value="246.5525"></viz:size>
-        <viz:position x="121.57947" y="-4072.4849"></viz:position>
+        <viz:size value="50.605858"></viz:size>
+        <viz:position x="-14.178326" y="-1241.6499"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="kettősmérce" label="kettősmérce">
@@ -449,8 +449,8 @@
           <attvalue for="clustering" value="0.05882352963089943"></attvalue>
           <attvalue for="eigencentrality" value="0.19362632584417433"></attvalue>
         </attvalues>
-        <viz:size value="337.45508"></viz:size>
-        <viz:position x="1378.6447" y="-1892.7388"></viz:position>
+        <viz:size value="86.080025"></viz:size>
+        <viz:position x="301.48688" y="-514.223"></viz:position>
         <viz:color r="140" g="185" b="0"></viz:color>
       </node>
       <node id="indafoto" label="indafoto">
@@ -475,8 +475,8 @@
           <attvalue for="clustering" value="0.2142857164144516"></attvalue>
           <attvalue for="eigencentrality" value="0.04626295226227212"></attvalue>
         </attvalues>
-        <viz:size value="247.752"></viz:size>
-        <viz:position x="-504.6402" y="-3638.5125"></viz:position>
+        <viz:size value="51.073948"></viz:size>
+        <viz:position x="-197.63824" y="-815.1958"></viz:position>
         <viz:color r="0" g="199" b="255"></viz:color>
       </node>
       <node id="indavideo" label="indavideo">
@@ -501,8 +501,8 @@
           <attvalue for="clustering" value="0.550000011920929"></attvalue>
           <attvalue for="eigencentrality" value="0.06242539231986655"></attvalue>
         </attvalues>
-        <viz:size value="250.99771"></viz:size>
-        <viz:position x="190.33641" y="-4790.296"></viz:position>
+        <viz:size value="52.340572"></viz:size>
+        <viz:position x="18.957142" y="-1450.9583"></viz:position>
         <viz:color r="0" g="199" b="255"></viz:color>
       </node>
       <node id="indamail" label="indamail">
@@ -527,8 +527,8 @@
           <attvalue for="clustering" value="1.0"></attvalue>
           <attvalue for="eigencentrality" value="0.04626295226227212"></attvalue>
         </attvalues>
-        <viz:size value="247.752"></viz:size>
-        <viz:position x="-851.45526" y="-5471.433"></viz:position>
+        <viz:size value="51.073948"></viz:size>
+        <viz:position x="-138.9175" y="-1902.1626"></viz:position>
         <viz:color r="140" g="185" b="0"></viz:color>
       </node>
       <node id="joautok" label="joautok">
@@ -553,8 +553,8 @@
           <attvalue for="clustering" value="1.0"></attvalue>
           <attvalue for="eigencentrality" value="0.04626295226227212"></attvalue>
         </attvalues>
-        <viz:size value="247.752"></viz:size>
-        <viz:position x="36.96205" y="-6842.117"></viz:position>
+        <viz:size value="51.073948"></viz:size>
+        <viz:position x="94.98998" y="-1907.149"></viz:position>
         <viz:color r="35" g="150" b="111"></viz:color>
       </node>
       <node id="divany" label="divany">
@@ -579,8 +579,8 @@
           <attvalue for="clustering" value="0.6666666865348816"></attvalue>
           <attvalue for="eigencentrality" value="0.04626295226227212"></attvalue>
         </attvalues>
-        <viz:size value="247.752"></viz:size>
-        <viz:position x="-114.544464" y="-3058.7603"></viz:position>
+        <viz:size value="51.073948"></viz:size>
+        <viz:position x="220.5126" y="-947.41376"></viz:position>
         <viz:color r="255" g="112" b="69"></viz:color>
       </node>
       <node id="femina" label="femina">
@@ -605,8 +605,8 @@
           <attvalue for="clustering" value="0.10989011079072952"></attvalue>
           <attvalue for="eigencentrality" value="0.04626295226227212"></attvalue>
         </attvalues>
-        <viz:size value="247.752"></viz:size>
-        <viz:position x="1238.122" y="-2808.3723"></viz:position>
+        <viz:size value="51.073948"></viz:size>
+        <viz:position x="350.5966" y="-761.6517"></viz:position>
         <viz:color r="255" g="112" b="69"></viz:color>
       </node>
       <node id="allas" label="allas">
@@ -631,8 +631,8 @@
           <attvalue for="clustering" value="1.0"></attvalue>
           <attvalue for="eigencentrality" value="0.04626295226227212"></attvalue>
         </attvalues>
-        <viz:size value="247.752"></viz:size>
-        <viz:position x="-371.49136" y="-6222.6465"></viz:position>
+        <viz:size value="51.073948"></viz:size>
+        <viz:position x="112.38069" y="-1680.0867"></viz:position>
         <viz:color r="35" g="150" b="111"></viz:color>
       </node>
       <node id="hirstart" label="hirstart">
@@ -657,8 +657,8 @@
           <attvalue for="clustering" value="0.01567944325506687"></attvalue>
           <attvalue for="eigencentrality" value="0.03346125140556283"></attvalue>
         </attvalues>
-        <viz:size value="248.85408"></viz:size>
-        <viz:position x="528.4796" y="3194.7546"></viz:position>
+        <viz:size value="51.504032"></viz:size>
+        <viz:position x="217.1994" y="886.63947"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="mmonline" label="mmonline">
@@ -683,8 +683,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.009636386245613651"></attvalue>
         </attvalues>
-        <viz:size value="245.41785"></viz:size>
-        <viz:position x="455.01318" y="6989.621"></viz:position>
+        <viz:size value="50.163063"></viz:size>
+        <viz:position x="261.27002" y="1887.5419"></viz:position>
         <viz:color r="255" g="112" b="69"></viz:color>
       </node>
       <node id="sztarklikk" label="sztarklikk">
@@ -709,8 +709,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.009636386245613651"></attvalue>
         </attvalues>
-        <viz:size value="245.41785"></viz:size>
-        <viz:position x="1531.8756" y="7405.556"></viz:position>
+        <viz:size value="50.163063"></viz:size>
+        <viz:position x="490.60638" y="1937.197"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="168ora" label="168ora">
@@ -735,8 +735,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.009636386245613651"></attvalue>
         </attvalues>
-        <viz:size value="245.41785"></viz:size>
-        <viz:position x="-100.97438" y="1810.5259"></viz:position>
+        <viz:size value="50.163063"></viz:size>
+        <viz:position x="-143.37512" y="626.0866"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="piacesprofit" label="piacesprofit">
@@ -761,8 +761,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.009636386245613651"></attvalue>
         </attvalues>
-        <viz:size value="245.41785"></viz:size>
-        <viz:position x="-1470.6837" y="6884.5728"></viz:position>
+        <viz:size value="50.163063"></viz:size>
+        <viz:position x="-3.1062553" y="1952.3173"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="marieclaire" label="marieclaire">
@@ -787,8 +787,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.009636386245613651"></attvalue>
         </attvalues>
-        <viz:size value="245.41785"></viz:size>
-        <viz:position x="3064.2488" y="6181.1113"></viz:position>
+        <viz:size value="50.163063"></viz:size>
+        <viz:position x="904.0566" y="1681.5105"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="tutiblog" label="tutiblog">
@@ -813,8 +813,8 @@
           <attvalue for="clustering" value="0.1666666716337204"></attvalue>
           <attvalue for="eigencentrality" value="0.005927903979388228"></attvalue>
         </attvalues>
-        <viz:size value="248.11743"></viz:size>
-        <viz:position x="-6434.7383" y="2493.3674"></viz:position>
+        <viz:size value="51.21656"></viz:size>
+        <viz:position x="-1836.7706" y="498.99744"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="mikroagresszor" label="mikroagresszor">
@@ -839,8 +839,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.003605840238130818"></attvalue>
         </attvalues>
-        <viz:size value="250.6412"></viz:size>
-        <viz:position x="-7101.9634" y="3058.9968"></viz:position>
+        <viz:size value="52.201447"></viz:size>
+        <viz:position x="-1963.7606" y="901.83795"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="welovebudapest" label="welovebudapest">
@@ -865,8 +865,8 @@
           <attvalue for="clustering" value="0.5"></attvalue>
           <attvalue for="eigencentrality" value="0.0017937486559126534"></attvalue>
         </attvalues>
-        <viz:size value="246.78421"></viz:size>
-        <viz:position x="-3537.1501" y="-331.8752"></viz:position>
+        <viz:size value="50.696274"></viz:size>
+        <viz:position x="-662.89795" y="-555.09106"></viz:position>
         <viz:color r="255" g="112" b="69"></viz:color>
       </node>
       <node id="facebook" label="facebook">
@@ -891,8 +891,8 @@
           <attvalue for="clustering" value="0.04941176623106003"></attvalue>
           <attvalue for="eigencentrality" value="1.0"></attvalue>
         </attvalues>
-        <viz:size value="450.0"></viz:size>
-        <viz:position x="-472.52963" y="-1377.8702"></viz:position>
+        <viz:size value="130.0"></viz:size>
+        <viz:position x="-169.10696" y="-366.7168"></viz:position>
         <viz:color r="0" g="199" b="255"></viz:color>
       </node>
       <node id="otthonterkep" label="otthonterkep">
@@ -917,8 +917,8 @@
           <attvalue for="clustering" value="0.3333333432674408"></attvalue>
           <attvalue for="eigencentrality" value="0.0894678948948816"></attvalue>
         </attvalues>
-        <viz:size value="271.54932"></viz:size>
-        <viz:position x="829.82043" y="-3622.0369"></viz:position>
+        <viz:size value="60.360703"></viz:size>
+        <viz:position x="251.10352" y="-1418.5667"></viz:position>
         <viz:color r="35" g="150" b="111"></viz:color>
       </node>
       <node id="startlapjatekok" label="startlapjatekok">
@@ -943,8 +943,8 @@
           <attvalue for="clustering" value="0.5"></attvalue>
           <attvalue for="eigencentrality" value="0.03346125140556283"></attvalue>
         </attvalues>
-        <viz:size value="248.85408"></viz:size>
-        <viz:position x="3046.1292" y="2731.2747"></viz:position>
+        <viz:size value="51.504032"></viz:size>
+        <viz:position x="824.1855" y="525.78174"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="libri" label="libri">
@@ -969,8 +969,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.04154464217577566"></attvalue>
         </attvalues>
-        <viz:size value="248.86931"></viz:size>
-        <viz:position x="5536.72" y="-4023.4568"></viz:position>
+        <viz:size value="51.509975"></viz:size>
+        <viz:position x="1495.8978" y="-882.5966"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="wikipedia" label="wikipedia">
@@ -995,8 +995,8 @@
           <attvalue for="clustering" value="0.0357142873108387"></attvalue>
           <attvalue for="eigencentrality" value="0.07211752569598782"></attvalue>
         </attvalues>
-        <viz:size value="270.00024"></viz:size>
-        <viz:position x="2582.614" y="146.78712"></viz:position>
+        <viz:size value="59.756187"></viz:size>
+        <viz:position x="787.2034" y="-22.25906"></viz:position>
         <viz:color r="140" g="185" b="0"></viz:color>
       </node>
       <node id="ado" label="ado">
@@ -1021,8 +1021,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.009636386245613651"></attvalue>
         </attvalues>
-        <viz:size value="245.41785"></viz:size>
-        <viz:position x="-147.55188" y="7611.5547"></viz:position>
+        <viz:size value="50.163063"></viz:size>
+        <viz:position x="152.61778" y="2116.6445"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="ng" label="ng">
@@ -1047,8 +1047,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.009636386245613651"></attvalue>
         </attvalues>
-        <viz:size value="245.41785"></viz:size>
-        <viz:position x="2066.3735" y="6605.476"></viz:position>
+        <viz:size value="50.163063"></viz:size>
+        <viz:position x="688.84705" y="1788.2744"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="jatekstart" label="jatekstart">
@@ -1073,8 +1073,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.009636386245613651"></attvalue>
         </attvalues>
-        <viz:size value="245.90201"></viz:size>
-        <viz:position x="6525.5654" y="2131.2717"></viz:position>
+        <viz:size value="50.352005"></viz:size>
+        <viz:position x="1864.371" y="503.38776"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="brasilpost" label="brasilpost">
@@ -1099,8 +1099,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.0"></attvalue>
         </attvalues>
-        <viz:size value="245.0"></viz:size>
-        <viz:position x="7380.877" y="-2409.173"></viz:position>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="2017.654" y="-767.9571"></viz:position>
         <viz:color r="140" g="185" b="0"></viz:color>
       </node>
       <node id="huffingtonpost" label="huffingtonpost">
@@ -1125,8 +1125,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.0017937486559126534"></attvalue>
         </attvalues>
-        <viz:size value="252.13683"></viz:size>
-        <viz:position x="7720.6353" y="-776.04126"></viz:position>
+        <viz:size value="52.785103"></viz:size>
+        <viz:position x="2135.984" y="-305.01968"></viz:position>
         <viz:color r="140" g="185" b="0"></viz:color>
       </node>
       <node id="uzletresz" label="uzletresz">
@@ -1151,8 +1151,8 @@
           <attvalue for="clustering" value="0.5"></attvalue>
           <attvalue for="eigencentrality" value="0.012929075837229109"></attvalue>
         </attvalues>
-        <viz:size value="248.2241"></viz:size>
-        <viz:position x="-6469.493" y="-1978.2777"></viz:position>
+        <viz:size value="51.25819"></viz:size>
+        <viz:position x="-1740.958" y="-662.3127"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="nwmgroup" label="nwmgroup">
@@ -1177,8 +1177,8 @@
           <attvalue for="clustering" value="0.5"></attvalue>
           <attvalue for="eigencentrality" value="0.02775898710153952"></attvalue>
         </attvalues>
-        <viz:size value="263.53693"></viz:size>
-        <viz:position x="-6127.391" y="-1083.2611"></viz:position>
+        <viz:size value="57.233925"></viz:size>
+        <viz:position x="-1698.676" y="-237.23886"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="mandiner" label="mandiner">
@@ -1203,8 +1203,8 @@
           <attvalue for="clustering" value="0.1666666716337204"></attvalue>
           <attvalue for="eigencentrality" value="0.0"></attvalue>
         </attvalues>
-        <viz:size value="245.0"></viz:size>
-        <viz:position x="-3023.4045" y="-2390.8003"></viz:position>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="-1252.3555" y="-743.6469"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="mno" label="mno">
@@ -1229,8 +1229,8 @@
           <attvalue for="clustering" value="0.1190476194024086"></attvalue>
           <attvalue for="eigencentrality" value="0.01519438335892618"></attvalue>
         </attvalues>
-        <viz:size value="262.34412"></viz:size>
-        <viz:position x="-521.94434" y="-195.94069"></viz:position>
+        <viz:size value="56.76844"></viz:size>
+        <viz:position x="-660.10364" y="-107.89425"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="gphirek" label="gphirek">
@@ -1255,8 +1255,8 @@
           <attvalue for="clustering" value="0.3333333432674408"></attvalue>
           <attvalue for="eigencentrality" value="0.012929075837229109"></attvalue>
         </attvalues>
-        <viz:size value="248.2241"></viz:size>
-        <viz:position x="-4247.369" y="-355.99347"></viz:position>
+        <viz:size value="51.25819"></viz:size>
+        <viz:position x="-1262.3962" y="-176.2103"></viz:position>
         <viz:color r="255" g="112" b="69"></viz:color>
       </node>
       <node id="pestisracok" label="pestisracok">
@@ -1281,8 +1281,8 @@
           <attvalue for="clustering" value="0.02857142873108387"></attvalue>
           <attvalue for="eigencentrality" value="0.012100907707854843"></attvalue>
         </attvalues>
-        <viz:size value="283.21942"></viz:size>
-        <viz:position x="-4524.8916" y="672.36597"></viz:position>
+        <viz:size value="64.9149"></viz:size>
+        <viz:position x="-1328.0237" y="118.41729"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="reblog" label="reblog">
@@ -1307,8 +1307,8 @@
           <attvalue for="clustering" value="0.1388888955116272"></attvalue>
           <attvalue for="eigencentrality" value="0.017872379591999242"></attvalue>
         </attvalues>
-        <viz:size value="249.3584"></viz:size>
-        <viz:position x="-2131.3057" y="-2630.6255"></viz:position>
+        <viz:size value="51.700836"></viz:size>
+        <viz:position x="-524.0612" y="-735.46027"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="mnb" label="mnb">
@@ -1333,8 +1333,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.006420519664551215"></attvalue>
         </attvalues>
-        <viz:size value="247.2473"></viz:size>
-        <viz:position x="-864.60944" y="-7079.3286"></viz:position>
+        <viz:size value="50.876995"></viz:size>
+        <viz:position x="-618.2861" y="-1851.5225"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="gemius" label="gemius">
@@ -1359,8 +1359,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.03750862171009465"></attvalue>
         </attvalues>
-        <viz:size value="246.5525"></viz:size>
-        <viz:position x="5763.0464" y="-1681.453"></viz:position>
+        <viz:size value="50.605858"></viz:size>
+        <viz:position x="1507.3204" y="-653.1119"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="eduline" label="eduline">
@@ -1385,8 +1385,8 @@
           <attvalue for="clustering" value="1.0"></attvalue>
           <attvalue for="eigencentrality" value="0.0"></attvalue>
         </attvalues>
-        <viz:size value="245.0"></viz:size>
-        <viz:position x="4447.8745" y="3143.2556"></viz:position>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="1197.421" y="535.7911"></viz:position>
         <viz:color r="255" g="112" b="69"></viz:color>
       </node>
       <node id="adozona" label="adozona">
@@ -1411,8 +1411,8 @@
           <attvalue for="clustering" value="0.5"></attvalue>
           <attvalue for="eigencentrality" value="0.010613679819628376"></attvalue>
         </attvalues>
-        <viz:size value="256.38406"></viz:size>
-        <viz:position x="2938.779" y="3595.6387"></viz:position>
+        <viz:size value="54.442566"></viz:size>
+        <viz:position x="994.033" y="702.57605"></viz:position>
         <viz:color r="140" g="185" b="0"></viz:color>
       </node>
       <node id="youtube" label="youtube">
@@ -1437,8 +1437,8 @@
           <attvalue for="clustering" value="0.09047619253396988"></attvalue>
           <attvalue for="eigencentrality" value="0.24742584991607772"></attvalue>
         </attvalues>
-        <viz:size value="341.1331"></viz:size>
-        <viz:position x="-248.20258" y="616.03937"></viz:position>
+        <viz:size value="87.51535"></viz:size>
+        <viz:position x="-90.129715" y="140.44992"></viz:position>
         <viz:color r="0" g="199" b="255"></viz:color>
       </node>
       <node id="teol" label="teol">
@@ -1463,8 +1463,8 @@
           <attvalue for="clustering" value="0.6111111044883728"></attvalue>
           <attvalue for="eigencentrality" value="0.11044182085348421"></attvalue>
         </attvalues>
-        <viz:size value="250.35478"></viz:size>
-        <viz:position x="-3690.102" y="-3290.795"></viz:position>
+        <viz:size value="52.089672"></viz:size>
+        <viz:position x="-875.7626" y="-961.4615"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="mediaworks" label="mediaworks">
@@ -1489,8 +1489,8 @@
           <attvalue for="clustering" value="0.48181816935539246"></attvalue>
           <attvalue for="eigencentrality" value="0.6341933570926627"></attvalue>
         </attvalues>
-        <viz:size value="339.5069"></viz:size>
-        <viz:position x="-2898.1365" y="-6375.171"></viz:position>
+        <viz:size value="86.880745"></viz:size>
+        <viz:position x="-361.14243" y="-1624.8185"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="kemma" label="kemma">
@@ -1515,8 +1515,8 @@
           <attvalue for="clustering" value="0.6111111044883728"></attvalue>
           <attvalue for="eigencentrality" value="0.11044182085348421"></attvalue>
         </attvalues>
-        <viz:size value="250.35478"></viz:size>
-        <viz:position x="-1390.0563" y="-4255.437"></viz:position>
+        <viz:size value="52.089672"></viz:size>
+        <viz:position x="-263.10898" y="-1424.3876"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="joy" label="joy">
@@ -1541,8 +1541,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.009636386245613651"></attvalue>
         </attvalues>
-        <viz:size value="245.41785"></viz:size>
-        <viz:position x="2848.9985" y="5183.4434"></viz:position>
+        <viz:size value="50.163063"></viz:size>
+        <viz:position x="703.29645" y="1549.3872"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="ittlakunk" label="ittlakunk">
@@ -1567,8 +1567,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.009636386245613651"></attvalue>
         </attvalues>
-        <viz:size value="245.41785"></viz:size>
-        <viz:position x="1220.3942" y="6637.023"></viz:position>
+        <viz:size value="50.163063"></viz:size>
+        <viz:position x="453.09903" y="1707.679"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="webbeteg" label="webbeteg">
@@ -1593,8 +1593,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.009636386245613651"></attvalue>
         </attvalues>
-        <viz:size value="245.41785"></viz:size>
-        <viz:position x="-646.03" y="6939.0483"></viz:position>
+        <viz:size value="50.163063"></viz:size>
+        <viz:position x="72.50211" y="1742.46"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="wordpress" label="wordpress">
@@ -1619,8 +1619,8 @@
           <attvalue for="clustering" value="0.5"></attvalue>
           <attvalue for="eigencentrality" value="0.047472546155163865"></attvalue>
         </attvalues>
-        <viz:size value="251.98674"></viz:size>
-        <viz:position x="-3710.7961" y="-2422.6836"></viz:position>
+        <viz:size value="52.726532"></viz:size>
+        <viz:position x="-844.5678" y="-394.59375"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="tvmusor" label="tvmusor">
@@ -1645,8 +1645,8 @@
           <attvalue for="clustering" value="0.7678571343421936"></attvalue>
           <attvalue for="eigencentrality" value="0.1078897779206913"></attvalue>
         </attvalues>
-        <viz:size value="250.19763"></viz:size>
-        <viz:position x="-1968.2125" y="-5707.5303"></viz:position>
+        <viz:size value="52.028343"></viz:size>
+        <viz:position x="-290.9163" y="-1219.0685"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="mainap" label="mainap">
@@ -1671,8 +1671,8 @@
           <attvalue for="clustering" value="0.4333333373069763"></attvalue>
           <attvalue for="eigencentrality" value="0.7226549395533154"></attvalue>
         </attvalues>
-        <viz:size value="295.72006"></viz:size>
-        <viz:position x="-3867.9702" y="-4046.2427"></viz:position>
+        <viz:size value="69.7932"></viz:size>
+        <viz:position x="-915.10504" y="-1436.894"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="tumblr" label="tumblr">
@@ -1697,8 +1697,8 @@
           <attvalue for="clustering" value="0.1666666716337204"></attvalue>
           <attvalue for="eigencentrality" value="0.15598403506124303"></attvalue>
         </attvalues>
-        <viz:size value="273.20068"></viz:size>
-        <viz:position x="556.2014" y="-1298.1528"></viz:position>
+        <viz:size value="61.005142"></viz:size>
+        <viz:position x="116.856445" y="-378.16504"></viz:position>
         <viz:color r="0" g="199" b="255"></viz:color>
       </node>
       <node id="retikul" label="retikul">
@@ -1723,8 +1723,8 @@
           <attvalue for="clustering" value="0.4166666567325592"></attvalue>
           <attvalue for="eigencentrality" value="0.05785575045040102"></attvalue>
         </attvalues>
-        <viz:size value="248.24828"></viz:size>
-        <viz:position x="2643.958" y="-811.1663"></viz:position>
+        <viz:size value="51.26762"></viz:size>
+        <viz:position x="634.27594" y="-185.56076"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="enabledkids" label="enabledkids">
@@ -1749,8 +1749,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.0"></attvalue>
         </attvalues>
-        <viz:size value="245.0"></viz:size>
-        <viz:position x="-140.8297" y="-5390.723"></viz:position>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="-830.67786" y="-706.1883"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="twitter" label="twitter">
@@ -1775,8 +1775,8 @@
           <attvalue for="clustering" value="0.03978494554758072"></attvalue>
           <attvalue for="eigencentrality" value="0.37803150368871846"></attvalue>
         </attvalues>
-        <viz:size value="376.87402"></viz:size>
-        <viz:position x="-1376.4783" y="-449.87762"></viz:position>
+        <viz:size value="101.46303"></viz:size>
+        <viz:position x="-453.24744" y="-187.16838"></viz:position>
         <viz:color r="0" g="199" b="255"></viz:color>
       </node>
       <node id="24" label="24">
@@ -1801,8 +1801,8 @@
           <attvalue for="clustering" value="0.07359307259321213"></attvalue>
           <attvalue for="eigencentrality" value="0.04357695289157017"></attvalue>
         </attvalues>
-        <viz:size value="263.70575"></viz:size>
-        <viz:position x="2001.0334" y="2379.7986"></viz:position>
+        <viz:size value="57.299805"></viz:size>
+        <viz:position x="589.80884" y="569.87604"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="doubleclick" label="doubleclick">
@@ -1827,8 +1827,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.012242913713740936"></attvalue>
         </attvalues>
-        <viz:size value="246.5087"></viz:size>
-        <viz:position x="4507.3936" y="5146.664"></viz:position>
+        <viz:size value="50.58876"></viz:size>
+        <viz:position x="1228.3712" y="1151.0137"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="lanchidradio" label="lanchidradio">
@@ -1853,8 +1853,8 @@
           <attvalue for="clustering" value="0.6666666865348816"></attvalue>
           <attvalue for="eigencentrality" value="0.014120331650125979"></attvalue>
         </attvalues>
-        <viz:size value="254.86832"></viz:size>
-        <viz:position x="-221.68256" y="-2336.3538"></viz:position>
+        <viz:size value="53.85105"></viz:size>
+        <viz:position x="-897.47565" y="-160.29257"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="vs" label="vs">
@@ -1879,8 +1879,8 @@
           <attvalue for="clustering" value="0.1071428582072258"></attvalue>
           <attvalue for="eigencentrality" value="0.0"></attvalue>
         </attvalues>
-        <viz:size value="245.0"></viz:size>
-        <viz:position x="-1929.5072" y="-1978.1385"></viz:position>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="-455.14267" y="25.326439"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="abcug" label="abcug">
@@ -1905,8 +1905,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.0017937486559126534"></attvalue>
         </attvalues>
-        <viz:size value="246.78421"></viz:size>
-        <viz:position x="2778.4758" y="-2856.789"></viz:position>
+        <viz:size value="50.696274"></viz:size>
+        <viz:position x="208.86678" y="32.70755"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="instagram" label="instagram">
@@ -1931,8 +1931,8 @@
           <attvalue for="clustering" value="0.08974359184503555"></attvalue>
           <attvalue for="eigencentrality" value="0.26017645532139405"></attvalue>
         </attvalues>
-        <viz:size value="274.10028"></viz:size>
-        <viz:position x="-1450.1896" y="-1421.0834"></viz:position>
+        <viz:size value="61.356205"></viz:size>
+        <viz:position x="-427.58572" y="-447.78278"></viz:position>
         <viz:color r="0" g="199" b="255"></viz:color>
       </node>
       <node id="gov" label="gov">
@@ -1957,8 +1957,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.01444137667835527"></attvalue>
         </attvalues>
-        <viz:size value="254.33034"></viz:size>
-        <viz:position x="-4486.2104" y="4009.298"></viz:position>
+        <viz:size value="53.64111"></viz:size>
+        <viz:position x="-1232.316" y="1150.3333"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="port" label="port">
@@ -1983,8 +1983,8 @@
           <attvalue for="clustering" value="0.6666666865348816"></attvalue>
           <attvalue for="eigencentrality" value="0.05615473409058729"></attvalue>
         </attvalues>
-        <viz:size value="249.75877"></viz:size>
-        <viz:position x="2559.7156" y="-4299.562"></viz:position>
+        <viz:size value="51.857082"></viz:size>
+        <viz:position x="680.81586" y="-1074.6184"></viz:position>
         <viz:color r="140" g="185" b="0"></viz:color>
       </node>
       <node id="horseracingnation" label="horseracingnation">
@@ -2009,8 +2009,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.0"></attvalue>
         </attvalues>
-        <viz:size value="245.0"></viz:size>
-        <viz:position x="770.0078" y="7776.666"></viz:position>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="392.5376" y="2144.131"></viz:position>
         <viz:color r="140" g="185" b="0"></viz:color>
       </node>
       <node id="yahoo" label="yahoo">
@@ -2035,8 +2035,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.0017937486559126534"></attvalue>
         </attvalues>
-        <viz:size value="252.13683"></viz:size>
-        <viz:position x="3115.4514" y="7038.3916"></viz:position>
+        <viz:size value="52.785103"></viz:size>
+        <viz:position x="904.3362" y="1950.48"></viz:position>
         <viz:color r="0" g="199" b="255"></viz:color>
       </node>
       <node id="sonline" label="sonline">
@@ -2061,8 +2061,8 @@
           <attvalue for="clustering" value="0.4318181872367859"></attvalue>
           <attvalue for="eigencentrality" value="0.11044182085348421"></attvalue>
         </attvalues>
-        <viz:size value="250.35478"></viz:size>
-        <viz:position x="-4151.5747" y="-4827.1797"></viz:position>
+        <viz:size value="52.089672"></viz:size>
+        <viz:position x="-565.1852" y="-1595.2911"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="duol" label="duol">
@@ -2087,8 +2087,8 @@
           <attvalue for="clustering" value="0.5"></attvalue>
           <attvalue for="eigencentrality" value="0.12180683346064256"></attvalue>
         </attvalues>
-        <viz:size value="250.44238"></viz:size>
-        <viz:position x="-2246.6252" y="-7514.309"></viz:position>
+        <viz:size value="52.123856"></viz:size>
+        <viz:position x="-532.0452" y="-2090.2473"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="veol" label="veol">
@@ -2113,8 +2113,8 @@
           <attvalue for="clustering" value="0.5"></attvalue>
           <attvalue for="eigencentrality" value="0.12180683346064256"></attvalue>
         </attvalues>
-        <viz:size value="250.44238"></viz:size>
-        <viz:position x="-5188.905" y="-5863.2173"></viz:position>
+        <viz:size value="52.123856"></viz:size>
+        <viz:position x="-1339.907" y="-1635.9319"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="heol" label="heol">
@@ -2139,8 +2139,8 @@
           <attvalue for="clustering" value="0.7678571343421936"></attvalue>
           <attvalue for="eigencentrality" value="0.11044182085348421"></attvalue>
         </attvalues>
-        <viz:size value="250.35478"></viz:size>
-        <viz:position x="-4895.7417" y="-4724.8984"></viz:position>
+        <viz:size value="52.089672"></viz:size>
+        <viz:position x="-1178.5143" y="-1286.0901"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="atw" label="atw">
@@ -2165,8 +2165,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.009636386245613651"></attvalue>
         </attvalues>
-        <viz:size value="245.90201"></viz:size>
-        <viz:position x="6243.816" y="2945.8792"></viz:position>
+        <viz:size value="50.352005"></viz:size>
+        <viz:position x="1769.5941" y="722.4791"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="hungarianforum" label="hungarianforum">
@@ -2191,8 +2191,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.009636386245613651"></attvalue>
         </attvalues>
-        <viz:size value="245.90201"></viz:size>
-        <viz:position x="5795.5044" y="1486.8971"></viz:position>
+        <viz:size value="50.352005"></viz:size>
+        <viz:position x="1644.8446" y="282.15356"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="magyarbrands" label="magyarbrands">
@@ -2217,8 +2217,8 @@
           <attvalue for="clustering" value="1.0"></attvalue>
           <attvalue for="eigencentrality" value="0.04821936420478735"></attvalue>
         </attvalues>
-        <viz:size value="247.83043"></viz:size>
-        <viz:position x="4284.196" y="-4835.3755"></viz:position>
+        <viz:size value="51.104557"></viz:size>
+        <viz:position x="1174.42" y="-1208.1805"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="superbrands" label="superbrands">
@@ -2243,8 +2243,8 @@
           <attvalue for="clustering" value="1.0"></attvalue>
           <attvalue for="eigencentrality" value="0.04821936420478735"></attvalue>
         </attvalues>
-        <viz:size value="247.83043"></viz:size>
-        <viz:position x="3484.8223" y="-5253.4175"></viz:position>
+        <viz:size value="51.104557"></viz:size>
+        <viz:position x="723.6666" y="-1568.017"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="portfoliofinancial" label="portfoliofinancial">
@@ -2269,8 +2269,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.03750862171009465"></attvalue>
         </attvalues>
-        <viz:size value="246.5525"></viz:size>
-        <viz:position x="4220.9927" y="-5682.26"></viz:position>
+        <viz:size value="50.605858"></viz:size>
+        <viz:position x="1196.0696" y="-1529.7263"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="viber" label="viber">
@@ -2295,8 +2295,8 @@
           <attvalue for="clustering" value="1.0"></attvalue>
           <attvalue for="eigencentrality" value="0.04821936420478735"></attvalue>
         </attvalues>
-        <viz:size value="247.83043"></viz:size>
-        <viz:position x="952.02356" y="-4544.0405"></viz:position>
+        <viz:size value="51.104557"></viz:size>
+        <viz:position x="600.50824" y="-829.3755"></viz:position>
         <viz:color r="0" g="199" b="255"></viz:color>
       </node>
       <node id="pinterest" label="pinterest">
@@ -2321,8 +2321,8 @@
           <attvalue for="clustering" value="0.07777778059244156"></attvalue>
           <attvalue for="eigencentrality" value="0.24957879698854557"></attvalue>
         </attvalues>
-        <viz:size value="274.56097"></viz:size>
-        <viz:position x="-1079.3939" y="-2174.98"></viz:position>
+        <viz:size value="61.535988"></viz:size>
+        <viz:position x="-334.69577" y="-615.86346"></viz:position>
         <viz:color r="0" g="199" b="255"></viz:color>
       </node>
       <node id="automotor" label="automotor">
@@ -2347,8 +2347,8 @@
           <attvalue for="clustering" value="0.379084974527359"></attvalue>
           <attvalue for="eigencentrality" value="0.7226549395533154"></attvalue>
         </attvalues>
-        <viz:size value="297.88147"></viz:size>
-        <viz:position x="-2794.764" y="-5354.569"></viz:position>
+        <viz:size value="70.63667"></viz:size>
+        <viz:position x="-504.79416" y="-1354.0808"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="lapcentrum" label="lapcentrum">
@@ -2373,8 +2373,8 @@
           <attvalue for="clustering" value="0.6000000238418579"></attvalue>
           <attvalue for="eigencentrality" value="0.4124538497331047"></attvalue>
         </attvalues>
-        <viz:size value="357.733"></viz:size>
-        <viz:position x="-1378.1371" y="-6325.3955"></viz:position>
+        <viz:size value="93.99337"></viz:size>
+        <viz:position x="-385.77496" y="-1862.0201"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="uni-neumann" label="uni-neumann">
@@ -2399,8 +2399,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.0017937486559126534"></attvalue>
         </attvalues>
-        <viz:size value="249.75789"></viz:size>
-        <viz:position x="-6891.536" y="-3523.9695"></viz:position>
+        <viz:size value="51.856735"></viz:size>
+        <viz:position x="-1937.9705" y="-960.468"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="beol" label="beol">
@@ -2425,8 +2425,8 @@
           <attvalue for="clustering" value="0.6111111044883728"></attvalue>
           <attvalue for="eigencentrality" value="0.21439416527163688"></attvalue>
         </attvalues>
-        <viz:size value="254.08578"></viz:size>
-        <viz:position x="-1581.6335" y="-4971.7656"></viz:position>
+        <viz:size value="53.54567"></viz:size>
+        <viz:position x="-392.0298" y="-978.72205"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="alaveteli" label="alaveteli">
@@ -2451,8 +2451,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.010928480298221938"></attvalue>
         </attvalues>
-        <viz:size value="246.66887"></viz:size>
-        <viz:position x="-5487.9756" y="2778.529"></viz:position>
+        <viz:size value="50.651268"></viz:size>
+        <viz:position x="-1279.1293" y="866.342"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="opensocietyfoundations" label="opensocietyfoundations">
@@ -2477,8 +2477,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.010928480298221938"></attvalue>
         </attvalues>
-        <viz:size value="246.66887"></viz:size>
-        <viz:position x="-5405.8403" y="3861.797"></viz:position>
+        <viz:size value="50.651268"></viz:size>
+        <viz:position x="-1438.2584" y="1033.9795"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="centralmediacsoport" label="centralmediacsoport">
@@ -2503,8 +2503,8 @@
           <attvalue for="clustering" value="0.6666666865348816"></attvalue>
           <attvalue for="eigencentrality" value="0.03151568620496822"></attvalue>
         </attvalues>
-        <viz:size value="253.26062"></viz:size>
-        <viz:position x="3777.3464" y="3528.2817"></viz:position>
+        <viz:size value="53.223656"></viz:size>
+        <viz:position x="1222.8619" y="771.14575"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="reuters" label="reuters">
@@ -2529,8 +2529,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.0"></attvalue>
         </attvalues>
-        <viz:size value="245.0"></viz:size>
-        <viz:position x="2379.9558" y="-7445.882"></viz:position>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="864.71277" y="-2010.6027"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="thomsonreuters" label="thomsonreuters">
@@ -2555,8 +2555,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.0017937486559126534"></attvalue>
         </attvalues>
-        <viz:size value="259.27365"></viz:size>
-        <viz:position x="4741.3145" y="-6256.116"></viz:position>
+        <viz:size value="55.570206"></viz:size>
+        <viz:position x="1445.9385" y="-1624.0771"></viz:position>
         <viz:color r="140" g="185" b="0"></viz:color>
       </node>
       <node id="penzcentrum" label="penzcentrum">
@@ -2581,8 +2581,8 @@
           <attvalue for="clustering" value="0.4166666567325592"></attvalue>
           <attvalue for="eigencentrality" value="0.05398577054462058"></attvalue>
         </attvalues>
-        <viz:size value="266.90482"></viz:size>
-        <viz:position x="3595.8228" y="-4384.964"></viz:position>
+        <viz:size value="58.54822"></viz:size>
+        <viz:position x="1025.1725" y="-1355.9885"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="bank360" label="bank360">
@@ -2607,8 +2607,8 @@
           <attvalue for="clustering" value="0.5"></attvalue>
           <attvalue for="eigencentrality" value="0.04954846363212261"></attvalue>
         </attvalues>
-        <viz:size value="257.50922"></viz:size>
-        <viz:position x="3245.71" y="-6051.952"></viz:position>
+        <viz:size value="54.881645"></viz:size>
+        <viz:position x="968.88727" y="-1616.3304"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="dodsgroup" label="dodsgroup">
@@ -2633,8 +2633,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.0017937486559126534"></attvalue>
         </attvalues>
-        <viz:size value="259.27365"></viz:size>
-        <viz:position x="7229.7256" y="2713.4055"></viz:position>
+        <viz:size value="55.570206"></viz:size>
+        <viz:position x="2030.6675" y="717.5431"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="totalpolitics" label="totalpolitics">
@@ -2659,8 +2659,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.0027098597434976725"></attvalue>
         </attvalues>
-        <viz:size value="271.40652"></viz:size>
-        <viz:position x="6886.8555" y="3509.1013"></viz:position>
+        <viz:size value="60.304985"></viz:size>
+        <viz:position x="1952.7156" y="953.0109"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="raktar" label="raktar">
@@ -2685,8 +2685,8 @@
           <attvalue for="clustering" value="0.5"></attvalue>
           <attvalue for="eigencentrality" value="0.03750862171009465"></attvalue>
         </attvalues>
-        <viz:size value="246.5525"></viz:size>
-        <viz:position x="608.49347" y="-6086.4795"></viz:position>
+        <viz:size value="50.605858"></viz:size>
+        <viz:position x="330.26794" y="-1673.0657"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="tielabs" label="tielabs">
@@ -2711,8 +2711,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.005927903979388228"></attvalue>
         </attvalues>
-        <viz:size value="248.11743"></viz:size>
-        <viz:position x="-7642.688" y="1284.5106"></viz:position>
+        <viz:size value="51.21656"></viz:size>
+        <viz:position x="-2151.6606" y="231.8406"></viz:position>
         <viz:color r="140" g="185" b="0"></viz:color>
       </node>
       <node id="hirtv" label="hirtv">
@@ -2737,8 +2737,8 @@
           <attvalue for="clustering" value="0.13333334028720856"></attvalue>
           <attvalue for="eigencentrality" value="0.021811152695145015"></attvalue>
         </attvalues>
-        <viz:size value="257.808"></viz:size>
-        <viz:position x="-1141.246" y="429.7353"></viz:position>
+        <viz:size value="54.998253"></viz:size>
+        <viz:position x="-345.03207" y="193.11574"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="blogspot" label="blogspot">
@@ -2763,8 +2763,8 @@
           <attvalue for="clustering" value="0.5"></attvalue>
           <attvalue for="eigencentrality" value="0.08868965013148401"></attvalue>
         </attvalues>
-        <viz:size value="251.32382"></viz:size>
-        <viz:position x="3374.528" y="-1208.5599"></viz:position>
+        <viz:size value="52.467834"></viz:size>
+        <viz:position x="958.3866" y="-488.9802"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="startapro" label="startapro">
@@ -2789,8 +2789,8 @@
           <attvalue for="clustering" value="0.2666666805744171"></attvalue>
           <attvalue for="eigencentrality" value="0.03346125140556283"></attvalue>
         </attvalues>
-        <viz:size value="248.85408"></viz:size>
-        <viz:position x="2767.1702" y="1987.1565"></viz:position>
+        <viz:size value="51.504032"></viz:size>
+        <viz:position x="1028.3031" y="397.1432"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="nlcafe" label="nlcafe">
@@ -2815,8 +2815,8 @@
           <attvalue for="clustering" value="0.2222222238779068"></attvalue>
           <attvalue for="eigencentrality" value="0.04309763765117643"></attvalue>
         </attvalues>
-        <viz:size value="249.27193"></viz:size>
-        <viz:position x="335.35754" y="1196.3231"></viz:position>
+        <viz:size value="51.667095"></viz:size>
+        <viz:position x="135.89307" y="256.3618"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="travelo" label="travelo">
@@ -2841,8 +2841,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.022565462082842748"></attvalue>
         </attvalues>
-        <viz:size value="248.64195"></viz:size>
-        <viz:position x="-3158.0098" y="3189.737"></viz:position>
+        <viz:size value="51.421253"></viz:size>
+        <viz:position x="-913.50354" y="792.1841"></viz:position>
         <viz:color r="255" g="112" b="69"></viz:color>
       </node>
       <node id="overwatchleague" label="overwatchleague">
@@ -2867,8 +2867,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.03750862171009465"></attvalue>
         </attvalues>
-        <viz:size value="246.5525"></viz:size>
-        <viz:position x="3173.0303" y="-6994.088"></viz:position>
+        <viz:size value="50.605858"></viz:size>
+        <viz:position x="1034.9412" y="-1848.5392"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="gameinformer" label="gameinformer">
@@ -2893,8 +2893,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.03750862171009465"></attvalue>
         </attvalues>
-        <viz:size value="246.5525"></viz:size>
-        <viz:position x="868.15625" y="-6896.961"></viz:position>
+        <viz:size value="50.605858"></viz:size>
+        <viz:position x="337.67322" y="-1912.8857"></viz:position>
         <viz:color r="0" g="199" b="255"></viz:color>
       </node>
       <node id="buzzfeed" label="buzzfeed">
@@ -2919,8 +2919,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.03750862171009465"></attvalue>
         </attvalues>
-        <viz:size value="246.5525"></viz:size>
-        <viz:position x="3896.5466" y="-6580.985"></viz:position>
+        <viz:size value="50.605858"></viz:size>
+        <viz:position x="1232.8035" y="-1754.4128"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="nullahategy" label="nullahategy">
@@ -2945,8 +2945,8 @@
           <attvalue for="clustering" value="0.1666666716337204"></attvalue>
           <attvalue for="eigencentrality" value="0.009533744217519046"></attvalue>
         </attvalues>
-        <viz:size value="265.04105"></viz:size>
-        <viz:position x="-6422.432" y="317.42523"></viz:position>
+        <viz:size value="57.8209"></viz:size>
+        <viz:position x="-1913.3417" y="-167.988"></viz:position>
         <viz:color r="140" g="185" b="0"></viz:color>
       </node>
       <node id="fesztikorkep" label="fesztikorkep">
@@ -2971,8 +2971,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.004889227231593218"></attvalue>
         </attvalues>
-        <viz:size value="260.6546"></viz:size>
-        <viz:position x="-7774.7817" y="228.73952"></viz:position>
+        <viz:size value="56.109116"></viz:size>
+        <viz:position x="-2180.3503" y="-83.66293"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="bama" label="bama">
@@ -2997,8 +2997,8 @@
           <attvalue for="clustering" value="0.7678571343421936"></attvalue>
           <attvalue for="eigencentrality" value="0.21439416527163688"></attvalue>
         </attvalues>
-        <viz:size value="254.08578"></viz:size>
-        <viz:position x="-4279.575" y="-6198.4824"></viz:position>
+        <viz:size value="53.54567"></viz:size>
+        <viz:position x="-982.22797" y="-1674.6451"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="szoljon" label="szoljon">
@@ -3023,8 +3023,8 @@
           <attvalue for="clustering" value="0.7678571343421936"></attvalue>
           <attvalue for="eigencentrality" value="0.11044182085348421"></attvalue>
         </attvalues>
-        <viz:size value="250.35478"></viz:size>
-        <viz:position x="-4700.195" y="-3927.4375"></viz:position>
+        <viz:size value="52.089672"></viz:size>
+        <viz:position x="-1117.5448" y="-1064.9431"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="cmsales" label="cmsales">
@@ -3049,8 +3049,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.009636386245613651"></attvalue>
         </attvalues>
-        <viz:size value="250.8499"></viz:size>
-        <viz:position x="5832.3145" y="3780.5415"></viz:position>
+        <viz:size value="52.28289"></viz:size>
+        <viz:position x="1730.5647" y="958.52734"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="astronet" label="astronet">
@@ -3075,8 +3075,8 @@
           <attvalue for="clustering" value="0.3263157904148102"></attvalue>
           <attvalue for="eigencentrality" value="0.7226549395533156"></attvalue>
         </attvalues>
-        <viz:size value="299.24606"></viz:size>
-        <viz:position x="-2772.4084" y="-3139.7378"></viz:position>
+        <viz:size value="71.1692"></viz:size>
+        <viz:position x="-651.1603" y="-947.277"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="lakaskultura" label="lakaskultura">
@@ -3101,8 +3101,8 @@
           <attvalue for="clustering" value="0.3023809492588043"></attvalue>
           <attvalue for="eigencentrality" value="0.7226549395533156"></attvalue>
         </attvalues>
-        <viz:size value="299.7556"></viz:size>
-        <viz:position x="-2157.4448" y="-3814.8613"></viz:position>
+        <viz:size value="71.36805"></viz:size>
+        <viz:position x="-529.61786" y="-1133.3846"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="mindmegette" label="mindmegette">
@@ -3127,8 +3127,8 @@
           <attvalue for="clustering" value="0.37254902720451355"></attvalue>
           <attvalue for="eigencentrality" value="0.7226549395533156"></attvalue>
         </attvalues>
-        <viz:size value="301.3962"></viz:size>
-        <viz:position x="-3381.7776" y="-4759.3413"></viz:position>
+        <viz:size value="72.00827"></viz:size>
+        <viz:position x="-742.88586" y="-1176.6309"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="vg" label="vg">
@@ -3153,8 +3153,8 @@
           <attvalue for="clustering" value="0.43382352590560913"></attvalue>
           <attvalue for="eigencentrality" value="0.8291593269042614"></attvalue>
         </attvalues>
-        <viz:size value="305.28436"></viz:size>
-        <viz:position x="-3578.7688" y="-5576.2915"></viz:position>
+        <viz:size value="73.525604"></viz:size>
+        <viz:position x="-772.396" y="-1642.2495"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="polgarportal" label="polgarportal">
@@ -3179,8 +3179,8 @@
           <attvalue for="clustering" value="0.1666666716337204"></attvalue>
           <attvalue for="eigencentrality" value="0.005927903979388228"></attvalue>
         </attvalues>
-        <viz:size value="248.11743"></viz:size>
-        <viz:position x="-6846.756" y="1704.4213"></viz:position>
+        <viz:size value="51.21656"></viz:size>
+        <viz:position x="-2088.763" y="465.89816"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="addtoany" label="addtoany">
@@ -3205,8 +3205,8 @@
           <attvalue for="clustering" value="0.5"></attvalue>
           <attvalue for="eigencentrality" value="0.013139584455649863"></attvalue>
         </attvalues>
-        <viz:size value="262.22046"></viz:size>
-        <viz:position x="-7402.7153" y="2225.318"></viz:position>
+        <viz:size value="56.720177"></viz:size>
+        <viz:position x="-2025.7634" y="673.9443"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="kult50" label="kult50">
@@ -3231,8 +3231,8 @@
           <attvalue for="clustering" value="0.5"></attvalue>
           <attvalue for="eigencentrality" value="0.0"></attvalue>
         </attvalues>
-        <viz:size value="245.0"></viz:size>
-        <viz:position x="5204.5464" y="-5509.9395"></viz:position>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="1360.6078" y="-1370.5051"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="chicagoreader" label="chicagoreader">
@@ -3257,8 +3257,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.0"></attvalue>
         </attvalues>
-        <viz:size value="245.0"></viz:size>
-        <viz:position x="-5980.038" y="-299.29028"></viz:position>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="-1431.6475" y="-367.25696"></viz:position>
         <viz:color r="140" g="185" b="0"></viz:color>
       </node>
       <node id="songza" label="songza">
@@ -3283,8 +3283,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.0017937486559126534"></attvalue>
         </attvalues>
-        <viz:size value="252.13683"></viz:size>
-        <viz:position x="-7622.5244" y="-1560.0261"></viz:position>
+        <viz:size value="52.785103"></viz:size>
+        <viz:position x="-2096.8384" y="-560.26843"></viz:position>
         <viz:color r="140" g="185" b="0"></viz:color>
       </node>
       <node id="kulturpart" label="kulturpart">
@@ -3309,8 +3309,8 @@
           <attvalue for="clustering" value="1.0"></attvalue>
           <attvalue for="eigencentrality" value="0.03750862171009465"></attvalue>
         </attvalues>
-        <viz:size value="246.5525"></viz:size>
-        <viz:position x="2738.956" y="-5025.7217"></viz:position>
+        <viz:size value="50.605858"></viz:size>
+        <viz:position x="602.34845" y="-1295.5677"></viz:position>
         <viz:color r="255" g="112" b="69"></viz:color>
       </node>
       <node id="444" label="444">
@@ -3335,8 +3335,8 @@
           <attvalue for="clustering" value="0.05714285746216774"></attvalue>
           <attvalue for="eigencentrality" value="0.02056486654383558"></attvalue>
         </attvalues>
-        <viz:size value="247.08673"></viz:size>
-        <viz:position x="-2415.9473" y="1464.4053"></viz:position>
+        <viz:size value="50.81433"></viz:size>
+        <viz:position x="-642.0206" y="460.10104"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="police" label="police">
@@ -3361,8 +3361,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.006329310926239424"></attvalue>
         </attvalues>
-        <viz:size value="246.23442"></viz:size>
-        <viz:position x="-5067.2554" y="4658.299"></viz:position>
+        <viz:size value="50.481728"></viz:size>
+        <viz:position x="-1340.2457" y="1366.78"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="unilad" label="unilad">
@@ -3387,8 +3387,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.03750862171009465"></attvalue>
         </attvalues>
-        <viz:size value="246.5525"></viz:size>
-        <viz:position x="1359.0568" y="-7611.913"></viz:position>
+        <viz:size value="50.605858"></viz:size>
+        <viz:position x="418.4844" y="-2117.8687"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="dailymail" label="dailymail">
@@ -3413,8 +3413,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.0"></attvalue>
         </attvalues>
-        <viz:size value="245.0"></viz:size>
-        <viz:position x="5229.5444" y="5548.7324"></viz:position>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="1426.9258" y="1536.8447"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="apple" label="apple">
@@ -3439,8 +3439,8 @@
           <attvalue for="clustering" value="0.05000000074505806"></attvalue>
           <attvalue for="eigencentrality" value="0.0389154330352363"></attvalue>
         </attvalues>
-        <viz:size value="264.52548"></viz:size>
-        <viz:position x="3867.9436" y="2571.051"></viz:position>
+        <viz:size value="57.619698"></viz:size>
+        <viz:position x="865.5754" y="949.22595"></viz:position>
         <viz:color r="140" g="185" b="0"></viz:color>
       </node>
       <node id="sg" label="sg">
@@ -3465,8 +3465,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.009636386245613651"></attvalue>
         </attvalues>
-        <viz:size value="245.41785"></viz:size>
-        <viz:position x="1473.3915" y="5764.5103"></viz:position>
+        <viz:size value="50.163063"></viz:size>
+        <viz:position x="486.32938" y="1479.3335"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="adhat" label="adhat">
@@ -3491,8 +3491,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.04154464217577566"></attvalue>
         </attvalues>
-        <viz:size value="248.86931"></viz:size>
-        <viz:position x="5460.496" y="-3242.8904"></viz:position>
+        <viz:size value="51.509975"></viz:size>
+        <viz:position x="1282.3254" y="-780.41486"></viz:position>
         <viz:color r="140" g="185" b="0"></viz:color>
       </node>
       <node id="startlap" label="startlap">
@@ -3517,8 +3517,8 @@
           <attvalue for="clustering" value="0.095238097012043"></attvalue>
           <attvalue for="eigencentrality" value="0.04115207245058183"></attvalue>
         </attvalues>
-        <viz:size value="253.67847"></viz:size>
-        <viz:position x="2230.9016" y="3096.569"></viz:position>
+        <viz:size value="53.38672"></viz:size>
+        <viz:position x="746.5939" y="754.4549"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="szallas" label="szallas">
@@ -3543,8 +3543,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.024511027283437355"></attvalue>
         </attvalues>
-        <viz:size value="249.66748"></viz:size>
-        <viz:position x="-1672.8365" y="2083.3625"></viz:position>
+        <viz:size value="51.821457"></viz:size>
+        <viz:position x="-464.83923" y="644.9897"></viz:position>
         <viz:color r="140" g="185" b="0"></viz:color>
       </node>
       <node id="ongo" label="ongo">
@@ -3569,8 +3569,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.0072576560549404995"></attvalue>
         </attvalues>
-        <viz:size value="262.36945"></viz:size>
-        <viz:position x="-4626.791" y="6149.754"></viz:position>
+        <viz:size value="56.778313"></viz:size>
+        <viz:position x="-1347.3997" y="1653.8547"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="mti" label="mti">
@@ -3595,8 +3595,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.03750862171009465"></attvalue>
         </attvalues>
-        <viz:size value="246.5525"></viz:size>
-        <viz:position x="2463.4397" y="-6539.537"></viz:position>
+        <viz:size value="50.605858"></viz:size>
+        <viz:position x="777.4308" y="-1798.1179"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="merce" label="merce">
@@ -3621,8 +3621,8 @@
           <attvalue for="clustering" value="0.10000000149011612"></attvalue>
           <attvalue for="eigencentrality" value="0.04154464217577566"></attvalue>
         </attvalues>
-        <viz:size value="248.86931"></viz:size>
-        <viz:position x="1971.043" y="-1064.0061"></viz:position>
+        <viz:size value="51.509975"></viz:size>
+        <viz:position x="413.2958" y="-116.425476"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="mailonsunday" label="mailonsunday">
@@ -3647,8 +3647,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.0017937486559126534"></attvalue>
         </attvalues>
-        <viz:size value="247.37894"></viz:size>
-        <viz:position x="2417.7517" y="7376.764"></viz:position>
+        <viz:size value="50.928368"></viz:size>
+        <viz:position x="700.51166" y="2051.385"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="metro" label="metro">
@@ -3673,8 +3673,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.0017937486559126534"></attvalue>
         </attvalues>
-        <viz:size value="247.37894"></viz:size>
-        <viz:position x="5946.9956" y="5006.044"></viz:position>
+        <viz:size value="50.928368"></viz:size>
+        <viz:position x="1646.2368" y="1415.4388"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="and" label="and">
@@ -3699,8 +3699,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.0017937486559126534"></attvalue>
         </attvalues>
-        <viz:size value="247.37894"></viz:size>
-        <viz:position x="4703.9585" y="6164.7573"></viz:position>
+        <viz:size value="50.928368"></viz:size>
+        <viz:position x="1329.9156" y="1723.1528"></viz:position>
         <viz:color r="140" g="185" b="0"></viz:color>
       </node>
       <node id="mailadvertising" label="mailadvertising">
@@ -3725,8 +3725,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.0017937486559126534"></attvalue>
         </attvalues>
-        <viz:size value="247.37894"></viz:size>
-        <viz:position x="3947.3352" y="6689.889"></viz:position>
+        <viz:size value="50.928368"></viz:size>
+        <viz:position x="1114.6993" y="1841.2632"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="baleset-megelozes" label="baleset-megelozes">
@@ -3751,8 +3751,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.003512896380133322"></attvalue>
         </attvalues>
-        <viz:size value="252.66147"></viz:size>
-        <viz:position x="-5175.873" y="5599.1787"></viz:position>
+        <viz:size value="52.98984"></viz:size>
+        <viz:position x="-1532.2249" y="1520.9158"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="cafeblog" label="cafeblog">
@@ -3777,8 +3777,8 @@
           <attvalue for="clustering" value="0.5"></attvalue>
           <attvalue for="eigencentrality" value="0.023532689991992265"></attvalue>
         </attvalues>
-        <viz:size value="250.02435"></viz:size>
-        <viz:position x="2470.0127" y="4354.3936"></viz:position>
+        <viz:size value="51.96072"></viz:size>
+        <viz:position x="689.76086" y="1084.4601"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="ingatlanhirek" label="ingatlanhirek">
@@ -3803,8 +3803,8 @@
           <attvalue for="clustering" value="0.4166666567325592"></attvalue>
           <attvalue for="eigencentrality" value="0.08780759443804784"></attvalue>
         </attvalues>
-        <viz:size value="258.2185"></viz:size>
-        <viz:position x="1753.2053" y="-5082.1953"></viz:position>
+        <viz:size value="55.158436"></viz:size>
+        <viz:position x="387.63715" y="-1241.5459"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="pewinternet" label="pewinternet">
@@ -3829,8 +3829,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.0"></attvalue>
         </attvalues>
-        <viz:size value="245.0"></viz:size>
-        <viz:position x="-2097.8142" y="7482.8247"></viz:position>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="-413.8995" y="2132.0994"></viz:position>
         <viz:color r="140" g="185" b="0"></viz:color>
       </node>
       <node id="pewresearch" label="pewresearch">
@@ -3855,8 +3855,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.0035874973118253067"></attvalue>
         </attvalues>
-        <viz:size value="273.5473"></viz:size>
-        <viz:position x="-3042.4478" y="7165.5425"></viz:position>
+        <viz:size value="61.140408"></viz:size>
+        <viz:position x="-672.66876" y="2060.312"></viz:position>
         <viz:color r="140" g="185" b="0"></viz:color>
       </node>
       <node id="hazipatika" label="hazipatika">
@@ -3881,8 +3881,8 @@
           <attvalue for="clustering" value="0.5333333611488342"></attvalue>
           <attvalue for="eigencentrality" value="0.04309763765117643"></attvalue>
         </attvalues>
-        <viz:size value="249.27193"></viz:size>
-        <viz:position x="3558.2988" y="1827.3895"></viz:position>
+        <viz:size value="51.667095"></viz:size>
+        <viz:position x="411.79218" y="703.22217"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="thisismoney" label="thisismoney">
@@ -3907,8 +3907,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.0017937486559126534"></attvalue>
         </attvalues>
-        <viz:size value="247.37894"></viz:size>
-        <viz:position x="6446.83" y="4287.5757"></viz:position>
+        <viz:size value="50.928368"></viz:size>
+        <viz:position x="1799.3451" y="1207.1079"></viz:position>
         <viz:color r="140" g="185" b="0"></viz:color>
       </node>
       <node id="nepitelet" label="nepitelet">
@@ -3933,8 +3933,8 @@
           <attvalue for="clustering" value="0.8333333134651184"></attvalue>
           <attvalue for="eigencentrality" value="0.03750862171009465"></attvalue>
         </attvalues>
-        <viz:size value="246.5525"></viz:size>
-        <viz:position x="1726.7997" y="-4402.187"></viz:position>
+        <viz:size value="50.605858"></viz:size>
+        <viz:position x="127.547424" y="-646.15686"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="koponyeg" label="koponyeg">
@@ -3959,8 +3959,8 @@
           <attvalue for="clustering" value="0.25"></attvalue>
           <attvalue for="eigencentrality" value="0.0017937486559126534"></attvalue>
         </attvalues>
-        <viz:size value="246.78421"></viz:size>
-        <viz:position x="-2313.4727" y="-228.69571"></viz:position>
+        <viz:size value="50.696274"></viz:size>
+        <viz:position x="-88.07672" y="-608.4162"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="888" label="888">
@@ -3985,8 +3985,8 @@
           <attvalue for="clustering" value="0.02380952425301075"></attvalue>
           <attvalue for="eigencentrality" value="0.009636386245613651"></attvalue>
         </attvalues>
-        <viz:size value="245.41785"></viz:size>
-        <viz:position x="1160.4042" y="1166.2574"></viz:position>
+        <viz:size value="50.163063"></viz:size>
+        <viz:position x="38.440388" y="476.8177"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="szinhaz" label="szinhaz">
@@ -4011,8 +4011,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.03750862171009465"></attvalue>
         </attvalues>
-        <viz:size value="246.5525"></viz:size>
-        <viz:position x="1697.0122" y="-6843.1904"></viz:position>
+        <viz:size value="50.605858"></viz:size>
+        <viz:position x="618.2854" y="-2016.8735"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="scmp" label="scmp">
@@ -4037,8 +4037,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.0"></attvalue>
         </attvalues>
-        <viz:size value="245.0"></viz:size>
-        <viz:position x="-6172.697" y="4424.4688"></viz:position>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="-1545.4656" y="1235.5475"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="cpjobs" label="cpjobs">
@@ -4063,8 +4063,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.0017937486559126534"></attvalue>
         </attvalues>
-        <viz:size value="259.27365"></viz:size>
-        <viz:position x="-5824.423" y="5118.7285"></viz:position>
+        <viz:size value="55.570206"></viz:size>
+        <viz:position x="-1722.4104" y="1333.016"></viz:position>
         <viz:color r="140" g="185" b="0"></viz:color>
       </node>
       <node id="digitalhungary" label="digitalhungary">
@@ -4089,8 +4089,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.009636386245613651"></attvalue>
         </attvalues>
-        <viz:size value="245.41785"></viz:size>
-        <viz:position x="-75.38944" y="6351.464"></viz:position>
+        <viz:size value="50.163063"></viz:size>
+        <viz:position x="243.53473" y="1598.0598"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="civil" label="civil">
@@ -4115,8 +4115,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.003605840238130818"></attvalue>
         </attvalues>
-        <viz:size value="253.4618"></viz:size>
-        <viz:position x="-6738.553" y="3840.0881"></viz:position>
+        <viz:size value="53.30217"></viz:size>
+        <viz:position x="-1846.313" y="1110.8341"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="indapass" label="indapass">
@@ -4141,8 +4141,8 @@
           <attvalue for="clustering" value="0.3499999940395355"></attvalue>
           <attvalue for="eigencentrality" value="0.11593815550052117"></attvalue>
         </attvalues>
-        <viz:size value="272.58978"></viz:size>
-        <viz:position x="902.3994" y="-5348.1553"></viz:position>
+        <viz:size value="60.76674"></viz:size>
+        <viz:position x="176.6486" y="-1159.0988"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="origo" label="origo">
@@ -4167,8 +4167,8 @@
           <attvalue for="clustering" value="0.05263157933950424"></attvalue>
           <attvalue for="eigencentrality" value="0.04039317954754743"></attvalue>
         </attvalues>
-        <viz:size value="296.48108"></viz:size>
-        <viz:position x="-4114.8623" y="-1194.4027"></viz:position>
+        <viz:size value="70.09017"></viz:size>
+        <viz:position x="-1098.7979" y="-335.92203"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="occrp" label="occrp">
@@ -4193,8 +4193,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.010928480298221938"></attvalue>
         </attvalues>
-        <viz:size value="246.66887"></viz:size>
-        <viz:position x="-4079.9326" y="2981.844"></viz:position>
+        <viz:size value="50.651268"></viz:size>
+        <viz:position x="-1251.789" y="413.35394"></viz:position>
         <viz:color r="140" g="185" b="0"></viz:color>
       </node>
       <node id="linkedin" label="linkedin">
@@ -4219,8 +4219,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.010266744428778072"></attvalue>
         </attvalues>
-        <viz:size value="247.70107"></viz:size>
-        <viz:position x="-4559.287" y="-2204.0312"></viz:position>
+        <viz:size value="51.054073"></viz:size>
+        <viz:position x="-1252.4877" y="-501.64145"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="adverticum" label="adverticum">
@@ -4245,8 +4245,8 @@
           <attvalue for="clustering" value="0.1785714328289032"></attvalue>
           <attvalue for="eigencentrality" value="0.08793115421261859"></attvalue>
         </attvalues>
-        <viz:size value="290.36252"></viz:size>
-        <viz:position x="1273.4869" y="-681.929"></viz:position>
+        <viz:size value="67.70244"></viz:size>
+        <viz:position x="463.69366" y="-359.14127"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="inforadio" label="inforadio">
@@ -4271,8 +4271,8 @@
           <attvalue for="clustering" value="0.5"></attvalue>
           <attvalue for="eigencentrality" value="0.009636386245613651"></attvalue>
         </attvalues>
-        <viz:size value="245.41785"></viz:size>
-        <viz:position x="3238.3694" y="-323.2224"></viz:position>
+        <viz:size value="50.163063"></viz:size>
+        <viz:position x="724.04944" y="-396.87766"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="vezess" label="vezess">
@@ -4297,8 +4297,8 @@
           <attvalue for="clustering" value="1.0"></attvalue>
           <attvalue for="eigencentrality" value="0.04309763765117643"></attvalue>
         </attvalues>
-        <viz:size value="249.27193"></viz:size>
-        <viz:position x="1909.7919" y="3800.0457"></viz:position>
+        <viz:size value="51.667095"></viz:size>
+        <viz:position x="566.6876" y="880.67285"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="nol" label="nol">
@@ -4323,8 +4323,8 @@
           <attvalue for="clustering" value="0.17592592537403107"></attvalue>
           <attvalue for="eigencentrality" value="0.005011485211338865"></attvalue>
         </attvalues>
-        <viz:size value="274.79398"></viz:size>
-        <viz:position x="-3062.044" y="-4010.7102"></viz:position>
+        <viz:size value="61.626915"></viz:size>
+        <viz:position x="-931.137" y="-1223.986"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="propeller" label="propeller">
@@ -4349,8 +4349,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.003937433502538647"></attvalue>
         </attvalues>
-        <viz:size value="246.46663"></viz:size>
-        <viz:position x="-5831.186" y="-5103.035"></viz:position>
+        <viz:size value="50.572346"></viz:size>
+        <viz:position x="-1522.8772" y="-1522.2129"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="bit" label="bit">
@@ -4375,8 +4375,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.0"></attvalue>
         </attvalues>
-        <viz:size value="245.0"></viz:size>
-        <viz:position x="-3107.448" y="-7161.931"></viz:position>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="-978.10394" y="-1916.7941"></viz:position>
         <viz:color r="140" g="185" b="0"></viz:color>
       </node>
       <node id="wikidata" label="wikidata">
@@ -4401,8 +4401,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.01752214182667018"></attvalue>
         </attvalues>
-        <viz:size value="262.7623"></viz:size>
-        <viz:position x="6152.582" y="-234.7845"></viz:position>
+        <viz:size value="56.931625"></viz:size>
+        <viz:position x="1624.2906" y="-441.3919"></viz:position>
         <viz:color r="140" g="185" b="0"></viz:color>
       </node>
       <node id="portfolio" label="portfolio">
@@ -4427,8 +4427,8 @@
           <attvalue for="clustering" value="0.25"></attvalue>
           <attvalue for="eigencentrality" value="0.0737164335116676"></attvalue>
         </attvalues>
-        <viz:size value="300.10052"></viz:size>
-        <viz:position x="2090.1204" y="-2538.2756"></viz:position>
+        <viz:size value="71.50265"></viz:size>
+        <viz:position x="770.8073" y="-650.5037"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="infostart" label="infostart">
@@ -4453,8 +4453,8 @@
           <attvalue for="clustering" value="0.5"></attvalue>
           <attvalue for="eigencentrality" value="0.041616722666177684"></attvalue>
         </attvalues>
-        <viz:size value="253.86693"></viz:size>
-        <viz:position x="3012.9717" y="-1922.167"></viz:position>
+        <viz:size value="53.460262"></viz:size>
+        <viz:position x="920.6561" y="-1121.7372"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="bircahang" label="bircahang">
@@ -4479,8 +4479,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.04154464217577566"></attvalue>
         </attvalues>
-        <viz:size value="248.86931"></viz:size>
-        <viz:position x="4722.7686" y="-2374.268"></viz:position>
+        <viz:size value="51.509975"></viz:size>
+        <viz:position x="1383.9435" y="-233.95615"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="feedburner" label="feedburner">
@@ -4505,8 +4505,8 @@
           <attvalue for="clustering" value="0.5"></attvalue>
           <attvalue for="eigencentrality" value="0.0017937486559126534"></attvalue>
         </attvalues>
-        <viz:size value="246.42737"></viz:size>
-        <viz:position x="3513.4949" y="-2565.0398"></viz:position>
+        <viz:size value="50.557022"></viz:size>
+        <viz:position x="905.14777" y="-251.81148"></viz:position>
         <viz:color r="140" g="185" b="0"></viz:color>
       </node>
       <node id="agroinform" label="agroinform">
@@ -4531,8 +4531,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.009636386245613651"></attvalue>
         </attvalues>
-        <viz:size value="245.41785"></viz:size>
-        <viz:position x="-851.41034" y="6033.4355"></viz:position>
+        <viz:size value="50.163063"></viz:size>
+        <viz:position x="-180.25233" y="1730.538"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="tchibo" label="tchibo">
@@ -4557,8 +4557,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.01158195144620824"></attvalue>
         </attvalues>
-        <viz:size value="246.44337"></viz:size>
-        <viz:position x="3854.55" y="5855.1226"></viz:position>
+        <viz:size value="50.563267"></viz:size>
+        <viz:position x="1131.6831" y="1581.769"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="m4sport" label="m4sport">
@@ -4583,8 +4583,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.009636386245613651"></attvalue>
         </attvalues>
-        <viz:size value="245.41785"></viz:size>
-        <viz:position x="669.5001" y="5988.9375"></viz:position>
+        <viz:size value="50.163063"></viz:size>
+        <viz:position x="266.56583" y="1371.4033"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="origorandi" label="origorandi">
@@ -4609,8 +4609,8 @@
           <attvalue for="clustering" value="1.0"></attvalue>
           <attvalue for="eigencentrality" value="0.017872379591999242"></attvalue>
         </attvalues>
-        <viz:size value="249.3584"></viz:size>
-        <viz:position x="-5642.566" y="-1841.1171"></viz:position>
+        <viz:size value="51.700836"></viz:size>
+        <viz:position x="-1482.3722" y="-627.5372"></viz:position>
         <viz:color r="140" g="185" b="0"></viz:color>
       </node>
       <node id="startlapkupon" label="startlapkupon">
@@ -4635,8 +4635,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.01158195144620824"></attvalue>
         </attvalues>
-        <viz:size value="246.44337"></viz:size>
-        <viz:position x="5254.164" y="4586.696"></viz:position>
+        <viz:size value="50.563267"></viz:size>
+        <viz:position x="1430.3344" y="1298.8154"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="ask" label="ask">
@@ -4661,8 +4661,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.006329310926239424"></attvalue>
         </attvalues>
-        <viz:size value="246.23442"></viz:size>
-        <viz:position x="-2624.5193" y="4810.645"></viz:position>
+        <viz:size value="50.481728"></viz:size>
+        <viz:position x="-733.8692" y="1322.7122"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="mixcloud" label="mixcloud">
@@ -4687,8 +4687,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.006329310926239424"></attvalue>
         </attvalues>
-        <viz:size value="246.23442"></viz:size>
-        <viz:position x="-4274.9604" y="4861.6323"></viz:position>
+        <viz:size value="50.481728"></viz:size>
+        <viz:position x="-1113.23" y="1366.439"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="eepurl" label="eepurl">
@@ -4713,8 +4713,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.006329310926239424"></attvalue>
         </attvalues>
-        <viz:size value="246.23442"></viz:size>
-        <viz:position x="-3482.509" y="4602.4146"></viz:position>
+        <viz:size value="50.481728"></viz:size>
+        <viz:position x="-897.268" y="1475.9368"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="mozgasterblog" label="mozgasterblog">
@@ -4739,8 +4739,8 @@
           <attvalue for="clustering" value="0.03333333507180214"></attvalue>
           <attvalue for="eigencentrality" value="0.0"></attvalue>
         </attvalues>
-        <viz:size value="245.0"></viz:size>
-        <viz:position x="-2857.4734" y="846.14874"></viz:position>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="-851.5715" y="303.70355"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="hirado" label="hirado">
@@ -4765,8 +4765,8 @@
           <attvalue for="clustering" value="0.02380952425301075"></attvalue>
           <attvalue for="eigencentrality" value="0.011430134901526303"></attvalue>
         </attvalues>
-        <viz:size value="247.7968"></viz:size>
-        <viz:position x="-1993.3763" y="3650.0715"></viz:position>
+        <viz:size value="51.09143"></viz:size>
+        <viz:position x="-643.11633" y="1092.524"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="adventista" label="adventista">
@@ -4791,8 +4791,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.009636386245613651"></attvalue>
         </attvalues>
-        <viz:size value="245.90201"></viz:size>
-        <viz:position x="6669.8784" y="1323.3102"></viz:position>
+        <viz:size value="50.352005"></viz:size>
+        <viz:position x="1872.0808" y="278.81235"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="huffpostbrasil" label="huffpostbrasil">
@@ -4817,8 +4817,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.0017937486559126534"></attvalue>
         </attvalues>
-        <viz:size value="252.13683"></viz:size>
-        <viz:position x="6512.241" y="-4273.1577"></viz:position>
+        <viz:size value="52.785103"></viz:size>
+        <viz:position x="1786.6134" y="-1239.9182"></viz:position>
         <viz:color r="140" g="185" b="0"></viz:color>
       </node>
       <node id="atv" label="atv">
@@ -4843,8 +4843,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.013573819748152298"></attvalue>
         </attvalues>
-        <viz:size value="246.88449"></viz:size>
-        <viz:position x="-2263.7112" y="-984.00256"></viz:position>
+        <viz:size value="50.73541"></viz:size>
+        <viz:position x="-621.21814" y="-316.46362"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="umblr" label="umblr">
@@ -4869,8 +4869,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.03490425998557311"></attvalue>
         </attvalues>
-        <viz:size value="257.74838"></viz:size>
-        <viz:position x="4177.7285" y="-1110.3527"></viz:position>
+        <viz:size value="54.97498"></viz:size>
+        <viz:position x="624.49" y="279.12595"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="komment" label="komment">
@@ -4895,8 +4895,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.0"></attvalue>
         </attvalues>
-        <viz:size value="245.0"></viz:size>
-        <viz:position x="-7338.708" y="-2405.4314"></viz:position>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="-1965.4916" y="-740.4144"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="inda" label="inda">
@@ -4921,8 +4921,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.04154464217577566"></attvalue>
         </attvalues>
-        <viz:size value="248.86931"></viz:size>
-        <viz:position x="4683.741" y="-3168.7761"></viz:position>
+        <viz:size value="51.509975"></viz:size>
+        <viz:position x="1184.2533" y="-578.24005"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="totalbike" label="totalbike">
@@ -4947,8 +4947,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.03750862171009465"></attvalue>
         </attvalues>
-        <viz:size value="246.5525"></viz:size>
-        <viz:position x="1530.0742" y="-6018.864"></viz:position>
+        <viz:size value="50.605858"></viz:size>
+        <viz:position x="545.5585" y="-1771.6296"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="spatrendonline" label="spatrendonline">
@@ -4973,8 +4973,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.009636386245613651"></attvalue>
         </attvalues>
-        <viz:size value="245.41785"></viz:size>
-        <viz:position x="1961.8407" y="5092.0586"></viz:position>
+        <viz:size value="50.163063"></viz:size>
+        <viz:position x="940.6608" y="1428.0642"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="jogtar" label="jogtar">
@@ -4999,8 +4999,8 @@
           <attvalue for="clustering" value="1.0"></attvalue>
           <attvalue for="eigencentrality" value="0.07905326388587036"></attvalue>
         </attvalues>
-        <viz:size value="250.42181"></viz:size>
-        <viz:position x="4014.4663" y="-1971.3546"></viz:position>
+        <viz:size value="52.11583"></viz:size>
+        <viz:position x="840.4289" y="-895.3939"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="audio-technica" label="audio-technica">
@@ -5025,8 +5025,8 @@
           <attvalue for="clustering" value="0.5"></attvalue>
           <attvalue for="eigencentrality" value="0.0017937486559126534"></attvalue>
         </attvalues>
-        <viz:size value="247.0391"></viz:size>
-        <viz:position x="-793.6078" y="1233.9916"></viz:position>
+        <viz:size value="50.795742"></viz:size>
+        <viz:position x="-899.68365" y="66.622406"></viz:position>
         <viz:color r="35" g="150" b="111"></viz:color>
       </node>
       <node id="noinetcafe" label="noinetcafe">
@@ -5051,8 +5051,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.009636386245613651"></attvalue>
         </attvalues>
-        <viz:size value="245.41785"></viz:size>
-        <viz:position x="-905.8509" y="5190.9146"></viz:position>
+        <viz:size value="50.163063"></viz:size>
+        <viz:position x="-423.67023" y="1670.9143"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="opten" label="opten">
@@ -5077,8 +5077,8 @@
           <attvalue for="clustering" value="0.5"></attvalue>
           <attvalue for="eigencentrality" value="0.04975823788265865"></attvalue>
         </attvalues>
-        <viz:size value="264.8713"></viz:size>
-        <viz:position x="5074.8276" y="-4668.651"></viz:position>
+        <viz:size value="57.754658"></viz:size>
+        <viz:position x="1514.1794" y="-1186.5018"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="ceginfo" label="ceginfo">
@@ -5103,8 +5103,8 @@
           <attvalue for="clustering" value="0.5"></attvalue>
           <attvalue for="eigencentrality" value="0.05615473409058729"></attvalue>
         </attvalues>
-        <viz:size value="249.75877"></viz:size>
-        <viz:position x="4488.3413" y="-3970.252"></viz:position>
+        <viz:size value="51.857082"></viz:size>
+        <viz:position x="1327.149" y="-1043.1403"></viz:position>
         <viz:color r="140" g="185" b="0"></viz:color>
       </node>
       <node id="magyarmezogazdasag" label="magyarmezogazdasag">
@@ -5129,8 +5129,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.009636386245613651"></attvalue>
         </attvalues>
-        <viz:size value="245.41785"></viz:size>
-        <viz:position x="-2420.7444" y="5698.4414"></viz:position>
+        <viz:size value="50.163063"></viz:size>
+        <viz:position x="-456.73004" y="1885.6993"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="magyarnarancs" label="magyarnarancs">
@@ -5155,8 +5155,8 @@
           <attvalue for="clustering" value="0.0972222238779068"></attvalue>
           <attvalue for="eigencentrality" value="0.010928480298221938"></attvalue>
         </attvalues>
-        <viz:size value="246.66887"></viz:size>
-        <viz:position x="-862.472" y="1999.0474"></viz:position>
+        <viz:size value="50.651268"></viz:size>
+        <viz:position x="-322.05347" y="479.55383"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="alfahir" label="alfahir">
@@ -5181,8 +5181,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.0"></attvalue>
         </attvalues>
-        <viz:size value="245.0"></viz:size>
-        <viz:position x="464.16772" y="-2048.9448"></viz:position>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="-142.9629" y="341.7621"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="disqus" label="disqus">
@@ -5207,8 +5207,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.020044679578225887"></attvalue>
         </attvalues>
-        <viz:size value="262.58844"></viz:size>
-        <viz:position x="1864.1893" y="-182.30151"></viz:position>
+        <viz:size value="56.86378"></viz:size>
+        <viz:position x="350.91956" y="156.01556"></viz:position>
         <viz:color r="0" g="199" b="255"></viz:color>
       </node>
       <node id="paypal" label="paypal">
@@ -5233,8 +5233,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.022333089051461887"></attvalue>
         </attvalues>
-        <viz:size value="265.72452"></viz:size>
-        <viz:position x="1805.5367" y="1602.9348"></viz:position>
+        <viz:size value="58.087612"></viz:size>
+        <viz:position x="-668.70276" y="134.81471"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="femcafe" label="femcafe">
@@ -5259,8 +5259,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.009636386245613651"></attvalue>
         </attvalues>
-        <viz:size value="245.41785"></viz:size>
-        <viz:position x="761.7079" y="5133.8013"></viz:position>
+        <viz:size value="50.163063"></viz:size>
+        <viz:position x="30.517344" y="1328.2705"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="agrarszektor" label="agrarszektor">
@@ -5285,8 +5285,8 @@
           <attvalue for="clustering" value="0.6666666865348816"></attvalue>
           <attvalue for="eigencentrality" value="0.06602561246664858"></attvalue>
         </attvalues>
-        <viz:size value="277.8615"></viz:size>
-        <viz:position x="2478.6416" y="-3524.549"></viz:position>
+        <viz:size value="62.82401"></viz:size>
+        <viz:position x="1104.811" y="-964.65674"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="azonnali" label="azonnali">
@@ -5311,8 +5311,8 @@
           <attvalue for="clustering" value="0.0714285746216774"></attvalue>
           <attvalue for="eigencentrality" value="0.0"></attvalue>
         </attvalues>
-        <viz:size value="245.0"></viz:size>
-        <viz:position x="690.16693" y="494.9237"></viz:position>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="-217.05457" y="-57.663464"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="politicalcritique" label="politicalcritique">
@@ -5337,8 +5337,8 @@
           <attvalue for="clustering" value="0.1666666716337204"></attvalue>
           <attvalue for="eigencentrality" value="0.050915820359833094"></attvalue>
         </attvalues>
-        <viz:size value="250.62558"></viz:size>
-        <viz:position x="3431.4646" y="513.3495"></viz:position>
+        <viz:size value="52.19535"></viz:size>
+        <viz:position x="218.4968" y="-254.4674"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="wikimediafoundation" label="wikimediafoundation">
@@ -5363,8 +5363,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.01752214182667018"></attvalue>
         </attvalues>
-        <viz:size value="262.7623"></viz:size>
-        <viz:position x="5197.261" y="906.3118"></viz:position>
+        <viz:size value="56.931625"></viz:size>
+        <viz:position x="1532.9603" y="-39.701157"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="vasarhely24" label="vasarhely24">
@@ -5389,8 +5389,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.009636386245613651"></attvalue>
         </attvalues>
-        <viz:size value="245.41785"></viz:size>
-        <viz:position x="-1656.9174" y="6085.9136"></viz:position>
+        <viz:size value="50.163063"></viz:size>
+        <viz:position x="-235.28894" y="1957.582"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="coe" label="coe">
@@ -5415,8 +5415,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.0"></attvalue>
         </attvalues>
-        <viz:size value="245.0"></viz:size>
-        <viz:position x="7640.509" y="1089.033"></viz:position>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="2150.586" y="244.78278"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="website-pace" label="website-pace">
@@ -5441,8 +5441,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.0017937486559126534"></attvalue>
         </attvalues>
-        <viz:size value="259.27365"></viz:size>
-        <viz:position x="7764.857" y="185.26685"></viz:position>
+        <viz:size value="55.570206"></viz:size>
+        <viz:position x="2173.0054" y="-54.025482"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="twimg" label="twimg">
@@ -5467,8 +5467,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.08094490836171388"></attvalue>
         </attvalues>
-        <viz:size value="371.3699"></viz:size>
-        <viz:position x="-5122.817" y="-92.80409"></viz:position>
+        <viz:size value="99.31508"></viz:size>
+        <viz:position x="-1531.3712" y="73.45235"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="bookline" label="bookline">
@@ -5493,8 +5493,8 @@
           <attvalue for="clustering" value="1.0"></attvalue>
           <attvalue for="eigencentrality" value="0.04626295226227212"></attvalue>
         </attvalues>
-        <viz:size value="247.752"></viz:size>
-        <viz:position x="-713.0694" y="-4621.8486"></viz:position>
+        <viz:size value="51.073948"></viz:size>
+        <viz:position x="-114.51669" y="-1674.1575"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="ksh" label="ksh">
@@ -5519,8 +5519,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.006420519664551215"></attvalue>
         </attvalues>
-        <viz:size value="247.2473"></viz:size>
-        <viz:position x="-5268.442" y="-3442.2432"></viz:position>
+        <viz:size value="50.876995"></viz:size>
+        <viz:position x="-1404.3501" y="-1300.3701"></viz:position>
         <viz:color r="140" g="185" b="0"></viz:color>
       </node>
       <node id="alapblog" label="alapblog">
@@ -5545,8 +5545,8 @@
           <attvalue for="clustering" value="0.1666666716337204"></attvalue>
           <attvalue for="eigencentrality" value="0.0373317344443801"></attvalue>
         </attvalues>
-        <viz:size value="278.049"></viz:size>
-        <viz:position x="4381.273" y="470.78912"></viz:position>
+        <viz:size value="62.89718"></viz:size>
+        <viz:position x="1061.7439" y="-94.11585"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="hvg" label="hvg">
@@ -5571,8 +5571,8 @@
           <attvalue for="clustering" value="0.07692307978868484"></attvalue>
           <attvalue for="eigencentrality" value="0.027346150641854475"></attvalue>
         </attvalues>
-        <viz:size value="278.17395"></viz:size>
-        <viz:position x="1074.908" y="1938.3999"></viz:position>
+        <viz:size value="62.945927"></viz:size>
+        <viz:position x="429.7661" y="386.64258"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="life" label="life">
@@ -5597,8 +5597,8 @@
           <attvalue for="clustering" value="0.07619047909975052"></attvalue>
           <attvalue for="eigencentrality" value="0.012929075837229109"></attvalue>
         </attvalues>
-        <viz:size value="248.2241"></viz:size>
-        <viz:position x="-3519.4688" y="-1763.0046"></viz:position>
+        <viz:size value="51.25819"></viz:size>
+        <viz:position x="-1023.9358" y="-555.96655"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="investor" label="investor">
@@ -5623,8 +5623,8 @@
           <attvalue for="clustering" value="1.0"></attvalue>
           <attvalue for="eigencentrality" value="0.017872379591999242"></attvalue>
         </attvalues>
-        <viz:size value="249.3584"></viz:size>
-        <viz:position x="-5573.698" y="-2592.1204"></viz:position>
+        <viz:size value="51.700836"></viz:size>
+        <viz:position x="-1475.5396" y="-853.54895"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="videa" label="videa">
@@ -5649,8 +5649,8 @@
           <attvalue for="clustering" value="1.0"></attvalue>
           <attvalue for="eigencentrality" value="0.017872379591999242"></attvalue>
         </attvalues>
-        <viz:size value="249.3584"></viz:size>
-        <viz:position x="-4866.187" y="-1539.5435"></viz:position>
+        <viz:size value="51.700836"></viz:size>
+        <viz:position x="-1497.4117" y="-142.22371"></viz:position>
         <viz:color r="0" g="199" b="255"></viz:color>
       </node>
       <node id="freemail" label="freemail">
@@ -5675,8 +5675,8 @@
           <attvalue for="clustering" value="1.0"></attvalue>
           <attvalue for="eigencentrality" value="0.017872379591999242"></attvalue>
         </attvalues>
-        <viz:size value="249.3584"></viz:size>
-        <viz:position x="-5313.8" y="-1031.5286"></viz:position>
+        <viz:size value="51.700836"></viz:size>
+        <viz:position x="-1654.8318" y="-457.24878"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="sztaki" label="sztaki">
@@ -5701,8 +5701,8 @@
           <attvalue for="clustering" value="1.0"></attvalue>
           <attvalue for="eigencentrality" value="0.017872379591999242"></attvalue>
         </attvalues>
-        <viz:size value="249.3584"></viz:size>
-        <viz:position x="-6036.5933" y="-3316.792"></viz:position>
+        <viz:size value="51.700836"></viz:size>
+        <viz:position x="-1698.4781" y="-887.12036"></viz:position>
         <viz:color r="140" g="185" b="0"></viz:color>
       </node>
       <node id="csokteszt" label="csokteszt">
@@ -5727,8 +5727,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.004943303754770136"></attvalue>
         </attvalues>
-        <viz:size value="246.13428"></viz:size>
-        <viz:position x="-6649.638" y="-2761.2046"></viz:position>
+        <viz:size value="50.442646"></viz:size>
+        <viz:position x="-1576.8379" y="-1113.0286"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="csajokespasik" label="csajokespasik">
@@ -5753,8 +5753,8 @@
           <attvalue for="clustering" value="1.0"></attvalue>
           <attvalue for="eigencentrality" value="0.07905326388587036"></attvalue>
         </attvalues>
-        <viz:size value="250.42181"></viz:size>
-        <viz:position x="3907.0054" y="-3252.102"></viz:position>
+        <viz:size value="52.11583"></viz:size>
+        <viz:position x="1010.58826" y="-743.29767"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="visualcapitalist" label="visualcapitalist">
@@ -5779,8 +5779,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.0"></attvalue>
         </attvalues>
-        <viz:size value="245.0"></viz:size>
-        <viz:position x="-3744.7583" y="532.86475"></viz:position>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="-1062.0211" y="-811.0632"></viz:position>
         <viz:color r="140" g="185" b="0"></viz:color>
       </node>
       <node id="ridikul" label="ridikul">
@@ -5805,8 +5805,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.009636386245613651"></attvalue>
         </attvalues>
-        <viz:size value="245.41785"></viz:size>
-        <viz:position x="-59.691124" y="5459.48"></viz:position>
+        <viz:size value="50.163063"></viz:size>
+        <viz:position x="742.8681" y="1312.9724"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="mozi24" label="mozi24">
@@ -5831,8 +5831,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.0"></attvalue>
         </attvalues>
-        <viz:size value="245.0"></viz:size>
-        <viz:position x="4932.58" y="3834.301"></viz:position>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="1372.746" y="975.36255"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="netmedia" label="netmedia">
@@ -5857,8 +5857,8 @@
           <attvalue for="clustering" value="0.5"></attvalue>
           <attvalue for="eigencentrality" value="0.05398577054462058"></attvalue>
         </attvalues>
-        <viz:size value="266.90482"></viz:size>
-        <viz:position x="2362.5645" y="-5720.159"></viz:position>
+        <viz:size value="58.54822"></viz:size>
+        <viz:position x="499.62216" y="-1508.6969"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="cosmopolitan" label="cosmopolitan">
@@ -5883,8 +5883,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.009636386245613651"></attvalue>
         </attvalues>
-        <viz:size value="245.41785"></viz:size>
-        <viz:position x="-1716.5776" y="5220.546"></viz:position>
+        <viz:size value="50.163063"></viz:size>
+        <viz:position x="-657.2253" y="1593.449"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="adaptivemedia" label="adaptivemedia">
@@ -5909,8 +5909,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.008123059582152073"></attvalue>
         </attvalues>
-        <viz:size value="249.05138"></viz:size>
-        <viz:position x="300.39694" y="2494.8286"></viz:position>
+        <viz:size value="51.581024"></viz:size>
+        <viz:position x="-32.025097" y="1095.7341"></viz:position>
         <viz:color r="35" g="150" b="111"></viz:color>
       </node>
       <node id="azoreg" label="azoreg">
@@ -5935,8 +5935,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.005927903979388228"></attvalue>
         </attvalues>
-        <viz:size value="248.11743"></viz:size>
-        <viz:position x="-6251.697" y="1163.0486"></viz:position>
+        <viz:size value="51.21656"></viz:size>
+        <viz:position x="-1900.4648" y="269.93314"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="ingatlan" label="ingatlan">
@@ -5961,8 +5961,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.012929075837229109"></attvalue>
         </attvalues>
-        <viz:size value="248.2241"></viz:size>
-        <viz:position x="-6423.7183" y="-4229.5435"></viz:position>
+        <viz:size value="51.25819"></viz:size>
+        <viz:position x="-1804.3625" y="-1144.6675"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="ingatlantajolo" label="ingatlantajolo">
@@ -5987,8 +5987,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.03750862171009465"></attvalue>
         </attvalues>
-        <viz:size value="246.5525"></viz:size>
-        <viz:position x="437.2688" y="-7679.003"></viz:position>
+        <viz:size value="50.605858"></viz:size>
+        <viz:position x="175.40855" y="-2134.1401"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="wikimedia" label="wikimedia">
@@ -6013,8 +6013,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.0"></attvalue>
         </attvalues>
-        <viz:size value="245.0"></viz:size>
-        <viz:position x="6095.6772" y="624.6782"></viz:position>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="1746.2471" y="41.634426"></viz:position>
         <viz:color r="140" g="185" b="0"></viz:color>
       </node>
       <node id="irodahaz" label="irodahaz">
@@ -6039,8 +6039,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.03750862171009465"></attvalue>
         </attvalues>
-        <viz:size value="246.5525"></viz:size>
-        <viz:position x="-404.79742" y="-7604.963"></viz:position>
+        <viz:size value="50.605858"></viz:size>
+        <viz:position x="-57.73968" y="-2133.3684"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="latoszogblog" label="latoszogblog">
@@ -6065,8 +6065,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.0017937486559126534"></attvalue>
         </attvalues>
-        <viz:size value="247.37894"></viz:size>
-        <viz:position x="-5555.827" y="699.5515"></viz:position>
+        <viz:size value="50.928368"></viz:size>
+        <viz:position x="-1672.6023" y="290.5387"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="pewglobal" label="pewglobal">
@@ -6091,8 +6091,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.0"></attvalue>
         </attvalues>
-        <viz:size value="245.0"></viz:size>
-        <viz:position x="-3920.1052" y="6702.806"></viz:position>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="-1146.1343" y="1847.5802"></viz:position>
         <viz:color r="140" g="185" b="0"></viz:color>
       </node>
       <node id="061" label="061">
@@ -6117,8 +6117,8 @@
           <attvalue for="clustering" value="1.0"></attvalue>
           <attvalue for="eigencentrality" value="0.005927903979388228"></attvalue>
         </attvalues>
-        <viz:size value="248.11743"></viz:size>
-        <viz:position x="-7117.4346" y="695.31714"></viz:position>
+        <viz:size value="51.21656"></viz:size>
+        <viz:position x="-2006.0322" y="55.341896"></viz:position>
         <viz:color r="140" g="185" b="0"></viz:color>
       </node>
       <node id="telesport" label="telesport">
@@ -6143,8 +6143,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.005024212043668039"></attvalue>
         </attvalues>
-        <viz:size value="248.3302"></viz:size>
-        <viz:position x="-2403.867" y="6616.4775"></viz:position>
+        <viz:size value="51.299587"></viz:size>
+        <viz:position x="-696.994" y="1824.2251"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="dunamsz" label="dunamsz">
@@ -6169,8 +6169,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.005024212043668039"></attvalue>
         </attvalues>
-        <viz:size value="248.3302"></viz:size>
-        <viz:position x="-3278.093" y="5459.164"></viz:position>
+        <viz:size value="51.299587"></viz:size>
+        <viz:position x="-916.3961" y="1711.1189"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="theparliamentmagazine" label="theparliamentmagazine">
@@ -6195,8 +6195,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.0"></attvalue>
         </attvalues>
-        <viz:size value="245.0"></viz:size>
-        <viz:position x="7459.5864" y="1900.0751"></viz:position>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="2102.7754" y="480.8223"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="profit7" label="profit7">
@@ -6221,8 +6221,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.005024212043668039"></attvalue>
         </attvalues>
-        <viz:size value="248.3302"></viz:size>
-        <viz:position x="-3222.736" y="6270.5312"></viz:position>
+        <viz:size value="51.299587"></viz:size>
+        <viz:position x="-910.5933" y="1946.5015"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="babaszoba" label="babaszoba">
@@ -6247,8 +6247,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.009636386245613651"></attvalue>
         </attvalues>
-        <viz:size value="250.8499"></viz:size>
-        <viz:position x="5643.6343" y="2264.8804"></viz:position>
+        <viz:size value="52.28289"></viz:size>
+        <viz:position x="1634.6394" y="523.6255"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="lifetvmedia" label="lifetvmedia">
@@ -6273,8 +6273,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.004943303754770136"></attvalue>
         </attvalues>
-        <viz:size value="246.13428"></viz:size>
-        <viz:position x="-6905.7007" y="-1257.3158"></viz:position>
+        <viz:size value="50.442646"></viz:size>
+        <viz:position x="-1893.022" y="-447.26154"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="visegradfund" label="visegradfund">
@@ -6299,8 +6299,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.04154464217577566"></attvalue>
         </attvalues>
-        <viz:size value="248.86931"></viz:size>
-        <viz:position x="5584.804" y="-2451.3816"></viz:position>
+        <viz:size value="51.509975"></viz:size>
+        <viz:position x="1159.2365" y="-320.8821"></viz:position>
         <viz:color r="140" g="185" b="0"></viz:color>
       </node>
       <node id="derbywars" label="derbywars">
@@ -6325,8 +6325,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.0017937486559126534"></attvalue>
         </attvalues>
-        <viz:size value="252.13683"></viz:size>
-        <viz:position x="-1080.1793" y="7727.902"></viz:position>
+        <viz:size value="52.785103"></viz:size>
+        <viz:position x="-112.562195" y="2178.0762"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="creativecommons" label="creativecommons">
@@ -6351,8 +6351,8 @@
           <attvalue for="clustering" value="0.5"></attvalue>
           <attvalue for="eigencentrality" value="0.052473122473997616"></attvalue>
         </attvalues>
-        <viz:size value="250.53818"></viz:size>
-        <viz:position x="-1889.5919" y="430.90027"></viz:position>
+        <viz:size value="52.161243"></viz:size>
+        <viz:position x="253.09723" y="481.9188"></viz:position>
         <viz:color r="140" g="185" b="0"></viz:color>
       </node>
       <node id="player" label="player">
@@ -6377,8 +6377,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.009636386245613651"></attvalue>
         </attvalues>
-        <viz:size value="245.41785"></viz:size>
-        <viz:position x="-219.13176" y="4628.2764"></viz:position>
+        <viz:size value="50.163063"></viz:size>
+        <viz:position x="-24.354105" y="1533.359"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="kozeletiskolaja" label="kozeletiskolaja">
@@ -6403,8 +6403,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.009371178184057475"></attvalue>
         </attvalues>
-        <viz:size value="246.75627"></viz:size>
-        <viz:position x="4842.6416" y="-511.70465"></viz:position>
+        <viz:size value="50.685375"></viz:size>
+        <viz:position x="1212.0159" y="232.15816"></viz:position>
         <viz:color r="140" g="185" b="0"></viz:color>
       </node>
       <node id="ujegyenloseg" label="ujegyenloseg">
@@ -6429,8 +6429,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.009371178184057475"></attvalue>
         </attvalues>
-        <viz:size value="246.75627"></viz:size>
-        <viz:position x="4079.0593" y="-249.38655"></viz:position>
+        <viz:size value="50.685375"></viz:size>
+        <viz:position x="997.77466" y="128.77954"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="hu-lala" label="hu-lala">
@@ -6455,8 +6455,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.009371178184057475"></attvalue>
         </attvalues>
-        <viz:size value="246.75627"></viz:size>
-        <viz:position x="5353.9204" y="108.897835"></viz:position>
+        <viz:size value="50.685375"></viz:size>
+        <viz:position x="1651.3284" y="-221.77585"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="klubradio" label="klubradio">
@@ -6481,8 +6481,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.004108100956083022"></attvalue>
         </attvalues>
-        <viz:size value="247.08983"></viz:size>
-        <viz:position x="-1809.0096" y="4410.895"></viz:position>
+        <viz:size value="50.815544"></viz:size>
+        <viz:position x="-507.33167" y="1420.9983"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="nepszava" label="nepszava">
@@ -6507,8 +6507,8 @@
           <attvalue for="clustering" value="0.0476190485060215"></attvalue>
           <attvalue for="eigencentrality" value="0.0"></attvalue>
         </attvalues>
-        <viz:size value="245.0"></viz:size>
-        <viz:position x="1449.3579" y="397.09677"></viz:position>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="572.6621" y="62.610928"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="mgkiado" label="mgkiado">
@@ -6533,8 +6533,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.0017937486559126534"></attvalue>
         </attvalues>
-        <viz:size value="247.0391"></viz:size>
-        <viz:position x="4062.1526" y="1203.5598"></viz:position>
+        <viz:size value="50.795742"></viz:size>
+        <viz:position x="1401.1692" y="392.02335"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="plex" label="plex">
@@ -6559,8 +6559,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.0017937486559126534"></attvalue>
         </attvalues>
-        <viz:size value="247.0391"></viz:size>
-        <viz:position x="4744.4004" y="1589.577"></viz:position>
+        <viz:size value="50.795742"></viz:size>
+        <viz:position x="1444.4259" y="159.94061"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="sielok" label="sielok">
@@ -6585,8 +6585,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.01158195144620824"></attvalue>
         </attvalues>
-        <viz:size value="246.44337"></viz:size>
-        <viz:position x="4295.3555" y="4341.0835"></viz:position>
+        <viz:size value="50.563267"></viz:size>
+        <viz:position x="1566.5016" y="1126.9373"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="magyaridok" label="magyaridok">
@@ -6611,8 +6611,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.009636386245613651"></attvalue>
         </attvalues>
-        <viz:size value="245.41785"></viz:size>
-        <viz:position x="-543.7058" y="2728.2917"></viz:position>
+        <viz:size value="50.163063"></viz:size>
+        <viz:position x="-272.8932" y="806.8245"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="karcfm" label="karcfm">
@@ -6637,8 +6637,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.004108100956083022"></attvalue>
         </attvalues>
-        <viz:size value="252.31442"></viz:size>
-        <viz:position x="-997.91956" y="4303.5767"></viz:position>
+        <viz:size value="52.854404"></viz:size>
+        <viz:position x="-273.01917" y="1497.374"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="netrix" label="netrix">
@@ -6663,8 +6663,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.004014958626069056"></attvalue>
         </attvalues>
-        <viz:size value="246.96155"></viz:size>
-        <viz:position x="-230.07938" y="3661.7415"></viz:position>
+        <viz:size value="50.76548"></viz:size>
+        <viz:position x="-219.8252" y="1280.7034"></viz:position>
         <viz:color r="140" g="185" b="0"></viz:color>
       </node>
       <node id="bigfish" label="bigfish">
@@ -6689,8 +6689,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.016257872339810003"></attvalue>
         </attvalues>
-        <viz:size value="248.47025"></viz:size>
-        <viz:position x="1082.6271" y="3736.823"></viz:position>
+        <viz:size value="51.35424"></viz:size>
+        <viz:position x="-30.44003" y="873.10626"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="courrierdeuropecentrale" label="courrierdeuropecentrale">
@@ -6715,8 +6715,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.0038271792250951435"></attvalue>
         </attvalues>
-        <viz:size value="260.76654"></viz:size>
-        <viz:position x="6968.907" y="502.4009"></viz:position>
+        <viz:size value="56.152794"></viz:size>
+        <viz:position x="1994.4651" y="76.41381"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="amazonaws" label="amazonaws">
@@ -6741,8 +6741,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.004108100956083022"></attvalue>
         </attvalues>
-        <viz:size value="247.43814"></viz:size>
-        <viz:position x="2239.431" y="914.048"></viz:position>
+        <viz:size value="50.95147"></viz:size>
+        <viz:position x="142.95546" y="703.1884"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="messenger" label="messenger">
@@ -6767,8 +6767,8 @@
           <attvalue for="clustering" value="0.5"></attvalue>
           <attvalue for="eigencentrality" value="0.21688348730136"></attvalue>
         </attvalues>
-        <viz:size value="435.0813"></viz:size>
-        <viz:position x="-1287.8374" y="-3106.8472"></viz:position>
+        <viz:size value="124.17806"></viz:size>
+        <viz:position x="-107.623825" y="-1036.9592"></viz:position>
         <viz:color r="0" g="199" b="255"></viz:color>
       </node>
       <node id="mtva" label="mtva">
@@ -6793,8 +6793,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.005024212043668039"></attvalue>
         </attvalues>
-        <viz:size value="248.3302"></viz:size>
-        <viz:position x="-4058.7007" y="5650.6616"></viz:position>
+        <viz:size value="51.299587"></viz:size>
+        <viz:position x="-1135.7095" y="1604.8599"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="hvgkonyvek" label="hvgkonyvek">
@@ -6819,8 +6819,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.008819931163715721"></attvalue>
         </attvalues>
-        <viz:size value="249.24725"></viz:size>
-        <viz:position x="1379.9213" y="4564.0864"></viz:position>
+        <viz:size value="51.657463"></viz:size>
+        <viz:position x="210.3108" y="1139.6447"></viz:position>
         <viz:color r="140" g="185" b="0"></viz:color>
       </node>
       <node id="benu" label="benu">
@@ -6845,8 +6845,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.01158195144620824"></attvalue>
         </attvalues>
-        <viz:size value="246.44337"></viz:size>
-        <viz:position x="2371.1287" y="5874.74"></viz:position>
+        <viz:size value="50.563267"></viz:size>
+        <viz:position x="1196.8683" y="1372.1112"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="kuruc" label="kuruc">
@@ -6871,8 +6871,8 @@
           <attvalue for="clustering" value="0.011111111380159855"></attvalue>
           <attvalue for="eigencentrality" value="0.0"></attvalue>
         </attvalues>
-        <viz:size value="245.0"></viz:size>
-        <viz:position x="4918.681" y="-1566.7413"></viz:position>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="1369.1267" y="-457.24768"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="turania" label="turania">
@@ -6897,8 +6897,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.0017937486559126534"></attvalue>
         </attvalues>
-        <viz:size value="246.42737"></viz:size>
-        <viz:position x="7015.6494" y="-372.07758"></viz:position>
+        <viz:size value="50.557022"></viz:size>
+        <viz:position x="1916.2513" y="-151.70953"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="bloggol" label="bloggol">
@@ -6923,8 +6923,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.0017937486559126534"></attvalue>
         </attvalues>
-        <viz:size value="247.37894"></viz:size>
-        <viz:position x="-5164.3394" y="1426.6863"></viz:position>
+        <viz:size value="50.928368"></viz:size>
+        <viz:position x="-1605.2986" y="551.9344"></viz:position>
         <viz:color r="255" g="112" b="69"></viz:color>
       </node>
       <node id="addthis" label="addthis">
@@ -6949,8 +6949,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.0017937486559126534"></attvalue>
         </attvalues>
-        <viz:size value="246.42737"></viz:size>
-        <viz:position x="7051.025" y="-3258.9585"></viz:position>
+        <viz:size value="50.557022"></viz:size>
+        <viz:position x="1919.0978" y="-984.5069"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="origomediagroup" label="origomediagroup">
@@ -6975,8 +6975,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.012929075837229109"></attvalue>
         </attvalues>
-        <viz:size value="248.2241"></viz:size>
-        <viz:position x="-4604.3325" y="-2982.2202"></viz:position>
+        <viz:size value="51.25819"></viz:size>
+        <viz:position x="-1351.4517" y="-1034.8467"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="tinywebgallery" label="tinywebgallery">
@@ -7001,8 +7001,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.005927903979388228"></attvalue>
         </attvalues>
-        <viz:size value="248.11743"></viz:size>
-        <viz:position x="-5865.106" y="1929.331"></viz:position>
+        <viz:size value="51.21656"></viz:size>
+        <viz:position x="-1777.9712" y="738.34894"></viz:position>
         <viz:color r="0" g="199" b="255"></viz:color>
       </node>
       <node id="nport" label="nport">
@@ -7027,8 +7027,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.003937433502538647"></attvalue>
         </attvalues>
-        <viz:size value="246.46663"></viz:size>
-        <viz:position x="-1356.5509" y="-7592.137"></viz:position>
+        <viz:size value="50.572346"></viz:size>
+        <viz:position x="-305.4657" y="-2113.4944"></viz:position>
         <viz:color r="140" g="185" b="0"></viz:color>
       </node>
       <node id="idokep" label="idokep">
@@ -7053,8 +7053,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.0017937486559126534"></attvalue>
         </attvalues>
-        <viz:size value="246.42737"></viz:size>
-        <viz:position x="6306.5776" y="-3477.2866"></viz:position>
+        <viz:size value="50.557022"></viz:size>
+        <viz:position x="1696.498" y="-1023.2032"></viz:position>
         <viz:color r="140" g="185" b="0"></viz:color>
       </node>
       <node id="hírfolyam" label="hírfolyam">
@@ -7079,8 +7079,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.0017937486559126534"></attvalue>
         </attvalues>
-        <viz:size value="246.42737"></viz:size>
-        <viz:position x="6545.025" y="-1038.4695"></viz:position>
+        <viz:size value="50.557022"></viz:size>
+        <viz:position x="1884.6748" y="-367.8145"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="lapszemle" label="lapszemle">
@@ -7105,8 +7105,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.0017937486559126534"></attvalue>
         </attvalues>
-        <viz:size value="246.42737"></viz:size>
-        <viz:position x="6459.5005" y="-2588.2224"></viz:position>
+        <viz:size value="50.557022"></viz:size>
+        <viz:position x="1745.2495" y="-785.22845"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="ipv6-test" label="ipv6-test">
@@ -7131,8 +7131,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.0017937486559126534"></attvalue>
         </attvalues>
-        <viz:size value="246.42737"></viz:size>
-        <viz:position x="6683.895" y="-1806.027"></viz:position>
+        <viz:size value="50.557022"></viz:size>
+        <viz:position x="1826.9045" y="-587.40576"></viz:position>
         <viz:color r="140" g="185" b="0"></viz:color>
       </node>
       <node id="feminashop" label="feminashop">
@@ -7157,8 +7157,8 @@
           <attvalue for="clustering" value="1.0"></attvalue>
           <attvalue for="eigencentrality" value="0.04821936420478735"></attvalue>
         </attvalues>
-        <viz:size value="247.83043"></viz:size>
-        <viz:position x="3297.0955" y="-3702.9255"></viz:position>
+        <viz:size value="51.104557"></viz:size>
+        <viz:position x="811.731" y="-1356.7158"></viz:position>
         <viz:color r="140" g="185" b="0"></viz:color>
       </node>
       <node id="jobline" label="jobline">
@@ -7183,8 +7183,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.008819931163715721"></attvalue>
         </attvalues>
-        <viz:size value="249.24725"></viz:size>
-        <viz:position x="1282.9553" y="2855.6672"></viz:position>
+        <viz:size value="51.657463"></viz:size>
+        <viz:position x="412.47583" y="1040.2839"></viz:position>
         <viz:color r="35" g="150" b="111"></viz:color>
       </node>
       <node id="polopokol" label="polopokol">
@@ -7209,8 +7209,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.010928480298221938"></attvalue>
         </attvalues>
-        <viz:size value="246.66887"></viz:size>
-        <viz:position x="-2378.964" y="2948.2651"></viz:position>
+        <viz:size value="50.651268"></viz:size>
+        <viz:position x="-453.9364" y="1202.5167"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="hazafias" label="hazafias">
@@ -7235,8 +7235,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.0017937486559126534"></attvalue>
         </attvalues>
-        <viz:size value="246.42737"></viz:size>
-        <viz:position x="7476.5376" y="-1535.795"></viz:position>
+        <viz:size value="50.557022"></viz:size>
+        <viz:position x="2076.934" y="-536.79755"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="mindenamifal" label="mindenamifal">
@@ -7261,8 +7261,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.005927903979388228"></attvalue>
         </attvalues>
-        <viz:size value="248.11743"></viz:size>
-        <viz:position x="-6106.354" y="3329.1582"></viz:position>
+        <viz:size value="51.21656"></viz:size>
+        <viz:position x="-1680.0422" y="963.18384"></viz:position>
         <viz:color r="140" g="185" b="0"></viz:color>
       </node>
       <node id="soundcloud" label="soundcloud">
@@ -7287,8 +7287,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.010928480298221938"></attvalue>
         </attvalues>
-        <viz:size value="246.66887"></viz:size>
-        <viz:position x="-1509.746" y="2853.2854"></viz:position>
+        <viz:size value="50.651268"></viz:size>
+        <viz:position x="-1032.579" y="477.58704"></viz:position>
         <viz:color r="0" g="199" b="255"></viz:color>
       </node>
       <node id="evoks" label="evoks">
@@ -7313,8 +7313,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.010928480298221938"></attvalue>
         </attvalues>
-        <viz:size value="246.66887"></viz:size>
-        <viz:position x="-4905.4023" y="2239.4006"></viz:position>
+        <viz:size value="50.651268"></viz:size>
+        <viz:position x="-1515.533" y="788.6859"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="oktatas" label="oktatas">
@@ -7339,8 +7339,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.010928480298221938"></attvalue>
         </attvalues>
-        <viz:size value="246.66887"></viz:size>
-        <viz:position x="-2781.153" y="3985.5925"></viz:position>
+        <viz:size value="50.651268"></viz:size>
+        <viz:position x="-833.00287" y="1001.06464"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="pioneers" label="pioneers">
@@ -7365,8 +7365,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.010928480298221938"></attvalue>
         </attvalues>
-        <viz:size value="246.66887"></viz:size>
-        <viz:position x="-3419.5269" y="2394.151"></viz:position>
+        <viz:size value="50.651268"></viz:size>
+        <viz:position x="-948.21643" y="1204.1127"></viz:position>
         <viz:color r="140" g="185" b="0"></viz:color>
       </node>
       <node id="fizettem" label="fizettem">
@@ -7391,8 +7391,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.010928480298221938"></attvalue>
         </attvalues>
-        <viz:size value="246.66887"></viz:size>
-        <viz:position x="-4161.717" y="2070.8386"></viz:position>
+        <viz:size value="50.651268"></viz:size>
+        <viz:position x="-1455.8572" y="343.29788"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="alhirvadasz" label="alhirvadasz">
@@ -7417,8 +7417,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.010928480298221938"></attvalue>
         </attvalues>
-        <viz:size value="246.66887"></viz:size>
-        <viz:position x="-4218.139" y="1357.7059"></viz:position>
+        <viz:size value="50.651268"></viz:size>
+        <viz:position x="-1364.5957" y="612.9211"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="bbelements" label="bbelements">
@@ -7443,8 +7443,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.014452370508391495"></attvalue>
         </attvalues>
-        <viz:size value="250.2858"></viz:size>
-        <viz:position x="-1041.3768" y="3465.2322"></viz:position>
+        <viz:size value="52.06275"></viz:size>
+        <viz:position x="-663.17664" y="776.3536"></viz:position>
         <viz:color r="140" g="185" b="0"></viz:color>
       </node>
       <node id="tv24" label="tv24">
@@ -7469,8 +7469,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.012242913713740936"></attvalue>
         </attvalues>
-        <viz:size value="246.5087"></viz:size>
-        <viz:position x="3656.6165" y="5092.1074"></viz:position>
+        <viz:size value="50.58876"></viz:size>
+        <viz:position x="973.793" y="1188.5745"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="nolblog" label="nolblog">
@@ -7495,8 +7495,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.003937433502538647"></attvalue>
         </attvalues>
-        <viz:size value="246.46663"></viz:size>
-        <viz:position x="-5628.2725" y="-4288.3867"></viz:position>
+        <viz:size value="50.572346"></viz:size>
+        <viz:position x="-1660.5387" y="-1347.0657"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="list-manage" label="list-manage">
@@ -7521,8 +7521,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.010928480298221938"></attvalue>
         </attvalues>
-        <viz:size value="246.66887"></viz:size>
-        <viz:position x="-2938.714" y="125.82849"></viz:position>
+        <viz:size value="50.651268"></viz:size>
+        <viz:position x="-1105.2704" y="232.08578"></viz:position>
         <viz:color r="140" g="185" b="0"></viz:color>
       </node>
       <node id="eoldal" label="eoldal">
@@ -7547,8 +7547,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.012242913713740936"></attvalue>
         </attvalues>
-        <viz:size value="246.5087"></viz:size>
-        <viz:position x="4770.6997" y="2342.3809"></viz:position>
+        <viz:size value="50.58876"></viz:size>
+        <viz:position x="1425.0227" y="635.1921"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="citromail" label="citromail">
@@ -7573,8 +7573,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.012242913713740936"></attvalue>
         </attvalues>
-        <viz:size value="246.5087"></viz:size>
-        <viz:position x="5354.418" y="3067.5383"></viz:position>
+        <viz:size value="50.58876"></viz:size>
+        <viz:position x="1536.4072" y="823.89294"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="kozelben" label="kozelben">
@@ -7599,8 +7599,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.012242913713740936"></attvalue>
         </attvalues>
-        <viz:size value="246.5087"></viz:size>
-        <viz:position x="476.01556" y="4274.2295"></viz:position>
+        <viz:size value="50.58876"></viz:size>
+        <viz:position x="503.6419" y="1252.1394"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="microsoft" label="microsoft">
@@ -7625,8 +7625,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.012242913713740936"></attvalue>
         </attvalues>
-        <viz:size value="246.5087"></viz:size>
-        <viz:position x="3401.934" y="4337.5645"></viz:position>
+        <viz:size value="50.58876"></viz:size>
+        <viz:position x="1095.6608" y="964.1249"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="vimeo" label="vimeo">
@@ -7651,8 +7651,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.010928480298221938"></attvalue>
         </attvalues>
-        <viz:size value="246.66887"></viz:size>
-        <viz:position x="-2648.8162" y="2179.7517"></viz:position>
+        <viz:size value="50.651268"></viz:size>
+        <viz:position x="-489.7125" y="923.9369"></viz:position>
         <viz:color r="0" g="199" b="255"></viz:color>
       </node>
       <node id="dkt" label="dkt">
@@ -7677,8 +7677,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.005927903979388228"></attvalue>
         </attvalues>
-        <viz:size value="248.11743"></viz:size>
-        <viz:position x="-7654.125" y="-630.04565"></viz:position>
+        <viz:size value="51.21656"></viz:size>
+        <viz:position x="-2106.9978" y="-312.67917"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="cloudfront" label="cloudfront">
@@ -7703,8 +7703,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.010928480298221938"></attvalue>
         </attvalues>
-        <viz:size value="246.66887"></viz:size>
-        <viz:position x="-3402.7217" y="1492.1771"></viz:position>
+        <viz:size value="50.651268"></viz:size>
+        <viz:position x="-832.1844" y="585.8345"></viz:position>
         <viz:color r="140" g="185" b="0"></viz:color>
       </node>
       <node id="europa" label="europa">
@@ -7729,8 +7729,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.0017937486559126534"></attvalue>
         </attvalues>
-        <viz:size value="249.75789"></viz:size>
-        <viz:position x="-2560.9116" y="-1738.5957"></viz:position>
+        <viz:size value="51.856735"></viz:size>
+        <viz:position x="-265.85123" y="1043.4736"></viz:position>
         <viz:color r="140" g="185" b="0"></viz:color>
       </node>
       <node id="hirmatrix" label="hirmatrix">
@@ -7755,8 +7755,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.003937433502538647"></attvalue>
         </attvalues>
-        <viz:size value="246.46663"></viz:size>
-        <viz:position x="-3882.4148" y="-6768.424"></viz:position>
+        <viz:size value="50.572346"></viz:size>
+        <viz:position x="-1201.3102" y="-1806.2434"></viz:position>
         <viz:color r="140" g="185" b="0"></viz:color>
       </node>
       <node id="cloudflare" label="cloudflare">
@@ -7781,8 +7781,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.005927903979388228"></attvalue>
         </attvalues>
-        <viz:size value="248.11743"></viz:size>
-        <viz:position x="-6900.266" y="-344.96982"></viz:position>
+        <viz:size value="51.21656"></viz:size>
+        <viz:position x="-1766.6786" y="35.787106"></viz:position>
         <viz:color r="140" g="185" b="0"></viz:color>
       </node>
       <node id="kormany" label="kormany">
@@ -7807,8 +7807,8 @@
           <attvalue for="clustering" value="0.0"></attvalue>
           <attvalue for="eigencentrality" value="0.010928480298221938"></attvalue>
         </attvalues>
-        <viz:size value="246.66887"></viz:size>
-        <viz:position x="-3080.7068" y="-945.10767"></viz:position>
+        <viz:size value="50.651268"></viz:size>
+        <viz:position x="-1123.1569" y="-11.760932"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
     </nodes>
