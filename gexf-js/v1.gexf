@@ -37,6 +37,12 @@
       <attribute id="betweenesscentrality" title="Betweenness Centrality" type="double">
         <default>0.0</default>
       </attribute>
+      <attribute id="authority" title="Authority" type="float">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="hub" title="Hub" type="float">
+        <default>0.0</default>
+      </attribute>
       <attribute id="modularity_class" title="Modularity Class" type="integer">
         <default>0</default>
       </attribute>
@@ -70,7 +76,9 @@
           <attvalue for="closnesscentrality" value="0.8"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.875"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="7"></attvalue>
+          <attvalue for="authority" value="0.0"></attvalue>
+          <attvalue for="hub" value="0.14356533"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
           <attvalue for="pageranks" value="0.005324644148031887"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="4"></attvalue>
@@ -78,7 +86,7 @@
           <attvalue for="eigencentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="30.0"></viz:size>
-        <viz:position x="-590.70636" y="240.25308"></viz:position>
+        <viz:position x="65.92469" y="-63.766705"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="facebook" label="facebook">
@@ -94,7 +102,9 @@
           <attvalue for="closnesscentrality" value="1.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
           <attvalue for="betweenesscentrality" value="18.5"></attvalue>
-          <attvalue for="modularity_class" value="7"></attvalue>
+          <attvalue for="authority" value="0.49122164"></attvalue>
+          <attvalue for="hub" value="0.017303267"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
           <attvalue for="pageranks" value="0.033188484486170663"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="3"></attvalue>
@@ -102,7 +112,7 @@
           <attvalue for="eigencentrality" value="0.8912794727016266"></attvalue>
         </attvalues>
         <viz:size value="97.461784"></viz:size>
-        <viz:position x="90.19035" y="-137.22359"></viz:position>
+        <viz:position x="147.49644" y="251.48062"></viz:position>
         <viz:color r="0" g="199" b="255"></viz:color>
       </node>
       <node id="mno" label="mno">
@@ -118,7 +128,9 @@
           <attvalue for="closnesscentrality" value="0.875"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.9285714285714286"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="7"></attvalue>
+          <attvalue for="authority" value="0.0"></attvalue>
+          <attvalue for="hub" value="0.16525567"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
           <attvalue for="pageranks" value="0.005324644148031887"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="10"></attvalue>
@@ -126,7 +138,7 @@
           <attvalue for="eigencentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="30.0"></viz:size>
-        <viz:position x="520.8124" y="-371.5538"></viz:position>
+        <viz:position x="58.67013" y="468.5957"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="pinterest" label="pinterest">
@@ -142,7 +154,9 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="7"></attvalue>
+          <attvalue for="authority" value="0.21500833"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
           <attvalue for="pageranks" value="0.00863507125012376"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="9"></attvalue>
@@ -150,7 +164,7 @@
           <attvalue for="eigencentrality" value="0.7005268274142429"></attvalue>
         </attvalues>
         <viz:size value="38.01495"></viz:size>
-        <viz:position x="302.9187" y="-19.56353"></viz:position>
+        <viz:position x="200.48668" y="85.3389"></viz:position>
         <viz:color r="0" g="199" b="255"></viz:color>
       </node>
       <node id="disqus" label="disqus">
@@ -166,7 +180,9 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="9"></attvalue>
+          <attvalue for="authority" value="0.043723483"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
           <attvalue for="pageranks" value="0.0065315566172350886"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="8"></attvalue>
@@ -174,7 +190,7 @@
           <attvalue for="eigencentrality" value="0.010745954079579942"></attvalue>
         </attvalues>
         <viz:size value="32.922085"></viz:size>
-        <viz:position x="1209.4326" y="-203.86395"></viz:position>
+        <viz:position x="550.93445" y="979.4548"></viz:position>
         <viz:color r="0" g="199" b="255"></viz:color>
       </node>
       <node id="nemzetisport" label="nemzetisport">
@@ -190,6 +206,8 @@
           <attvalue for="closnesscentrality" value="0.4166666666666667"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.5166666666666666"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.05989461"></attvalue>
+          <attvalue for="hub" value="0.01223644"></attvalue>
           <attvalue for="modularity_class" value="5"></attvalue>
           <attvalue for="pageranks" value="0.005655896276012372"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
@@ -198,7 +216,7 @@
           <attvalue for="eigencentrality" value="0.03230674798422722"></attvalue>
         </attvalues>
         <viz:size value="30.802002"></viz:size>
-        <viz:position x="1009.3627" y="760.70905"></viz:position>
+        <viz:position x="592.01935" y="-547.93835"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="mindmegette" label="mindmegette">
@@ -214,6 +232,8 @@
           <attvalue for="closnesscentrality" value="0.5714285714285714"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.7083333333333333"></attvalue>
           <attvalue for="betweenesscentrality" value="5.0"></attvalue>
+          <attvalue for="authority" value="0.07641096"></attvalue>
+          <attvalue for="hub" value="0.020220106"></attvalue>
           <attvalue for="modularity_class" value="5"></attvalue>
           <attvalue for="pageranks" value="0.015703032935683068"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
@@ -222,7 +242,7 @@
           <attvalue for="eigencentrality" value="0.17470259991350018"></attvalue>
         </attvalues>
         <viz:size value="55.127354"></viz:size>
-        <viz:position x="817.6479" y="881.71796"></viz:position>
+        <viz:position x="888.20374" y="-255.97368"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="hvg" label="hvg">
@@ -238,6 +258,8 @@
           <attvalue for="closnesscentrality" value="0.9090909090909091"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.95"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.0"></attvalue>
+          <attvalue for="hub" value="0.24588716"></attvalue>
           <attvalue for="modularity_class" value="6"></attvalue>
           <attvalue for="pageranks" value="0.005324644148031887"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
@@ -246,7 +268,7 @@
           <attvalue for="eigencentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="30.0"></viz:size>
-        <viz:position x="-550.85693" y="-250.22572"></viz:position>
+        <viz:position x="-524.6898" y="78.21259"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="apple" label="apple">
@@ -262,7 +284,9 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="1"></attvalue>
+          <attvalue for="authority" value="0.051126175"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
           <attvalue for="pageranks" value="0.006277843430757771"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="19"></attvalue>
@@ -270,7 +294,7 @@
           <attvalue for="eigencentrality" value="0.08603037332602266"></attvalue>
         </attvalues>
         <viz:size value="32.30781"></viz:size>
-        <viz:position x="-1225.4646" y="59.87075"></viz:position>
+        <viz:position x="-783.3744" y="-193.26161"></viz:position>
         <viz:color r="140" g="185" b="0"></viz:color>
       </node>
       <node id="amazonaws" label="amazonaws">
@@ -286,7 +310,9 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="7"></attvalue>
+          <attvalue for="authority" value="0.02299053"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
           <attvalue for="pageranks" value="0.00683328473453589"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="1"></attvalue>
@@ -294,7 +320,7 @@
           <attvalue for="eigencentrality" value="0.005372977039789971"></attvalue>
         </attvalues>
         <viz:size value="33.652603"></viz:size>
-        <viz:position x="-1209.8275" y="320.0495"></viz:position>
+        <viz:position x="371.73468" y="-522.8236"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="google" label="google">
@@ -310,7 +336,9 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="7"></attvalue>
+          <attvalue for="authority" value="0.22906446"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
           <attvalue for="pageranks" value="0.014122357126063259"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="7"></attvalue>
@@ -318,7 +346,7 @@
           <attvalue for="eigencentrality" value="0.7732472575148835"></attvalue>
         </attvalues>
         <viz:size value="51.300346"></viz:size>
-        <viz:position x="-336.6716" y="-139.77829"></viz:position>
+        <viz:position x="-455.0441" y="-110.05677"></viz:position>
         <viz:color r="140" g="185" b="0"></viz:color>
       </node>
       <node id="messenger" label="messenger">
@@ -334,7 +362,9 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="7"></attvalue>
+          <attvalue for="authority" value="0.10805098"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
           <attvalue for="pageranks" value="0.03423684768252526"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="2"></attvalue>
@@ -342,7 +372,7 @@
           <attvalue for="eigencentrality" value="0.964963929361013"></attvalue>
         </attvalues>
         <viz:size value="100.0"></viz:size>
-        <viz:position x="-603.38293" y="471.66357"></viz:position>
+        <viz:position x="-86.60514" y="336.44736"></viz:position>
         <viz:color r="0" g="199" b="255"></viz:color>
       </node>
       <node id="youtube" label="youtube">
@@ -358,7 +388,9 @@
           <attvalue for="closnesscentrality" value="1.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
           <attvalue for="betweenesscentrality" value="2.0"></attvalue>
-          <attvalue for="modularity_class" value="6"></attvalue>
+          <attvalue for="authority" value="0.11079127"></attvalue>
+          <attvalue for="hub" value="0.03668235"></attvalue>
+          <attvalue for="modularity_class" value="8"></attvalue>
           <attvalue for="pageranks" value="0.006505202467952132"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="18"></attvalue>
@@ -366,7 +398,7 @@
           <attvalue for="eigencentrality" value="0.016118931119369913"></attvalue>
         </attvalues>
         <viz:size value="32.858276"></viz:size>
-        <viz:position x="-137.32402" y="-518.347"></viz:position>
+        <viz:position x="-615.9821" y="483.87115"></viz:position>
         <viz:color r="0" g="199" b="255"></viz:color>
       </node>
       <node id="hirado" label="hirado">
@@ -382,7 +414,9 @@
           <attvalue for="closnesscentrality" value="1.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="0"></attvalue>
+          <attvalue for="authority" value="0.0"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
           <attvalue for="pageranks" value="0.005324644148031887"></attvalue>
           <attvalue for="componentnumber" value="1"></attvalue>
           <attvalue for="strongcompnum" value="22"></attvalue>
@@ -390,7 +424,7 @@
           <attvalue for="eigencentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="30.0"></viz:size>
-        <viz:position x="228.92389" y="1457.2831"></viz:position>
+        <viz:position x="960.01416" y="-70.27804"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="mtva" label="mtva">
@@ -406,7 +440,9 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="0"></attvalue>
+          <attvalue for="authority" value="0.0"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
           <attvalue for="pageranks" value="0.009850565907543895"></attvalue>
           <attvalue for="componentnumber" value="1"></attvalue>
           <attvalue for="strongcompnum" value="21"></attvalue>
@@ -414,7 +450,7 @@
           <attvalue for="eigencentrality" value="0.005372977039789971"></attvalue>
         </attvalues>
         <viz:size value="40.957813"></viz:size>
-        <viz:position x="-202.08243" y="1461.9329"></viz:position>
+        <viz:position x="1068.8538" y="472.79004"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="mediaworks" label="mediaworks">
@@ -430,6 +466,8 @@
           <attvalue for="closnesscentrality" value="1.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.05989461"></attvalue>
+          <attvalue for="hub" value="0.0098439595"></attvalue>
           <attvalue for="modularity_class" value="5"></attvalue>
           <attvalue for="pageranks" value="0.005655896276012372"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
@@ -438,7 +476,7 @@
           <attvalue for="eigencentrality" value="0.03230674798422722"></attvalue>
         </attvalues>
         <viz:size value="30.802002"></viz:size>
-        <viz:position x="-412.80664" y="1360.692"></viz:position>
+        <viz:position x="1153.7565" y="-58.914043"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="lapcentrum" label="lapcentrum">
@@ -454,6 +492,8 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.06147102"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
           <attvalue for="modularity_class" value="5"></attvalue>
           <attvalue for="pageranks" value="0.010463389068284125"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
@@ -462,7 +502,7 @@
           <attvalue for="eigencentrality" value="0.06461349596845438"></attvalue>
         </attvalues>
         <viz:size value="42.441532"></viz:size>
-        <viz:position x="25.33067" y="1127.0076"></viz:position>
+        <viz:position x="708.12683" y="405.599"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="startlap" label="startlap">
@@ -478,7 +518,9 @@
           <attvalue for="closnesscentrality" value="0.5625"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.6111111111111112"></attvalue>
           <attvalue for="betweenesscentrality" value="2.0"></attvalue>
-          <attvalue for="modularity_class" value="1"></attvalue>
+          <attvalue for="authority" value="0.011749842"></attvalue>
+          <attvalue for="hub" value="0.00432009"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
           <attvalue for="pageranks" value="0.005774963235256438"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="39"></attvalue>
@@ -486,7 +528,7 @@
           <attvalue for="eigencentrality" value="0.08065739628623271"></attvalue>
         </attvalues>
         <viz:size value="31.090279"></viz:size>
-        <viz:position x="-1102.6943" y="-670.12604"></viz:position>
+        <viz:position x="-624.33856" y="-787.7831"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="24" label="24">
@@ -502,7 +544,9 @@
           <attvalue for="closnesscentrality" value="0.9473684210526315"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.9722222222222222"></attvalue>
           <attvalue for="betweenesscentrality" value="30.0"></attvalue>
-          <attvalue for="modularity_class" value="1"></attvalue>
+          <attvalue for="authority" value="0.0010468321"></attvalue>
+          <attvalue for="hub" value="0.07337238"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
           <attvalue for="pageranks" value="0.009006172974365772"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="39"></attvalue>
@@ -510,7 +554,7 @@
           <attvalue for="eigencentrality" value="0.11429277281800745"></attvalue>
         </attvalues>
         <viz:size value="38.913433"></viz:size>
-        <viz:position x="-947.78406" y="-505.6137"></viz:position>
+        <viz:position x="-850.6903" y="-477.0252"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="adozona" label="adozona">
@@ -526,6 +570,8 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.039376333"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
           <attvalue for="modularity_class" value="6"></attvalue>
           <attvalue for="pageranks" value="0.0058275243435332216"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
@@ -534,7 +580,7 @@
           <attvalue for="eigencentrality" value="0.005372977039789971"></attvalue>
         </attvalues>
         <viz:size value="31.217535"></viz:size>
-        <viz:position x="-752.7205" y="-652.21515"></viz:position>
+        <viz:position x="-832.6881" y="8.500431"></viz:position>
         <viz:color r="140" g="185" b="0"></viz:color>
       </node>
       <node id="lakaskultura" label="lakaskultura">
@@ -550,6 +596,8 @@
           <attvalue for="closnesscentrality" value="0.6666666666666666"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.75"></attvalue>
           <attvalue for="betweenesscentrality" value="4.0"></attvalue>
+          <attvalue for="authority" value="0.06313266"></attvalue>
+          <attvalue for="hub" value="0.0909006"></attvalue>
           <attvalue for="modularity_class" value="5"></attvalue>
           <attvalue for="pageranks" value="0.012327104051580303"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
@@ -558,7 +606,7 @@
           <attvalue for="eigencentrality" value="0.15812679489215864"></attvalue>
         </attvalues>
         <viz:size value="46.95382"></viz:size>
-        <viz:position x="658.76355" y="445.11438"></viz:position>
+        <viz:position x="447.18774" y="-165.21327"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="portfolio" label="portfolio">
@@ -574,7 +622,9 @@
           <attvalue for="closnesscentrality" value="1.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="7"></attvalue>
+          <attvalue for="authority" value="0.10528004"></attvalue>
+          <attvalue for="hub" value="0.03554199"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
           <attvalue for="pageranks" value="0.006030989722188128"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="42"></attvalue>
@@ -582,7 +632,7 @@
           <attvalue for="eigencentrality" value="0.44711615942734023"></attvalue>
         </attvalues>
         <viz:size value="31.71015"></viz:size>
-        <viz:position x="-637.90656" y="763.777"></viz:position>
+        <viz:position x="-234.0447" y="-947.1908"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="penzcentrum" label="penzcentrum">
@@ -598,7 +648,9 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="7"></attvalue>
+          <attvalue for="authority" value="0.11097173"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
           <attvalue for="pageranks" value="0.008594169715545413"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="41"></attvalue>
@@ -606,7 +658,7 @@
           <attvalue for="eigencentrality" value="0.64711615942734"></attvalue>
         </attvalues>
         <viz:size value="37.915924"></viz:size>
-        <viz:position x="-796.09204" y="126.7807"></viz:position>
+        <viz:position x="36.5869" y="-642.1222"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="nlcafe" label="nlcafe">
@@ -622,7 +674,9 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="1"></attvalue>
+          <attvalue for="authority" value="0.012796674"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
           <attvalue for="pageranks" value="0.009456492061590322"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="27"></attvalue>
@@ -630,7 +684,7 @@
           <attvalue for="eigencentrality" value="0.1949501691042401"></attvalue>
         </attvalues>
         <viz:size value="40.00371"></viz:size>
-        <viz:position x="-1195.8712" y="-425.1271"></viz:position>
+        <viz:position x="-818.9762" y="-846.26025"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="agrarszektor" label="agrarszektor">
@@ -646,7 +700,9 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="7"></attvalue>
+          <attvalue for="authority" value="0.11097173"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
           <attvalue for="pageranks" value="0.008594169715545413"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="40"></attvalue>
@@ -654,7 +710,7 @@
           <attvalue for="eigencentrality" value="0.64711615942734"></attvalue>
         </attvalues>
         <viz:size value="37.915924"></viz:size>
-        <viz:position x="-824.9818" y="919.0145"></viz:position>
+        <viz:position x="162.26913" y="-1000.84863"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="hirstart" label="hirstart">
@@ -670,7 +726,9 @@
           <attvalue for="closnesscentrality" value="0.5142857142857142"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.5462962962962963"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="1"></attvalue>
+          <attvalue for="authority" value="0.011749842"></attvalue>
+          <attvalue for="hub" value="0.002216897"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
           <attvalue for="pageranks" value="0.005774963235256438"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="39"></attvalue>
@@ -678,7 +736,7 @@
           <attvalue for="eigencentrality" value="0.08065739628623271"></attvalue>
         </attvalues>
         <viz:size value="31.090279"></viz:size>
-        <viz:position x="-1419.2471" y="-352.6208"></viz:position>
+        <viz:position x="-1054.8718" y="-485.81802"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="hvgkonyvek" label="hvgkonyvek">
@@ -694,6 +752,8 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.039376333"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
           <attvalue for="modularity_class" value="6"></attvalue>
           <attvalue for="pageranks" value="0.0058275243435332216"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
@@ -702,7 +762,7 @@
           <attvalue for="eigencentrality" value="0.005372977039789971"></attvalue>
         </attvalues>
         <viz:size value="31.217535"></viz:size>
-        <viz:position x="-745.0894" y="-382.7848"></viz:position>
+        <viz:position x="-732.3981" y="156.03679"></viz:position>
         <viz:color r="140" g="185" b="0"></viz:color>
       </node>
       <node id="benu" label="benu">
@@ -718,7 +778,9 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="1"></attvalue>
+          <attvalue for="authority" value="6.918186E-4"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
           <attvalue for="pageranks" value="0.006551820423476515"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="26"></attvalue>
@@ -726,7 +788,7 @@
           <attvalue for="eigencentrality" value="0.05714638640900373"></attvalue>
         </attvalues>
         <viz:size value="32.971146"></viz:size>
-        <viz:position x="-807.5655" y="-1206.786"></viz:position>
+        <viz:position x="-969.7161" y="-662.33966"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="lap" label="lap">
@@ -742,7 +804,9 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="1"></attvalue>
+          <attvalue for="authority" value="0.01244166"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
           <attvalue for="pageranks" value="0.007002139510701066"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="25"></attvalue>
@@ -750,7 +814,7 @@
           <attvalue for="eigencentrality" value="0.13780378269523635"></attvalue>
         </attvalues>
         <viz:size value="34.061424"></viz:size>
-        <viz:position x="-996.77423" y="-272.0555"></viz:position>
+        <viz:position x="-790.6388" y="-667.8797"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="atlatszo" label="atlatszo">
@@ -766,7 +830,9 @@
           <attvalue for="closnesscentrality" value="0.9047619047619048"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.9473684210526315"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="2"></attvalue>
+          <attvalue for="authority" value="0.0"></attvalue>
+          <attvalue for="hub" value="0.32061994"></attvalue>
+          <attvalue for="modularity_class" value="10"></attvalue>
           <attvalue for="pageranks" value="0.005324644148031887"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="57"></attvalue>
@@ -774,7 +840,7 @@
           <attvalue for="eigencentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="30.0"></viz:size>
-        <viz:position x="303.86737" y="-534.06305"></viz:position>
+        <viz:position x="-293.88116" y="528.95825"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="instagram" label="instagram">
@@ -790,7 +856,9 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="7"></attvalue>
+          <attvalue for="authority" value="0.19956842"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
           <attvalue for="pageranks" value="0.007292588317488665"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="56"></attvalue>
@@ -798,7 +866,7 @@
           <attvalue for="eigencentrality" value="0.500526827414243"></attvalue>
         </attvalues>
         <viz:size value="34.764633"></viz:size>
-        <viz:position x="262.72287" y="218.27693"></viz:position>
+        <viz:position x="-182.15878" y="148.24081"></viz:position>
         <viz:color r="0" g="199" b="255"></viz:color>
       </node>
       <node id="index" label="index">
@@ -814,7 +882,9 @@
           <attvalue for="closnesscentrality" value="1.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
           <attvalue for="betweenesscentrality" value="127.5"></attvalue>
-          <attvalue for="modularity_class" value="7"></attvalue>
+          <attvalue for="authority" value="0.052538164"></attvalue>
+          <attvalue for="hub" value="0.65742564"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
           <attvalue for="pageranks" value="0.023266904101532877"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="70"></attvalue>
@@ -822,7 +892,7 @@
           <attvalue for="eigencentrality" value="1.0"></attvalue>
         </attvalues>
         <viz:size value="73.440414"></viz:size>
-        <viz:position x="-371.92636" y="392.75763"></viz:position>
+        <viz:position x="-172.56947" y="-404.36786"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="nepitelet" label="nepitelet">
@@ -838,7 +908,9 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="7"></attvalue>
+          <attvalue for="authority" value="0.10528004"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
           <attvalue for="pageranks" value="0.006030989722188128"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="69"></attvalue>
@@ -846,7 +918,7 @@
           <attvalue for="eigencentrality" value="0.44711615942734023"></attvalue>
         </attvalues>
         <viz:size value="31.71015"></viz:size>
-        <viz:position x="-1066.7206" y="515.97644"></viz:position>
+        <viz:position x="-39.580097" y="-994.8122"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="reblog" label="reblog">
@@ -862,7 +934,9 @@
           <attvalue for="closnesscentrality" value="1.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
           <attvalue for="betweenesscentrality" value="3.0"></attvalue>
-          <attvalue for="modularity_class" value="7"></attvalue>
+          <attvalue for="authority" value="0.04294435"></attvalue>
+          <attvalue for="hub" value="0.032368667"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
           <attvalue for="pageranks" value="0.006320012051596422"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="71"></attvalue>
@@ -870,7 +944,7 @@
           <attvalue for="eigencentrality" value="0.048037690947112896"></attvalue>
         </attvalues>
         <viz:size value="32.40991"></viz:size>
-        <viz:position x="519.461" y="97.74759"></viz:position>
+        <viz:position x="408.5826" y="446.52814"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="tumblr" label="tumblr">
@@ -886,7 +960,9 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="7"></attvalue>
+          <attvalue for="authority" value="0.20212752"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
           <attvalue for="pageranks" value="0.012523614914577064"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="44"></attvalue>
@@ -894,7 +970,7 @@
           <attvalue for="eigencentrality" value="0.6959987124329087"></attvalue>
         </attvalues>
         <viz:size value="47.429592"></viz:size>
-        <viz:position x="62.041557" y="96.12075"></viz:position>
+        <viz:position x="-1.5997128" y="119.32604"></viz:position>
         <viz:color r="0" g="199" b="255"></viz:color>
       </node>
       <node id="kuruc" label="kuruc">
@@ -910,7 +986,9 @@
           <attvalue for="closnesscentrality" value="0.9166666666666666"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.9545454545454546"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="9"></attvalue>
+          <attvalue for="authority" value="0.0"></attvalue>
+          <attvalue for="hub" value="0.107777454"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
           <attvalue for="pageranks" value="0.005324644148031887"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="80"></attvalue>
@@ -918,7 +996,7 @@
           <attvalue for="eigencentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="30.0"></viz:size>
-        <viz:position x="1000.94977" y="-588.53503"></viz:position>
+        <viz:position x="422.71857" y="839.48865"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="turania" label="turania">
@@ -934,7 +1012,9 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="9"></attvalue>
+          <attvalue for="authority" value="0.017259466"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
           <attvalue for="pageranks" value="0.005777236323983088"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="79"></attvalue>
@@ -942,7 +1022,7 @@
           <attvalue for="eigencentrality" value="0.005372977039789971"></attvalue>
         </attvalues>
         <viz:size value="31.095781"></viz:size>
-        <viz:position x="818.5584" y="-1206.5583"></viz:position>
+        <viz:position x="214.03899" y="1153.3495"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="twitter" label="twitter">
@@ -958,7 +1038,9 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="7"></attvalue>
+          <attvalue for="authority" value="0.38228756"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
           <attvalue for="pageranks" value="0.015015676318105587"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="0"></attvalue>
@@ -966,7 +1048,7 @@
           <attvalue for="eigencentrality" value="0.7543254835576301"></attvalue>
         </attvalues>
         <viz:size value="53.46318"></viz:size>
-        <viz:position x="-176.6758" y="241.00919"></viz:position>
+        <viz:position x="110.12921" y="-245.75229"></viz:position>
         <viz:color r="0" g="199" b="255"></viz:color>
       </node>
       <node id="nepszava" label="nepszava">
@@ -982,7 +1064,9 @@
           <attvalue for="closnesscentrality" value="1.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="8"></attvalue>
+          <attvalue for="authority" value="0.0"></attvalue>
+          <attvalue for="hub" value="0.06283075"></attvalue>
+          <attvalue for="modularity_class" value="7"></attvalue>
           <attvalue for="pageranks" value="0.005324644148031887"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="82"></attvalue>
@@ -990,7 +1074,7 @@
           <attvalue for="eigencentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="30.0"></viz:size>
-        <viz:position x="-986.36176" y="744.6391"></viz:position>
+        <viz:position x="276.24887" y="-813.69354"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="mozgasterblog" label="mozgasterblog">
@@ -1006,6 +1090,8 @@
           <attvalue for="closnesscentrality" value="1.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.0"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
           <attvalue for="modularity_class" value="4"></attvalue>
           <attvalue for="pageranks" value="0.005324644148031887"></attvalue>
           <attvalue for="componentnumber" value="2"></attvalue>
@@ -1014,7 +1100,7 @@
           <attvalue for="eigencentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="30.0"></viz:size>
-        <viz:position x="-853.2181" y="1183.1959"></viz:position>
+        <viz:position x="1108.8983" y="-401.21454"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="bloggol" label="bloggol">
@@ -1030,6 +1116,8 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.0"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
           <attvalue for="modularity_class" value="4"></attvalue>
           <attvalue for="pageranks" value="0.009850565907543895"></attvalue>
           <attvalue for="componentnumber" value="2"></attvalue>
@@ -1038,7 +1126,7 @@
           <attvalue for="eigencentrality" value="0.005372977039789971"></attvalue>
         </attvalues>
         <viz:size value="40.957813"></viz:size>
-        <viz:position x="-639.23975" y="1307.6945"></viz:position>
+        <viz:position x="1158.6865" y="116.355095"></viz:position>
         <viz:color r="255" g="112" b="69"></viz:color>
       </node>
       <node id="merce" label="merce">
@@ -1054,7 +1142,9 @@
           <attvalue for="closnesscentrality" value="0.6666666666666666"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.75"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="7"></attvalue>
+          <attvalue for="authority" value="0.0"></attvalue>
+          <attvalue for="hub" value="0.07866416"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
           <attvalue for="pageranks" value="0.005324644148031887"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="85"></attvalue>
@@ -1062,7 +1152,7 @@
           <attvalue for="eigencentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="30.0"></viz:size>
-        <viz:position x="300.4282" y="-276.65146"></viz:position>
+        <viz:position x="240.2976" y="397.85822"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="addthis" label="addthis">
@@ -1078,7 +1168,9 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="9"></attvalue>
+          <attvalue for="authority" value="0.017259466"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
           <attvalue for="pageranks" value="0.005777236323983088"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="78"></attvalue>
@@ -1086,7 +1178,7 @@
           <attvalue for="eigencentrality" value="0.005372977039789971"></attvalue>
         </attvalues>
         <viz:size value="31.095781"></viz:size>
-        <viz:position x="1187.6637" y="-447.44058"></viz:position>
+        <viz:position x="716.4046" y="922.63104"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="origo" label="origo">
@@ -1102,7 +1194,9 @@
           <attvalue for="closnesscentrality" value="0.8823529411764706"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.9333333333333333"></attvalue>
           <attvalue for="betweenesscentrality" value="29.0"></attvalue>
-          <attvalue for="modularity_class" value="7"></attvalue>
+          <attvalue for="authority" value="0.0"></attvalue>
+          <attvalue for="hub" value="0.2681678"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
           <attvalue for="pageranks" value="0.015222567077077734"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="93"></attvalue>
@@ -1110,7 +1204,7 @@
           <attvalue for="eigencentrality" value="0.048882553005568735"></attvalue>
         </attvalues>
         <viz:size value="53.96409"></viz:size>
-        <viz:position x="728.2948" y="205.33139"></viz:position>
+        <viz:position x="255.76054" y="-113.44086"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="origorandi" label="origorandi">
@@ -1126,7 +1220,9 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="7"></attvalue>
+          <attvalue for="authority" value="0.04294435"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
           <attvalue for="pageranks" value="0.006320012051596422"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="92"></attvalue>
@@ -1134,7 +1230,7 @@
           <attvalue for="eigencentrality" value="0.048037690947112896"></attvalue>
         </attvalues>
         <viz:size value="32.40991"></viz:size>
-        <viz:position x="443.57977" y="580.6596"></viz:position>
+        <viz:position x="310.31354" y="-307.1403"></viz:position>
         <viz:color r="140" g="185" b="0"></viz:color>
       </node>
       <node id="sztaki" label="sztaki">
@@ -1150,7 +1246,9 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="7"></attvalue>
+          <attvalue for="authority" value="0.04294435"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
           <attvalue for="pageranks" value="0.006320012051596422"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="91"></attvalue>
@@ -1158,7 +1256,7 @@
           <attvalue for="eigencentrality" value="0.048037690947112896"></attvalue>
         </attvalues>
         <viz:size value="32.40991"></viz:size>
-        <viz:position x="770.994" y="-19.601479"></viz:position>
+        <viz:position x="10.181853" y="-433.61783"></viz:position>
         <viz:color r="140" g="185" b="0"></viz:color>
       </node>
       <node id="freemail" label="freemail">
@@ -1174,7 +1272,9 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="7"></attvalue>
+          <attvalue for="authority" value="0.04294435"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
           <attvalue for="pageranks" value="0.006320012051596422"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="90"></attvalue>
@@ -1182,7 +1282,7 @@
           <attvalue for="eigencentrality" value="0.048037690947112896"></attvalue>
         </attvalues>
         <viz:size value="32.40991"></viz:size>
-        <viz:position x="1408.376" y="333.20447"></viz:position>
+        <viz:position x="490.43668" y="-383.995"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="origomediagroup" label="origomediagroup">
@@ -1198,7 +1298,9 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="7"></attvalue>
+          <attvalue for="authority" value="0.04294435"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
           <attvalue for="pageranks" value="0.006320012051596422"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="89"></attvalue>
@@ -1206,7 +1308,7 @@
           <attvalue for="eigencentrality" value="0.048037690947112896"></attvalue>
         </attvalues>
         <viz:size value="32.40991"></viz:size>
-        <viz:position x="460.9276" y="332.39276"></viz:position>
+        <viz:position x="388.9657" y="40.93257"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="viber" label="viber">
@@ -1222,7 +1324,9 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="7"></attvalue>
+          <attvalue for="authority" value="0.10528004"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
           <attvalue for="pageranks" value="0.006030989722188128"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="68"></attvalue>
@@ -1230,7 +1334,7 @@
           <attvalue for="eigencentrality" value="0.44711615942734023"></attvalue>
         </attvalues>
         <viz:size value="31.71015"></viz:size>
-        <viz:position x="-120.54736" y="-265.11267"></viz:position>
+        <viz:position x="-118.159874" y="-1155.8838"></viz:position>
         <viz:color r="0" g="199" b="255"></viz:color>
       </node>
       <node id="pestisracok" label="pestisracok">
@@ -1246,7 +1350,9 @@
           <attvalue for="closnesscentrality" value="0.8666666666666667"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.9230769230769231"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="6"></attvalue>
+          <attvalue for="authority" value="0.0"></attvalue>
+          <attvalue for="hub" value="0.12533362"></attvalue>
+          <attvalue for="modularity_class" value="8"></attvalue>
           <attvalue for="pageranks" value="0.005324644148031887"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="103"></attvalue>
@@ -1254,7 +1360,7 @@
           <attvalue for="eigencentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="30.0"></viz:size>
-        <viz:position x="-135.19936" y="-1016.30286"></viz:position>
+        <viz:position x="-632.3446" y="716.2863"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="tinywebgallery" label="tinywebgallery">
@@ -1270,7 +1376,9 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="6"></attvalue>
+          <attvalue for="authority" value="0.020070907"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="8"></attvalue>
           <attvalue for="pageranks" value="0.005736091580714797"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="102"></attvalue>
@@ -1278,7 +1386,7 @@
           <attvalue for="eigencentrality" value="0.005372977039789971"></attvalue>
         </attvalues>
         <viz:size value="30.996164"></viz:size>
-        <viz:position x="-96.242966" y="-1243.5068"></viz:position>
+        <viz:position x="-696.2913" y="919.4494"></viz:position>
         <viz:color r="0" g="199" b="255"></viz:color>
       </node>
       <node id="adverticum" label="adverticum">
@@ -1294,7 +1402,9 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="7"></attvalue>
+          <attvalue for="authority" value="0.15283261"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="6"></attvalue>
           <attvalue for="pageranks" value="0.008242656579927652"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="15"></attvalue>
@@ -1302,7 +1412,7 @@
           <attvalue for="eigencentrality" value="0.65248913646713"></attvalue>
         </attvalues>
         <viz:size value="37.064865"></viz:size>
-        <viz:position x="-576.9123" y="-7.1849303"></viz:position>
+        <viz:position x="-135.08722" y="-48.69149"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="nol" label="nol">
@@ -1318,6 +1428,8 @@
           <attvalue for="closnesscentrality" value="0.9642857142857143"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.9814814814814815"></attvalue>
           <attvalue for="betweenesscentrality" value="26.0"></attvalue>
+          <attvalue for="authority" value="0.0"></attvalue>
+          <attvalue for="hub" value="0.3740144"></attvalue>
           <attvalue for="modularity_class" value="5"></attvalue>
           <attvalue for="pageranks" value="0.01013213694030364"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
@@ -1326,7 +1438,7 @@
           <attvalue for="eigencentrality" value="0.03230674798422722"></attvalue>
         </attvalues>
         <viz:size value="41.63953"></viz:size>
-        <viz:position x="471.35483" y="851.1556"></viz:position>
+        <viz:position x="754.3899" y="-136.47636"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="linkedin" label="linkedin">
@@ -1342,6 +1454,8 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.05989461"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
           <attvalue for="modularity_class" value="5"></attvalue>
           <attvalue for="pageranks" value="0.005655896276012372"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
@@ -1350,7 +1464,7 @@
           <attvalue for="eigencentrality" value="0.03230674798422722"></attvalue>
         </attvalues>
         <viz:size value="30.802002"></viz:size>
-        <viz:position x="251.85803" y="732.20215"></viz:position>
+        <viz:position x="775.31494" y="47.339252"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="kemma" label="kemma">
@@ -1366,6 +1480,8 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.05989461"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
           <attvalue for="modularity_class" value="5"></attvalue>
           <attvalue for="pageranks" value="0.005655896276012372"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
@@ -1374,7 +1490,7 @@
           <attvalue for="eigencentrality" value="0.03230674798422722"></attvalue>
         </attvalues>
         <viz:size value="30.802002"></viz:size>
-        <viz:position x="1336.4171" y="562.712"></viz:position>
+        <viz:position x="963.1588" y="643.86176"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="szoljon" label="szoljon">
@@ -1390,6 +1506,8 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.05989461"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
           <attvalue for="modularity_class" value="5"></attvalue>
           <attvalue for="pageranks" value="0.005655896276012372"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
@@ -1398,7 +1516,7 @@
           <attvalue for="eigencentrality" value="0.03230674798422722"></attvalue>
         </attvalues>
         <viz:size value="30.802002"></viz:size>
-        <viz:position x="-190.67958" y="1222.1864"></viz:position>
+        <viz:position x="736.56946" y="220.003"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="bama" label="bama">
@@ -1414,6 +1532,8 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.05989461"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
           <attvalue for="modularity_class" value="5"></attvalue>
           <attvalue for="pageranks" value="0.005655896276012372"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
@@ -1422,7 +1542,7 @@
           <attvalue for="eigencentrality" value="0.03230674798422722"></attvalue>
         </attvalues>
         <viz:size value="30.802002"></viz:size>
-        <viz:position x="1107.6624" y="532.50214"></viz:position>
+        <viz:position x="746.6752" y="616.0505"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="baon" label="baon">
@@ -1438,6 +1558,8 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.05989461"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
           <attvalue for="modularity_class" value="5"></attvalue>
           <attvalue for="pageranks" value="0.005655896276012372"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
@@ -1446,7 +1568,7 @@
           <attvalue for="eigencentrality" value="0.03230674798422722"></attvalue>
         </attvalues>
         <viz:size value="30.802002"></viz:size>
-        <viz:position x="30.323786" y="872.6143"></viz:position>
+        <viz:position x="1107.3701" y="-226.47498"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="beol" label="beol">
@@ -1462,6 +1584,8 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.05989461"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
           <attvalue for="modularity_class" value="5"></attvalue>
           <attvalue for="pageranks" value="0.005655896276012372"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
@@ -1470,7 +1594,7 @@
           <attvalue for="eigencentrality" value="0.03230674798422722"></attvalue>
         </attvalues>
         <viz:size value="30.802002"></viz:size>
-        <viz:position x="451.17462" y="1122.8428"></viz:position>
+        <viz:position x="1113.8567" y="292.90787"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="sonline" label="sonline">
@@ -1486,6 +1610,8 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.05989461"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
           <attvalue for="modularity_class" value="5"></attvalue>
           <attvalue for="pageranks" value="0.005655896276012372"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
@@ -1494,7 +1620,7 @@
           <attvalue for="eigencentrality" value="0.03230674798422722"></attvalue>
         </attvalues>
         <viz:size value="30.802002"></viz:size>
-        <viz:position x="1178.6154" y="304.61612"></viz:position>
+        <viz:position x="732.8648" y="-406.12784"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="nport" label="nport">
@@ -1510,6 +1636,8 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.05989461"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
           <attvalue for="modularity_class" value="5"></attvalue>
           <attvalue for="pageranks" value="0.005655896276012372"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
@@ -1518,7 +1646,7 @@
           <attvalue for="eigencentrality" value="0.03230674798422722"></attvalue>
         </attvalues>
         <viz:size value="30.802002"></viz:size>
-        <viz:position x="-188.73607" y="983.4797"></viz:position>
+        <viz:position x="963.1671" y="113.166954"></viz:position>
         <viz:color r="140" g="185" b="0"></viz:color>
       </node>
       <node id="jegyed" label="jegyed">
@@ -1534,6 +1662,8 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.05989461"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
           <attvalue for="modularity_class" value="5"></attvalue>
           <attvalue for="pageranks" value="0.005655896276012372"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
@@ -1542,7 +1672,7 @@
           <attvalue for="eigencentrality" value="0.03230674798422722"></attvalue>
         </attvalues>
         <viz:size value="30.802002"></viz:size>
-        <viz:position x="919.96484" y="357.1543"></viz:position>
+        <viz:position x="917.64874" y="289.21588"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="tvmusor" label="tvmusor">
@@ -1558,6 +1688,8 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.05989461"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
           <attvalue for="modularity_class" value="5"></attvalue>
           <attvalue for="pageranks" value="0.005655896276012372"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
@@ -1566,7 +1698,7 @@
           <attvalue for="eigencentrality" value="0.03230674798422722"></attvalue>
         </attvalues>
         <viz:size value="30.802002"></viz:size>
-        <viz:position x="1233.6863" y="788.26105"></viz:position>
+        <viz:position x="541.7001" y="322.87476"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="feedburner" label="feedburner">
@@ -1582,7 +1714,9 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="9"></attvalue>
+          <attvalue for="authority" value="0.017259466"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
           <attvalue for="pageranks" value="0.005777236323983088"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="77"></attvalue>
@@ -1590,7 +1724,7 @@
           <attvalue for="eigencentrality" value="0.005372977039789971"></attvalue>
         </attvalues>
         <viz:size value="31.095781"></viz:size>
-        <viz:position x="1441.9333" y="-136.6489"></viz:position>
+        <viz:position x="0.23491701" y="1164.6868"></viz:position>
         <viz:color r="140" g="185" b="0"></viz:color>
       </node>
       <node id="idokep" label="idokep">
@@ -1606,7 +1740,9 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="9"></attvalue>
+          <attvalue for="authority" value="0.017259466"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
           <attvalue for="pageranks" value="0.005777236323983088"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="76"></attvalue>
@@ -1614,7 +1750,7 @@
           <attvalue for="eigencentrality" value="0.005372977039789971"></attvalue>
         </attvalues>
         <viz:size value="31.095781"></viz:size>
-        <viz:position x="1413.7816" y="-380.51672"></viz:position>
+        <viz:position x="606.95496" y="759.76196"></viz:position>
         <viz:color r="140" g="185" b="0"></viz:color>
       </node>
       <node id="hírfolyam" label="hírfolyam">
@@ -1630,7 +1766,9 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="9"></attvalue>
+          <attvalue for="authority" value="0.017259466"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
           <attvalue for="pageranks" value="0.005777236323983088"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="75"></attvalue>
@@ -1638,7 +1776,7 @@
           <attvalue for="eigencentrality" value="0.005372977039789971"></attvalue>
         </attvalues>
         <viz:size value="31.095781"></viz:size>
-        <viz:position x="977.1333" y="-813.99786"></viz:position>
+        <viz:position x="283.23447" y="964.55615"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="lapszemle" label="lapszemle">
@@ -1654,7 +1792,9 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="9"></attvalue>
+          <attvalue for="authority" value="0.017259466"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
           <attvalue for="pageranks" value="0.005777236323983088"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="74"></attvalue>
@@ -1662,7 +1802,7 @@
           <attvalue for="eigencentrality" value="0.005372977039789971"></attvalue>
         </attvalues>
         <viz:size value="31.095781"></viz:size>
-        <viz:position x="1311.3331" y="-633.0618"></viz:position>
+        <viz:position x="417.88843" y="1096.824"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="ipv6-test" label="ipv6-test">
@@ -1678,7 +1818,9 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="9"></attvalue>
+          <attvalue for="authority" value="0.017259466"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
           <attvalue for="pageranks" value="0.005777236323983088"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="73"></attvalue>
@@ -1686,7 +1828,7 @@
           <attvalue for="eigencentrality" value="0.005372977039789971"></attvalue>
         </attvalues>
         <viz:size value="31.095781"></viz:size>
-        <viz:position x="1022.2706" y="-1048.7953"></viz:position>
+        <viz:position x="92.629555" y="1004.8994"></viz:position>
         <viz:color r="140" g="185" b="0"></viz:color>
       </node>
       <node id="heol" label="heol">
@@ -1702,6 +1844,8 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.05989461"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
           <attvalue for="modularity_class" value="5"></attvalue>
           <attvalue for="pageranks" value="0.005655896276012372"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
@@ -1710,7 +1854,7 @@
           <attvalue for="eigencentrality" value="0.03230674798422722"></attvalue>
         </attvalues>
         <viz:size value="30.802002"></viz:size>
-        <viz:position x="235.57567" y="1224.8933"></viz:position>
+        <viz:position x="878.40125" y="471.2076"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="feminashop" label="feminashop">
@@ -1726,7 +1870,9 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="7"></attvalue>
+          <attvalue for="authority" value="0.11345629"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="6"></attvalue>
           <attvalue for="pageranks" value="0.007739776384426318"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="58"></attvalue>
@@ -1734,7 +1880,7 @@
           <attvalue for="eigencentrality" value="0.6471161594273401"></attvalue>
         </attvalues>
         <viz:size value="35.847332"></viz:size>
-        <viz:position x="-377.95694" y="122.861374"></viz:position>
+        <viz:position x="-278.8747" y="333.47763"></viz:position>
         <viz:color r="140" g="185" b="0"></viz:color>
       </node>
       <node id="investor" label="investor">
@@ -1750,7 +1896,9 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="7"></attvalue>
+          <attvalue for="authority" value="0.04294435"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
           <attvalue for="pageranks" value="0.006320012051596422"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="88"></attvalue>
@@ -1758,7 +1906,7 @@
           <attvalue for="eigencentrality" value="0.048037690947112896"></attvalue>
         </attvalues>
         <viz:size value="32.40991"></viz:size>
-        <viz:position x="996.3876" y="134.99553"></viz:position>
+        <viz:position x="554.576" y="139.79094"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="jobline" label="jobline">
@@ -1774,6 +1922,8 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.039376333"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
           <attvalue for="modularity_class" value="6"></attvalue>
           <attvalue for="pageranks" value="0.0058275243435332216"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
@@ -1782,7 +1932,7 @@
           <attvalue for="eigencentrality" value="0.005372977039789971"></attvalue>
         </attvalues>
         <viz:size value="31.217535"></viz:size>
-        <viz:position x="-787.16864" y="-135.35176"></viz:position>
+        <viz:position x="-652.8522" y="-59.62297"></viz:position>
         <viz:color r="35" g="150" b="111"></viz:color>
       </node>
       <node id="totalcar" label="totalcar">
@@ -1798,7 +1948,9 @@
           <attvalue for="closnesscentrality" value="0.509090909090909"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.5178571428571429"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="7"></attvalue>
+          <attvalue for="authority" value="0.10528004"></attvalue>
+          <attvalue for="hub" value="0.008413454"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
           <attvalue for="pageranks" value="0.006030989722188128"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="70"></attvalue>
@@ -1806,7 +1958,7 @@
           <attvalue for="eigencentrality" value="0.44711615942734023"></attvalue>
         </attvalues>
         <viz:size value="31.71015"></viz:size>
-        <viz:position x="-419.0118" y="1111.9077"></viz:position>
+        <viz:position x="-286.30405" y="-740.66095"></viz:position>
         <viz:color r="255" g="112" b="69"></viz:color>
       </node>
       <node id="allas" label="allas">
@@ -1822,7 +1974,9 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="7"></attvalue>
+          <attvalue for="authority" value="0.10528004"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
           <attvalue for="pageranks" value="0.006030989722188128"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="67"></attvalue>
@@ -1830,7 +1984,7 @@
           <attvalue for="eigencentrality" value="0.44711615942734023"></attvalue>
         </attvalues>
         <viz:size value="31.71015"></viz:size>
-        <viz:position x="221.18217" y="474.0403"></viz:position>
+        <viz:position x="81.78775" y="-829.6395"></viz:position>
         <viz:color r="35" g="150" b="111"></viz:color>
       </node>
       <node id="polopokol" label="polopokol">
@@ -1846,7 +2000,9 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="2"></attvalue>
+          <attvalue for="authority" value="0.05134403"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="10"></attvalue>
           <attvalue for="pageranks" value="0.005590874839767887"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="55"></attvalue>
@@ -1854,7 +2010,7 @@
           <attvalue for="eigencentrality" value="0.005372977039789971"></attvalue>
         </attvalues>
         <viz:size value="30.644577"></viz:size>
-        <viz:position x="81.840065" y="-915.76794"></viz:position>
+        <viz:position x="-125.957565" y="969.6045"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="femina" label="femina">
@@ -1870,7 +2026,9 @@
           <attvalue for="closnesscentrality" value="0.5283018867924528"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.5535714285714286"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="7"></attvalue>
+          <attvalue for="authority" value="0.10528004"></attvalue>
+          <attvalue for="hub" value="0.051056918"></attvalue>
+          <attvalue for="modularity_class" value="6"></attvalue>
           <attvalue for="pageranks" value="0.006030989722188128"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="70"></attvalue>
@@ -1878,7 +2036,7 @@
           <attvalue for="eigencentrality" value="0.44711615942734023"></attvalue>
         </attvalues>
         <viz:size value="31.71015"></viz:size>
-        <viz:position x="-424.07315" y="627.70575"></viz:position>
+        <viz:position x="-270.50327" y="-192.64224"></viz:position>
         <viz:color r="255" g="112" b="69"></viz:color>
       </node>
       <node id="kettősmérce" label="kettősmérce">
@@ -1894,7 +2052,9 @@
           <attvalue for="closnesscentrality" value="0.56"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.6071428571428571"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="7"></attvalue>
+          <attvalue for="authority" value="0.10528004"></attvalue>
+          <attvalue for="hub" value="0.2517795"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
           <attvalue for="pageranks" value="0.006030989722188128"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="70"></attvalue>
@@ -1902,7 +2062,7 @@
           <attvalue for="eigencentrality" value="0.44711615942734023"></attvalue>
         </attvalues>
         <viz:size value="31.71015"></viz:size>
-        <viz:position x="26.375296" y="341.63776"></viz:position>
+        <viz:position x="-76.85277" y="-230.81241"></viz:position>
         <viz:color r="140" g="185" b="0"></viz:color>
       </node>
       <node id="vs" label="vs">
@@ -1918,7 +2078,9 @@
           <attvalue for="closnesscentrality" value="0.6666666666666666"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.75"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="7"></attvalue>
+          <attvalue for="authority" value="0.0"></attvalue>
+          <attvalue for="hub" value="0.07866416"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
           <attvalue for="pageranks" value="0.005324644148031887"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="122"></attvalue>
@@ -1926,7 +2088,7 @@
           <attvalue for="eigencentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="30.0"></viz:size>
-        <viz:position x="71.82646" y="-649.3948"></viz:position>
+        <viz:position x="564.8876" y="559.44885"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="wikipedia" label="wikipedia">
@@ -1942,7 +2104,9 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="8"></attvalue>
+          <attvalue for="authority" value="0.010061707"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="7"></attvalue>
           <attvalue for="pageranks" value="0.007587605027787891"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="81"></attvalue>
@@ -1950,7 +2114,7 @@
           <attvalue for="eigencentrality" value="0.005372977039789971"></attvalue>
         </attvalues>
         <viz:size value="35.478905"></viz:size>
-        <viz:position x="-1047.3679" y="1018.0614"></viz:position>
+        <viz:position x="93.43216" y="-1169.7063"></viz:position>
         <viz:color r="140" g="185" b="0"></viz:color>
       </node>
       <node id="hazafias" label="hazafias">
@@ -1966,7 +2130,9 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="9"></attvalue>
+          <attvalue for="authority" value="0.017259466"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
           <attvalue for="pageranks" value="0.005777236323983088"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="72"></attvalue>
@@ -1974,7 +2140,7 @@
           <attvalue for="eigencentrality" value="0.005372977039789971"></attvalue>
         </attvalues>
         <viz:size value="31.095781"></viz:size>
-        <viz:position x="1196.988" y="-834.29224"></viz:position>
+        <viz:position x="840.32214" y="789.5876"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="mindenamifal" label="mindenamifal">
@@ -1990,7 +2156,9 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="6"></attvalue>
+          <attvalue for="authority" value="0.020070907"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="8"></attvalue>
           <attvalue for="pageranks" value="0.005736091580714797"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="101"></attvalue>
@@ -1998,7 +2166,7 @@
           <attvalue for="eigencentrality" value="0.005372977039789971"></attvalue>
         </attvalues>
         <viz:size value="30.996164"></viz:size>
-        <viz:position x="-595.4561" y="-1322.0017"></viz:position>
+        <viz:position x="-836.9087" y="804.74744"></viz:position>
         <viz:color r="140" g="185" b="0"></viz:color>
       </node>
       <node id="soundcloud" label="soundcloud">
@@ -2014,7 +2182,9 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="2"></attvalue>
+          <attvalue for="authority" value="0.05134403"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="10"></attvalue>
           <attvalue for="pageranks" value="0.005590874839767887"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="54"></attvalue>
@@ -2022,7 +2192,7 @@
           <attvalue for="eigencentrality" value="0.005372977039789971"></attvalue>
         </attvalues>
         <viz:size value="30.644577"></viz:size>
-        <viz:position x="775.5654" y="-967.3087"></viz:position>
+        <viz:position x="-306.6586" y="923.92175"></viz:position>
         <viz:color r="0" g="199" b="255"></viz:color>
       </node>
       <node id="evoks" label="evoks">
@@ -2038,7 +2208,9 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="2"></attvalue>
+          <attvalue for="authority" value="0.05134403"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="10"></attvalue>
           <attvalue for="pageranks" value="0.005590874839767887"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="53"></attvalue>
@@ -2046,7 +2218,7 @@
           <attvalue for="eigencentrality" value="0.005372977039789971"></attvalue>
         </attvalues>
         <viz:size value="30.644577"></viz:size>
-        <viz:position x="292.8262" y="-762.8839"></viz:position>
+        <viz:position x="-575.1112" y="273.70282"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="oktatas" label="oktatas">
@@ -2062,7 +2234,9 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="2"></attvalue>
+          <attvalue for="authority" value="0.05134403"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="10"></attvalue>
           <attvalue for="pageranks" value="0.005590874839767887"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="52"></attvalue>
@@ -2070,7 +2244,7 @@
           <attvalue for="eigencentrality" value="0.005372977039789971"></attvalue>
         </attvalues>
         <viz:size value="30.644577"></viz:size>
-        <viz:position x="314.8696" y="-990.92676"></viz:position>
+        <viz:position x="16.138899" y="844.00085"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="pioneers" label="pioneers">
@@ -2086,7 +2260,9 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="2"></attvalue>
+          <attvalue for="authority" value="0.05134403"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="10"></attvalue>
           <attvalue for="pageranks" value="0.005590874839767887"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="51"></attvalue>
@@ -2094,7 +2270,7 @@
           <attvalue for="eigencentrality" value="0.005372977039789971"></attvalue>
         </attvalues>
         <viz:size value="30.644577"></viz:size>
-        <viz:position x="575.1809" y="-1092.8531"></viz:position>
+        <viz:position x="-325.42313" y="731.4254"></viz:position>
         <viz:color r="140" g="185" b="0"></viz:color>
       </node>
       <node id="joautok" label="joautok">
@@ -2110,7 +2286,9 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="7"></attvalue>
+          <attvalue for="authority" value="0.10528004"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
           <attvalue for="pageranks" value="0.006030989722188128"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="66"></attvalue>
@@ -2118,7 +2296,7 @@
           <attvalue for="eigencentrality" value="0.44711615942734023"></attvalue>
         </attvalues>
         <viz:size value="31.71015"></viz:size>
-        <viz:position x="-149.01784" y="-8.762705"></viz:position>
+        <viz:position x="-504.0225" y="-456.98593"></viz:position>
         <viz:color r="35" g="150" b="111"></viz:color>
       </node>
       <node id="fizettem" label="fizettem">
@@ -2134,7 +2312,9 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="2"></attvalue>
+          <attvalue for="authority" value="0.05134403"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="10"></attvalue>
           <attvalue for="pageranks" value="0.005590874839767887"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="50"></attvalue>
@@ -2142,7 +2322,7 @@
           <attvalue for="eigencentrality" value="0.005372977039789971"></attvalue>
         </attvalues>
         <viz:size value="30.644577"></viz:size>
-        <viz:position x="-133.96904" y="-777.88214"></viz:position>
+        <viz:position x="-489.7177" y="847.54474"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="alhirvadasz" label="alhirvadasz">
@@ -2158,7 +2338,9 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="2"></attvalue>
+          <attvalue for="authority" value="0.05134403"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="10"></attvalue>
           <attvalue for="pageranks" value="0.005590874839767887"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="49"></attvalue>
@@ -2166,7 +2348,7 @@
           <attvalue for="eigencentrality" value="0.005372977039789971"></attvalue>
         </attvalues>
         <viz:size value="30.644577"></viz:size>
-        <viz:position x="361.02164" y="-1211.7397"></viz:position>
+        <viz:position x="-475.0393" y="621.89154"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="444" label="444">
@@ -2182,7 +2364,9 @@
           <attvalue for="closnesscentrality" value="1.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="authority" value="0.0"></attvalue>
+          <attvalue for="hub" value="0.0017008099"></attvalue>
+          <attvalue for="modularity_class" value="9"></attvalue>
           <attvalue for="pageranks" value="0.005324644148031887"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="124"></attvalue>
@@ -2190,7 +2374,7 @@
           <attvalue for="eigencentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="30.0"></viz:size>
-        <viz:position x="-1411.7606" y="407.5479"></viz:position>
+        <viz:position x="540.15497" y="-1042.3994"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="bbelements" label="bbelements">
@@ -2206,7 +2390,9 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="authority" value="0.010620779"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="9"></attvalue>
           <attvalue for="pageranks" value="0.016639448546811906"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="123"></attvalue>
@@ -2214,7 +2400,7 @@
           <attvalue for="eigencentrality" value="0.016118931119369913"></attvalue>
         </attvalues>
         <viz:size value="57.39453"></viz:size>
-        <viz:position x="-1297.354" y="610.5525"></viz:position>
+        <viz:position x="442.63297" y="-697.1769"></viz:position>
         <viz:color r="140" g="185" b="0"></viz:color>
       </node>
       <node id="indafoto" label="indafoto">
@@ -2230,7 +2416,9 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="7"></attvalue>
+          <attvalue for="authority" value="0.10528004"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
           <attvalue for="pageranks" value="0.006030989722188128"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="65"></attvalue>
@@ -2238,7 +2426,7 @@
           <attvalue for="eigencentrality" value="0.44711615942734023"></attvalue>
         </attvalues>
         <viz:size value="31.71015"></viz:size>
-        <viz:position x="-638.10016" y="1050.829"></viz:position>
+        <viz:position x="-107.5265" y="-801.2401"></viz:position>
         <viz:color r="0" g="199" b="255"></viz:color>
       </node>
       <node id="indamail" label="indamail">
@@ -2254,7 +2442,9 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="7"></attvalue>
+          <attvalue for="authority" value="0.10528004"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
           <attvalue for="pageranks" value="0.006030989722188128"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="64"></attvalue>
@@ -2262,7 +2452,7 @@
           <attvalue for="eigencentrality" value="0.44711615942734023"></attvalue>
         </attvalues>
         <viz:size value="31.71015"></viz:size>
-        <viz:position x="-345.93805" y="-387.0113"></viz:position>
+        <viz:position x="-305.6363" y="-1114.9795"></viz:position>
         <viz:color r="140" g="185" b="0"></viz:color>
       </node>
       <node id="tv24" label="tv24">
@@ -2278,7 +2468,9 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="1"></attvalue>
+          <attvalue for="authority" value="0.011749842"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
           <attvalue for="pageranks" value="0.005774963235256438"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="38"></attvalue>
@@ -2286,7 +2478,7 @@
           <attvalue for="eigencentrality" value="0.08065739628623271"></attvalue>
         </attvalues>
         <viz:size value="31.090279"></viz:size>
-        <viz:position x="-546.14105" y="-530.645"></viz:position>
+        <viz:position x="-645.8032" y="-564.4012"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="gphirek" label="gphirek">
@@ -2302,7 +2494,9 @@
           <attvalue for="closnesscentrality" value="0.48484848484848486"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.5104166666666666"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="7"></attvalue>
+          <attvalue for="authority" value="0.0"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
           <attvalue for="pageranks" value="0.005324644148031887"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="125"></attvalue>
@@ -2310,7 +2504,7 @@
           <attvalue for="eigencentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="30.0"></viz:size>
-        <viz:position x="1446.7349" y="104.78035"></viz:position>
+        <viz:position x="-136.77534" y="-593.25903"></viz:position>
         <viz:color r="255" g="112" b="69"></viz:color>
       </node>
       <node id="creativecommons" label="creativecommons">
@@ -2326,7 +2520,9 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="2"></attvalue>
+          <attvalue for="authority" value="0.05134403"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="10"></attvalue>
           <attvalue for="pageranks" value="0.005590874839767887"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="48"></attvalue>
@@ -2334,7 +2530,7 @@
           <attvalue for="eigencentrality" value="0.005372977039789971"></attvalue>
         </attvalues>
         <viz:size value="30.644577"></viz:size>
-        <viz:position x="532.0701" y="-856.12537"></viz:position>
+        <viz:position x="-192.644" y="1141.4044"></viz:position>
         <viz:color r="140" g="185" b="0"></viz:color>
       </node>
       <node id="nolblog" label="nolblog">
@@ -2350,6 +2546,8 @@
           <attvalue for="closnesscentrality" value="0.5"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.5123456790123456"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.05989461"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
           <attvalue for="modularity_class" value="5"></attvalue>
           <attvalue for="pageranks" value="0.005655896276012372"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
@@ -2358,7 +2556,7 @@
           <attvalue for="eigencentrality" value="0.03230674798422722"></attvalue>
         </attvalues>
         <viz:size value="30.802002"></viz:size>
-        <viz:position x="465.92798" y="1368.1133"></viz:position>
+        <viz:position x="544.93085" y="-839.15155"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="list-manage" label="list-manage">
@@ -2374,7 +2572,9 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="2"></attvalue>
+          <attvalue for="authority" value="0.05134403"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="10"></attvalue>
           <attvalue for="pageranks" value="0.005590874839767887"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="47"></attvalue>
@@ -2382,7 +2582,7 @@
           <attvalue for="eigencentrality" value="0.005372977039789971"></attvalue>
         </attvalues>
         <viz:size value="30.644577"></viz:size>
-        <viz:position x="529.9644" y="-614.25507"></viz:position>
+        <viz:position x="-438.02484" y="411.3698"></viz:position>
         <viz:color r="140" g="185" b="0"></viz:color>
       </node>
       <node id="168ora" label="168ora">
@@ -2398,7 +2598,9 @@
           <attvalue for="closnesscentrality" value="1.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="authority" value="0.0"></attvalue>
+          <attvalue for="hub" value="0.0017008099"></attvalue>
+          <attvalue for="modularity_class" value="9"></attvalue>
           <attvalue for="pageranks" value="0.005324644148031887"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="126"></attvalue>
@@ -2406,7 +2608,7 @@
           <attvalue for="eigencentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="30.0"></viz:size>
-        <viz:position x="-1443.7778" y="159.33618"></viz:position>
+        <viz:position x="317.73517" y="-1131.3793"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="astronet" label="astronet">
@@ -2422,6 +2624,8 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.06313266"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
           <attvalue for="modularity_class" value="5"></attvalue>
           <attvalue for="pageranks" value="0.012327104051580303"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
@@ -2430,7 +2634,7 @@
           <attvalue for="eigencentrality" value="0.15812679489215864"></attvalue>
         </attvalues>
         <viz:size value="46.95382"></viz:size>
-        <viz:position x="882.1563" y="1147.8251"></viz:position>
+        <viz:position x="809.209" y="-582.4117"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="polgarportal" label="polgarportal">
@@ -2446,7 +2650,9 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="6"></attvalue>
+          <attvalue for="authority" value="0.020070907"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="8"></attvalue>
           <attvalue for="pageranks" value="0.005736091580714797"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="100"></attvalue>
@@ -2454,7 +2660,7 @@
           <attvalue for="eigencentrality" value="0.005372977039789971"></attvalue>
         </attvalues>
         <viz:size value="30.996164"></viz:size>
-        <viz:position x="103.25237" y="-1431.1465"></viz:position>
+        <viz:position x="-375.57034" y="1098.0966"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="mandiner" label="mandiner">
@@ -2470,7 +2676,9 @@
           <attvalue for="closnesscentrality" value="0.6666666666666666"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.75"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="7"></attvalue>
+          <attvalue for="authority" value="0.0"></attvalue>
+          <attvalue for="hub" value="0.07866416"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
           <attvalue for="pageranks" value="0.005324644148031887"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="127"></attvalue>
@@ -2478,7 +2686,7 @@
           <attvalue for="eigencentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="30.0"></viz:size>
-        <viz:position x="-342.13293" y="-654.1773"></viz:position>
+        <viz:position x="229.17058" y="594.2184"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="startapro" label="startapro">
@@ -2494,7 +2702,9 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="1"></attvalue>
+          <attvalue for="authority" value="0.011749842"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
           <attvalue for="pageranks" value="0.005774963235256438"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="37"></attvalue>
@@ -2502,7 +2712,7 @@
           <attvalue for="eigencentrality" value="0.08065739628623271"></attvalue>
         </attvalues>
         <viz:size value="31.090279"></viz:size>
-        <viz:position x="-743.4405" y="-968.4841"></viz:position>
+        <viz:position x="-980.69336" y="-124.507484"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="eoldal" label="eoldal">
@@ -2518,7 +2728,9 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="1"></attvalue>
+          <attvalue for="authority" value="0.011749842"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
           <attvalue for="pageranks" value="0.005774963235256438"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="36"></attvalue>
@@ -2526,7 +2738,7 @@
           <attvalue for="eigencentrality" value="0.08065739628623271"></attvalue>
         </attvalues>
         <viz:size value="31.090279"></viz:size>
-        <viz:position x="-367.63504" y="-907.3937"></viz:position>
+        <viz:position x="-1167.404" y="97.0696"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="hazipatika" label="hazipatika">
@@ -2542,7 +2754,9 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="1"></attvalue>
+          <attvalue for="authority" value="0.011749842"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
           <attvalue for="pageranks" value="0.005774963235256438"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="35"></attvalue>
@@ -2550,7 +2764,7 @@
           <attvalue for="eigencentrality" value="0.08065739628623271"></attvalue>
         </attvalues>
         <viz:size value="31.090279"></viz:size>
-        <viz:position x="-917.69867" y="-820.9253"></viz:position>
+        <viz:position x="-645.3651" y="-968.1125"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="citromail" label="citromail">
@@ -2566,7 +2780,9 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="1"></attvalue>
+          <attvalue for="authority" value="0.011749842"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
           <attvalue for="pageranks" value="0.005774963235256438"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="34"></attvalue>
@@ -2574,7 +2790,7 @@
           <attvalue for="eigencentrality" value="0.08065739628623271"></attvalue>
         </attvalues>
         <viz:size value="31.090279"></viz:size>
-        <viz:position x="-1008.1941" y="-29.84033"></viz:position>
+        <viz:position x="-995.53546" y="84.1352"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="startlapjatekok" label="startlapjatekok">
@@ -2590,7 +2806,9 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="1"></attvalue>
+          <attvalue for="authority" value="0.011749842"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
           <attvalue for="pageranks" value="0.005774963235256438"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="33"></attvalue>
@@ -2598,7 +2816,7 @@
           <attvalue for="eigencentrality" value="0.08065739628623271"></attvalue>
         </attvalues>
         <viz:size value="31.090279"></viz:size>
-        <viz:position x="-1233.255" y="-179.41263"></viz:position>
+        <viz:position x="-480.9551" y="-1051.2743"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="kozelben" label="kozelben">
@@ -2614,7 +2832,9 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="1"></attvalue>
+          <attvalue for="authority" value="0.011749842"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
           <attvalue for="pageranks" value="0.005774963235256438"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="32"></attvalue>
@@ -2622,7 +2842,7 @@
           <attvalue for="eigencentrality" value="0.08065739628623271"></attvalue>
         </attvalues>
         <viz:size value="31.090279"></viz:size>
-        <viz:position x="-1178.542" y="-880.0867"></viz:position>
+        <viz:position x="-1160.156" y="-101.0926"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="microsoft" label="microsoft">
@@ -2638,7 +2858,9 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="1"></attvalue>
+          <attvalue for="authority" value="0.011749842"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
           <attvalue for="pageranks" value="0.005774963235256438"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="31"></attvalue>
@@ -2646,7 +2868,7 @@
           <attvalue for="eigencentrality" value="0.08065739628623271"></attvalue>
         </attvalues>
         <viz:size value="31.090279"></viz:size>
-        <viz:position x="-569.73096" y="-798.12146"></viz:position>
+        <viz:position x="-706.3968" y="-365.8605"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="bigfish" label="bigfish">
@@ -2662,7 +2884,9 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="1"></attvalue>
+          <attvalue for="authority" value="0.011749842"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
           <attvalue for="pageranks" value="0.005774963235256438"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="30"></attvalue>
@@ -2670,7 +2894,7 @@
           <attvalue for="eigencentrality" value="0.08065739628623271"></attvalue>
         </attvalues>
         <viz:size value="31.090279"></viz:size>
-        <viz:position x="-1454.3165" y="-92.26273"></viz:position>
+        <viz:position x="-940.47394" y="-312.19467"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="napi" label="napi">
@@ -2686,7 +2910,9 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="7"></attvalue>
+          <attvalue for="authority" value="0.10528004"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
           <attvalue for="pageranks" value="0.006030989722188128"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="63"></attvalue>
@@ -2694,7 +2920,7 @@
           <attvalue for="eigencentrality" value="0.44711615942734023"></attvalue>
         </attvalues>
         <viz:size value="31.71015"></viz:size>
-        <viz:position x="-841.26587" y="382.28244"></viz:position>
+        <viz:position x="372.8727" y="-956.9873"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="centralmediacsoport" label="centralmediacsoport">
@@ -2710,7 +2936,9 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="1"></attvalue>
+          <attvalue for="authority" value="0.011749842"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
           <attvalue for="pageranks" value="0.005774963235256438"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="29"></attvalue>
@@ -2718,7 +2946,7 @@
           <attvalue for="eigencentrality" value="0.08065739628623271"></attvalue>
         </attvalues>
         <viz:size value="31.090279"></viz:size>
-        <viz:position x="-996.6123" y="-1056.6044"></viz:position>
+        <viz:position x="-477.75122" y="-677.3685"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="lanchidradio" label="lanchidradio">
@@ -2734,7 +2962,9 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="7"></attvalue>
+          <attvalue for="authority" value="0.026464017"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
           <attvalue for="pageranks" value="0.006078964441283888"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="6"></attvalue>
@@ -2742,7 +2972,7 @@
           <attvalue for="eigencentrality" value="0.005372977039789971"></attvalue>
         </attvalues>
         <viz:size value="31.826302"></viz:size>
-        <viz:position x="751.4078" y="-252.56718"></viz:position>
+        <viz:position x="44.069477" y="663.9015"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="videa" label="videa">
@@ -2758,7 +2988,9 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="7"></attvalue>
+          <attvalue for="authority" value="0.04294435"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
           <attvalue for="pageranks" value="0.006320012051596422"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="87"></attvalue>
@@ -2766,7 +2998,7 @@
           <attvalue for="eigencentrality" value="0.048037690947112896"></attvalue>
         </attvalues>
         <viz:size value="32.40991"></viz:size>
-        <viz:position x="1227.7103" y="50.07625"></viz:position>
+        <viz:position x="221.73587" y="-639.3635"></viz:position>
         <viz:color r="0" g="199" b="255"></viz:color>
       </node>
       <node id="vimeo" label="vimeo">
@@ -2782,7 +3014,9 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="2"></attvalue>
+          <attvalue for="authority" value="0.05134403"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="10"></attvalue>
           <attvalue for="pageranks" value="0.005590874839767887"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="46"></attvalue>
@@ -2790,7 +3024,7 @@
           <attvalue for="eigencentrality" value="0.005372977039789971"></attvalue>
         </attvalues>
         <viz:size value="30.644577"></viz:size>
-        <viz:position x="591.8687" y="-1330.0875"></viz:position>
+        <viz:position x="-1066.9114" y="470.1184"></viz:position>
         <viz:color r="0" g="199" b="255"></viz:color>
       </node>
       <node id="indavideo" label="indavideo">
@@ -2806,7 +3040,9 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="7"></attvalue>
+          <attvalue for="authority" value="0.10528004"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
           <attvalue for="pageranks" value="0.006030989722188128"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="62"></attvalue>
@@ -2814,7 +3050,7 @@
           <attvalue for="eigencentrality" value="0.44711615942734023"></attvalue>
         </attvalues>
         <viz:size value="31.71015"></viz:size>
-        <viz:position x="-807.8528" y="611.21674"></viz:position>
+        <viz:position x="-385.3701" y="201.90352"></viz:position>
         <viz:color r="0" g="199" b="255"></viz:color>
       </node>
       <node id="061" label="061">
@@ -2830,7 +3066,9 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="6"></attvalue>
+          <attvalue for="authority" value="0.020070907"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="8"></attvalue>
           <attvalue for="pageranks" value="0.005736091580714797"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="99"></attvalue>
@@ -2838,7 +3076,7 @@
           <attvalue for="eigencentrality" value="0.005372977039789971"></attvalue>
         </attvalues>
         <viz:size value="30.996164"></viz:size>
-        <viz:position x="-332.9111" y="-1170.4294"></viz:position>
+        <viz:position x="-1112.834" y="290.5464"></viz:position>
         <viz:color r="140" g="185" b="0"></viz:color>
       </node>
       <node id="dkt" label="dkt">
@@ -2854,7 +3092,9 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="6"></attvalue>
+          <attvalue for="authority" value="0.020070907"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="8"></attvalue>
           <attvalue for="pageranks" value="0.005736091580714797"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="98"></attvalue>
@@ -2862,7 +3102,7 @@
           <attvalue for="eigencentrality" value="0.005372977039789971"></attvalue>
         </attvalues>
         <viz:size value="30.996164"></viz:size>
-        <viz:position x="-546.8518" y="-1086.704"></viz:position>
+        <viz:position x="-545.7218" y="1027.1755"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="divany" label="divany">
@@ -2878,7 +3118,9 @@
           <attvalue for="closnesscentrality" value="0.509090909090909"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.5178571428571429"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="7"></attvalue>
+          <attvalue for="authority" value="0.10528004"></attvalue>
+          <attvalue for="hub" value="0.008413454"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
           <attvalue for="pageranks" value="0.006030989722188128"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="70"></attvalue>
@@ -2886,7 +3128,7 @@
           <attvalue for="eigencentrality" value="0.44711615942734023"></attvalue>
         </attvalues>
         <viz:size value="31.71015"></viz:size>
-        <viz:position x="-208.7177" y="748.4329"></viz:position>
+        <viz:position x="-363.95297" y="-342.1225"></viz:position>
         <viz:color r="255" g="112" b="69"></viz:color>
       </node>
       <node id="nullahategy" label="nullahategy">
@@ -2902,7 +3144,9 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="6"></attvalue>
+          <attvalue for="authority" value="0.020070907"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="8"></attvalue>
           <attvalue for="pageranks" value="0.005736091580714797"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="97"></attvalue>
@@ -2910,7 +3154,7 @@
           <attvalue for="eigencentrality" value="0.005372977039789971"></attvalue>
         </attvalues>
         <viz:size value="30.996164"></viz:size>
-        <viz:position x="121.766396" y="-1173.077"></viz:position>
+        <viz:position x="-774.45154" y="609.67993"></viz:position>
         <viz:color r="140" g="185" b="0"></viz:color>
       </node>
       <node id="infostart" label="infostart">
@@ -2926,7 +3170,9 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="7"></attvalue>
+          <attvalue for="authority" value="0.10528004"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
           <attvalue for="pageranks" value="0.006030989722188128"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="61"></attvalue>
@@ -2934,7 +3180,7 @@
           <attvalue for="eigencentrality" value="0.44711615942734023"></attvalue>
         </attvalues>
         <viz:size value="31.71015"></viz:size>
-        <viz:position x="28.33355" y="628.778"></viz:position>
+        <viz:position x="-321.6284" y="11.180542"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="bookline" label="bookline">
@@ -2950,7 +3196,9 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="7"></attvalue>
+          <attvalue for="authority" value="0.10528004"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
           <attvalue for="pageranks" value="0.006030989722188128"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="60"></attvalue>
@@ -2958,7 +3206,7 @@
           <attvalue for="eigencentrality" value="0.44711615942734023"></attvalue>
         </attvalues>
         <viz:size value="31.71015"></viz:size>
-        <viz:position x="-431.65378" y="878.75073"></viz:position>
+        <viz:position x="-327.2083" y="-546.89246"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="life" label="life">
@@ -2974,7 +3222,9 @@
           <attvalue for="closnesscentrality" value="0.4838709677419355"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.5111111111111111"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="7"></attvalue>
+          <attvalue for="authority" value="0.04294435"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
           <attvalue for="pageranks" value="0.006320012051596422"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="93"></attvalue>
@@ -2982,7 +3232,7 @@
           <attvalue for="eigencentrality" value="0.048037690947112896"></attvalue>
         </attvalues>
         <viz:size value="32.40991"></viz:size>
-        <viz:position x="999.69824" y="-96.62118"></viz:position>
+        <viz:position x="186.2844" y="-446.77545"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="cloudfront" label="cloudfront">
@@ -2998,7 +3248,9 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="2"></attvalue>
+          <attvalue for="authority" value="0.05134403"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="10"></attvalue>
           <attvalue for="pageranks" value="0.005590874839767887"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="45"></attvalue>
@@ -3006,7 +3258,7 @@
           <attvalue for="eigencentrality" value="0.005372977039789971"></attvalue>
         </attvalues>
         <viz:size value="30.644577"></viz:size>
-        <viz:position x="751.2327" y="-724.3034"></viz:position>
+        <viz:position x="-151.75258" y="751.0849"></viz:position>
         <viz:color r="140" g="185" b="0"></viz:color>
       </node>
       <node id="hirtv" label="hirtv">
@@ -3022,7 +3274,9 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="7"></attvalue>
+          <attvalue for="authority" value="0.026464017"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
           <attvalue for="pageranks" value="0.006078964441283888"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="5"></attvalue>
@@ -3030,7 +3284,7 @@
           <attvalue for="eigencentrality" value="0.005372977039789971"></attvalue>
         </attvalues>
         <viz:size value="31.826302"></viz:size>
-        <viz:position x="971.2203" y="-339.2069"></viz:position>
+        <viz:position x="215.21585" y="788.77344"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="nwmgroup" label="nwmgroup">
@@ -3046,7 +3300,9 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="7"></attvalue>
+          <attvalue for="authority" value="0.04294435"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
           <attvalue for="pageranks" value="0.006320012051596422"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="86"></attvalue>
@@ -3054,7 +3310,7 @@
           <attvalue for="eigencentrality" value="0.048037690947112896"></attvalue>
         </attvalues>
         <viz:size value="32.40991"></viz:size>
-        <viz:position x="854.7639" y="581.8525"></viz:position>
+        <viz:position x="351.582" y="232.2699"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="alfahir" label="alfahir">
@@ -3070,7 +3326,9 @@
           <attvalue for="closnesscentrality" value="0.75"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.8333333333333334"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="7"></attvalue>
+          <attvalue for="authority" value="0.0"></attvalue>
+          <attvalue for="hub" value="0.08073458"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
           <attvalue for="pageranks" value="0.005324644148031887"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="129"></attvalue>
@@ -3078,7 +3336,7 @@
           <attvalue for="eigencentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="30.0"></viz:size>
-        <viz:position x="90.801346" y="-398.88947"></viz:position>
+        <viz:position x="400.29556" y="657.0885"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="europa" label="europa">
@@ -3094,7 +3352,9 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="7"></attvalue>
+          <attvalue for="authority" value="0.012928823"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
           <attvalue for="pageranks" value="0.007587605027787891"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="128"></attvalue>
@@ -3102,7 +3362,7 @@
           <attvalue for="eigencentrality" value="0.005372977039789971"></attvalue>
         </attvalues>
         <viz:size value="35.478905"></viz:size>
-        <viz:position x="527.6529" y="-138.34859"></viz:position>
+        <viz:position x="-116.26407" y="548.9548"></viz:position>
         <viz:color r="140" g="185" b="0"></viz:color>
       </node>
       <node id="azoreg" label="azoreg">
@@ -3118,7 +3378,9 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="6"></attvalue>
+          <attvalue for="authority" value="0.020070907"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="8"></attvalue>
           <attvalue for="pageranks" value="0.005736091580714797"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="96"></attvalue>
@@ -3126,7 +3388,7 @@
           <attvalue for="eigencentrality" value="0.005372977039789971"></attvalue>
         </attvalues>
         <viz:size value="30.996164"></viz:size>
-        <viz:position x="-373.67468" y="-1400.834"></viz:position>
+        <viz:position x="-968.7987" y="657.7235"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="hirmatrix" label="hirmatrix">
@@ -3142,6 +3404,8 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.05989461"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
           <attvalue for="modularity_class" value="5"></attvalue>
           <attvalue for="pageranks" value="0.005655896276012372"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
@@ -3150,7 +3414,7 @@
           <attvalue for="eigencentrality" value="0.03230674798422722"></attvalue>
         </attvalues>
         <viz:size value="30.802002"></viz:size>
-        <viz:position x="654.241" y="1031.5713"></viz:position>
+        <viz:position x="624.50977" y="-261.37695"></viz:position>
         <viz:color r="140" g="185" b="0"></viz:color>
       </node>
       <node id="tutiblog" label="tutiblog">
@@ -3166,7 +3430,9 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="6"></attvalue>
+          <attvalue for="authority" value="0.020070907"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="8"></attvalue>
           <attvalue for="pageranks" value="0.005736091580714797"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="95"></attvalue>
@@ -3174,7 +3440,7 @@
           <attvalue for="eigencentrality" value="0.005372977039789971"></attvalue>
         </attvalues>
         <viz:size value="30.996164"></viz:size>
-        <viz:position x="-138.5042" y="-1460.378"></viz:position>
+        <viz:position x="-895.07385" y="465.1214"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="cloudflare" label="cloudflare">
@@ -3190,7 +3456,9 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="6"></attvalue>
+          <attvalue for="authority" value="0.020070907"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="8"></attvalue>
           <attvalue for="pageranks" value="0.005736091580714797"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="94"></attvalue>
@@ -3198,7 +3466,7 @@
           <attvalue for="eigencentrality" value="0.005372977039789971"></attvalue>
         </attvalues>
         <viz:size value="30.996164"></viz:size>
-        <viz:position x="335.70865" y="-1427.8994"></viz:position>
+        <viz:position x="-751.96375" y="355.8384"></viz:position>
         <viz:color r="140" g="185" b="0"></viz:color>
       </node>
       <node id="velvet" label="velvet">
@@ -3214,7 +3482,9 @@
           <attvalue for="closnesscentrality" value="0.509090909090909"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.5178571428571429"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="7"></attvalue>
+          <attvalue for="authority" value="0.10528004"></attvalue>
+          <attvalue for="hub" value="0.008413454"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
           <attvalue for="pageranks" value="0.006030989722188128"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="70"></attvalue>
@@ -3222,7 +3492,7 @@
           <attvalue for="eigencentrality" value="0.44711615942734023"></attvalue>
         </attvalues>
         <viz:size value="31.71015"></viz:size>
-        <viz:position x="-168.71416" y="510.03317"></viz:position>
+        <viz:position x="-422.67123" y="-874.0521"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="magyarnarancs" label="magyarnarancs">
@@ -3238,7 +3508,9 @@
           <attvalue for="closnesscentrality" value="1.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="authority" value="0.0"></attvalue>
+          <attvalue for="hub" value="0.06292028"></attvalue>
+          <attvalue for="modularity_class" value="9"></attvalue>
           <attvalue for="pageranks" value="0.005324644148031887"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="130"></attvalue>
@@ -3246,7 +3518,7 @@
           <attvalue for="eigencentrality" value="0.0"></attvalue>
         </attvalues>
         <viz:size value="30.0"></viz:size>
-        <viz:position x="-1010.0963" y="226.2129"></viz:position>
+        <viz:position x="580.91516" y="-46.566185"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="vezess" label="vezess">
@@ -3262,7 +3534,9 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="1"></attvalue>
+          <attvalue for="authority" value="0.011749842"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
           <attvalue for="pageranks" value="0.005774963235256438"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="28"></attvalue>
@@ -3270,7 +3544,7 @@
           <attvalue for="eigencentrality" value="0.08065739628623271"></attvalue>
         </attvalues>
         <viz:size value="31.090279"></viz:size>
-        <viz:position x="-1335.4767" y="-620.44775"></viz:position>
+        <viz:position x="-1129.3115" y="-297.5646"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="otthonterkep" label="otthonterkep">
@@ -3286,7 +3560,9 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="7"></attvalue>
+          <attvalue for="authority" value="0.10528004"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
           <attvalue for="pageranks" value="0.006030989722188128"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="59"></attvalue>
@@ -3294,7 +3570,7 @@
           <attvalue for="eigencentrality" value="0.44711615942734023"></attvalue>
         </attvalues>
         <viz:size value="31.71015"></viz:size>
-        <viz:position x="-1197.654" y="818.31287"></viz:position>
+        <viz:position x="-558.3661" y="-257.77927"></viz:position>
         <viz:color r="35" g="150" b="111"></viz:color>
       </node>
       <node id="atv" label="atv">
@@ -3310,6 +3586,8 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.05989461"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
           <attvalue for="modularity_class" value="5"></attvalue>
           <attvalue for="pageranks" value="0.005655896276012372"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
@@ -3318,7 +3596,7 @@
           <attvalue for="eigencentrality" value="0.03230674798422722"></attvalue>
         </attvalues>
         <viz:size value="30.802002"></viz:size>
-        <viz:position x="1063.9613" y="997.956"></viz:position>
+        <viz:position x="679.9912" y="-716.31976"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="teol" label="teol">
@@ -3334,6 +3612,8 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.05989461"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
           <attvalue for="modularity_class" value="5"></attvalue>
           <attvalue for="pageranks" value="0.005655896276012372"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
@@ -3342,7 +3622,7 @@
           <attvalue for="eigencentrality" value="0.03230674798422722"></attvalue>
         </attvalues>
         <viz:size value="30.802002"></viz:size>
-        <viz:position x="684.77826" y="1282.9297"></viz:position>
+        <viz:position x="933.3169" y="-428.88348"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="kormany" label="kormany">
@@ -3358,7 +3638,9 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
-          <attvalue for="modularity_class" value="2"></attvalue>
+          <attvalue for="authority" value="0.05134403"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="10"></attvalue>
           <attvalue for="pageranks" value="0.005590874839767887"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
           <attvalue for="strongcompnum" value="43"></attvalue>
@@ -3366,7 +3648,7 @@
           <attvalue for="eigencentrality" value="0.005372977039789971"></attvalue>
         </attvalues>
         <viz:size value="30.644577"></viz:size>
-        <viz:position x="759.3442" y="-491.76257"></viz:position>
+        <viz:position x="-918.8175" y="258.68524"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="mainap" label="mainap">
@@ -3382,6 +3664,8 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.05989461"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
           <attvalue for="modularity_class" value="5"></attvalue>
           <attvalue for="pageranks" value="0.005655896276012372"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
@@ -3390,7 +3674,7 @@
           <attvalue for="eigencentrality" value="0.03230674798422722"></attvalue>
         </attvalues>
         <viz:size value="30.802002"></viz:size>
-        <viz:position x="250.08315" y="976.3804"></viz:position>
+        <viz:position x="1003.29944" y="-609.3823"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="vg" label="vg">
@@ -3406,6 +3690,8 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.05989461"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
           <attvalue for="modularity_class" value="5"></attvalue>
           <attvalue for="pageranks" value="0.005655896276012372"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
@@ -3414,7 +3700,7 @@
           <attvalue for="eigencentrality" value="0.03230674798422722"></attvalue>
         </attvalues>
         <viz:size value="30.802002"></viz:size>
-        <viz:position x="15.445286" y="1396.2743"></viz:position>
+        <viz:position x="872.1665" y="-774.6958"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
       <node id="automotor" label="automotor">
@@ -3430,6 +3716,8 @@
           <attvalue for="closnesscentrality" value="0.0"></attvalue>
           <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
           <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="authority" value="0.05989461"></attvalue>
+          <attvalue for="hub" value="0.0"></attvalue>
           <attvalue for="modularity_class" value="5"></attvalue>
           <attvalue for="pageranks" value="0.005655896276012372"></attvalue>
           <attvalue for="componentnumber" value="0"></attvalue>
@@ -3438,196 +3726,196 @@
           <attvalue for="eigencentrality" value="0.03230674798422722"></attvalue>
         </attvalues>
         <viz:size value="30.802002"></viz:size>
-        <viz:position x="651.8167" y="712.3292"></viz:position>
+        <viz:position x="722.02325" y="-916.2925"></viz:position>
         <viz:color r="217" g="125" b="216"></viz:color>
       </node>
     </nodes>
     <edges>
-      <edge id="7453" source="888" target="facebook" weight="151.0"></edge>
-      <edge id="7454" source="888" target="amazonaws" weight="154.0"></edge>
-      <edge id="7455" source="888" target="twitter" weight="278.0"></edge>
-      <edge id="7456" source="facebook" target="messenger" weight="154.0"></edge>
-      <edge id="7457" source="mno" target="pinterest" weight="152.0"></edge>
-      <edge id="7458" source="mno" target="disqus" weight="152.0"></edge>
-      <edge id="7459" source="mno" target="google" weight="154.0"></edge>
-      <edge id="7460" source="mno" target="lanchidradio" weight="304.0"></edge>
-      <edge id="7461" source="mno" target="hirtv" weight="401.0"></edge>
-      <edge id="7462" source="mno" target="facebook" weight="788.0"></edge>
-      <edge id="7463" source="nemzetisport" target="mindmegette" weight="152.0"></edge>
-      <edge id="7464" source="mindmegette" target="lakaskultura" weight="165.0"></edge>
-      <edge id="7465" source="mindmegette" target="astronet" weight="297.0"></edge>
-      <edge id="7466" source="hvg" target="apple" weight="154.0"></edge>
-      <edge id="7467" source="hvg" target="youtube" weight="156.0"></edge>
-      <edge id="7468" source="hvg" target="adozona" weight="160.0"></edge>
-      <edge id="7469" source="hvg" target="google" weight="160.0"></edge>
-      <edge id="7470" source="hvg" target="hvgkonyvek" weight="173.0"></edge>
-      <edge id="7471" source="hvg" target="twitter" weight="185.0"></edge>
-      <edge id="7472" source="hvg" target="facebook" weight="187.0"></edge>
-      <edge id="7473" source="hvg" target="adverticum" weight="221.0"></edge>
-      <edge id="7474" source="hvg" target="jobline" weight="254.0"></edge>
-      <edge id="7475" source="youtube" target="google" weight="208.0"></edge>
-      <edge id="7476" source="hirado" target="mtva" weight="156.0"></edge>
-      <edge id="7477" source="mediaworks" target="lapcentrum" weight="156.0"></edge>
-      <edge id="7478" source="startlap" target="24" weight="158.0"></edge>
-      <edge id="7479" source="startlap" target="nlcafe" weight="166.0"></edge>
-      <edge id="7480" source="startlap" target="benu" weight="173.0"></edge>
-      <edge id="7481" source="startlap" target="lap" weight="174.0"></edge>
-      <edge id="7482" source="24" target="tv24" weight="281.0"></edge>
-      <edge id="7483" source="24" target="startapro" weight="302.0"></edge>
-      <edge id="7484" source="24" target="eoldal" weight="302.0"></edge>
-      <edge id="7485" source="24" target="hazipatika" weight="302.0"></edge>
-      <edge id="7486" source="24" target="hirstart" weight="302.0"></edge>
-      <edge id="7487" source="24" target="lap" weight="302.0"></edge>
-      <edge id="7488" source="24" target="citromail" weight="302.0"></edge>
-      <edge id="7489" source="24" target="nlcafe" weight="302.0"></edge>
-      <edge id="7490" source="24" target="startlapjatekok" weight="302.0"></edge>
-      <edge id="7491" source="24" target="kozelben" weight="302.0"></edge>
-      <edge id="7492" source="24" target="apple" weight="302.0"></edge>
-      <edge id="7493" source="24" target="microsoft" weight="302.0"></edge>
-      <edge id="7494" source="24" target="bigfish" weight="302.0"></edge>
-      <edge id="7495" source="24" target="centralmediacsoport" weight="304.0"></edge>
-      <edge id="7496" source="24" target="google" weight="306.0"></edge>
-      <edge id="7497" source="24" target="vezess" weight="604.0"></edge>
-      <edge id="7498" source="24" target="startlap" weight="1361.0"></edge>
-      <edge id="7499" source="lakaskultura" target="facebook" weight="160.0"></edge>
-      <edge id="7500" source="lakaskultura" target="mindmegette" weight="306.0"></edge>
-      <edge id="7501" source="portfolio" target="penzcentrum" weight="160.0"></edge>
-      <edge id="7502" source="portfolio" target="agrarszektor" weight="170.0"></edge>
-      <edge id="7503" source="hirstart" target="24" weight="170.0"></edge>
-      <edge id="7504" source="hirstart" target="nlcafe" weight="197.0"></edge>
-      <edge id="7505" source="atlatszo" target="instagram" weight="180.0"></edge>
-      <edge id="7506" source="atlatszo" target="polopokol" weight="262.0"></edge>
-      <edge id="7507" source="atlatszo" target="soundcloud" weight="272.0"></edge>
-      <edge id="7508" source="atlatszo" target="evoks" weight="272.0"></edge>
-      <edge id="7509" source="atlatszo" target="oktatas" weight="272.0"></edge>
-      <edge id="7510" source="atlatszo" target="pioneers" weight="272.0"></edge>
-      <edge id="7511" source="atlatszo" target="fizettem" weight="273.0"></edge>
-      <edge id="7512" source="atlatszo" target="alhirvadasz" weight="273.0"></edge>
-      <edge id="7513" source="atlatszo" target="creativecommons" weight="294.0"></edge>
-      <edge id="7514" source="atlatszo" target="list-manage" weight="296.0"></edge>
-      <edge id="7515" source="atlatszo" target="youtube" weight="306.0"></edge>
-      <edge id="7516" source="atlatszo" target="vimeo" weight="320.0"></edge>
-      <edge id="7517" source="atlatszo" target="cloudfront" weight="388.0"></edge>
-      <edge id="7518" source="atlatszo" target="twitter" weight="414.0"></edge>
-      <edge id="7519" source="atlatszo" target="tumblr" weight="415.0"></edge>
-      <edge id="7520" source="atlatszo" target="facebook" weight="474.0"></edge>
-      <edge id="7521" source="atlatszo" target="kormany" weight="1091.0"></edge>
-      <edge id="7522" source="index" target="nepitelet" weight="180.0"></edge>
-      <edge id="7523" source="index" target="messenger" weight="197.0"></edge>
-      <edge id="7524" source="index" target="viber" weight="220.0"></edge>
-      <edge id="7525" source="index" target="agrarszektor" weight="223.0"></edge>
-      <edge id="7526" source="index" target="feminashop" weight="232.0"></edge>
-      <edge id="7527" source="index" target="allas" weight="258.0"></edge>
-      <edge id="7528" source="index" target="joautok" weight="273.0"></edge>
-      <edge id="7529" source="index" target="indafoto" weight="281.0"></edge>
-      <edge id="7530" source="index" target="indamail" weight="281.0"></edge>
-      <edge id="7531" source="index" target="napi" weight="303.0"></edge>
-      <edge id="7532" source="index" target="instagram" weight="318.0"></edge>
-      <edge id="7533" source="index" target="indavideo" weight="322.0"></edge>
-      <edge id="7534" source="index" target="penzcentrum" weight="330.0"></edge>
-      <edge id="7535" source="index" target="infostart" weight="343.0"></edge>
-      <edge id="7536" source="index" target="bookline" weight="347.0"></edge>
-      <edge id="7537" source="index" target="pinterest" weight="352.0"></edge>
-      <edge id="7538" source="index" target="adverticum" weight="438.0"></edge>
-      <edge id="7539" source="index" target="otthonterkep" weight="621.0"></edge>
-      <edge id="7540" source="index" target="velvet" weight="651.0"></edge>
-      <edge id="7541" source="index" target="portfolio" weight="792.0"></edge>
-      <edge id="7542" source="index" target="totalcar" weight="912.0"></edge>
-      <edge id="7543" source="index" target="divany" weight="972.0"></edge>
-      <edge id="7544" source="index" target="femina" weight="1094.0"></edge>
-      <edge id="7545" source="index" target="tumblr" weight="1349.0"></edge>
-      <edge id="7546" source="index" target="google" weight="1595.0"></edge>
-      <edge id="7547" source="index" target="twitter" weight="1728.0"></edge>
-      <edge id="7548" source="index" target="facebook" weight="5040.0"></edge>
-      <edge id="7549" source="index" target="kettősmérce" weight="6374.0"></edge>
-      <edge id="7550" source="reblog" target="tumblr" weight="182.0"></edge>
-      <edge id="7551" source="kuruc" target="turania" weight="182.0"></edge>
-      <edge id="7552" source="kuruc" target="addthis" weight="205.0"></edge>
-      <edge id="7553" source="kuruc" target="facebook" weight="223.0"></edge>
-      <edge id="7554" source="kuruc" target="feedburner" weight="230.0"></edge>
-      <edge id="7555" source="kuruc" target="disqus" weight="230.0"></edge>
-      <edge id="7556" source="kuruc" target="idokep" weight="230.0"></edge>
-      <edge id="7557" source="kuruc" target="hírfolyam" weight="230.0"></edge>
-      <edge id="7558" source="kuruc" target="lapszemle" weight="230.0"></edge>
-      <edge id="7559" source="kuruc" target="ipv6-test" weight="230.0"></edge>
-      <edge id="7560" source="kuruc" target="hazafias" weight="267.0"></edge>
-      <edge id="7561" source="nepszava" target="twitter" weight="187.0"></edge>
-      <edge id="7562" source="nepszava" target="wikipedia" weight="266.0"></edge>
-      <edge id="7563" source="mozgasterblog" target="bloggol" weight="192.0"></edge>
-      <edge id="7564" source="merce" target="facebook" weight="202.0"></edge>
-      <edge id="7565" source="origo" target="origorandi" weight="208.0"></edge>
-      <edge id="7566" source="origo" target="sztaki" weight="208.0"></edge>
-      <edge id="7567" source="origo" target="pinterest" weight="208.0"></edge>
-      <edge id="7568" source="origo" target="freemail" weight="209.0"></edge>
-      <edge id="7569" source="origo" target="origomediagroup" weight="209.0"></edge>
-      <edge id="7570" source="origo" target="twitter" weight="214.0"></edge>
-      <edge id="7571" source="origo" target="instagram" weight="215.0"></edge>
-      <edge id="7572" source="origo" target="investor" weight="252.0"></edge>
-      <edge id="7573" source="origo" target="videa" weight="309.0"></edge>
-      <edge id="7574" source="origo" target="reblog" weight="336.0"></edge>
-      <edge id="7575" source="origo" target="life" weight="349.0"></edge>
-      <edge id="7576" source="origo" target="nwmgroup" weight="436.0"></edge>
-      <edge id="7577" source="origo" target="facebook" weight="1918.0"></edge>
-      <edge id="7578" source="pestisracok" target="tinywebgallery" weight="220.0"></edge>
-      <edge id="7579" source="pestisracok" target="mindenamifal" weight="272.0"></edge>
-      <edge id="7580" source="pestisracok" target="youtube" weight="299.0"></edge>
-      <edge id="7581" source="pestisracok" target="polgarportal" weight="299.0"></edge>
-      <edge id="7582" source="pestisracok" target="061" weight="323.0"></edge>
-      <edge id="7583" source="pestisracok" target="dkt" weight="323.0"></edge>
-      <edge id="7584" source="pestisracok" target="nullahategy" weight="337.0"></edge>
-      <edge id="7585" source="pestisracok" target="facebook" weight="356.0"></edge>
-      <edge id="7586" source="pestisracok" target="azoreg" weight="458.0"></edge>
-      <edge id="7587" source="pestisracok" target="tutiblog" weight="478.0"></edge>
-      <edge id="7588" source="pestisracok" target="cloudflare" weight="483.0"></edge>
-      <edge id="7589" source="nol" target="linkedin" weight="230.0"></edge>
-      <edge id="7590" source="nol" target="kemma" weight="230.0"></edge>
-      <edge id="7591" source="nol" target="szoljon" weight="230.0"></edge>
-      <edge id="7592" source="nol" target="bama" weight="230.0"></edge>
-      <edge id="7593" source="nol" target="baon" weight="230.0"></edge>
-      <edge id="7594" source="nol" target="beol" weight="230.0"></edge>
-      <edge id="7595" source="nol" target="sonline" weight="230.0"></edge>
-      <edge id="7596" source="nol" target="nport" weight="230.0"></edge>
-      <edge id="7597" source="nol" target="lapcentrum" weight="230.0"></edge>
-      <edge id="7598" source="nol" target="jegyed" weight="230.0"></edge>
-      <edge id="7599" source="nol" target="tvmusor" weight="230.0"></edge>
-      <edge id="7600" source="nol" target="heol" weight="231.0"></edge>
-      <edge id="7601" source="nol" target="twitter" weight="236.0"></edge>
-      <edge id="7602" source="nol" target="hirmatrix" weight="461.0"></edge>
-      <edge id="7603" source="nol" target="facebook" weight="478.0"></edge>
-      <edge id="7604" source="nol" target="atv" weight="660.0"></edge>
-      <edge id="7605" source="nol" target="teol" weight="766.0"></edge>
-      <edge id="7606" source="nol" target="mediaworks" weight="992.0"></edge>
-      <edge id="7607" source="nol" target="mainap" weight="1150.0"></edge>
-      <edge id="7608" source="nol" target="nemzetisport" weight="1175.0"></edge>
-      <edge id="7609" source="nol" target="astronet" weight="1380.0"></edge>
-      <edge id="7610" source="nol" target="lakaskultura" weight="1380.0"></edge>
-      <edge id="7611" source="nol" target="vg" weight="1380.0"></edge>
-      <edge id="7612" source="nol" target="nolblog" weight="1401.0"></edge>
-      <edge id="7613" source="nol" target="automotor" weight="1576.0"></edge>
-      <edge id="7614" source="nol" target="mindmegette" weight="1916.0"></edge>
-      <edge id="7615" source="totalcar" target="index" weight="255.0"></edge>
-      <edge id="7616" source="femina" target="adverticum" weight="264.0"></edge>
-      <edge id="7617" source="femina" target="feminashop" weight="292.0"></edge>
-      <edge id="7618" source="femina" target="index" weight="703.0"></edge>
-      <edge id="7619" source="kettősmérce" target="index" weight="264.0"></edge>
-      <edge id="7620" source="kettősmérce" target="pinterest" weight="428.0"></edge>
-      <edge id="7621" source="kettősmérce" target="google" weight="498.0"></edge>
-      <edge id="7622" source="kettősmérce" target="tumblr" weight="546.0"></edge>
-      <edge id="7623" source="kettősmérce" target="twitter" weight="635.0"></edge>
-      <edge id="7624" source="kettősmérce" target="facebook" weight="949.0"></edge>
-      <edge id="7625" source="vs" target="facebook" weight="266.0"></edge>
-      <edge id="7626" source="444" target="bbelements" weight="274.0"></edge>
-      <edge id="7627" source="gphirek" target="origo" weight="283.0"></edge>
-      <edge id="7628" source="nolblog" target="nol" weight="294.0"></edge>
-      <edge id="7629" source="168ora" target="bbelements" weight="296.0"></edge>
-      <edge id="7630" source="mandiner" target="facebook" weight="299.0"></edge>
-      <edge id="7631" source="divany" target="index" weight="331.0"></edge>
-      <edge id="7632" source="life" target="origo" weight="590.0"></edge>
-      <edge id="7633" source="alfahir" target="europa" weight="452.0"></edge>
-      <edge id="7634" source="alfahir" target="facebook" weight="1289.0"></edge>
-      <edge id="7635" source="velvet" target="index" weight="548.0"></edge>
-      <edge id="7636" source="magyarnarancs" target="bbelements" weight="569.0"></edge>
-      <edge id="7637" source="magyarnarancs" target="twitter" weight="714.0"></edge>
+      <edge id="0" source="888" target="facebook" weight="151.0"></edge>
+      <edge id="1" source="888" target="amazonaws" weight="154.0"></edge>
+      <edge id="2" source="888" target="twitter" weight="278.0"></edge>
+      <edge id="3" source="facebook" target="messenger" weight="154.0"></edge>
+      <edge id="4" source="mno" target="pinterest" weight="152.0"></edge>
+      <edge id="5" source="mno" target="disqus" weight="152.0"></edge>
+      <edge id="6" source="mno" target="google" weight="154.0"></edge>
+      <edge id="7" source="mno" target="lanchidradio" weight="304.0"></edge>
+      <edge id="8" source="mno" target="hirtv" weight="401.0"></edge>
+      <edge id="9" source="mno" target="facebook" weight="788.0"></edge>
+      <edge id="10" source="nemzetisport" target="mindmegette" weight="152.0"></edge>
+      <edge id="11" source="mindmegette" target="lakaskultura" weight="165.0"></edge>
+      <edge id="12" source="mindmegette" target="astronet" weight="297.0"></edge>
+      <edge id="13" source="hvg" target="apple" weight="154.0"></edge>
+      <edge id="14" source="hvg" target="youtube" weight="156.0"></edge>
+      <edge id="15" source="hvg" target="adozona" weight="160.0"></edge>
+      <edge id="16" source="hvg" target="google" weight="160.0"></edge>
+      <edge id="17" source="hvg" target="hvgkonyvek" weight="173.0"></edge>
+      <edge id="18" source="hvg" target="twitter" weight="185.0"></edge>
+      <edge id="19" source="hvg" target="facebook" weight="187.0"></edge>
+      <edge id="20" source="hvg" target="adverticum" weight="221.0"></edge>
+      <edge id="21" source="hvg" target="jobline" weight="254.0"></edge>
+      <edge id="22" source="youtube" target="google" weight="208.0"></edge>
+      <edge id="23" source="hirado" target="mtva" weight="156.0"></edge>
+      <edge id="24" source="mediaworks" target="lapcentrum" weight="156.0"></edge>
+      <edge id="25" source="startlap" target="24" weight="158.0"></edge>
+      <edge id="26" source="startlap" target="nlcafe" weight="166.0"></edge>
+      <edge id="27" source="startlap" target="benu" weight="173.0"></edge>
+      <edge id="28" source="startlap" target="lap" weight="174.0"></edge>
+      <edge id="29" source="24" target="tv24" weight="281.0"></edge>
+      <edge id="30" source="24" target="startapro" weight="302.0"></edge>
+      <edge id="31" source="24" target="eoldal" weight="302.0"></edge>
+      <edge id="32" source="24" target="hazipatika" weight="302.0"></edge>
+      <edge id="33" source="24" target="hirstart" weight="302.0"></edge>
+      <edge id="34" source="24" target="lap" weight="302.0"></edge>
+      <edge id="35" source="24" target="citromail" weight="302.0"></edge>
+      <edge id="36" source="24" target="nlcafe" weight="302.0"></edge>
+      <edge id="37" source="24" target="startlapjatekok" weight="302.0"></edge>
+      <edge id="38" source="24" target="kozelben" weight="302.0"></edge>
+      <edge id="39" source="24" target="apple" weight="302.0"></edge>
+      <edge id="40" source="24" target="microsoft" weight="302.0"></edge>
+      <edge id="41" source="24" target="bigfish" weight="302.0"></edge>
+      <edge id="42" source="24" target="centralmediacsoport" weight="304.0"></edge>
+      <edge id="43" source="24" target="google" weight="306.0"></edge>
+      <edge id="44" source="24" target="vezess" weight="604.0"></edge>
+      <edge id="45" source="24" target="startlap" weight="1361.0"></edge>
+      <edge id="46" source="lakaskultura" target="facebook" weight="160.0"></edge>
+      <edge id="47" source="lakaskultura" target="mindmegette" weight="306.0"></edge>
+      <edge id="48" source="portfolio" target="penzcentrum" weight="160.0"></edge>
+      <edge id="49" source="portfolio" target="agrarszektor" weight="170.0"></edge>
+      <edge id="50" source="hirstart" target="24" weight="170.0"></edge>
+      <edge id="51" source="hirstart" target="nlcafe" weight="197.0"></edge>
+      <edge id="52" source="atlatszo" target="instagram" weight="180.0"></edge>
+      <edge id="53" source="atlatszo" target="polopokol" weight="262.0"></edge>
+      <edge id="54" source="atlatszo" target="soundcloud" weight="272.0"></edge>
+      <edge id="55" source="atlatszo" target="evoks" weight="272.0"></edge>
+      <edge id="56" source="atlatszo" target="oktatas" weight="272.0"></edge>
+      <edge id="57" source="atlatszo" target="pioneers" weight="272.0"></edge>
+      <edge id="58" source="atlatszo" target="fizettem" weight="273.0"></edge>
+      <edge id="59" source="atlatszo" target="alhirvadasz" weight="273.0"></edge>
+      <edge id="60" source="atlatszo" target="creativecommons" weight="294.0"></edge>
+      <edge id="61" source="atlatszo" target="list-manage" weight="296.0"></edge>
+      <edge id="62" source="atlatszo" target="youtube" weight="306.0"></edge>
+      <edge id="63" source="atlatszo" target="vimeo" weight="320.0"></edge>
+      <edge id="64" source="atlatszo" target="cloudfront" weight="388.0"></edge>
+      <edge id="65" source="atlatszo" target="twitter" weight="414.0"></edge>
+      <edge id="66" source="atlatszo" target="tumblr" weight="415.0"></edge>
+      <edge id="67" source="atlatszo" target="facebook" weight="474.0"></edge>
+      <edge id="68" source="atlatszo" target="kormany" weight="1091.0"></edge>
+      <edge id="69" source="index" target="nepitelet" weight="180.0"></edge>
+      <edge id="70" source="index" target="messenger" weight="197.0"></edge>
+      <edge id="71" source="index" target="viber" weight="220.0"></edge>
+      <edge id="72" source="index" target="agrarszektor" weight="223.0"></edge>
+      <edge id="73" source="index" target="feminashop" weight="232.0"></edge>
+      <edge id="74" source="index" target="allas" weight="258.0"></edge>
+      <edge id="75" source="index" target="joautok" weight="273.0"></edge>
+      <edge id="76" source="index" target="indafoto" weight="281.0"></edge>
+      <edge id="77" source="index" target="indamail" weight="281.0"></edge>
+      <edge id="78" source="index" target="napi" weight="303.0"></edge>
+      <edge id="79" source="index" target="instagram" weight="318.0"></edge>
+      <edge id="80" source="index" target="indavideo" weight="322.0"></edge>
+      <edge id="81" source="index" target="penzcentrum" weight="330.0"></edge>
+      <edge id="82" source="index" target="infostart" weight="343.0"></edge>
+      <edge id="83" source="index" target="bookline" weight="347.0"></edge>
+      <edge id="84" source="index" target="pinterest" weight="352.0"></edge>
+      <edge id="85" source="index" target="adverticum" weight="438.0"></edge>
+      <edge id="86" source="index" target="otthonterkep" weight="621.0"></edge>
+      <edge id="87" source="index" target="velvet" weight="651.0"></edge>
+      <edge id="88" source="index" target="portfolio" weight="792.0"></edge>
+      <edge id="89" source="index" target="totalcar" weight="912.0"></edge>
+      <edge id="90" source="index" target="divany" weight="972.0"></edge>
+      <edge id="91" source="index" target="femina" weight="1094.0"></edge>
+      <edge id="92" source="index" target="tumblr" weight="1349.0"></edge>
+      <edge id="93" source="index" target="google" weight="1595.0"></edge>
+      <edge id="94" source="index" target="twitter" weight="1728.0"></edge>
+      <edge id="95" source="index" target="facebook" weight="5040.0"></edge>
+      <edge id="96" source="index" target="kettősmérce" weight="6374.0"></edge>
+      <edge id="97" source="reblog" target="tumblr" weight="182.0"></edge>
+      <edge id="98" source="kuruc" target="turania" weight="182.0"></edge>
+      <edge id="99" source="kuruc" target="addthis" weight="205.0"></edge>
+      <edge id="100" source="kuruc" target="facebook" weight="223.0"></edge>
+      <edge id="101" source="kuruc" target="feedburner" weight="230.0"></edge>
+      <edge id="102" source="kuruc" target="disqus" weight="230.0"></edge>
+      <edge id="103" source="kuruc" target="idokep" weight="230.0"></edge>
+      <edge id="104" source="kuruc" target="hírfolyam" weight="230.0"></edge>
+      <edge id="105" source="kuruc" target="lapszemle" weight="230.0"></edge>
+      <edge id="106" source="kuruc" target="ipv6-test" weight="230.0"></edge>
+      <edge id="107" source="kuruc" target="hazafias" weight="267.0"></edge>
+      <edge id="108" source="nepszava" target="twitter" weight="187.0"></edge>
+      <edge id="109" source="nepszava" target="wikipedia" weight="266.0"></edge>
+      <edge id="110" source="mozgasterblog" target="bloggol" weight="192.0"></edge>
+      <edge id="111" source="merce" target="facebook" weight="202.0"></edge>
+      <edge id="112" source="origo" target="origorandi" weight="208.0"></edge>
+      <edge id="113" source="origo" target="sztaki" weight="208.0"></edge>
+      <edge id="114" source="origo" target="pinterest" weight="208.0"></edge>
+      <edge id="115" source="origo" target="freemail" weight="209.0"></edge>
+      <edge id="116" source="origo" target="origomediagroup" weight="209.0"></edge>
+      <edge id="117" source="origo" target="twitter" weight="214.0"></edge>
+      <edge id="118" source="origo" target="instagram" weight="215.0"></edge>
+      <edge id="119" source="origo" target="investor" weight="252.0"></edge>
+      <edge id="120" source="origo" target="videa" weight="309.0"></edge>
+      <edge id="121" source="origo" target="reblog" weight="336.0"></edge>
+      <edge id="122" source="origo" target="life" weight="349.0"></edge>
+      <edge id="123" source="origo" target="nwmgroup" weight="436.0"></edge>
+      <edge id="124" source="origo" target="facebook" weight="1918.0"></edge>
+      <edge id="125" source="pestisracok" target="tinywebgallery" weight="220.0"></edge>
+      <edge id="126" source="pestisracok" target="mindenamifal" weight="272.0"></edge>
+      <edge id="127" source="pestisracok" target="youtube" weight="299.0"></edge>
+      <edge id="128" source="pestisracok" target="polgarportal" weight="299.0"></edge>
+      <edge id="129" source="pestisracok" target="061" weight="323.0"></edge>
+      <edge id="130" source="pestisracok" target="dkt" weight="323.0"></edge>
+      <edge id="131" source="pestisracok" target="nullahategy" weight="337.0"></edge>
+      <edge id="132" source="pestisracok" target="facebook" weight="356.0"></edge>
+      <edge id="133" source="pestisracok" target="azoreg" weight="458.0"></edge>
+      <edge id="134" source="pestisracok" target="tutiblog" weight="478.0"></edge>
+      <edge id="135" source="pestisracok" target="cloudflare" weight="483.0"></edge>
+      <edge id="136" source="nol" target="linkedin" weight="230.0"></edge>
+      <edge id="137" source="nol" target="kemma" weight="230.0"></edge>
+      <edge id="138" source="nol" target="szoljon" weight="230.0"></edge>
+      <edge id="139" source="nol" target="bama" weight="230.0"></edge>
+      <edge id="140" source="nol" target="baon" weight="230.0"></edge>
+      <edge id="141" source="nol" target="beol" weight="230.0"></edge>
+      <edge id="142" source="nol" target="sonline" weight="230.0"></edge>
+      <edge id="143" source="nol" target="nport" weight="230.0"></edge>
+      <edge id="144" source="nol" target="lapcentrum" weight="230.0"></edge>
+      <edge id="145" source="nol" target="jegyed" weight="230.0"></edge>
+      <edge id="146" source="nol" target="tvmusor" weight="230.0"></edge>
+      <edge id="147" source="nol" target="heol" weight="231.0"></edge>
+      <edge id="148" source="nol" target="twitter" weight="236.0"></edge>
+      <edge id="149" source="nol" target="hirmatrix" weight="461.0"></edge>
+      <edge id="150" source="nol" target="facebook" weight="478.0"></edge>
+      <edge id="151" source="nol" target="atv" weight="660.0"></edge>
+      <edge id="152" source="nol" target="teol" weight="766.0"></edge>
+      <edge id="153" source="nol" target="mediaworks" weight="992.0"></edge>
+      <edge id="154" source="nol" target="mainap" weight="1150.0"></edge>
+      <edge id="155" source="nol" target="nemzetisport" weight="1175.0"></edge>
+      <edge id="156" source="nol" target="astronet" weight="1380.0"></edge>
+      <edge id="157" source="nol" target="lakaskultura" weight="1380.0"></edge>
+      <edge id="158" source="nol" target="vg" weight="1380.0"></edge>
+      <edge id="159" source="nol" target="nolblog" weight="1401.0"></edge>
+      <edge id="160" source="nol" target="automotor" weight="1576.0"></edge>
+      <edge id="161" source="nol" target="mindmegette" weight="1916.0"></edge>
+      <edge id="162" source="totalcar" target="index" weight="255.0"></edge>
+      <edge id="163" source="femina" target="adverticum" weight="264.0"></edge>
+      <edge id="164" source="femina" target="feminashop" weight="292.0"></edge>
+      <edge id="165" source="femina" target="index" weight="703.0"></edge>
+      <edge id="166" source="kettősmérce" target="index" weight="264.0"></edge>
+      <edge id="167" source="kettősmérce" target="pinterest" weight="428.0"></edge>
+      <edge id="168" source="kettősmérce" target="google" weight="498.0"></edge>
+      <edge id="169" source="kettősmérce" target="tumblr" weight="546.0"></edge>
+      <edge id="170" source="kettősmérce" target="twitter" weight="635.0"></edge>
+      <edge id="171" source="kettősmérce" target="facebook" weight="949.0"></edge>
+      <edge id="172" source="vs" target="facebook" weight="266.0"></edge>
+      <edge id="173" source="444" target="bbelements" weight="274.0"></edge>
+      <edge id="174" source="gphirek" target="origo" weight="283.0"></edge>
+      <edge id="175" source="nolblog" target="nol" weight="294.0"></edge>
+      <edge id="176" source="168ora" target="bbelements" weight="296.0"></edge>
+      <edge id="177" source="mandiner" target="facebook" weight="299.0"></edge>
+      <edge id="178" source="divany" target="index" weight="331.0"></edge>
+      <edge id="179" source="life" target="origo" weight="590.0"></edge>
+      <edge id="180" source="alfahir" target="europa" weight="452.0"></edge>
+      <edge id="181" source="alfahir" target="facebook" weight="1289.0"></edge>
+      <edge id="182" source="velvet" target="index" weight="548.0"></edge>
+      <edge id="183" source="magyarnarancs" target="bbelements" weight="569.0"></edge>
+      <edge id="184" source="magyarnarancs" target="twitter" weight="714.0"></edge>
     </edges>
   </graph>
 </gexf>
