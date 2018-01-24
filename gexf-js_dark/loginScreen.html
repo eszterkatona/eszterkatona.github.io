@@ -10,6 +10,8 @@
     <link rel="stylesheet" type="text/css" href="loginScreen.css" />
 
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
 
 
   <!--[if lt IE 9]>
@@ -19,6 +21,13 @@
 
 <body>
     <h1>Mire hivatkoznak a magyar weboldalak?</h1>
-    <p>Leírás a gráfról</p>
+    <p>
+A leggyakrabban olvasott híroldalak linkelési gyakorlatára voltunk kíváncsiak. Elsősorban azt kívántuk felderíteni, hogy az egyes lapokról milyen más oldalakra lehet eljutni, illetve ezekből milyen háló rajzolható fel. Az általunk összeállított 22 darab kiinduló oldal linkjeit egy pyhtonban írt crawler segítségével gyűjtöttük le. A szoftver négy link mélységben gyűjtött adatot, így olyan oldalak is megtalálhatók az adatbázisban, amelyekkel valójában csak elenyészően ritkán találkozunk hivatkozásként. <br> <br>
+A linkeket egy kalibrált döntési fával soroltunk az általunk megállapított kategóriákba, amelyeket az ábrán színekkel jelöltünk. A node-ok méretét a PageRankjük alapján vizualizáltuk, még ha emiatt a magyar portálok nagyrészt egyforma méretűnek is látszanak az olyan netes óriások mellett, mint a Facebook. Az ábrának jelen verzóján csak 300 oldal látható, az adatbázisunk azonban további 4700 egyedi linket tartalmaz. Ez a 300 lap is elég ahhoz, hogy a magyar web nagy szeletét kitevő forgalomterelő oldalak hálózatát (Startlap, Hírstart, Kapu.hu), és az ezeket igénybevevő oldalakat azonosítsuk.
+<br><br>
+Kiinduló oldalak: origo.hu, pestisracok.hu, magyaridok.hu, 888.hu, 444.hu, index.hu, hvg.hu, atlatszo.hu, hirado.hu, vs.hu, magyarnarancs.hu, 24.hu, mandiner.hu, nepszava.hu, nol.hu, mno.hu, alfahir.hu, kuruc.info, azonnali.hu, merce.hu, kettosmerce.blog.hu,168ora.hu
+<br><br>
+Kategóriák: media/news, lifestyle, socialmedia, classified advertisements, other
+</p>
 </body>
 </html>
