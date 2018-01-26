@@ -5,8 +5,7 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta property="og:image" content="http://krisztinaszucs.com/viz/oscars/img/fb.jpg" />
 
     <title>ATM alluvial</title>
 
@@ -39,17 +38,21 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item mx-0 mx-lg-1">
+        <!--     <li class="nav-item mx-0 mx-lg-1">
               <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger" href="#intro">Intro</a>
             </li>
+        -->
             <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger" href="#alluvial">Alluvial</a>
+              <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger" href="#alluvial1">Szavak</a>
             </li>
             <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger" href="#termite">Termite</a>
+              <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger" href="#alluvial2">Dátumok</a>
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger" href="#termite">Topikok</a>
             </li>
               <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger" href="#atm">ATM</a>
+              <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger" href="#atm">Módszertan</a>
             </li>
           </ul>
         </div>
@@ -68,10 +71,15 @@
       </div>
     </header>
 
+     
     <!-- Intro Section -->
+    <!--
     <section class="portfolio" id="intro">
       <div class="container">
         <h2 class="text-center text-uppercase text-secondary mb-0">Intro</h2>
+        <br>
+    -->
+      <div class="container">
         <p>
             Melyik oldal milyen témákkal foglalkozott a legszívesebben a mirgációs krízis idején? Mikor miről szóltak a hírek? A téma ismerős lehet, hiszen már többször írtunk a menekült-korpuszunkon készített elemzéseinkről. Például a <a href="https://labs.precognox.com/migration-dashboard/#/dashboard">dashboardról</a>, vagy az <a href="https://www.nyest.hu/facesofmigration/"> emócióelemzésről</a>. Az elemzésünkben nem kimondottan arra voltunk kíváncsiak, hogy témák szerint hogyan alakulnak a dokumentumok, hanem arra, hogy az egyes híroldalak és az időpontok figyelembevételével milyen topikokat találunk meg. Erre adott lehetőseget a szerző-topik modell (Author-Topic Model, vagy röviden ATM), mivel korpuszunkban minden dokumentumhoz tartozik két címke, a leközlő híroldal neve és a megjelenés dátuma. Szeretjük ezt a korpuszt, így a menekültekről szóló cikkeket soroltuk topikokba, és megnéztük, hogy melyik portál melyik topikról cikkezik a leggyakrabban, illetve hogy időben hogyan alakult az egyes topikok népszerűsége.
         </p>
@@ -80,12 +88,14 @@
             A teljes korpusz kb. 50.000, az internetről gyűjtött a menekülthelyzettel kapcsolatos cikkből áll, 2014 szeptember és 2016 június közötti cikkeket tartalmaz 25 nagyon különböző portálról. 
         </p>
       </div>
+    <!--
     </section>
+    -->
 
     <!-- Alluvial Section -->
-    <section id="alluvial">
+    <section id="alluvial1">
       <div class="container">
-        <h2 class="text-center text-uppercase text-secondary">Alluvial</h2>
+        <h2 class="text-center text-uppercase text-secondary">Szavak</h2>
         
         <iframe src="iframes/domain_topic_words.html" style="height: 40vw; width: 75vw;" frameBorder="0" scrolling="no" class="embed-responsive-item">
           <p>Your browser does not support iframes.</p>
@@ -96,7 +106,12 @@
             Fontos, hogy itt a linkek a három oszlop között nem folytonos, közvetlen kapcsolatot jelentenek, tehát nem tudjuk megmondani, hogy mely portálok mely kifejezéseket használták legtöbbször.
             Az elemzésünkben szerzőkként elsőként a hírportálokat definiáltuk. Aaz ábra bal oldalán azt mutatjuk meg, hogy melyik topikhoz melyik hírportál tartozik legszorosabban. A topikok és a hírportálok között kevesebb, de dominánsabb kapcsolatot láthatunk. Az ábra jobb oldalán azt szemléltetjük, hogy a topikokra jellemző szavak hogyan oszlanak meg az egyes topikok szerint. Az ábrára minden topik esetében a legnagyobb súllyal rendelkező tíz szó került fel, tehát azok, melyek leginkább jellemezték a topikokat. 
         </p>  
-        
+       </div>
+    </section>
+      
+    <section id="alluvial2">
+      <div class="container">
+        <h2 class="text-center text-uppercase text-secondary">Dátumok</h2>    
         <iframe src="iframes/topic_dates.html" style="height: 40vw; width: 75vw;" frameBorder="0" scrolling="no" class="embed-responsive-item">
           <p>Your browser does not support iframes.</p>
         </iframe>
@@ -110,8 +125,22 @@
     <!-- Termite Section -->
     <section id="termite">
       <div class="container">
-        <h2 class="text-center text-uppercase text-secondary mb-0">Termite</h2>
+        <h2 class="text-center text-uppercase text-secondary mb-0">Topikok</h2>
         
+        <iframe src="iframes/bubble.html" style="height: 40vw; width: 75vw;" frameBorder="0" scrolling="no" class="embed-responsive-item">
+          <p>Your browser does not support iframes.</p>
+              
+        </iframe>
+        <br>
+        <p>
+            Az optimáis topikszám megtalálása nem egyszerű feladat, mert nincsenek kimondottan jó mérőszámok, így mi is nehézségekbe ütköztünk. Segíthetett volna, ha a cikkeket annotálni tudtuk volna, és ezáltal tanuló és teszt adatokon vizsgálhattuk volna, hogy hogyan teljesítenek a különböző modellek. Végül úgy döntöttünk, hogy a témát korábban tartalomelemzéssel feldolgozott szerzőpáros <a href="http://www.mediakutato.hu/cikk/2015_04_tel/01_menekultek_moralis_panik.pdf">Bernáth Gábor és Messing Vera cikkét</a>, valamint az <a href="https://crcb.atlatszo.hu/2016/10/24/menekultvalsag-magyarorszagon-a-nemzetkozi-sajto-tukreben/">atlatszo.hu-n</a> megjelent osztályozást vesszük alapul. 
+        <br>
+            A két cikk alapján kirajzolódott néhány topik, melyeket keresni tudtunk a modellből származó topikszavak között. A veszély/járvány, illetve erőszak mindkét cikkben tematizálva volt, a határsértés és határzár, az idegenellenesség, a politikai diskurzusok és a személyes történetek voltak azok a témák, melyeket ezek alapján a cikkek alapján a topikokhoz tartozó szavak között keresni kezdtünk.
+        </p>
+        <p>
+            Az optimális topikszám megtalálása után a kövektező nehézség a topikok elnevezése. Ehhez alapvetően az egyet topikhoz tartozó szavakat szoktuk böngészni, talán ebben nyújthat segítséget a Termite inspirálta Bubble chartunk. Az ábrán az egyes szavak topikvalószínűségét ábrázoljuk. A valószínűségeket a bubble-ök mérete mutatja. A szavakat többféle módon rendezhetjük: saliency és frequency szerint. A két mutatót nézhetjük bigramokon vagy a szvak listáján is. Hogy az ábra befogadható maradjon, 25 leggyakoribb kifejezésre szűkítettünk. 
+              
+        </p>
       </div>
     </section>
       
@@ -119,7 +148,9 @@
     <!-- ATM Section -->
     <section id="atm">
       <div class="container">
-        <h2 class="text-center text-uppercase text-secondary mb-0">Author-Topic Model</h2>
+        <h2 class="text-center text-uppercase text-secondary mb-0">Módszertan: <br> Author-Topic Model</h2>
+        
+        <br>
         <p>
             A szerző-topik modell (<a href="https://mimno.infosci.cornell.edu/info6150/readings/398.pdf">Author-Topic Model, ATM</a>) egy generatív valószínűségi modell, ami szerzőségi információval egészíti ki a látens Dirichlet allokációt (<a href="https://en.wikipedia.org/wiki/Latent_Dirichlet_allocation">LDA</a>). Az ATM két modell (az Author Model és az LDA) ötvözése, egy-egy valószínűségi modell a szerzőkre és a topikokra. A dokumentumok topikeloszlása keveréke a dokumentumok szerzőihez tartozó topikeloszlásnak. Amíg az LDA-nál minden dokumentumhoz egy szerző tartozik, addig az ATM esetében minden szerzőhöz egyedi topikeloszlás tartozik, a modell segítségével megismerhetjük, hogy mely szerző mely topikokról ír, és milyen gyakran.
         </p>
@@ -134,20 +165,15 @@
 
           </div>
           <div class="col-md-4 mb-5 mb-lg-0">
-            <h4 class="text-uppercase mb-4">Social Media</h4>
+            <h4 class="text-uppercase mb-4">Share on</h4>
             <ul class="list-inline mb-0">
               <li class="list-inline-item">
-                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="javascript:MyPopUpWin('https://www.facebook.com/sharer/sharer.php?u=https://eszterkatona.github.io/atm_alluvial/vizu/', 400, 300);" rel="nofollow">
                   <i class="fa fa-fw fa-facebook"></i>
                 </a>
               </li>
               <li class="list-inline-item">
-                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
-                  <i class="fa fa-fw fa-google-plus"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="javascript:MyPopUpWin('http://twitter.com/share?url=https://eszterkatona.github.io/atm_alluvial/vizu/&text=Mire hivatoznak?', 400, 300);" rel="nofollow">
                   <i class="fa fa-fw fa-twitter"></i>
                 </a>
               </li>
