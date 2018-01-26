@@ -1,0 +1,278 @@
+<!doctype html>
+<head>
+<!--  Based on http://clhenrick.io/d3-v4-general-update-pattern-punchcard-chart/
+     original working example https://bl.ocks.org/clhenrick/raw/5394591a62a5e61fb8753c1dca13db47/ -->
+<!--    TODO: set language to English/Hungarian as you like it -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Migráció az online médiában</title>
+  <style type="text/css">
+      /*   TODO: PLEASE CHANGE THE STYLE ACCORDING TO YOUR NEEDS   */
+    body {
+      font-family: sans-serif;
+    }
+    svg {
+      border:1px solid #d0d0d0;
+    }
+    text {
+      font-size: 16px;
+      fill: #888;
+    }
+    path, line {
+      stroke: #888;
+    }
+  </style>
+</head>
+<body>
+<!--    TODO: save a local copy of d3, save it to a folder (e.g. js) and refer to that d3.v4.min.js in your code -->
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script>
+
+  // register events to emit & listen for via d3 dispatch
+  var dispatch = d3.dispatch("load", "statechange");
+
+  // the first gen type of our dataset we want the chart to load with
+  var firstSiteName = "frequency (bigram)";
+  
+  // unique years of our dataset to be used by our xScale domain
+  // computed after data loads
+  var years = [];
+
+  // load our data! When done call our dispatch events with corresponding data
+  d3.csv('data/viz.csv', function(err, data) {
+    if (err) { throw(error) }
+
+    data.forEach(function(d) {
+      d.yield = +d.yield;
+      d.year = +d.year;
+    });
+    
+    // unique years in the data set, note data is already sorted chronologically
+    years = data.reduce(function(acc, cur) {
+      if (acc.indexOf(cur.year) === -1) {
+        acc.push(cur.year);
+      }
+      return acc;
+    }, []);
+
+    // max yield for the entire dataset, 75.5
+    // console.log(d3.max(data, function(d) { return d.yield; }));
+
+    var nested = d3.nest()
+      .key(function(d) { return d.site; })
+      .key(function(d) { return d.gen; })
+      .entries(data);
+
+    // construct a new d3 map, not as in geographic map, but more like a "hash"
+    var map = d3.map(nested, function(d) { return d.key; });
+
+    // call our dispatch events with `this` context, and corresponding data
+    dispatch.call("load", this, map);
+    dispatch.call("statechange", this, map.get(firstSiteName));
+  });
+
+
+  // register a listener for "load" and create a dropdown / select elem
+  dispatch.on("load.menu", function(map) {
+    // create select dropdown with listener to call "statechange"
+    var select = d3.select("body")
+      .append("div")
+      .append("select")
+        .on("change", function() {
+          var site = this.value;
+          dispatch.call(
+            "statechange",
+            this,
+            map.get(site)
+          );
+        });
+
+    // append options to select dropdown
+    select.selectAll("option")
+        .data(map.keys().sort())
+      .enter().append("option")
+        .attr("value", function(d) { return d; })
+        .text(function(d) { return d; });
+
+    // set the current dropdown option to value of last statechange
+    dispatch.on("statechange.menu", function(site) {
+      select.property("value", site.key);
+    });
+  });
+
+
+  // set up our punchcard chart after our data loads
+  dispatch.on("load.chart", function(map) {
+    // layout properties
+    // TODO: use window.size to determine the available space and set margin, width, and set proportional to the windows size
+    var margin = { top: 120, right: 30, bottom: 50, left: 120 };
+    var width = 1200 - margin.left - margin.right;
+    var height = 800 - margin.top - margin.bottom;
+
+    // scales for axises & circles
+    var yScale = d3.scalePoint().padding(0.5); // ordinal scale for gen type / category
+    var xScale = d3.scalePoint().padding(0.3); // ordinal scale for years
+    var radius = d3.scaleSqrt(); // circle size would be too large if we used raw values, so we compute their square root
+    var color = d3.scaleOrdinal(d3.schemeCategory20b); // colors used for differentiating "gen" type
+
+    // set up yScale with domain of unique gen values
+    yScale
+      .range([0, height])
+      .round(true);
+
+    // domain for our x scale is min - 1 & max years of the data set
+    xScale
+      .range([0, width])
+      .domain(years);
+
+    // domain of circle radius is from 0 to max d.yield
+    radius
+      .range([0, 15])
+      .domain([0, 76]);
+
+    // d3.v4 method of setting up axises: axisLeft, axisBottom, etc.
+    var yAxis = d3.axisLeft()
+      .scale(yScale);
+    /*ITT ADJUK MEG A TOPIKOK NEVÉT, EZ MOST HARDCODED
+      SOKKAL SZEBB LENNE, HA A CSV-BEN LENNE MÉG EGY OSZLOP NEKI
+      ÉS ONNÉT OLVASNÁNK BE, MEG TÖLTENÉNK FEL A DICTIONARY-T*/
+    // a topic no -> topic name dictionary
+    var topic_to_desc = {
+    0 :
+    'Német bevándorláspolitika',
+    1:
+    'Bevándorlók és bevándorlás',
+    2:
+    'EU-s menekültpolitika kritikája',
+    3:
+    'Határátkelés',
+    4:
+    'Kormánypolitikai érvelés',
+    5:
+    'Segélyszervezetek munkája',
+    6:
+    'EU és Törökország',
+    7:
+    'Török helyzet',
+    8:
+    'Utazás, vándorlás',
+    9:
+    'Menekülttábor',
+    10:
+    'Szír helyzet',
+    11:
+    'Határzár',
+    12:
+    'Hajós balesetek'};
+      
+    var xAxis = d3.axisBottom()
+      .tickFormat(function(d) { return topic_to_desc[d]; }) // this will put string values on x-axis instead of the numerical ones
+      .scale(xScale);
+
+    // create an svg element to hold our chart parts
+    var svg = d3.select("body").append('svg')
+      .attr('width', width + margin.left + margin.right)
+      .attr('height', height + margin.top + margin.bottom)
+      .append('g')
+        .attr('transform', 'translate(' + [margin.left, margin.top] + ')')
+
+    // append svg groups for the axises, then call their corresponding axis function
+    svg.append("g")
+      .attr("class", "y axis")
+      .call(yAxis);
+    // X-AXIS SETTINGS
+    svg.append("g")
+      .attr("transform", "translate(0," + 0 + ")")
+      .call(xAxis)
+      .selectAll("text") // select tick texts
+        .attr("dx", "3.5em") // push x-axis ticks on x coordinates
+        .attr("dy", "-1em") // push x-axis ticks on y coordinates
+        .attr("transform", "rotate(-60)") // rotate ticks on x-axis
+        .style("font-size", "12px"); // x-axis font size
+
+
+    // register a callback to be invoked which updates the chart when "statechange" occurs
+    dispatch.on("statechange.chart", function(site) {
+      // our transition, will occur over 750 milliseconds
+      var t = svg.transition().duration(750);
+
+      // update our yScale & transition the yAxis, note the xAxis doesn't change
+      yScale.domain(site.values.map(function(d) { return d.key; }).sort());
+      yAxis.scale(yScale);
+      t.select("g.y.axis").call(yAxis);
+
+      // bind our new piece of data to our svg element
+      // could also do `svg.data([site.values]);`
+      svg.datum(site.values); 
+
+      // tell d3 we want svg groups for each of our gen categories
+      // NOTE: the use of 2 accessor functions: the first binds the data, the second sets the data-join's key
+      var gens = svg.selectAll("g.site")
+        .data(
+          function(d) { return d; },
+          function(d) { return d.key; }
+        );
+
+      // get rid of the old ones we don't need when doing an update
+      gens.exit().remove();
+
+      // update existing ones left over
+      gens.attr("class", "site")
+        .transition(t)
+        .attr("transform", function(d) {
+          return "translate(0," + yScale(d.key) + ")"
+        });
+
+      // create new ones if our updated dataset has more then the previous
+      gens.enter().append("g")
+        .attr("class", "site")
+        .transition(t)
+        .attr("transform", function(d) {
+          return "translate(0," + yScale(d.key) + ")"
+        });
+
+      // reselect the gen groups, so that we get any new ones that were made
+      // our previous selection would not contain them
+      gens = svg.selectAll("g.site");
+
+      // tell d3 we want some circles!
+      // NOTE: the use of 2 accessor functions: the first binds the data, the second sets the data join's key
+      var circles = gens.selectAll("circle")
+        .data(
+          function(d) { return d.values; },
+          function(d) { return d.year; }
+        );
+
+      // get rid of ones we don't need anymore, fade them out
+      circles.exit()
+        .transition(t)
+      	.attr('r', 0)
+        .style("fill", "rgba(255,255,255,0)")
+        .remove();
+
+      // update existing circles, transition size & fill
+      circles
+        .attr("cy", 0)
+        .attr("cx", function(d) { return xScale(d.year); })
+        .transition(t)
+        .attr("r", function(d) { return radius(d.yield); })
+        .attr("fill", function(d) { return color(d.gen); });
+
+      // make new circles
+      circles.enter().append("circle")
+        .attr("cy", 0)
+        .attr("cx", function(d) { return xScale(d.year); })
+        .transition(t)
+        .attr("r", function(d) { return radius(d.yield); })
+        .attr("fill", function(d) { return color(d.gen); })
+        .attr("opacity", 0.7);
+
+    }); // end dispatch statechange.chart
+
+  }); // end dispatch load.chart
+
+</script>
+</body>
+<!-- TODO: THE HTML CODE IS NOT VALID, THERE ARE MISSING PARTS, INSERT ALL THE NECESSARY TAGAS INTO THE CODE-->
+<!-- TODO: INDENT THE CODE, NOW IT IS VERY UGLY -->
+<!-- TODO: REMOVE ALL TODOS HAVING FINISHED THE PROJECT-->
