@@ -342,3 +342,12 @@ a:hover {
 #zoomSlider .ui-slider-range {
     background: grey;
 }
+
+
+.test1 {
+  color: rgb(98,98,98);
+}
+
+.test1:hover {
+  color: rgb(70,70,70);
+}

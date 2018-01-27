@@ -6,3 +6,10 @@ p {
     font-family: 'Open Sans', Arial, sans-serif; font-size: 14px; color: rgb(98,98,98)
 }
 
+.test1 {
+  color: rgb(98,98,98);
+}
+
+.test1:hover {
+  color: rgb(70,70,70);
+}
