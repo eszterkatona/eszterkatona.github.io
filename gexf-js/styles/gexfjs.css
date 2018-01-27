@@ -41,7 +41,7 @@ h1 {
     padding: 1px 4px; margin: 0;
     position: absolute;
     top: 15px;
-    width: 320px;
+    width: 220px;
 }
 
 #searchinput:focus, #searchinput:active {
@@ -50,6 +50,10 @@ h1 {
 
 #searchsubmit {
     position: absolute; left: 560px; top: 13px; width: 20px; height: 20px; margin: 0; padding: 0; height: 16px; border: none; background: none; text-indent: -999px; cursor: pointer; cursor: hand;
+}
+
+#share {
+    position: absolute; left: 1325px; top: 13px; width: 700px; text-align: left;
 }
 
 .grey {
@@ -351,3 +355,4 @@ a:hover {
 .test1:hover {
   color: rgb(70,70,70);
 }
+

@@ -13,3 +13,8 @@ p {
 .test1:hover {
   color: rgb(70,70,70);
 }
+
+.footer {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
