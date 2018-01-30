@@ -52,8 +52,16 @@ h1 {
     position: absolute; left: 560px; top: 13px; width: 20px; height: 20px; margin: 0; padding: 0; height: 16px; border: none; background: none; text-indent: -999px; cursor: pointer; cursor: hand;
 }
 
-#share {
-    position: absolute; left: 1325px; top: 13px; width: 700px; text-align: left;
+#share-fb {
+    position: absolute; left: 1310px; top: 13px; width: 700px; text-align: left;
+}
+
+#share-tw {
+    position: absolute; left: 1337px; top: 13px; width: 700px; text-align: left;
+}
+
+#share-li {
+    position: absolute; left: 1370px; top: 13px; width: 700px; text-align: left;
 }
 
 .grey {
