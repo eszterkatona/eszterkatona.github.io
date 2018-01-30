@@ -251,11 +251,11 @@ a:hover {
 }
 
 #autocomplete ul {
-    float: left; width: 240px; list-style: none; padding: 0; margin: 0;
+    float: left; width: 240; list-style: none; padding: 0; margin: 0;
 }
 
 #autocomplete li {
-    display: block; margin: 0; width: 240px; padding: 6px 0; font-size: 12px;
+    display: block; margin: 0; width: 240; padding: 6px 0; font-size: 12px;
 }
 
 #autocomplete li.a {
@@ -323,8 +323,7 @@ a:hover {
     position:absolute;
     top:3px;
     right:2px;
-    background:rgb(245,245,245);
-    color:black;
+    color:rgb(98,98,98);
     height:30px;
     width:35px;
     font-size:30px;

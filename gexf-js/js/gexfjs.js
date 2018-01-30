@@ -15,9 +15,11 @@
  * */
 
 (function() {
-
+        var w= window.innerWidth;
+        var h= window.innerHeight;
     var GexfJS = {
-        lensRadius: 200,
+
+        lensRadius: w * 0.25,
         lensGamma: 0.5,
         graphZone: {
             width: 0,
@@ -25,8 +27,8 @@
         },
         oldGraphZone: {},
         params: {
-            centreX: 400,
-            centreY: 350,
+            centreX: w*0.5,
+            centreY: h*0.5,
             activeNode: -1,
             currentNode: -1,
             isMoving: false
@@ -34,10 +36,10 @@
         oldParams: {},
         minZoom: -3,
         maxZoom: 10,
-        overviewWidth: 200,
-        overviewHeight: 175,
-        baseWidth: 800,
-        baseHeight: 700,
+        overviewWidth: w * 0.25,
+        overviewHeight: h * 0.25,
+        baseWidth: w * 0.9,
+        baseHeight: h * 0.9,
         overviewScale: .25,
         totalScroll: 0,
         autoCompletePosition: 0,
@@ -309,7 +311,7 @@
                     $('<br>').appendTo(_li);
                     $('<img>').attr("src", attr[1]).appendTo(_li).addClass("attrimg");
                 } else {
-                    _li.append(replaceURLWithHyperlinks(attr[1]));
+                    _li.append(attr[1]);
                 }
                 _li.appendTo(_ul);
             }
