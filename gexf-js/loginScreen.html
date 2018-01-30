@@ -22,34 +22,44 @@
 </head>
 
 <body>
-    <h1>Mire hivatkoznak a magyar weboldalak?</h1>
+    <h1>Graphic legend</h1>
+
     <p>
-A leggyakrabban olvasott híroldalak linkelési gyakorlatára voltunk kíváncsiak. Elsősorban azt kívántuk felderíteni, hogy az egyes lapokról milyen más oldalakra lehet eljutni, illetve ezekből milyen háló rajzolható fel. Az általunk összeállított 22 darab kiinduló oldal linkjeit egy pyhtonban írt crawler segítségével gyűjtöttük le. A szoftver négy link mélységben gyűjtött adatot, így olyan oldalak is megtalálhatók az adatbázisban, amelyekkel valójában csak elenyészően ritkán találkozunk hivatkozásként. <br> <br>
-A linkeket egy kalibrált döntési fával soroltunk az általunk megállapított kategóriákba, amelyeket az ábrán színekkel jelöltünk. A node-ok méretét a PageRankjük alapján vizualizáltuk, még ha emiatt a magyar portálok nagyrészt egyforma méretűnek is látszanak az olyan netes óriások mellett, mint a Facebook. Az ábrának jelen verzóján csak 300 oldal látható, az adatbázisunk azonban további 4700 egyedi linket tartalmaz. Ez a 300 lap is elég ahhoz, hogy a magyar web nagy szeletét kitevő forgalomterelő oldalak hálózatát (Startlap, Hírstart, Kapu.hu), és az ezeket igénybevevő oldalakat azonosítsuk.
-<br><br>
-Kiinduló oldalak: origo.hu, pestisracok.hu, magyaridok.hu, 888.hu, 444.hu, index.hu, hvg.hu, atlatszo.hu, hirado.hu, vs.hu, magyarnarancs.hu, 24.hu, mandiner.hu, nepszava.hu, nol.hu, mno.hu, alfahir.hu, kuruc.info, azonnali.hu, merce.hu, kettosmerce.blog.hu,168ora.hu
-<br><br>
-Kategóriák: media/news, lifestyle, socialmedia, classified advertisements, other
-<br><br>
+
+Our graph shows the network of the references from the most frequently read Hungarian news sites.
+We used categories, which are marked with colors in the graph. The network shows only 280 from the 4700 collected links of references.
+    </p>
+
+<h1>Description</h1>
+<p>
+
+Our main aim was to find out what pages one can get from certain news websites. In other words, we were interested in the network of references.
+<p>
+
+    <p>
+To collect the data we used a crawler in Python, for which a previously existing code was applied. The crawler collected data in the depth of four links, hence such websites are also present in the database that are extremely rare as references.
+The links were collected in January 2018. The data we visualized are the domains retrieved from the links in the texts of articles. For the visualization we also made a classifier (i.e. a calibrated decision tree) in Python that organized the various linked domains into categories. We stored the collected links in an SQLite database and with the help of Python we visualized it in Gephi. In order to make it interactive the GEXF JavaScript tool was utilized, for which we relied on one of our existing codes, which we expanded.
+</p>
+<p>    
+The thickness of the edges shows the weight of the links between the nodes, the thicker the edges are the more references were collected between the two websites. The size of the nodes were visualized on the basis of their PageRank, even if Hungarian sites seem to have similar sizes comparing to such giants as Facebook. However, it is considered that the presented three hundred pages allow the careful observer to identify the network of Hungarian news websites that determine the flow of traffic of the Internet.
+
+</p>
+<p>
+ 
+Initial sites: origo.hu, pestisracok.hu, magyaridok.hu, 888.hu, 444.hu, index.hu, hvg.hu, atlatszo.hu, hirado.hu, vs.hu, magyarnarancs.hu, 24.hu, mandiner.hu, nepszava.hu, nol.hu, mno.hu, alfahir.hu, kuruc.info, azonnali.hu, merce.hu, kettosmerce.blog.hu,168ora.hu
+</p>
+
+<p>
+
+Categories: media/news, lifestyle, socialmedia, classified advertisements, other
 </p>
     
 
 
-<!-- Footer -->
-    <footer class="footer text-center">
-      
-            <p>Share on</p>
-	 <a href="javascript:MyPopUpWin('http://twitter.com/share?url=https://eszterkatona.github.io/gexf-js/&text=Mire hivatkoznak a magyar híroldalak?', 400, 300);" class = "test1" rel="nofollow"><i class="fa fa-twitter" style="font-size:24px;"></i></a>
 
+<p>Eszter Katona, Orsolya Putz, Virág Ilyés, Zoltán Varjú </p>
+<p>Copyright &copy; <a href="https://precognox.com/login">precognox.com</a> 2018</p>
 
-	<a href="javascript:MyPopUpWin('https://www.facebook.com/sharer/sharer.php?u=https://eszterkatona.github.io/gexf-js/', 400, 300);" class = "test1" rel="nofollow"><i class="fa fa-facebook" style="font-size:24px;"></i></a>
-
-	<a href="javascript:MyPopUpWin('https://www.linkedin.com/shareArticle?mini=true&url=https://eszterkatona.github.io/gexf-js/#&title=IMire hivatkoznak a magyar híroldalak?&summary=A leggyakrabban olvasott híroldalak linkelési gyakorlatára voltunk kíváncsiak. Elsősorban azt kívántuk felderíteni, hogy az egyes lapokról milyen más oldalakra lehet eljutni, illetve ezekből milyen háló rajzolható fel.', 400, 300);" class = "test1" rel="nofollow"><i class="fa fa-linkedin" style="font-size:24px;"></i></a>
-          
-        <p>Copyright &copy; <a href="https://precognox.com/login">precognox.com</a> 2018</p>
-    
-
-</footer>
     
 <script type="text/javascript">
     function MyPopUpWin(url, width, height) {
