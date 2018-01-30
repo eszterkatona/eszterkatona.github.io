@@ -996,8 +996,8 @@
 
         }
 
-        GexfJS.ctxGraphe.lineWidth = 4;
-        GexfJS.ctxGraphe.strokeStyle = "rgba(0,100,0,0.8)";
+        GexfJS.ctxGraphe.lineWidth = 3;
+        GexfJS.ctxGraphe.strokeStyle = "rgba(0,0,0,0.7)";
 
         if (_centralNode != -1) {
             var _dnc = GexfJS.graph.nodeList[_centralNode];
