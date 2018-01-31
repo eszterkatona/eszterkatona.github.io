@@ -941,6 +941,7 @@
         }
 
         var _centralNode = ((GexfJS.params.activeNode != -1) ? GexfJS.params.activeNode : GexfJS.params.currentNode);
+        
 
         for (var i in GexfJS.graph.nodeList) {
             var _d = GexfJS.graph.nodeList[i];
@@ -1078,6 +1079,8 @@
         GexfJS.ctxMini.beginPath();
         GexfJS.ctxMini.fillRect(_x, _y, _w, _h);
         GexfJS.ctxMini.strokeRect(_x, _y, _w, _h);
+        
+        
     }
 
     function hoverAC() {

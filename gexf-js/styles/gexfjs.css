@@ -23,12 +23,13 @@ body {
 }
 
 #maintitle {
-    position: absolute; left: 35px; top: 10px; width: 700px; text-align: left;
+    position: absolute; left: 3%; top: 10px; width: 700px; text-align: left;
 }
 
 
 h1 {
     margin:0;
+    font-size: 1.5vw
 }
 
 
@@ -37,11 +38,11 @@ h1 {
     background: #fff url(../img/search.gif) no-repeat right;
     border: 1px solid #DDD;
     font-size: 14px; line-height: 14px, height: 14px;
-    left: 1055px;
-    padding: 1px 4px; margin: 0;
     position: absolute;
+    left: 72.5%;
+    padding: 1px 4px; margin: 0;
     top: 15px;
-    width: 220px;
+    width: 15%;
 }
 
 #searchinput:focus, #searchinput:active {
@@ -49,19 +50,19 @@ h1 {
 }
 
 #searchsubmit {
-    position: absolute; left: 560px; top: 13px; width: 20px; height: 20px; margin: 0; padding: 0; height: 16px; border: none; background: none; text-indent: -999px; cursor: pointer; cursor: hand;
+    position: absolute; left: 72.5%; top: 13px; width: 20px; height: 20px; margin: 0; padding: 0; height: 16px; border: none; background: none; text-indent: -999px; cursor: pointer; cursor: hand;
 }
 
 #share-fb {
-    position: absolute; left: 1310px; top: 13px; width: 700px; text-align: left;
+    position: absolute; left: 90%; top: 13px; width: 700px; text-align: left;
 }
 
 #share-tw {
-    position: absolute; left: 1337px; top: 13px; width: 700px; text-align: left;
+    position: absolute; left: 91.5%; top: 13px; width: 700px; text-align: left;
 }
 
 #share-li {
-    position: absolute; left: 1370px; top: 13px; width: 700px; text-align: left;
+    position: absolute; left: 93.5%; top: 13px; width: 700px; text-align: left;
 }
 
 .grey {
@@ -211,11 +212,11 @@ div.smallpill {
 }
 
 #leftcontent h3 {
-    font-size: 16px;
+    font-size: 1.2vw;
 }
 
 #leftcontent h4 {
-    font-size: 14px;
+    font-size: 1vw;
 }
 
 #leftcontent h3, #leftcontent h4, #leftcontent p, #leftcontent ul {
@@ -227,7 +228,7 @@ div.smallpill {
 }
 
 #leftcontent li {
-    margin: 2px 0; padding: 0; font-size: 12px;
+    margin: 2px 0; padding: 0; font-size: 0.8vw;
 }
 
 #leftcontent img {
@@ -255,7 +256,7 @@ a:hover {
 }
 
 #autocomplete h4 {
-    float: left; width: 80px; margin: 5px; font-size: 12px;
+    float: left; width: 80px; margin: 5px; font-size: 0.8vw;
 }
 
 #autocomplete ul {
@@ -263,7 +264,7 @@ a:hover {
 }
 
 #autocomplete li {
-    display: block; margin: 0; width: 240; padding: 6px 0; font-size: 12px;
+    display: block; margin: 0; width: 240; padding: 6px 0; font-size: 0.8vw;
 }
 
 #autocomplete li.a {
@@ -334,7 +335,7 @@ a:hover {
     color:rgb(98,98,98);
     height:30px;
     width:35px;
-    font-size:30px;
+    font-size:3vw;
     text-decoration:none;
     text-align:center;
     font-weight:bold;

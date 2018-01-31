@@ -3,7 +3,8 @@
 <html lang="hu">
 <head>
     <meta charset="utf-8">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Legend</title>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
@@ -38,7 +39,8 @@ Our main aim was to find out what pages one can get from certain news websites. 
 
     <p>
 To collect the data we used a crawler in Python, for which a previously existing code was applied. The crawler collected data in the depth of four links, hence such websites are also present in the database that are extremely rare as references.
-The links were collected in January 2018. The data we visualized are the domains retrieved from the links in the texts of articles. For the visualization we also made a classifier (i.e. a calibrated decision tree) in Python that organized the various linked domains into categories. We stored the collected links in an SQLite database and with the help of Python we visualized it in Gephi. In order to make it interactive the GEXF JavaScript tool was utilized, for which we relied on one of our existing codes, which we expanded.
+The links were collected in January 2018. The data we visualized are the domains retrieved from the links in the texts of articles. For the visualization we also made a classifier (i.e. a calibrated decision tree) in Python that organized the various linked domains into categories. We stored the collected links in an SQLite database and with the help of Python we visualized it in Gephi. In order to make it interactive the GEXF JavaScript tool was utilized, for which we relied on a code that was already available and then improved.
+
 </p>
 <p>    
 The thickness of the edges shows the weight of the links between the nodes, the thicker the edges are the more references were collected between the two websites. The size of the nodes were visualized on the basis of their PageRank, even if Hungarian sites seem to have similar sizes comparing to such giants as Facebook. However, it is considered that the presented three hundred pages allow the careful observer to identify the network of Hungarian news websites that determine the flow of traffic of the Internet.
@@ -46,19 +48,23 @@ The thickness of the edges shows the weight of the links between the nodes, the 
 </p>
 <p>
  
-Initial sites: origo.hu, pestisracok.hu, magyaridok.hu, 888.hu, 444.hu, index.hu, hvg.hu, atlatszo.hu, hirado.hu, vs.hu, magyarnarancs.hu, 24.hu, mandiner.hu, nepszava.hu, nol.hu, mno.hu, alfahir.hu, kuruc.info, azonnali.hu, merce.hu, kettosmerce.blog.hu,168ora.hu
+
 </p>
 
-<p>
+    
+<table style="width:100%">
 
-Categories: media/news, lifestyle, socialmedia, classified advertisements, other
-</p>
+  <tr>
+    <td><img src="img/minta.jpeg" style="width: 32vw; height: 16vw;"></td>
+    <td>Initial sites: <br><br> <a target="_blank" href="https://origo.hu">origo</a>, <a target="_blank" href="https://pestisracok.hu">PestiSrácok</a>, <a target="_blank" href="https://magyaridok.hu">Magyar Idők</a>, <a target="_blank" href="https://888.hu">888.hu</a>, <a target="_blank" href="https://444.hu">444.hu</a>, <a target="_blank" href="https://index.hu">index</a>, <a target="_blank" href="https://hvg.hu">HVG</a>, <a target="_blank" href="https://atlatszo.hu">Átlátszó</a>, <a target="_blank" href="https://hirado.hu">hirado.hu</a>, <a target="_blank" href="https://vs.hu">vs</a>, <a target="_blank" href="https://magyarnarancs.hu">Magyar Narancs</a>, <a target="_blank" href="https://24.hu">24.hu</a>, <a target="_blank" href="https://mandiner.hu">Mandiner</a>, <a target="_blank" href="https://nepszava.hu">Népszava</a>, <a target="_blank" href="https://nol.hu">Népszabadság</a>, <a target="_blank" href="https://mno.hu">Magyar Nemzet</a>, <a target="_blank" href="https://alfahir.hu">Alfahír</a>, <a target="_blank" href="https://kuruc.info">Kurucinfo</a>, <a target="_blank" href="https://azonnali.hu">Azonnali</a>, <a target="_blank" href="https://merce.hu">Mérce</a>, <a target="_blank" href="https://kettosmerce.blog.hu">Kettős Mérce</a>, <a target="_blank" href="https://168ora.hu">168óra</a></td> 
+  </tr>
+
+</table>
+
+
     
 
-
-
-<p>Eszter Katona, Orsolya Putz, Virág Ilyés, Zoltán Varjú </p>
-<p>Copyright &copy; <a href="https://precognox.com/login">precognox.com</a> 2018</p>
+<p>Eszter Katona, Orsolya Putz, Virág Ilyés, Zoltán Varjú. Copyright &copy; <a target="_blank" href="https://precognox.com/login">precognox.com</a> 2018 </p>
 
     
 <script type="text/javascript">
