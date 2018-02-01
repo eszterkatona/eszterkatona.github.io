@@ -310,7 +310,7 @@ a:hover {
     opacity: 0.1;
     display:none;
 }
-#loginScreen
+#info
 {
     height: 90vh;
     width: 60vw;
@@ -323,7 +323,7 @@ a:hover {
 	border-radius:10px;
     overflow:scroll;
 }
-#loginScreen:target, #loginScreen:target + #cover{
+#info:target, #info:target + #cover{
     display:block;
     opacity:2;
 }

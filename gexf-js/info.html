@@ -10,7 +10,7 @@
 
     <meta name="description" content="The HTML5 Herald">
     <meta name="author" content="SitePoint">
-    <link rel="stylesheet" type="text/css" href="loginScreen.css" />
+    <link rel="stylesheet" type="text/css" href="styles/info.css" />
 
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
@@ -68,15 +68,17 @@ The thickness of the edges shows the weight of the links between the nodes, the 
 </div>
     
 <script type="text/javascript">
+    var w = window.innerWidth;
+    var h = window.innerHeight;
     function MyPopUpWin(url, width, height) {
     var leftPosition, topPosition;
     //Allow for borders.
-    leftPosition = (window.screen.width / 2) - ((width / 2) + 10);
+    leftPosition = (w / 2) - ((w / 2) + 10);
     //Allow for title and status bars.
-    topPosition = (window.screen.height / 2) - ((height / 2) + 50);
+    topPosition = (h / 2) - ((h / 2) + 50);
     //Open the window.
     window.open(url, "Window2",
-    "status=no,height=" + height + ",width=" + width + ",resizable=yes,left="
+    "status=no,height=" + h + ",width=" + w + ",resizable=yes,left="
     + leftPosition + ",top=" + topPosition + ",screenX=" + leftPosition + ",screenY="
     + topPosition + ",toolbar=no,menubar=no,scrollbars=no,location=no,directories=no");  
 }
