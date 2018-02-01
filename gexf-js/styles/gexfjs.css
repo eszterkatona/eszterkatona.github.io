@@ -321,7 +321,6 @@ a:hover {
 	
 	border:5px solid #cccccc;
 	border-radius:10px;
-    overflow:scroll;
 }
 #info:target, #info:target + #cover{
     display:block;
