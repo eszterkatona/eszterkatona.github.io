@@ -20,8 +20,11 @@ p {
 }
 
 table {
-    font-family: 'Open Sans', Arial, sans-serif; font-size: 1.7vw; color: rgb(98,98,98)
+    font-family: 'Open Sans', Arial, sans-serif; font-size: 1.7vw; color: rgb(98,98,98);
+    vertical-align: inherit;
 }
+
+
 
 a {
     color: rgb(70,70,70); font-weight: bold; text-decoration: none;
