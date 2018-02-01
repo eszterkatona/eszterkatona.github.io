@@ -28,7 +28,7 @@
         oldGraphZone: {},
         params: {
             centreX: w*0.5,
-            centreY: h*0.5,
+            centreY: h*0.45,
             activeNode: -1,
             currentNode: -1,
             isMoving: false

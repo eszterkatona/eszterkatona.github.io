@@ -50,7 +50,7 @@ h1 {
 }
 
 #searchsubmit {
-    position: absolute; left: 72.5%; top: 13px; width: 20px; height: 20px; margin: 0; padding: 0; height: 16px; border: none; background: none; text-indent: -999px; cursor: pointer; cursor: hand;
+    position: absolute; left: 86.5%; top: 16px; width: 2%; height: 20px; margin: 0; padding: 0; height: 16px; border: none; background: none; text-indent: -999px; cursor: pointer; cursor: hand;
 }
 
 #share-fb {
@@ -312,7 +312,7 @@ a:hover {
 }
 #loginScreen
 {
-    height: 90vh;
+    height: 60vh;
     width: 60vw;
     margin:0 auto;
     position:relative;
@@ -321,6 +321,7 @@ a:hover {
 	
 	border:5px solid #cccccc;
 	border-radius:10px;
+    overflow:scroll;
 }
 #loginScreen:target, #loginScreen:target + #cover{
     display:block;
