@@ -14,14 +14,22 @@ p {
   color: rgb(70,70,70);
 }
 
-.footer {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+#preco {
+    text-align: right;
 }
 
 table {
     font-family: 'Open Sans', Arial, sans-serif; font-size: 1.7vw; color: rgb(98,98,98);
-    vertical-align: inherit;
+}
+
+td {
+    padding: 15px;
+    vertical-align: top;
 }
 
 
