@@ -33,6 +33,8 @@
     
     end of facebook data -->
         
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
 
 
     </head>
@@ -59,19 +61,25 @@
 
                         
 
-                        
-                        
-  <button id="show-dialog" type="button" class="test1" style="border:none; background:none;"><i class="fa fa-info fa-2x" aria-hidden="true" style="font-size:32px"></i></button>
-  <dialog class="mdl-dialog">
-    <div class="mdl-dialog__content">
-      
+
         
-        <h1>Graphic legend</h1>
+        
+
+<!-- Trigger/Open The Modal -->
+<button id="myBtn"type="button" class="test1" style="border:none; background:none;"><i class="fa fa-info fa-2x" aria-hidden="true" style="font-size:32px"></i></button>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    
+   <h1>Graphic legend</h1>
         <p>
             Our graph shows the network of the references from the most frequently read Hungarian news sites.
             We used categories, which are marked with colors in the graph. The network shows only 280 from the 4700 collected links of references.
         </p>
-    <br>
 
     <h1>Description</h1>
         <p>
@@ -88,7 +96,6 @@
             The thickness of the edges shows the weight of the links between the nodes, the thicker the edges are the more references were collected between the two websites. The size of the nodes were visualized on the basis of their weighted Degree, even if Hungarian sites seem to have similar sizes comparing to such giants as Facebook. However, it is considered that the presented three hundred pages allow the careful observer to identify the network of Hungarian news websites that determine the flow of traffic of the Internet.
         </p>
 
-    <br>
 
     <h1>Initial sites </h1>
         <p>
@@ -115,43 +122,52 @@
             <a target="_blank" href="https://pestisracok.hu">PestiSrácok</a>, 
             <a target="_blank" href="https://vs.hu">vs</a>
         </p>
-    <br>
-    
+
     <h1>Categories </h1>
     <br>
         <img src="img/categories.png" class="responsive">
     <br>
     <br>
-    <br>
-
-        
+    
     <div id= "preco">
         <p>
             Eszter Katona, Orsolya Putz, Virág Ilyés, Zoltán Varjú <br> Copyright &copy; <a target="_blank" href="https://precognox.com">Precognox</a> 2018
         </p>
-    </div>
-        
-        
-        
-    </div>
-    <div class="mdl-dialog__actions">
-      <button type="button" class="mdl-button close">Close</button>
-    </div>
-  </dialog>
-                    
-  <script>
-    var dialog = document.querySelector('dialog');
-    var showDialogButton = document.querySelector('#show-dialog');
-    if (! dialog.showModal) {
-      dialogPolyfill.registerDialog(dialog);
+    </div>   
+      
+      
+      
+  </div>
+
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
     }
-    showDialogButton.addEventListener('click', function() {
-      dialog.showModal();
-    });
-    dialog.querySelector('.close').addEventListener('click', function() {
-      dialog.close();
-    });
-  </script>
+}
+</script>
                     
                     
 
