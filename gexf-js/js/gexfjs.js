@@ -36,8 +36,8 @@
         oldParams: {},
         minZoom: -3,
         maxZoom: 10,
-        overviewWidth: w * 0.25,
-        overviewHeight: h * 0.25,
+        /* overviewWidth: w * 0.25,
+        overviewHeight: h * 0.25, */
         baseWidth: w * 0.9,
         baseHeight: h * 0.9,
         overviewScale: .25,
