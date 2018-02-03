@@ -22,23 +22,24 @@
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
-             <!-- facebook data
-    <meta property="og:url" content="http://labs.precognox.com/faces-of-migration" />
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="What images were published in the online media on migration?" />
-    <meta property="og:description" content="In recent years, news on migration have been part of our everyday lives. Our analysis studies the images of articles published online between 27th September 2014 and 11th June 2016. The analysis of images is considered highly significant, since the visual representation of refugees drastically shape the receivers’ thoughts about this group. The visualization of refugees strongly influence public opinion about migration crisis as the majority of the population do not tend to meet the refugees in person." />
-    <meta property="og:image" content="http://labs.precognox.com/faces-of-migration/img/header/bevezetes.jpg" />
-    <meta property="og:image:width" content="400" />
-    <meta property="og:image:height" content="300" />
-    
-    end of facebook data -->
+        <!-- facebook data-->
+
+            <meta property="og:url" content="http://labs.precognox.com/news-websites-citation"/>
+            <meta property="og:type" content="website"/>
+            <meta property="og:title" content="What do Hungarian news websites tend to cite?"/>
+            <meta property="og:description" content="Our main aim was to find out what pages one can get from certain news websites. Our graph shows the network of the references from the most frequently read Hungarian news sites. We used categories, which are marked with colors in the graph. The network shows only 280 from the 4700 collected links of references."/>
+            <meta property="og:image" content="http://labs.precognox.com/news-websites-citation/img/graf.jpg"/>
+            <meta property="og:image:width" content="400"/>
+            <meta property="og:image:height" content="300"/>
+
+        <!-- end of facebook data -->
         
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        
-
 
     </head>
+    
     <body>
+        
         <div id="zonecentre" class="gradient">
             <canvas id="carte" width="0" height="0"></canvas>
             <ul id="ctlzoom">
@@ -57,157 +58,142 @@
                 <li>
                     <a href="#" id="edgesButton"> </a>
                 </li>
-                <li>
+                <li>   
 
-                        
+                    <!-- Trigger/Open The Modal -->
+                    <button id="myBtn"type="button" class="test1" style="border:none; background:none;"><i class="fa fa-info fa-2x" aria-hidden="true" style="font-size:32px"></i></button>
 
+                    <!-- The Modal -->
+                    <div id="myModal" class="modal">
 
-        
-        
+                      <!-- Modal content -->
+                      <div class="modal-content">
+                        <span class="close">&times;</span>
 
-<!-- Trigger/Open The Modal -->
-<button id="myBtn"type="button" class="test1" style="border:none; background:none;"><i class="fa fa-info fa-2x" aria-hidden="true" style="font-size:32px"></i></button>
+                        <h1>Description</h1>
+                            <p>
+                                Our graph shows the network of the references from the most frequently read Hungarian news sites.
+                                We used categories, which are marked with colors in the graph. The network shows only 280 from the 4700 collected links of references.
+                            </p>
 
-<!-- The Modal -->
-<div id="myModal" class="modal">
+                            <p>
+                                To collect the data we used a crawler in Python, for which a previously existing code was applied. The crawler collected data in the depth of four links, hence such websites are also present in the database that are extremely rare as references.
+                                The links were collected in January 2018. The data we visualized are the domains retrieved from the links in the texts of articles. For the visualization we also made a classifier (i.e. a calibrated decision tree) in Python that organized the various linked domains into categories. We stored the collected links in an SQLite database and with the help of Python we visualized it in Gephi. In order to make it interactive the GEXF JavaScript tool was utilized, for which we relied on a code that was already available and then improved.
 
-  <!-- Modal content -->
-  <div class="modal-content">
-    <span class="close">&times;</span>
-    
-    <h1>Description</h1>
-        <p>
-            Our graph shows the network of the references from the most frequently read Hungarian news sites.
-            We used categories, which are marked with colors in the graph. The network shows only 280 from the 4700 collected links of references.
-      </p>
+                            </p>
 
-        <p>
-            To collect the data we used a crawler in Python, for which a previously existing code was applied. The crawler collected data in the depth of four links, hence such websites are also present in the database that are extremely rare as references.
-            The links were collected in January 2018. The data we visualized are the domains retrieved from the links in the texts of articles. For the visualization we also made a classifier (i.e. a calibrated decision tree) in Python that organized the various linked domains into categories. We stored the collected links in an SQLite database and with the help of Python we visualized it in Gephi. In order to make it interactive the GEXF JavaScript tool was utilized, for which we relied on a code that was already available and then improved.
-
-        </p>
-    
-        <p>    
-            The thickness of the edges shows the weight of the links between the nodes, the thicker the edges are the more references were collected between the two websites. The size of the nodes were visualized on the basis of their weighted Degree, even if Hungarian sites seem to have similar sizes comparing to such giants as Facebook. However, it is considered that the presented three hundred pages allow the careful observer to identify the network of Hungarian news websites that determine the flow of traffic of the Internet.
-        </p>
+                            <p>    
+                                The thickness of the edges shows the weight of the links between the nodes, the thicker the edges are the more references were collected between the two websites. The size of the nodes were visualized on the basis of their weighted Degree, even if Hungarian sites seem to have similar sizes comparing to such giants as Facebook. However, it is considered that the presented three hundred pages allow the careful observer to identify the network of Hungarian news websites that determine the flow of traffic of the Internet.
+                            </p>
 
 
-    <h1>Initial sites </h1>
-        <p>
-            <a target="_blank" href="https://168ora.hu">168óra</a>, 
-            <a target="_blank" href="https://24.hu">24.hu</a>, 
-            <a target="_blank" href="https://444.hu">444.hu</a>, 
-            <a target="_blank" href="https://888.hu">888.hu</a>, 
-            <a target="_blank" href="https://alfahir.hu">Alfahír</a>, 
-            <a target="_blank" href="https://atlatszo.hu">Átlátszó</a>, 
-            <a target="_blank" href="https://azonnali.hu">Azonnali</a>, 
-            <a target="_blank" href="https://hirado.hu">hirado.hu</a>, 
-            <a target="_blank" href="https://hvg.hu">HVG</a>, 
-            <a target="_blank" href="https://index.hu">index</a>, 
-            <a target="_blank" href="https://kettosmerce.blog.hu">Kettős Mérce</a>, 
-            <a target="_blank" href="https://kuruc.info">Kurucinfo</a>, 
-            <a target="_blank" href="https://magyaridok.hu">Magyar Idők</a>, 
-            <a target="_blank" href="https://magyarnarancs.hu">Magyar Narancs</a>, 
-            <a target="_blank" href="https://mno.hu">Magyar Nemzet</a>,
-            <a target="_blank" href="https://merce.hu">Mérce</a>, 
-            <a target="_blank" href="https://mandiner.hu">Mandiner</a>, 
-            <a target="_blank" href="https://nol.hu">Népszabadság</a>, 
-            <a target="_blank" href="https://nepszava.hu">Népszava</a>, 
-            <a target="_blank" href="https://origo.hu">origo</a>, 
-            <a target="_blank" href="https://pestisracok.hu">PestiSrácok</a>, 
-            <a target="_blank" href="https://vs.hu">vs</a>
-        </p>
+                        <h1>Initial sites </h1>
+                            <p>
+                                <a target="_blank" href="https://168ora.hu">168óra</a>, 
+                                <a target="_blank" href="https://24.hu">24.hu</a>, 
+                                <a target="_blank" href="https://444.hu">444.hu</a>, 
+                                <a target="_blank" href="https://888.hu">888.hu</a>, 
+                                <a target="_blank" href="https://alfahir.hu">Alfahír</a>, 
+                                <a target="_blank" href="https://atlatszo.hu">Átlátszó</a>, 
+                                <a target="_blank" href="https://azonnali.hu">Azonnali</a>, 
+                                <a target="_blank" href="https://hirado.hu">hirado.hu</a>, 
+                                <a target="_blank" href="https://hvg.hu">HVG</a>, 
+                                <a target="_blank" href="https://index.hu">index</a>, 
+                                <a target="_blank" href="https://kettosmerce.blog.hu">Kettős Mérce</a>, 
+                                <a target="_blank" href="https://kuruc.info">Kurucinfo</a>, 
+                                <a target="_blank" href="https://magyaridok.hu">Magyar Idők</a>, 
+                                <a target="_blank" href="https://magyarnarancs.hu">Magyar Narancs</a>, 
+                                <a target="_blank" href="https://mno.hu">Magyar Nemzet</a>,
+                                <a target="_blank" href="https://merce.hu">Mérce</a>, 
+                                <a target="_blank" href="https://mandiner.hu">Mandiner</a>, 
+                                <a target="_blank" href="https://nol.hu">Népszabadság</a>, 
+                                <a target="_blank" href="https://nepszava.hu">Népszava</a>, 
+                                <a target="_blank" href="https://origo.hu">origo</a>, 
+                                <a target="_blank" href="https://pestisracok.hu">PestiSrácok</a>, 
+                                <a target="_blank" href="https://vs.hu">vs</a>
+                            </p>
 
-    <h1>Categories </h1>
-    <br>
-        <img src="img/categories.png" class="responsive">
-    <br>
-    <br>
-    
-    <div id= "preco">
-        <p>
-            Eszter Katona, Orsolya Putz, Virág Ilyés, Zoltán Varjú <br> Copyright &copy; <a target="_blank" href="https://precognox.com">Precognox</a> 2018
-        </p>
-    </div>   
-      
-      
-      
-  </div>
-
-</div>
-
-<script>
-// Get the modal
-var modal = document.getElementById('myModal');
-
-// Get the button that opens the modal
-var btn = document.getElementById("myBtn");
-
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks the button, open the modal 
-btn.onclick = function() {
-    modal.style.display = "block";
-}
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-    modal.style.display = "none";
-}
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
-}
-</script>
-                    
-                    
-
-                        
-                        
-                        
-                    <div id="cover" >
+                        <h1>Categories </h1>
+                        <br>
+                            <img src="img/categories.png" class="responsive">
+                        <br>
+                        <br>
+                            <p>
+                                Eszter Katona, Orsolya Putz, Virág Ilyés, Zoltán Varjú <br> Copyright &copy; <a target="_blank" href="https://precognox.com">Precognox</a> 2018
+                            </p>
+                        </div>
                     </div>
+
+                    <script>
+                    // Get the modal
+                    var modal = document.getElementById('myModal');
+
+                    // Get the button that opens the modal
+                    var btn = document.getElementById("myBtn");
+
+                    // Get the <span> element that closes the modal
+                    var span = document.getElementsByClassName("close")[0];
+
+                    // When the user clicks the button, open the modal 
+                    btn.onclick = function() {
+                        modal.style.display = "block";
+                    }
+
+                    // When the user clicks on <span> (x), close the modal
+                    span.onclick = function() {
+                        modal.style.display = "none";
+                    }
+
+                    // When the user clicks anywhere outside of the modal, close it
+                    window.onclick = function(event) {
+                        if (event.target == modal) {
+                            modal.style.display = "none";
+                        }
+                    }
+                    </script>
+
                 </li>
             </ul>
         </div>
+        
+        
         <div id="overviewzone" class="gradient">
             <canvas id="overview" width="0" height="0"></canvas>
         </div>
+        
         <div id="leftcolumn">
             <div id="unfold">
                 <a href="#" id="aUnfold" class="rightarrow"> </a>
             </div>
             <div id="leftcontent"></div>
         </div>
+        
         <div id="titlebar">
             <div id="maintitle">
                 <h1>What do Hungarian news websites tend to cite?</h1>
             </div>
+            
             <form id="recherche">
                 <input id="searchinput" class="grey" autocomplete="off" />
                 <input id="searchsubmit" type="submit" />
             </form>
             
-         <div id="share-fb">   
-	       <a href="javascript:MyPopUpWin('https://www.facebook.com/sharer/sharer.php?u=https://eszterkatona.github.io/gexf-js/', 400, 300);" class = "test1" rel="nofollow"><i class="fa fa-facebook" style="font-size:1.5vw;"></i></a>
-         </div>  
+            <div id="share-fb">   
+               <a href="javascript:MyPopUpWin('https://www.facebook.com/sharer/sharer.php?u=https://tas.precognox.com/labs/news-websites-citation/', 400, 300);" class = "test1" rel="nofollow"><i class="fa fa-facebook" style="font-size:1.5vw;"></i></a>
+            </div>  
+
+            <div id="share-tw">   
+                <a href="javascript:MyPopUpWin('http://twitter.com/share?url=https://tas.precognox.com/labs/news-websites-citation/', 400, 300);" class = "test1" rel="nofollow"><i class="fa fa-twitter" style="font-size:1.5vw;"></i></a>
+            </div>  
+
+            <div id="share-li">     
+               <a href="javascript:MyPopUpWin('https://www.linkedin.com/shareArticle?mini=true&url=https://tas.precognox.com/labs/news-websites-citation/&summary=Our main aim was to find out what pages one can get from certain news websites. Our graph shows the network of the references from the most frequently read Hungarian news sites.', 400, 300);" class = "test1" rel="nofollow"><i class="fa fa-linkedin" style="font-size:1.5vw;"></i></a>
+            </div> 
             
-        <div id="share-tw">   
-            <a href="javascript:MyPopUpWin('http://twitter.com/share?url=https://eszterkatona.github.io/gexf-js/&text=Mire hivatkoznak a magyar híroldalak?', 400, 300);" class = "test1" rel="nofollow"><i class="fa fa-twitter" style="font-size:1.5vw;"></i></a>
-        </div>  
-           
-        <div id="share-li">     
-	       <a href="javascript:MyPopUpWin('https://www.linkedin.com/shareArticle?mini=true&url=https://eszterkatona.github.io/gexf-js/#&title=IMire hivatkoznak a magyar híroldalak?&summary=A leggyakrabban olvasott híroldalak linkelési gyakorlatára voltunk kíváncsiak. Elsősorban azt kívántuk felderíteni, hogy az egyes lapokról milyen más oldalakra lehet eljutni, illetve ezekből milyen háló rajzolható fel.', 400, 300);" class = "test1" rel="nofollow"><i class="fa fa-linkedin" style="font-size:1.5vw;"></i></a>
-          
-        </div>  
         </div>
+        
         <ul id="autocomplete">
         </ul>
         
-            
     </body>
 </html>
