@@ -364,3 +364,16 @@ a:hover {
   color: rgb(70,70,70);
 }
 
+
+.mdl-dialog{
+    background-color: #e0e0e8;
+    color: rgb(98,98,98);
+}
+
+
+.responsive {
+    width: 40%;
+    height: auto;
+}
+
+

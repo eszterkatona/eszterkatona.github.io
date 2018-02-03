@@ -56,13 +56,108 @@
                     <a href="#" id="edgesButton"> </a>
                 </li>
                 <li>
-                    <div align="center">
-                           <a href="#info" class="test1"><i class="fa fa-info fa-2x" aria-hidden="true" style="font-size:32px"></i></a>
-                    </div>
-                    <div id="info">
-                        <a href="#" class="cancel">&times;</a>
-                        <iframe src="info.html" style="width:100%;height:100%;" frameBorder="0"  ></iframe>
-                    </div>
+
+                        
+
+                        
+                        
+  <button id="show-dialog" type="button" class="test1" style="border:none; background:none;"><i class="fa fa-info fa-2x" aria-hidden="true" style="font-size:32px"></i></button>
+  <dialog class="mdl-dialog">
+    <div class="mdl-dialog__content">
+      
+        
+        <h1>Graphic legend</h1>
+        <p>
+            Our graph shows the network of the references from the most frequently read Hungarian news sites.
+            We used categories, which are marked with colors in the graph. The network shows only 280 from the 4700 collected links of references.
+        </p>
+    <br>
+
+    <h1>Description</h1>
+        <p>
+            Our main aim was to find out what pages one can get from certain news websites. In other words, we were interested in the network of references.
+        <p>
+
+        <p>
+            To collect the data we used a crawler in Python, for which a previously existing code was applied. The crawler collected data in the depth of four links, hence such websites are also present in the database that are extremely rare as references.
+            The links were collected in January 2018. The data we visualized are the domains retrieved from the links in the texts of articles. For the visualization we also made a classifier (i.e. a calibrated decision tree) in Python that organized the various linked domains into categories. We stored the collected links in an SQLite database and with the help of Python we visualized it in Gephi. In order to make it interactive the GEXF JavaScript tool was utilized, for which we relied on a code that was already available and then improved.
+
+        </p>
+    
+        <p>    
+            The thickness of the edges shows the weight of the links between the nodes, the thicker the edges are the more references were collected between the two websites. The size of the nodes were visualized on the basis of their weighted Degree, even if Hungarian sites seem to have similar sizes comparing to such giants as Facebook. However, it is considered that the presented three hundred pages allow the careful observer to identify the network of Hungarian news websites that determine the flow of traffic of the Internet.
+        </p>
+
+    <br>
+
+    <h1>Initial sites </h1>
+        <p>
+            <a target="_blank" href="https://168ora.hu">168óra</a>, 
+            <a target="_blank" href="https://24.hu">24.hu</a>, 
+            <a target="_blank" href="https://444.hu">444.hu</a>, 
+            <a target="_blank" href="https://888.hu">888.hu</a>, 
+            <a target="_blank" href="https://alfahir.hu">Alfahír</a>, 
+            <a target="_blank" href="https://atlatszo.hu">Átlátszó</a>, 
+            <a target="_blank" href="https://azonnali.hu">Azonnali</a>, 
+            <a target="_blank" href="https://hirado.hu">hirado.hu</a>, 
+            <a target="_blank" href="https://hvg.hu">HVG</a>, 
+            <a target="_blank" href="https://index.hu">index</a>, 
+            <a target="_blank" href="https://kettosmerce.blog.hu">Kettős Mérce</a>, 
+            <a target="_blank" href="https://kuruc.info">Kurucinfo</a>, 
+            <a target="_blank" href="https://magyaridok.hu">Magyar Idők</a>, 
+            <a target="_blank" href="https://magyarnarancs.hu">Magyar Narancs</a>, 
+            <a target="_blank" href="https://mno.hu">Magyar Nemzet</a>,
+            <a target="_blank" href="https://merce.hu">Mérce</a>, 
+            <a target="_blank" href="https://mandiner.hu">Mandiner</a>, 
+            <a target="_blank" href="https://nol.hu">Népszabadság</a>, 
+            <a target="_blank" href="https://nepszava.hu">Népszava</a>, 
+            <a target="_blank" href="https://origo.hu">origo</a>, 
+            <a target="_blank" href="https://pestisracok.hu">PestiSrácok</a>, 
+            <a target="_blank" href="https://vs.hu">vs</a>
+        </p>
+    <br>
+    
+    <h1>Categories </h1>
+    <br>
+        <img src="img/categories.png" class="responsive">
+    <br>
+    <br>
+    <br>
+
+        
+    <div id= "preco">
+        <p>
+            Eszter Katona, Orsolya Putz, Virág Ilyés, Zoltán Varjú <br> Copyright &copy; <a target="_blank" href="https://precognox.com">Precognox</a> 2018
+        </p>
+    </div>
+        
+        
+        
+    </div>
+    <div class="mdl-dialog__actions">
+      <button type="button" class="mdl-button close">Close</button>
+    </div>
+  </dialog>
+                    
+  <script>
+    var dialog = document.querySelector('dialog');
+    var showDialogButton = document.querySelector('#show-dialog');
+    if (! dialog.showModal) {
+      dialogPolyfill.registerDialog(dialog);
+    }
+    showDialogButton.addEventListener('click', function() {
+      dialog.showModal();
+    });
+    dialog.querySelector('.close').addEventListener('click', function() {
+      dialog.close();
+    });
+  </script>
+                    
+                    
+
+                        
+                        
+                        
                     <div id="cover" >
                     </div>
                 </li>
