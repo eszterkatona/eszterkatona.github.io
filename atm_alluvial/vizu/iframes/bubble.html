@@ -5,7 +5,7 @@
 <!--    TODO: set language to English/Hungarian as you like it -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Migráció az online médiában</title>
+  <title>Migration in Hungarian online media</title>
   <style type="text/css">
       <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
@@ -14,11 +14,9 @@
       font-family: "Open Sans", sans-serif;
         color: #1a252f;
     }
-    svg {
-      border:1px solid #d0d0d0;
-    }
+
     text {
-      font-size: 16px;
+      font-size: 1.2em;
       fill: #1a252f;
         font-family: "Open Sans", sans-serif;
     }
@@ -105,13 +103,16 @@
   });
 
 
+    
   // set up our punchcard chart after our data loads
   dispatch.on("load.chart", function(map) {
     // layout properties
     // TODO: use window.size to determine the available space and set margin, width, and set proportional to the windows size
+    var w = window.innerWidth;
+    var h = window.innerHeight;
     var margin = { top: 120, right: 50, bottom: 50, left: 120 };
-    var width = 1200 - margin.left - margin.right;
-    var height = 800 - margin.top - margin.bottom;
+    var width = w - margin.left - margin.right;
+    var height = h - margin.top - margin.bottom;
 
     // scales for axises & circles
     var yScale = d3.scalePoint().padding(0.5); // ordinal scale for gen type / category
@@ -143,31 +144,31 @@
     // a topic no -> topic name dictionary
     var topic_to_desc = {
     0 :
-    'Német bevándorláspolitika',
+    'German policy of immigration',
     1:
-    'Bevándorlók és bevándorlás',
+    'Immigration and immigrants',
     2:
-    'EU-s menekültpolitika kritikája',
+    'Critique of the migration policy of the EU',
     3:
-    'Határátkelés',
+    'Border crossing',
     4:
-    'Kormánypolitikai érvelés',
+    'Argumentation of governmental policy',
     5:
-    'Segélyszervezetek munkája',
+    'Work of aid organizations',
     6:
-    'EU és Törökország',
+    'EU and Turkey',
     7:
-    'Török helyzet',
+    'Turkish situation',
     8:
-    'Utazás, vándorlás',
+    'Travel and migration',
     9:
-    'Menekülttábor',
+    'Refugee camp',
     10:
-    'Szír helyzet',
+    'Syrian situation',
     11:
-    'Határzár',
+    'Border closure',
     12:
-    'Hajós balesetek'};
+    'Boat accidents'};
       
     var xAxis = d3.axisBottom()
       .tickFormat(function(d) { return topic_to_desc[d]; }) // this will put string values on x-axis instead of the numerical ones
@@ -193,7 +194,7 @@
         .attr("dy", "-3em") // push x-axis ticks on y coordinates
         .attr("transform", "rotate(-20)") // rotate ticks on x-axis
         .attr("font-weight", "bold")
-        .style("font-size", "12px"); // x-axis font size
+        .style("font-size", "1.2em"); // x-axis font size
 
 
     // register a callback to be invoked which updates the chart when "statechange" occurs
