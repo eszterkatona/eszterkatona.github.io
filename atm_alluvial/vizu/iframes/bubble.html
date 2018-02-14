@@ -301,7 +301,7 @@
                     })
                     .transition(t)
                     .attr("r", function(d) {
-                        return radius(d.yield) ** 1.5 / 3;
+                        return radius(d.yield) * h * 0.0015;
                     }) //TODO: try to scale values because one cannot discriminate btw topics due to the small differences btw the prob values (so we have to scale it up e.g. by raosomg them to a reasonable power)
                     .attr("fill", function(d) {
                         return color(d.gen);
