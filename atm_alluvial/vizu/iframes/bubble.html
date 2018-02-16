@@ -1,9 +1,9 @@
 <!doctype html>
+<html lang="en">
 
 <head>
-    <!--  Based on http://clhenrick.io/d3-v4-general-update-pattern-punchcard-chart/
+    <!--  Based on http://clhenrick.io/d3-v4-termeral-update-pattern-punchcard-chart/
      original working example https://bl.ocks.org/clhenrick/raw/5394591a62a5e61fb8753c1dca13db47/ -->
-    <!--    TODO: set language to English/Hungarian as you like it -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Migration in Hungarian online media</title>
@@ -18,7 +18,6 @@
 
         text {
             font-size: 1vw;
-            /*TODO: find a suitable relative ratio here for the y-axis*/
             fill: #1a252f;
             font-family: "Open Sans", sans-serif;
         }
@@ -38,12 +37,12 @@
         // register events to emit & listen for via d3 dispatch
         var dispatch = d3.dispatch("load", "statechange");
 
-        // the first gen type of our dataset we want the chart to load with
-        var firstSiteName = "frequency (bigram)";
+        // the first term type of our dataset we want the chart to load with
+        var firstdropdownName = "saliency (term)";
 
-        // unique years of our dataset to be used by our xScale domain
+        // unique topics of our dataset to be used by our xScale domain
         // computed after data loads
-        var years = [];
+        var topics = [];
 
         // load our data! When done call our dispatch events with corresponding data
         d3.csv('data/viz.csv', function(err, data) {
@@ -52,27 +51,27 @@
             }
 
             data.forEach(function(d) {
-                d.yield = +d.yield;
-                d.year = +d.year;
+                d.score = +d.score;
+                d.topic = +d.topic;
             });
 
-            // unique years in the data set, note data is already sorted chronologically
-            years = data.reduce(function(acc, cur) {
-                if (acc.indexOf(cur.year) === -1) {
-                    acc.push(cur.year);
+            // unique topics in the data set, note data is already sorted chronologically
+            topics = data.reduce(function(acc, cur) {
+                if (acc.indexOf(cur.topic) === -1) {
+                    acc.push(cur.topic);
                 }
                 return acc;
             }, []);
 
-            // max yield for the entire dataset, 75.5
-            // console.log(d3.max(data, function(d) { return d.yield; }));
+            // max score for the entire dataset, 75.5
+            // console.log(d3.max(data, function(d) { return d.score; }));
 
             var nested = d3.nest()
                 .key(function(d) {
-                    return d.site;
+                    return d.dropdown;
                 })
                 .key(function(d) {
-                    return d.gen;
+                    return d.term;
                 })
                 .entries(data);
 
@@ -83,7 +82,7 @@
 
             // call our dispatch events with `this` context, and corresponding data
             dispatch.call("load", this, map);
-            dispatch.call("statechange", this, map.get(firstSiteName));
+            dispatch.call("statechange", this, map.get(firstdropdownName));
         });
 
 
@@ -94,11 +93,11 @@
                 .append("div")
                 .append("select")
                 .on("change", function() {
-                    var site = this.value;
+                    var dropdown = this.value;
                     dispatch.call(
                         "statechange",
                         this,
-                        map.get(site)
+                        map.get(dropdown)
                     );
                 });
 
@@ -114,8 +113,8 @@
                 });
 
             // set the current dropdown option to value of last statechange
-            dispatch.on("statechange.menu", function(site) {
-                select.property("value", site.key);
+            dispatch.on("statechange.menu", function(dropdown) {
+                select.property("value", dropdown.key);
             });
         });
 
@@ -124,36 +123,34 @@
         // set up our punchcard chart after our data loads
         dispatch.on("load.chart", function(map) {
             // layout properties
-            // TODO: use window.size to determine the available space and set margin, width, and set proportional to the windows size
             var w = window.innerWidth;
             var h = window.innerHeight;
-            // TODO: change margin to relative!!!!!
             var margin = {
-                top: 120,
-                right: 50,
-                bottom: 50,
-                left: 120
+                top: h * 0.2,
+                right: h * 0.2,
+                bottom: h * 0.08,
+                left: h * 0.2
             };
             var width = w - margin.left - margin.right;
             var height = h - margin.top - margin.bottom;
 
             // scales for axises & circles
-            var yScale = d3.scalePoint().padding(0.5); // ordinal scale for gen type / category
-            var xScale = d3.scalePoint().padding(0.3); // ordinal scale for years
+            var yScale = d3.scalePoint().padding(0.5); // ordinal scale for term type / category
+            var xScale = d3.scalePoint().padding(0.3); // ordinal scale for topics
             var radius = d3.scaleSqrt(); // circle size would be too large if we used raw values, so we compute their square root
-            var color = d3.scaleOrdinal(d3.schemeCategory20b); // colors used for differentiating "gen" type
+            var color = d3.scaleOrdinal(d3.schemeCategory20b); // colors used for differentiating "term" type
 
-            // set up yScale with domain of unique gen values
+            // set up yScale with domain of unique term values
             yScale
                 .range([0, height])
                 .round(true);
 
-            // domain for our x scale is min - 1 & max years of the data set
+            // domain for our x scale is min - 1 & max topics of the data set
             xScale
                 .range([0, width])
-                .domain(years);
+                .domain(topics);
 
-            // domain of circle radius is from 0 to max d.yield
+            // domain of circle radius is from 0 to max d.score
             radius
                 .range([0, 15])
                 .domain([0, 76]);
@@ -203,32 +200,34 @@
                 .attr("transform", "translate(0," + 0 + ")")
                 .call(xAxis)
                 .selectAll("text") // select tick texts
-                .attr("dx", "2.5em") // push x-axis ticks on x coordinates
-                .attr("dy", "-3em") // push x-axis ticks on y coordinates
+
+                .attr("dx", "0.1em") // push x-axis ticks on x coordinates
+                .attr("dy", "-2em") // push x-axis ticks on y coordinates
                 .attr("transform", "rotate(-20)") // rotate ticks on x-axis
                 .attr("font-weight", "bold")
-                .style("font-size", "0.5vw"); // TODO: set font-size to an appropriate relative value!!!!
-
+                .attr("text-anchor", "start")
+                .style("font-size", "1vw")
+                .style("fill", "#1a252f")
 
             // register a callback to be invoked which updates the chart when "statechange" occurs
-            dispatch.on("statechange.chart", function(site) {
+            dispatch.on("statechange.chart", function(dropdown) {
                 // our transition, will occur over 750 milliseconds
                 var t = svg.transition().duration(750);
 
                 // update our yScale & transition the yAxis, note the xAxis doesn't change
-                yScale.domain(site.values.map(function(d) {
+                yScale.domain(dropdown.values.map(function(d) {
                     return d.key;
                 }).sort());
                 yAxis.scale(yScale);
                 t.select("g.y.axis").call(yAxis);
 
                 // bind our new piece of data to our svg element
-                // could also do `svg.data([site.values]);`
-                svg.datum(site.values);
+                // could also do `svg.data([dropdown.values]);`
+                svg.datum(dropdown.values);
 
-                // tell d3 we want svg groups for each of our gen categories
+                // tell d3 we want svg groups for each of our term categories
                 // NOTE: the use of 2 accessor functions: the first binds the data, the second sets the data-join's key
-                var gens = svg.selectAll("g.site")
+                var terms = svg.selectAll("g.dropdown")
                     .data(
                         function(d) {
                             return d;
@@ -239,36 +238,36 @@
                     );
 
                 // get rid of the old ones we don't need when doing an update
-                gens.exit().remove();
+                terms.exit().remove();
 
                 // update existing ones left over
-                gens.attr("class", "site")
+                terms.attr("class", "dropdown")
                     .transition(t)
                     .attr("transform", function(d) {
                         return "translate(0," + yScale(d.key) + ")"
                     });
 
                 // create new ones if our updated dataset has more then the previous
-                gens.enter().append("g")
-                    .attr("class", "site")
+                terms.enter().append("g")
+                    .attr("class", "dropdown")
                     .transition(t)
                     .attr("transform", function(d) {
                         return "translate(0," + yScale(d.key) + ")"
                     });
 
-                // reselect the gen groups, so that we get any new ones that were made
+                // reselect the term groups, so that we get any new ones that were made
                 // our previous selection would not contain them
-                gens = svg.selectAll("g.site");
+                terms = svg.selectAll("g.dropdown");
 
                 // tell d3 we want some circles!
                 // NOTE: the use of 2 accessor functions: the first binds the data, the second sets the data join's key
-                var circles = gens.selectAll("circle")
+                var circles = terms.selectAll("circle")
                     .data(
                         function(d) {
                             return d.values;
                         },
                         function(d) {
-                            return d.year;
+                            return d.topic;
                         }
                     );
 
@@ -283,28 +282,28 @@
                 circles
                     .attr("cy", 0)
                     .attr("cx", function(d) {
-                        return xScale(d.year);
+                        return xScale(d.topic);
                     })
                     .transition(t)
                     .attr("r", function(d) {
-                        return radius(d.yield);
+                        return radius(d.score);
                     })
                     .attr("fill", function(d) {
-                        return color(d.gen);
+                        return color(d.term);
                     });
 
                 // make new circles
                 circles.enter().append("circle")
                     .attr("cy", 0)
                     .attr("cx", function(d) {
-                        return xScale(d.year);
+                        return xScale(d.topic);
                     })
                     .transition(t)
                     .attr("r", function(d) {
-                        return radius(d.yield) * h * 0.0015;
-                    }) //TODO: try to scale values because one cannot discriminate btw topics due to the small differences btw the prob values (so we have to scale it up e.g. by raosomg them to a reasonable power)
+                        return radius(d.score) * h * 0.0015;
+                    })
                     .attr("fill", function(d) {
-                        return color(d.gen);
+                        return color(d.term);
                     })
                     .attr("opacity", 0.7);
 
@@ -312,8 +311,20 @@
 
         }); // end dispatch load.chart
 
+
+
+
+
+
+
+
+
+
     </script>
 </body>
+
+</html>
+
 <!-- TODO: THE HTML CODE IS NOT VALID, THERE ARE MISSING PARTS, INSERT ALL THE NECESSARY TAGAS INTO THE CODE-->
 <!-- TODO: INDENT THE CODE, NOW IT IS VERY UGLY -->
 <!-- TODO: REMOVE ALL TODOS HAVING FINISHED THE PROJECT-->

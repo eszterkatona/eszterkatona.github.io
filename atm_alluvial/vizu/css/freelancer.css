@@ -226,14 +226,16 @@ form .row:first-child .floating-label-form-group {
 }
 
 a {
-    color: #9cadbc;
+    color: #71818f;
 }
+
 
 a:focus,
 a:hover,
 a:active {
     color: gold;
 }
+
 
 .btn {
     border-width: 2px;

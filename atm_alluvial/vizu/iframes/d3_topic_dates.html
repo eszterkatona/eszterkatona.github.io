@@ -1,6 +1,8 @@
 <!DOCTYPE html>
+<html lang="en">
+
 <meta charset="utf-8">
-<title>SANKEY Experiment</title>
+<title>Topics and Dates</title>
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -17,8 +19,6 @@
     .node text {
         pointer-events: none;
         font-family: 'Open Sans';
-        font-size: 0.8em;
-        color: #1a252f
     }
 
     .link {
@@ -34,8 +34,6 @@
     
     body {
     font-family: 'Open Sans';
-    font-size: 0.8em;
-    color: #1a252f
 }
 
 </style>
@@ -45,7 +43,7 @@
     <p id="chart" align= "center">
 
         <script src="http://d3js.org/d3.v3.min.js"></script>
-        <script src="js/sankey.js"></script>
+        <script src="js/sankey_without_collisions.js"></script>
         <script>
             var units = "Widgets";
             var w = window.innerWidth;
@@ -147,7 +145,7 @@
                 link.append("title")
                     .text(function(d) {
                         return d.source.name + " → " +
-                            d.target.name + "\n" + format(d.value);
+                            d.target.name;
                     });
 
                 // add in the nodes
@@ -185,9 +183,10 @@
                     .attr("y", function(d) {
                         return d.dy / 2;
                     })
-                    .attr("dy", ".35em")
                     .attr("text-anchor", "end")
                     .attr("transform", null)
+                    .style("font-size", "2vh")
+                    .style("fill", "#354c60")
                     .text(function(d) {
                         return d.name;
                     })
@@ -195,7 +194,7 @@
                         return d.x < width / 2;
                     })
                     .attr("x", 6 + sankey.nodeWidth())
-                    .attr("text-anchor", "start");
+                    .attr("text-anchor", "start")
 
                 // the function for moving the nodes
                 function dragmove(d) {

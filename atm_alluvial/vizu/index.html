@@ -80,7 +80,9 @@
             <br>
             <br>
 
-            <h2 class="font-weight-light mb-0">Ilyés Virág, Katona Eszter, Putz Orsolya, Varjú Zoltán</h2>
+            <h4 class="font-weight-light mb-0" >
+                    <p><a target="_blank" href="https://www.linkedin.com/in/ily%C3%A9s-vir%C3%A1g-aa131392/" style="color: #1a252f">Virág Ilyés</a>, <a target="_blank" href="https://www.linkedin.com/in/katonaeszter/" style="color: #1a252f">Eszter Katona</a>, <a target="_blank" href="https://www.linkedin.com/in/orsolya-putz-5242a5157/" style="color: #1a252f">Orsolya Putz</a>, <a target="_blank" href="https://www.linkedin.com/in/zoltanvarju/" style="color: #1a252f">Zoltán Varjú</a></p>
+            </h4>
         </div>
     </header>
 
@@ -94,7 +96,7 @@
     -->
     <div class="container">
         <p>
-            Melyik oldal milyen témákkal foglalkozott a legszívesebben a mirgációs krízis idején? Mikor miről szóltak a hírek? A téma ismerős lehet, hiszen már többször írtunk a menekült-korpuszunkon készített elemzéseinkről. Például a <a href="https://labs.precognox.com/migration-dashboard/#/dashboard">dashboardról</a>, vagy az <a href="https://www.nyest.hu/facesofmigration/"> emócióelemzésről</a>. Az elemzésünkben nem kimondottan arra voltunk kíváncsiak, hogy témák szerint hogyan alakulnak a dokumentumok, hanem arra, hogy az egyes híroldalak és az időpontok figyelembevételével milyen topikokat találunk meg. Erre adott lehetőseget a szerző-topik modell (Author-Topic Model, vagy röviden ATM), mivel korpuszunkban minden dokumentumhoz tartozik két címke, a leközlő híroldal neve és a megjelenés dátuma. Szeretjük ezt a korpuszt, így a menekültekről szóló cikkeket soroltuk topikokba, és megnéztük, hogy melyik portál melyik topikról cikkezik a leggyakrabban, illetve hogy időben hogyan alakult az egyes topikok népszerűsége.
+            Melyik oldal milyen témákkal foglalkozott a legszívesebben a mirgációs krízis idején? Mikor miről szóltak a hírek? A téma ismerős lehet, hiszen már többször írtunk a menekült-korpuszunkon készített elemzéseinkről. Például a <a target="_blank" href="https://labs.precognox.com/migration-dashboard/#/dashboard">dashboardról</a>, vagy az <a target="_blank" href="https://www.nyest.hu/facesofmigration/"> emócióelemzésről</a>. Az elemzésünkben nem kimondottan arra voltunk kíváncsiak, hogy témák szerint hogyan alakulnak a dokumentumok, hanem arra, hogy az egyes híroldalak és az időpontok figyelembevételével milyen topikokat találunk meg. Erre adott lehetőseget a szerző-topik modell (Author-Topic Model, vagy röviden ATM), mivel korpuszunkban minden dokumentumhoz tartozik két címke, a leközlő híroldal neve és a megjelenés dátuma. Szeretjük ezt a korpuszt, így a menekültekről szóló cikkeket soroltuk topikokba, és megnéztük, hogy melyik portál melyik topikról cikkezik a leggyakrabban, illetve hogy időben hogyan alakult az egyes topikok népszerűsége.
         </p>
 
         <p>
@@ -148,11 +150,11 @@
         </iframe>
             <br>
             <p>
-                Az optimáis topikszám megtalálása nem egyszerű feladat, mert nincsenek kimondottan jó mérőszámok, így mi is nehézségekbe ütköztünk. Segíthetett volna, ha a cikkeket annotálni tudtuk volna, és ezáltal tanuló és teszt adatokon vizsgálhattuk volna, hogy hogyan teljesítenek a különböző modellek. Végül úgy döntöttünk, hogy a témát korábban tartalomelemzéssel feldolgozott szerzőpáros <a href="http://www.mediakutato.hu/cikk/2015_04_tel/01_menekultek_moralis_panik.pdf">Bernáth Gábor és Messing Vera cikkét</a>, valamint az <a href="https://crcb.atlatszo.hu/2016/10/24/menekultvalsag-magyarorszagon-a-nemzetkozi-sajto-tukreben/">atlatszo.hu-n</a> megjelent osztályozást vesszük alapul.
+                Az optimáis topikszám megtalálása nem egyszerű feladat, mert nincsenek kimondottan jó mérőszámok, így mi is nehézségekbe ütköztünk. Segíthetett volna, ha a cikkeket annotálni tudtuk volna, és ezáltal tanuló és teszt adatokon vizsgálhattuk volna, hogy hogyan teljesítenek a különböző modellek. Végül úgy döntöttünk, hogy a témát korábban tartalomelemzéssel feldolgozott szerzőpáros <a target="_blank" href="http://www.mediakutato.hu/cikk/2015_04_tel/01_menekultek_moralis_panik.pdf">Bernáth Gábor és Messing Vera cikkét</a>, valamint az <a target="_blank" href="https://crcb.atlatszo.hu/2016/10/24/menekultvalsag-magyarorszagon-a-nemzetkozi-sajto-tukreben/">atlatszo.hu-n</a> megjelent osztályozást vesszük alapul.
                 <br> A két cikk alapján kirajzolódott néhány topik, melyeket keresni tudtunk a modellből származó topikszavak között. A veszély/járvány, illetve erőszak mindkét cikkben tematizálva volt, a határsértés és határzár, az idegenellenesség, a politikai diskurzusok és a személyes történetek voltak azok a témák, melyeket ezek alapján a cikkek alapján a topikokhoz tartozó szavak között keresni kezdtünk.
             </p>
             <p>
-                Az optimális topikszám megtalálása után a kövektező nehézség a topikok elnevezése. Ehhez alapvetően az egyet topikhoz tartozó szavakat szoktuk böngészni, talán ebben nyújthat segítséget a Termite inspirálta Bubble chartunk. Az ábrán az egyes szavak topikvalószínűségét ábrázoljuk. A valószínűségeket a bubble-ök mérete mutatja. A szavakat többféle módon rendezhetjük: saliency és frequency szerint. A két mutatót nézhetjük bigramokon vagy a szvak listáján is. Hogy az ábra befogadható maradjon, 25 leggyakoribb kifejezésre szűkítettünk.
+                Az optimális topikszám megtalálása után a kövektező nehézség a topikok elnevezése. Ehhez alapvetően az egyet topikhoz tartozó szavakat szoktuk böngészni, talán ebben nyújthat segítséget a Termite inspirálta Bubble chartunk. Az ábrán az egyes szavak topikvalószínűségét ábrázoljuk. A valószínűségeket a bubble-ök mérete mutatja. A szavakat többféle módon rendezhetjük: saliency és frequency szerint. A két mutatót nézhetjük bigramokon vagy a szavak listáján is. Hogy az ábra befogadható maradjon, 25 leggyakoribb kifejezésre szűkítettünk.
 
             </p>
         </div>
@@ -167,6 +169,9 @@
             <br>
             <p>
                 A szerző-topik modell (<a href="https://mimno.infosci.cornell.edu/info6150/readings/398.pdf">Author-Topic Model, ATM</a>) egy generatív valószínűségi modell, ami szerzőségi információval egészíti ki a látens Dirichlet allokációt (<a href="https://en.wikipedia.org/wiki/Latent_Dirichlet_allocation">LDA</a>). Az ATM két modell (az Author Model és az LDA) ötvözése, egy-egy valószínűségi modell a szerzőkre és a topikokra. A dokumentumok topikeloszlása keveréke a dokumentumok szerzőihez tartozó topikeloszlásnak. Amíg az LDA-nál minden dokumentumhoz egy szerző tartozik, addig az ATM esetében minden szerzőhöz egyedi topikeloszlás tartozik, a modell segítségével megismerhetjük, hogy mely szerző mely topikokról ír, és milyen gyakran.
+            </p>
+            <p>
+                Az adatok begyűjtéséhez, előfeldolgozásához és elemzéséhez Python-t használtunk. Az ATM modell a gensim könyvtár használatával készült. A vizualizációk a d3 JavaScript könyvtár használatával készültek. Az oldal az XYZ Bootstrap template-et használja.
             </p>
         </div>
     </section>
@@ -210,7 +215,7 @@
 
     <div class="copyright py-4 text-center text-white">
         <div class="container">
-            <small>Copyright &copy; <a href="https://precognox.com/login">precognox.com</a> 2018</small>
+            <small>Copyright &copy; <a target="_blank" href="https://precognox.com/login">precognox.com</a> 2018</small>
         </div>
     </div>
 
