@@ -39,8 +39,8 @@
 <body>
 
     <p id="chart" align="center">
-        <script src="http://d3js.org/d3.v3.min.js"></script>
-        <script src="js/sankey.js"></script>
+        <script src="https://eszterkatona.github.io/atm_alluvial/vizu/iframes/js/d3.v3.min.js"></script>
+        <script src="https://eszterkatona.github.io/atm_alluvial/vizu/iframes/js/sankey.js"></script>
         <script>
             var units = "Widgets";
             var w = window.innerWidth;
@@ -77,7 +77,7 @@
             var path = sankey.link();
 
             // load the data (using the timelyportfolio csv method)
-            d3.csv("data/domain_topic_words.csv", function(error, data) {
+            d3.csv("https://eszterkatona.github.io/atm_alluvial/vizu/iframes/data/domain_topic_words.csv", function(error, data) {
 
                 //set up graph in same style as original example but empty
                 graph = {
