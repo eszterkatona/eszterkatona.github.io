@@ -1,0 +1,24 @@
+svg path[fill-opacity="0.8"] {
+    fill: gold;
+}
+
+#legend {
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1vw;
+    color: #1a252f;
+
+}
+
+#sankey_basic {
+    padding-top: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#sankey_multiple {
+    padding-top: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
