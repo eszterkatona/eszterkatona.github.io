@@ -11,7 +11,7 @@
     <!-- Bootstrap and Font Awesome css-->
     <!-- we use cdn but you can also include local files located in css directory-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
+
     <link rel="stylesheet" href="https://eszterkatona.github.io/atm-kmonitor/css/bootstrap.min.css">
     <!-- Google fonts - Montserrat for headings, Cardo for copy-->
     <link href="https://fonts.googleapis.com/css?family=Cardo" rel="stylesheet">
@@ -48,14 +48,14 @@
     <!-- navbar-->
     <header class="header">
         <div class="sticky-wrapper">
-        <div role="navigation" class="navbar navbar-default">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" data-toggle="collapse" data-target=".navbar-collapse" class="navbar-btn btn-sm navbar-toggle"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="#intro" class="navbar-brand scroll-to"><img src="img/logo.png" alt=""></a>
-            </div>
-            <div id="navigation" class="collapse navbar-collapse navbar-right">
-              <ul class="nav navbar-nav">
-                <li class="active"><a href="#intro">Home</a></li>
+            <div role="navigation" class="navbar navbar-default">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" data-toggle="collapse" data-target=".navbar-collapse" class="navbar-btn btn-sm navbar-toggle"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="#intro" class="navbar-brand scroll-to"><img src="img/logo.png" alt=""></a>
+                    </div>
+                    <div id="navigation" class="collapse navbar-collapse navbar-right">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="#intro">Home</a></li>
                             <li><a href="#szakdoga">Szakdolgozat </a></li>
                             <li><a href="#bubble">Bubble chart</a></li>
                             <li><a href="#alluvial">Linkes ábra</a></li>
@@ -67,94 +67,82 @@
         </div>
     </header>
     <!-- /.navbar-->
-    
+
     <!-- szakdoga-->
-    <section id="szakdoga" class="text">
+    <section id="szakdoga" style="background-color: #fff;" class="text-page">
         <div class="container">
-                <h2 class="heading">A szakdolgozatról</h2>
-                <p>
-                    Szeretném megköszönni Varjú Zoltánnak szakdolgozatom megírása során nyújtott segítségét. Dolgozatom elkészítésének minden fázisában rengeteget tanultam tőle, szakmai meglátásai, tanácsai nélkül nem tudtam volna elkészíteni a dolgozatomat. Emellett bizalmával, támogatásával is segítette a munkám. 
-                    Köszönöm Ilyés Virágnak javaslatait, valamint a tartalmi és formai hibáim javítását.
-                    Köszönöm a Precognoxnak és a K-Monitornak, hogy lehetőséget kaptam dolgozatom megírására.
-
-                </p>
-
-                <br>
-                <br>
-
-                <p>
-                    Dolgozatomat öt célkitűzés mentén építettem fel. Egyrészt szeretném bemutatni, hogy milyen lépésekre van szükség, ha szöveges adatok elemzésébe kezdünk, ehhez kapcsolódó célkitűzésem a modell alkalmazhatóságának vizsgálata különböző mértékben előfeldolgozott szövegeken. <br>
-                    Author-Topic Modelt akkor használhatunk, ha sok dokumentum áll rendelkezésünkre szerzőkkel (metaadatokkal), és szeretnénk felderíteni, hogy az egyes szerzők milyen témákkal járnak együtt. A Pythonból elérhető Gensim csomagban – amit a topikmodellezés során használok – akadnak technikai nehézségek, dolgozatomban ezek áthidalására is szeretnék megoldási alternatívát kínálni. Egyfelől szeretném megmutatni, hogy ha van egy kiinduló adathalmazunk annotálva (azaz címkézve, szerzőkhöz társítva), akkor hogyan tudjuk a meglévő címkéinket egy nagy adathalmazra átvinni. Másfelől a mutató, mellyel a szakirodalom alapján az optimális topikszámot kereshetnénk meg, az Author-Topic Model esetében nem használható. Szeretnék egy lehetséges heurisztikát mutatni, amivel megkereshetjük az optimális topikszámot. <br>
-                    Szeretném megkönnyíteni a topikok értelmezését, és elnevezésüket. Ehhez vizualizációkat készítettem, melyeket a dolgozatban statikus formában mutatok be, de a szakdolgozathoz tartozó github oldalamon interaktív vizualizációként is elérhetőek, és kipróbálhatóak. Végül, de nem utolsó sorban a célom, hogy a K-Monitor cikkgyűjteményének címkézését segítsem, standardizáljam és egyszerűsítsem. 
-                </p>
-            </div>
+            <h2 class="heading">A szakdolgozatról</h2>
+            <p>
+                Szeretném megköszönni Varjú Zoltánnak szakdolgozatom megírása során nyújtott segítségét. Dolgozatom elkészítésének minden fázisában rengeteget tanultam tőle, szakmai meglátásai, tanácsai nélkül nem tudtam volna elkészíteni a dolgozatomat. Emellett bizalmával, támogatásával is segítette a munkám. Köszönöm Ilyés Virágnak javaslatait, valamint a tartalmi és formai hibáim javítását. Köszönöm a Precognoxnak és a K-Monitornak, hogy lehetőséget kaptam dolgozatom megírására.
+            </p>
+            <br>
+            <br>
+            <p>
+                Dolgozatomat öt célkitűzés mentén építettem fel. Egyrészt szeretném bemutatni, hogy milyen lépésekre van szükség, ha szöveges adatok elemzésébe kezdünk, ehhez kapcsolódó célkitűzésem a modell alkalmazhatóságának vizsgálata különböző mértékben előfeldolgozott szövegeken. <br> Author-Topic Modelt akkor használhatunk, ha sok dokumentum áll rendelkezésünkre szerzőkkel (metaadatokkal), és szeretnénk felderíteni, hogy az egyes szerzők milyen témákkal járnak együtt. A Pythonból elérhető Gensim csomagban – amit a topikmodellezés során használok – akadnak technikai nehézségek, dolgozatomban ezek áthidalására is szeretnék megoldási alternatívát kínálni. Egyfelől szeretném megmutatni, hogy ha van egy kiinduló adathalmazunk annotálva (azaz címkézve, szerzőkhöz társítva), akkor hogyan tudjuk a meglévő címkéinket egy nagy adathalmazra átvinni. Másfelől a mutató, mellyel a szakirodalom alapján az optimális topikszámot kereshetnénk meg, az Author-Topic Model esetében nem használható. Szeretnék egy lehetséges heurisztikát mutatni, amivel megkereshetjük az optimális topikszámot. <br> Szeretném megkönnyíteni a topikok értelmezését, és elnevezésüket. Ehhez vizualizációkat készítettem, melyeket a dolgozatban statikus formában mutatok be, de a szakdolgozathoz tartozó github oldalamon interaktív vizualizációként is elérhetőek, és kipróbálhatóak. Végül, de nem utolsó sorban a célom, hogy a K-Monitor cikkgyűjteményének címkézését segítsem, standardizáljam és egyszerűsítsem.
+            </p>
+        </div>
     </section>
-    <!-- about end-->
-    <!-- Services-->
+    <!-- szakdoga end-->
+    
+    
+    <!-- Bubble-->
     <section id="bubble" style="background-color: #fff;" class="text-page">
         <div class="container">
-                    <h2 class="heading">Bubble chart</h2>
+            <h2 class="heading">Bubble chart</h2>
+
+            <p>
+                Miután megtaláltuk, hogy hány topikba szeretnénk sorolni a cikkeinket, legtöbbször ezeket a topikokat el is szeretnénk nevezni, a tartalmuknak megfelelően. Ez is nehéz feladat, legtöbbször nem egyértelmű első ránézésre a kiírt topikszavak alapján, hogy melyik topik milyen témával foglalkozik. A topikszavak listája minden topikra ugyanazokat a kifejezéseket tartalmazza, a szavak sorrendjében van eltérés, a topikra legjellemzőbb szavak vannak legelöl, minél kevésbé jellemző egy kifejezés egy topikra, annál hátrább sorolódik. A lista böngészése alacsonyabb topikszám esetében sem egyszerű, de 25 topiknál főleg átláthatatlannak tűnhet, ebben nyújthat segítséget a Bubble chartunk, amit Chuang – Manning – Heer (2012) tanulmánya, és vizualizációja inspirált.
+                <br>
+                <br> Az ábrán az egyes szavak topikvalószínűségét ábrázoljuk. A valószínűségeket a buborékok mérete mutatja. Az interaktív vizualizációnkon a szavakat kétféleképp rendezhetjük: saliency és frequency szerint. A saliency egy, a nyers gyakoriságnál jóval inkább megszűrt korpuszon mutatja a szavak topikonkénti előfordulását, így nagyobb eltérések figyelhetők meg az ábrán, míg a frequency a szavak valódi gyakoriságát mutatja, egy jóval általánosabb stopszavazás után.
+                <br>
+                <br> A saliencyt amit Chuang – Manning – Heer (2012) tanulmánya alapján implementáltuk, a mutató azt méri, hogy egy adott kifejezés mennyire jellemzi az adott topikot egy bármilyen random kiválasztott szóhoz képest. Egy adott w szóhoz kiszámítjuk a feltételes valószínűséget, azaz annak valószínűségét, hogy a megfigyelt w szót a T topik generálta. P(T) annak a marginális valószínűsége, hogy bármely w’ véletlenszerűen kiválasztott szót a T topik generált. <br> A w szó disztinktív képességét a és a P(T) közötti a Kullback-Leibler divergenciával határozzuk meg. Ezzel leírhatjuk, hogy mennyire informatív az adott w kifejezés a topik meghatározására, egy véletlenszerűen kiválasztott w’ kifejezéshez képest. Ha egy szó minden témában előfordul, kevésbé járul hozzá egy adott dokumentumban keveredő topikok feltárásához, a szó disztinktív képessége alacsony.
+            </p>
+
+            <iframe src="https://eszterkatona.github.io/atm-kmonitor/iframes/bubble.html" style="height: 70vw; width: 75vw;" frameBorder="0" scrolling="no" class="embed-responsive-item">
+                <p>Your browser does not support iframes.</p>
+            </iframe>
             
-                    <p>
-                        Miután megtaláltuk, hogy hány topikba szeretnénk sorolni a cikkeinket, legtöbbször ezeket a topikokat el is szeretnénk nevezni, a tartalmuknak megfelelően. Ez is nehéz feladat, legtöbbször nem egyértelmű első ránézésre a kiírt topikszavak alapján, hogy melyik topik milyen témával foglalkozik. A topikszavak listája minden topikra ugyanazokat a kifejezéseket tartalmazza, a szavak sorrendjében van eltérés, a topikra legjellemzőbb szavak vannak legelöl, minél kevésbé jellemző egy kifejezés egy topikra, annál hátrább sorolódik. A lista böngészése alacsonyabb topikszám esetében sem egyszerű, de 25 topiknál főleg átláthatatlannak tűnhet, ebben nyújthat segítséget a Bubble chartunk, amit Chuang – Manning – Heer (2012) tanulmánya, és vizualizációja inspirált.
-                        <br>
-                        <br>
-                        Az ábrán az egyes szavak topikvalószínűségét ábrázoljuk. A valószínűségeket  a buborékok mérete mutatja. Az interaktív vizualizációnkon a szavakat kétféleképp rendezhetjük: saliency és frequency szerint. 
-                        A saliency egy, a nyers gyakoriságnál jóval inkább megszűrt korpuszon mutatja a szavak topikonkénti előfordulását, így nagyobb eltérések figyelhetők meg az ábrán, míg a frequency a szavak valódi gyakoriságát mutatja, egy jóval általánosabb stopszavazás után.
-                        <br>
-                        <br>
-                        A saliencyt amit Chuang – Manning – Heer (2012) tanulmánya alapján implementáltuk, a mutató azt méri, hogy egy adott kifejezés mennyire jellemzi az adott topikot egy bármilyen random kiválasztott szóhoz képest.  Egy adott w szóhoz kiszámítjuk a  feltételes valószínűséget, azaz annak valószínűségét, hogy a megfigyelt w szót a T topik generálta. P(T) annak a marginális valószínűsége, hogy bármely w’ véletlenszerűen kiválasztott szót a T topik generált. <br>
-                        A w szó disztinktív képességét a  és a P(T) közötti a Kullback-Leibler divergenciával határozzuk meg. Ezzel leírhatjuk, hogy mennyire informatív az adott w kifejezés a topik meghatározására, egy véletlenszerűen kiválasztott w’ kifejezéshez képest. 
-                        Ha egy szó minden témában előfordul, kevésbé járul hozzá egy adott dokumentumban keveredő topikok feltárásához, a szó disztinktív képessége alacsony.
-                    </p>
-
-                    <iframe src="https://eszterkatona.github.io/atm-kmonitor/iframes/bubble.html" style="height: 40vw; width: 75vw;" frameBorder="0" scrolling="no" class="embed-responsive-item">
-                        <p>Your browser does not support iframes.</p>
-                    </iframe>
-                </div>
-    </section>
-    <!-- Services end-->
-
-    <!-- Portfolio / gallery-->
-    <section id="alluvial" class="gallery">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h2 class="heading">Linkes ábra</h2>
-                    <p></p>
-                </div>
-
-            </div>
         </div>
-        
     </section>
-    <!-- Portfolio / gallery end-->
-    <!-- text page-->
+    <!-- Bubble end-->
+
+    
+    <!-- Alluvial-->
+    <section id="alluvial" class="text">
+        <div class="container">
+            <h2 class="heading">Linkes ábra</h2>
+
+            <iframe src="iframes/alluvial.html" style="height: 40vw; width: 75vw;" frameBorder="0" scrolling="no" class="embed-responsive-item">
+                <p>Your browser does not support iframes.</p>
+            </iframe>
+
+        </div>
+    </section>
+    <!-- Alluvial end-->
+    
+    
+    <!-- Gráf-->
     <section id="graf" style="background-color: #fff;" class="text-page">
         <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h2 class="heading">Gráf</h2>
-                    <div class="row">
-                            <p>
-                                A cikkekben a topikok keverednek, egy cikk több topikba is besorolható. A következő ábrán a topikok közötti kapcsolatokat szemléltetem. A hálózatban az élek azt mutatják, hogy a topikok milyen gyakran fordultak elő egy-egy cikkre leginkább jellemző topikként. Az ábrát a topikokhoz tartozó dokumentumok alapján hoztam létre, a cikkekre legjobban jellemző tíz topik között képeztünk éleket. Az élek vastagsága azt mutatja meg, hogy a topikok hány dokumentumban szerepeltek együtt.
-                            </p>
-                        <iframe src="https://eszterkatona.github.io/atm-kmonitor/iframes/adjacency.html" style="height: 60vw; width: 90vw;" frameBorder="0" scrolling="no" class="embed-responsive-item">
-                        <p>Your browser does not support iframes.</p>
-                    </iframe>
-                        </div>
-                    </div>
-                </div>
+            <h2 class="heading">Gráf</h2>
+                <p>
+                    A cikkekben a topikok keverednek, egy cikk több topikba is besorolható. A következő ábrán a topikok közötti kapcsolatokat szemléltetem. A hálózatban az élek azt mutatják, hogy a topikok milyen gyakran fordultak elő egy-egy cikkre leginkább jellemző topikként. Az ábrát a topikokhoz tartozó dokumentumok alapján hoztam létre, a cikkekre legjobban jellemző tíz topik között képeztünk éleket. Az élek vastagsága azt mutatja meg, hogy a topikok hány dokumentumban szerepeltek együtt.
+                </p>
+                
+                <iframe src="https://eszterkatona.github.io/atm-kmonitor/iframes/adjacency.html" style="height: 60vw; width: 90vw;" frameBorder="0" scrolling="no" class="embed-responsive-item">
+                    <p>Your browser does not support iframes.</p>
+                </iframe>
             </div>
-        
     </section>
-    <!-- text page end-->
+    <!-- Gráf end-->
+    
+    
     <!-- contact-->
     <section id="contact" style="background-color: #fff;" class="text-page">
         <div class="container">
 
-                    <p class="social"><a href="#" title="" class="facebook"><i class="fa fa-facebook"></i></a><a href="#" title="" class="linkedin"><i class="fa fa-linkedin"></i></a></p>
-                </div>
+            <p class="social"><a href="#" title="" class="facebook"><i class="fa fa-facebook"></i></a><a href="#" title="" class="linkedin"><i class="fa fa-linkedin"></i></a></p>
+        </div>
     </section>
     <footer style="background-color: #111;" class="section-inverse">
         <div class="container">
