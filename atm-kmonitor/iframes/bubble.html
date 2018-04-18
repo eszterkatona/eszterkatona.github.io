@@ -102,6 +102,7 @@
                 });
 
             // append options to select dropdown
+            
             select.selectAll("option")
                 .data(map.keys().sort())
                 .enter().append("option")
@@ -135,7 +136,7 @@
             var height = h*2 - margin.top - margin.bottom;
 
             // scales for axises & circles
-            var yScale = d3.scalePoint().padding(0.5); // ordinal scale for term type / category
+            var yScale = d3.scalePoint().padding(0.2); // ordinal scale for term type / category
             var xScale = d3.scalePoint().padding(0.3); // ordinal scale for topics
             var radius = d3.scaleSqrt(); // circle size would be too large if we used raw values, so we compute their square root
             var color = d3.scaleOrdinal(d3.schemeCategory20b); // colors used for differentiating "term" type
