@@ -2,7 +2,7 @@
 <html lang="en">
 
 <meta charset="utf-8">
-<title>Topics and Sources</title>
+<title>Topics and Dates</title>
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -28,7 +28,7 @@
     }
 
     .link:hover {
-        stroke: #1a252f;
+        stroke: gold;
         stroke-opacity: 1;
     }
     
@@ -51,11 +51,11 @@
             var margin = {
                     top: 1,
                     right: 5,
-                    bottom: 0,
+                    bottom: 1,
                     left: 5
                 },
-                width = w * 0.88 - margin.left - margin.right,
-                height = h *  - margin.top - margin.bottom;
+                width = w * 0.9 - margin.left - margin.right,
+                height = h * 0.9 - margin.top - margin.bottom;
 
             var formatNumber = d3.format(",.0f"), // zero decimal places
                 format = function(d) {
