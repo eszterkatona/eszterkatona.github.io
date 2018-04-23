@@ -139,7 +139,7 @@
 
             // scales for axises & circles
             var yScale = d3.scalePoint().padding(0.2); // ordinal scale for term type / category
-            var xScale = d3.scalePoint().padding(0.3); // ordinal scale for topics
+            var xScale = d3.scalePoint().padding(1); // ordinal scale for topics
             var radius = d3.scaleSqrt(); // circle size would be too large if we used raw values, so we compute their square root
             var color = d3.scaleOrdinal(d3.schemeCategory20b); // colors used for differentiating "term" type
 
@@ -166,31 +166,31 @@
               ÉS ONNÉT OLVASNÁNK BE, MEG TÖLTENÉNK FEL A DICTIONARY-T*/
             // a topic no -> topic name dictionary
             var topic_to_desc = {
-                0: '1. topik',
-                1: '2. topik',
-                2: '3. topik',
-                3: '4. topik',
-                4: '5. topik',
-                5: '6. topik',
-                6: '7. topik',
-                7: '8. topik',
-                8: '9. topik',
-                9: '10. topik',
-                10: '11. topik',
-                11: '12. topik',
-                12: '13. topik',
-                13: '14. topik',
-                14: '15. topik',
-                15: '16. topik',
-                16: '17. topik',
-                17: '18. topik',
-                18: '19. topik',
-                19: '20. topik',
-                20: '21. topik',
-                21: '22. topik',
-                22: '23. topik',
-                23: '24. topik',
-                24: '25. topik',
+                0: 'Vidéki ügyek',
+                1: 'Szervezeti korrupció',
+                2: 'Képviselői vagyonosodás',
+                3: 'EU és külföldi multik',
+                4: 'Közbeszerzés, pályáztatás',
+                5: 'Biznisz, céges ügyek',
+                6: 'Hivatali visszaélés',
+                7: 'Trükközés a közberuházásokkal',
+                8: 'Szabályozások',
+                9: 'Civilek elleni hadjárat',
+                10: 'Támogatáselosztás, csalások',
+                11: 'Hűtlen kezelés',
+                12: 'Törvényessé tett korrupció',
+                13: 'Állami cégek piszkos ügyei',
+                14: 'Önkormányzati ingatlanmutyik',
+                15: 'Törvények rugalmas kezelése',
+                16: 'Fejlesztési pénzek eltűntetése',
+                17: 'Területi fejlesztések',
+                18: 'Gyanús pénzmozgások',
+                19: 'Bróker ügyek nyomozása',
+                20: 'Közigazgatási visszaélések',
+                21: 'Sikkasztási gyanú',
+                22: 'Állam és pénzpiac összefonódása',
+                23: 'Átláthatatlan üzletek',
+                24: 'Korrupciós ügyek felgöngyölítése',
             };
 
             var xAxis = d3.axisBottom()
@@ -216,9 +216,9 @@
                 .call(xAxis)
                 .selectAll("text") // select tick texts
 
-                .attr("dx", "-2em") // push x-axis ticks on x coordinates
-                .attr("dy", "-2em") // push x-axis ticks on y coordinates
-                .attr("transform", "rotate(20)") // rotate ticks on x-axis
+                .attr("dx", "0em") // push x-axis ticks on x coordinates
+                .attr("dy", "-1em") // push x-axis ticks on y coordinates
+                .attr("transform", "rotate(-20)") // rotate ticks on x-axis
                 .attr("font-weight", "bold")
                 .attr("text-anchor", "start")
                 .style("font-size", "1vw")
@@ -315,7 +315,7 @@
                     })
                     .transition(t)
                     .attr("r", function(d) {
-                        return radius(d.score) * h * 0.0015;
+                        return radius(d.score) * h * 0.001;
                     })
                     .attr("fill", function(d) {
                         return color(d.term);
@@ -325,15 +325,6 @@
             }); // end dispatch statechange.chart
 
         }); // end dispatch load.chart
-
-
-
-
-
-
-
-
-
 
     </script>
 </body>
