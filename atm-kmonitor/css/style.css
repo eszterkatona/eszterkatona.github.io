@@ -98,6 +98,7 @@ body > p, li > p {
 
 body > p {
   width: 720px;
+    margin-left: 0;
 }
 
 body > blockquote {
@@ -140,7 +141,8 @@ textarea {
 
 body > pre {
   border-left: solid 2px #ccc;
-
+  padding-left: 18px;
+  margin: 2em 0 2em -20px;
 }
 
 .html .value,
