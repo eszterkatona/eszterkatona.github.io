@@ -181,6 +181,9 @@
             d3.selectAll("text").classed("active", false);
         }
 
+        d3.select("#order").on("change", function() {
+            order(this.value);
+        });
 
         function order(value) {
             x.domain(orders[value]);
@@ -211,8 +214,7 @@
                 });
         }
 
-    
-    });
+
 
 </script>
 
