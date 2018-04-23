@@ -57,7 +57,7 @@
         .append("g")
         .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-    d3.json("https://eszterkatona.github.io/atm-kmonitor/iframes/data/adjacency.json", function(miserables) {
+    d3.json("data/adjacency.json", function(miserables) {
         var matrix = [],
             nodes = miserables.nodes,
             n = nodes.length;
@@ -104,7 +104,7 @@
         svg.append("rect")
             .attr("class", "background")
             .attr("width", width)
-            .attr("height", width);
+            .attr("height", height);
 
         var row = svg.selectAll(".row")
             .data(matrix)
