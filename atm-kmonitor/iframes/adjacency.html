@@ -213,6 +213,11 @@
                 });
         }
 
+        var timeout = setTimeout(function() {
+            order("count");
+            d3.select("#order").property("selectedIndex",1).node();
+        }, 5000);
+    });
 
 </script>
 
