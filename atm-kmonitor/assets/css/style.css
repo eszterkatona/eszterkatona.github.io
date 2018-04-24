@@ -8,7 +8,6 @@
  * URL: 
  */
 
-
 /* ==========================================================================
    Base Styles, Bootstrap Modifications & Fonts Import
    ========================================================================== */
@@ -32,7 +31,7 @@
  * A better looking default horizontal rule
  */
 
- hr {
+hr {
     display: block;
     height: 1px;
     border: 0;
@@ -42,58 +41,66 @@
 }
 
 .centered {
-	text-align: center
+    text-align: center
 }
 
 .mt {
-	margin-top: 80px;
+    margin-top: 80px;
 }
 
 .mb {
-	margin-bottom: 80px;
+    margin-bottom: 80px;
 }
 
 /* ==========================================================================
    General styles
    ========================================================================== */
 
-
 body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1.5em;
 
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
 }
 
-h1, h2, h3, h4, h5, h6 {
-	font-weight: 700;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
     color: #4a4a4a;
 }
 
 
 .navbar-brand {
-	font-weight: 700;
+    font-weight: bold;
 }
 
 .navbar-default .navbar-brand {
-	color: black;
+    color: rgb(56, 160, 170);
 }
 
 .navbar-default {
-	background-color: transparent;
-	border-color: transparent;
+    background-color: transparent;
+    border-color: transparent;
 }
 
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-	color: black;
-	background-color: transparent;
-	border-bottom: 2px solid black
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: rgb(56, 160, 170);
+    background-color: transparent;
+    border-bottom: 1em solid rgb(56, 160, 170)
 }
 
 .navbar-default .navbar-nav > li > a {
-	color: black;
+    color: rgb(56, 160, 170);
+    font-weight: bold;
+
 }
 
 /* ==========================================================================
@@ -101,15 +108,15 @@ h1, h2, h3, h4, h5, h6 {
    ========================================================================== */
 
 #headerwrap {
-	background: url(../img/back.jpg) no-repeat center top;
-	margin-top: -70px;
-	padding-top: 250px;
-	text-align:center;
-	background-attachment: relative;
-	background-position: center center;
-	min-height: 650px;
-	width: 100%;
-	
+    background: url(../img/back.jpg) no-repeat center top;
+    margin-top: -70px;
+    padding-top: 250px;
+    text-align: center;
+    background-attachment: relative;
+    background-position: center center;
+    min-height: 650px;
+    width: 100%;
+
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
@@ -122,109 +129,47 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #headerwrap h1 {
-	color:#ffffff;
-	padding-top: 10px;
-	padding-bottom: 20px;
-	letter-spacing: 4px;
-	font-size: 80px;
-	font-weight: bold;
+    color: #ffffff;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    letter-spacing: 4px;
+    font-size: 3.5em;
+    font-weight: bold;
 }
 
 #headerwrap h4 {
-	font-weight: 400;
-	color: #ffffff
+    font-weight: 500;
+    font-size: 1.6em;
+    color: #ffffff
 }
 
 #social {
-	padding-top: 50px;
-	padding-bottom: 50px;
-	background-color: #f2f2f2;
+    padding-top: 1.3em;
+    padding-bottom: 1.3em;
+    background-color: #f2f2f2;
 }
 
 #social i {
-	font-size: 40px;
-	color: #4a4a4a
+    font-size: 1.5em;
+    color: #4a4a4a;
+    margin-left: 1em;
+    margin-right: 1em;
+
 }
 
 #social i:hover {
-	color: black
-}
-
-#footerwrap {
-	padding-top: 70px;
-	padding-bottom: 50px;
-	background-color: #2f2f2f;
-}
-
-#footerwrap p {
-	color: #f2f2f2;
-	margin-left: 10px;
-}
-
-#workwrap {	
-	background: url(../img/work.jpg) no-repeat center top;
-	margin-top: -70px;
-	padding-top: 250px;
-	text-align:center;
-	background-attachment: relative;
-	background-position: center center;
-	min-height: 650px;
-	width: 100%;
-	
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
-
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
-#workwrap h1 {
-	color:#ffffff;
-	padding-top: 10px;
-	padding-bottom: 20px;
-	letter-spacing: 4px;
-	font-size: 80px;
-	font-weight: bold;
-}
-
-#workwrap h4 {
-	font-weight: 400;
-	color: #ffffff
-}
-
-#aboutwrap {	
-	background: url(../img/about.jpg) no-repeat center top;
-	margin-top: -70px;
-	padding-top: 250px;
-	text-align:center;
-	background-attachment: relative;
-	background-position: center center;
-	min-height: 550px;
-	width: 100%;
-	
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
-
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    color: black
 }
 
 
 
 
 /* Gallery */
+
 .gallery {
-	margin-top: 30px;
+    margin-top: 30px;
 }
 
 .gallery img:hover {
-	opacity: 0.4;
+    opacity: 0.4;
 }
