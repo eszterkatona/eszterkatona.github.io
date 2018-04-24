@@ -23,7 +23,7 @@
 }
 
 ::selection {
-    background: #16a085;
+    background: #f2c2c9;
     color: #a4003a;
     text-shadow: none;
 }
@@ -78,7 +78,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-default .navbar-brand {
-	color: #1abc9c;
+	color: black;
 }
 
 .navbar-default {
@@ -87,13 +87,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-	color: #1abc9c;
+	color: black;
 	background-color: transparent;
-	border-bottom: 2px solid #1abc9c
+	border-bottom: 2px solid black
 }
 
 .navbar-default .navbar-nav > li > a {
-	color: #1abc9c;
+	color: black;
 }
 
 /* ==========================================================================
@@ -147,7 +147,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #social i:hover {
-	color: #1abc9c
+	color: black
 }
 
 #footerwrap {
