@@ -2,7 +2,7 @@
 <html lang="en">
 
 <meta charset="utf-8">
-<title>Topics and Dates</title>
+<title>Source and Topics</title>
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -28,7 +28,7 @@
     }
 
     .link:hover {
-        stroke: gold;
+        stroke: #29a3a3;
         stroke-opacity: 1;
     }
     
@@ -49,13 +49,13 @@
             var w = window.innerWidth;
             var h = window.innerHeight;
             var margin = {
-                    top: 1,
+                    top: 5,
                     right: 5,
-                    bottom: 1,
+                    bottom: 5,
                     left: 5
                 },
-                width = w * 0.9 - margin.left - margin.right,
-                height = h * 0.9 - margin.top - margin.bottom;
+                width = w * 0.8   - margin.left - margin.right,
+                height = h * 0.45 - margin.top - margin.bottom;
 
             var formatNumber = d3.format(",.0f"), // zero decimal places
                 format = function(d) {
@@ -185,7 +185,7 @@
                     })
                     .attr("text-anchor", "end")
                     .attr("transform", null)
-                    .style("font-size", "2vh")
+                    .style("font-size", "1vh")
                     .style("fill", "#354c60")
                     .text(function(d) {
                         return d.name;
