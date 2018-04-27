@@ -55,11 +55,18 @@
 	<div class="container">
 		<div class="row centered mt mb">
 			<div class="col-lg-8 col-lg-offset-2">
-				<h4>Viz1</h4>
-				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+				<h4>Topikok és topikszavak</h4>
+				<p> 
+                    Miután megtaláltuk, hogy hány topikba szeretnénk sorolni a cikkeinket, legtöbbször ezeket a topikokat el is szeretnénk nevezni, a tartalmuknak megfelelően. Ez is nehéz feladat, legtöbbször nem egyértelmű első ránézésre a kiírt topikszavak alapján, hogy melyik topik milyen témával foglalkozik. A topikszavak listája minden topikra ugyanazokat a kifejezéseket tartalmazza, a szavak sorrendjében van eltérés, a topikra legjellemzőbb szavak vannak legelöl, minél kevésbé jellemző egy kifejezés egy topikra, annál hátrább sorolódik. A lista böngészése alacsonyabb topikszám esetében sem egyszerű, de 25 topiknál főleg átláthatatlannak tűnhet, ebben nyújthat segítséget a Bubble chartunk, amit Chuang – Manning – Heer (2012) tanulmánya, és vizualizációja inspirált.
+                <br>
+                <br> 
+                    Az ábrán az egyes szavak topikvalószínűségét ábrázoljuk. A valószínűségeket a buborékok mérete mutatja. Az interaktív vizualizációnkon a szavakat kétféleképp rendezhetjük: saliency és frequency szerint. A saliency egy, a nyers gyakoriságnál jóval inkább megszűrt korpuszon mutatja a szavak topikonkénti előfordulását, így nagyobb eltérések figyelhetők meg az ábrán, míg a frequency a szavak valódi gyakoriságát mutatja, egy jóval általánosabb stopszavazás után.
+                <br>
+                    A saliencyt amit Chuang – Manning – Heer (2012) tanulmánya alapján implementáltuk, a mutató azt méri, hogy egy adott kifejezés mennyire jellemzi az adott topikot egy bármilyen random kiválasztott szóhoz képest. 
+                </p>
 			</div>
 			
-            <iframe src="https://eszterkatona.github.io/atm-kmonitor/iframes/bubble.html" style="height: 70vw; width: 90vw;" frameBorder="0" scrolling="no" class="embed-responsive-item">
+            <iframe src="https://eszterkatona.github.io/atm-kmonitor/iframes/bubble.html" style="height: 60vw; width: 90vw;" frameBorder="0" scrolling="no" class="embed-responsive-item">
                 <p>Your browser does not support iframes.</p>
             </iframe>
 
