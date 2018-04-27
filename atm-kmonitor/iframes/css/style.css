@@ -1,6 +1,8 @@
 /* Copyright 2013 Michael Bostock. All rights reserved. Do not copy. */
 
 @import url(//fonts.googleapis.com/css?family=PT+Serif|PT+Serif:b|PT+Serif:i|PT+Sans|PT+Sans:b);
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
 
 html {
   min-width: 1040px;
@@ -141,7 +143,7 @@ textarea {
 body > pre {
   border-left: solid 2px #ccc;
   padding-left: 18px;
-  margin: 2em 0 2em -20px;
+  margin: 2em 0 2em 0;
 }
 
 .html .value,
@@ -173,7 +175,7 @@ body > pre {
 }
 
 svg {
-  font: 10px sans-serif;
+  font: 0.7em 'PT Sans', sans-serif;
 }
 
 .axis path, .axis line {
