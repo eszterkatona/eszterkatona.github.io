@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -25,81 +26,88 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-  </head>
+</head>
 
-  <body>
+<body>
 
     <!-- Static navbar -->
     <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html">Látens topikok, látható címkék</a>
+                <a class="navbar-brand" href="index.html">Látens topikok, látható címkék</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="katonaeszter_szakdolgozat.pdf" target="_blank">Szakdolgozat</a></li>
+                </ul>
+            </div>
+            <!--/.nav-collapse -->
         </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="katonaeszter_szakdolgozat.pdf" target="_blank">Szakdolgozat</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
     </div>
 
 
-	
-	<section id="works"></section>
-	<div class="container">
-		<div class="row centered mt mb">
-			<div class="col-lg-8 col-lg-offset-2">
-				<h4>Híroldalak és topikok</h4>
-				<p>
-                    A K-monitortól kapott adatbázis 18139 URL-t tartalmazott, az adatok tisztítását követően 15195 cikkünk maradt. A legyűjtést követően tehát 2944 cikket töröltünk. Az eltávolított cikkek nagy része szó szerinti duplikátum volt, illetve az ismétlődő cikkek közül 310 tartalmazott hibaüzenetet, volt olyan URL, ami már nem létező cikkre mutatott,így a duplikátumok egy részét a 404-es hiba okozta.  A duplikátumokból minden esetben csupán elsőt tartottunk meg, a hibaüzenetet tartalmazó cikkeket az elemzésből kizártuk. A lementett cikkek forrása nagyon változatos, összesen 112 portálról származnak cikkek. A portálok döntő többsége híroldal, de bulvároldalak és blogok is megjelennek közöttük. A cikkek letöltéséhez kiindulásként az összegyűjtött URL-eket használtam. A cikkek címét és szövegeit a Newspaper csomaggal töltöttem le.
-                <br>
-                <br>
-                    A vizualizáción a weboldalak és a topikok közötti leggyakoribb kapcsolatok láthatóak, ezért ezen a vizualizáción főleg a nagy híroldalak jelennek meg.
+
+    <section id="works"></section>
+    <div class="container">
+        <div class="row centered mt mb">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h4>Híroldalak és topikok</h4>
+                <p>
+                    A K-monitortól kapott adatbázis 18139 URL-t tartalmazott, az adatok tisztítását követően 15195 cikkünk maradt. A legyűjtést követően tehát 2944 cikket töröltünk. Az eltávolított cikkek nagy része szó szerinti duplikátum volt, illetve az ismétlődő cikkek közül 310 tartalmazott hibaüzenetet, volt olyan URL, ami már nem létező cikkre mutatott,így a duplikátumok egy részét a 404-es hiba okozta. A duplikátumokból minden esetben csupán elsőt tartottunk meg, a hibaüzenetet tartalmazó cikkeket az elemzésből kizártuk. A lementett cikkek forrása nagyon változatos, összesen 112 portálról származnak cikkek. A portálok döntő többsége híroldal, de bulvároldalak és blogok is megjelennek közöttük. A cikkek letöltéséhez kiindulásként az összegyűjtött URL-eket használtam. A cikkek címét és szövegeit a Newspaper csomaggal töltöttem le.
+                    <br>
+                    <br> A vizualizáción a weboldalak és a topikok közötti leggyakoribb kapcsolatok láthatóak, ezért ezen a vizualizáción főleg a nagy híroldalak jelennek meg.
                 </p>
-			</div>
-			
-            <iframe src="iframes/alluvial.html" style="height: 100vw; width: 90vw;" frameBorder="0" scrolling="no" class="embed-responsive-item">
+            </div>
+
+
+        </div>
+        <! --/row -->
+    </div>
+    <! --/container -->
+
+    <div>
+    <p align="center"><iframe src="iframes/alluvial.html" style="height: 100vw; width: 90vw;" frameBorder="0" scrolling="no" class="embed-responsive-item" align="center">
                 <p>Your browser does not support iframes.</p>
-            </iframe>
-            
+    </iframe></p>
+</div>
 
-		</div><! --/row -->
-	</div><! --/container -->
-	
-		<div id="social">
-		<div class="container">
-			<div class="row centered">
-				<div class="col-lg-2">
-					
-				</div>
-				<div class="col-lg-2">
-				</div>
-				<div class="col-lg-2">
-				    <a href="#"><i class="fa fa-facebook"></i></a>
+    <div id="social">
+        <div class="container">
+            <div class="row centered">
+                <div class="col-lg-2">
 
-				</div>
-				<div class="col-lg-2">
-					<a href="#"><i class="fa fa-linkedin"></i></a>
-				</div>
-				<div class="col-lg-2">
-					
-				</div>
-				<div class="col-lg-2">
-					
-				</div>
-			
-			</div><! --/row -->
-		</div><! --/container -->
-	</div><! --/social -->
+                </div>
+                <div class="col-lg-2">
+                </div>
+                <div class="col-lg-2">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+
+                </div>
+                <div class="col-lg-2">
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                </div>
+                <div class="col-lg-2">
+
+                </div>
+                <div class="col-lg-2">
+
+                </div>
+
+            </div>
+            <! --/row -->
+        </div>
+        <! --/container -->
+    </div>
+    <! --/social -->
 
 
-	
+
 
 
     <!-- Bootstrap core JavaScript
@@ -107,5 +115,6 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
-  </body>
+</body>
+
 </html>
