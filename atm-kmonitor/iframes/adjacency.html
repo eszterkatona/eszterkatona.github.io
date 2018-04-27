@@ -31,7 +31,8 @@
 -->
 </select></p>
 
-
+<div id="chart"></div>
+    
 <script>
     var w = window.innerWidth;
     var h = window.innerHeight;
@@ -58,7 +59,7 @@
         .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
     // svg align center
-    d3.select("#body").attr("align","center");
+    d3.select("#chart").attr("align","center");
 
     d3.json("https://eszterkatona.github.io/atm-kmonitor/iframes/data/adjacency.json", function(miserables) {
         var matrix = [],
