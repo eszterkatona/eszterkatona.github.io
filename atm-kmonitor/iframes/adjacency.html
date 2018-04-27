@@ -22,9 +22,7 @@
 <script src="//d3js.org/d3.v2.min.js" charset="utf-8"></script>
 
 
-<h1></h1>
 
-<aside style="margin-top: 15em;">
     <p><select id="order">
   <option value="name">Name</option>
   <option value="count">Frequency</option>
@@ -32,17 +30,16 @@
   <option value="group">by Cluster</option>
 -->
 </select></p>
-</aside>
 
 
 <script>
             var w = window.innerWidth;
             var h = window.innerHeight;
             var margin = {
-                top: h * 0.22,
+                top: h * 0.2,
                 right: h * 0.2,
                 bottom: h * 0.2,
-                left: h * 0.21
+                left: h * 0.2
             };
             var width = w*0.6 - margin.left - margin.right;
             var height = h - margin.top - margin.bottom;
@@ -55,7 +52,7 @@
     var svg = d3.select("body").append("svg")
         .attr("width", width + margin.left + margin.right)
         .attr("height", height + margin.top + margin.bottom)
-        .style("margin-left", -margin.left + "px")
+        .style("margin-left", margin.left * 0.55 + "px")
         .append("g")
         .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
