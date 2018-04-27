@@ -5,7 +5,7 @@
 <title></title>
 <style>
     @import url(css/style.css);
-    
+
     .background {
         fill: #eee;
     }
@@ -23,7 +23,7 @@
 
 
 
-    <p><select id="order">
+<p><select id="order">
   <option value="name">Name</option>
   <option value="count">Frequency</option>
 <!--
@@ -33,25 +33,26 @@
 
 
 <script>
-            var w = window.innerWidth;
-            var h = window.innerHeight;
-            var margin = {
-                top: h * 0.2,
-                right: h * 0.2,
-                bottom: h * 0.2,
-                left: h * 0.2
-            };
-            var width = w*0.6 - margin.left - margin.right;
-            var height = h - margin.top - margin.bottom;
-
-
+    var w = window.innerWidth;
+    var h = window.innerHeight;
+    var margin = {
+        top: h * 0.2,
+        right: h * 0.2,
+        bottom: h * 0.2,
+        left: h * 0.2
+    };
+    //var width = w*0.6 - margin.left - margin.right;
+    //var height = h - margin.top - margin.bottom;
+    var width = w * 0.4;
+    var height = h * 0.4;
+    
     var x = d3.scale.ordinal().rangeBands([0, width]),
         z = d3.scale.linear().domain([0, 4]).clamp(true),
         c = d3.scale.category10().domain(d3.range(10));
 
     var svg = d3.select("body").append("svg")
-        .attr("width", width + margin.left + margin.right)
-        .attr("height", height + margin.top + margin.bottom)
+        .attr("width", w)
+        .attr("height", h)
         .style("margin-left", margin.left * 0.55 + "px")
         .append("g")
         .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
@@ -141,7 +142,7 @@
             .attr("x", 8)
             .attr("y", x.rangeBand() / 1.5)
             .attr("dy", "-1.3em")
-        .attr("transform", "rotate(60)")
+            .attr("transform", "rotate(60)")
             .attr("text-anchor", "start")
             .text(function(d, i) {
                 return nodes[i].name;
@@ -218,10 +219,8 @@
 
         var timeout = setTimeout(function() {
             order("count");
-            d3.select("#order").property("selectedIndex",1).node().focus();
+            d3.select("#order").property("selectedIndex", 1).node().focus();
         }, 5000);
     });
 
 </script>
-
-
