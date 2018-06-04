@@ -82,7 +82,7 @@ h6 {
 }
 
 .navbar-default .navbar-brand {
-    color: black;
+    color: #4a4a4a;
 }
 
 .navbar-default {
@@ -93,13 +93,13 @@ h6 {
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-    color: black;
+    color: #4a4a4a;
     background-color: transparent;
-    border-bottom: 1em solid black
+    border-bottom: 1em solid #4a4a4a
 }
 
 .navbar-default .navbar-nav > li > a {
-    color: black;
+    color: #4a4a4a;
     font-weight: bold;
 
 }
@@ -184,11 +184,11 @@ h6 {
 }
 
 .gallery:hover .overlay {
-  opacity: 0.8;
+  opacity: 0.7;
 }
 
 .text {
-  color: #4a4a4a;
+  color: black;
   font-size: 3em;
   position: absolute;
   top: 50%;
