@@ -12,8 +12,6 @@
    Base Styles, Bootstrap Modifications & Fonts Import
    ========================================================================== */
 
-@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
-
 
 ::-moz-selection {
     background: #f2c2c9;
@@ -41,7 +39,9 @@ hr {
 }
 
 .centered {
-    text-align: center
+    text-align: center;
+    margin-left: 5em;
+    margin-right: 5em;
 }
 
 .mt {
@@ -60,6 +60,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 1.5em;
+    
 
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
@@ -189,7 +190,7 @@ h6 {
 
 .text {
   color: black;
-  font-size: 3em;
+  font-size: 2.5em;
   position: absolute;
   top: 50%;
   left: 50%;

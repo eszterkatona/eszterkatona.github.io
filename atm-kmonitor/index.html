@@ -17,16 +17,18 @@
     <!-- Custom styles for this template -->
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
     <!-- facebook data: -->
 
-    <meta property="og:url" content="http://eszterkatona.github.io/atm-kmonitor/"/>
-    <meta property="og:type" content="website"/>
-    <meta property="og:title" content="Látens topikok, látható címkék"/>
-    <meta property="og:description" content="Az Author-Topic Model gyakorlati alkalmazása a korrupció témáiban"/>
-    <meta property="og:image" content="http://eszterkatona.github.io/atm-kmonitor/assets/img/vizimg/cover.png"/>
-    <meta property="og:image:width" content="400"/>
-    <meta property="og:image:height" content="300"/>
+    <meta property="og:url" content="http://eszterkatona.github.io/atm-kmonitor/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Látens topikok, látható címkék" />
+    <meta property="og:description" content="Az Author-Topic Model gyakorlati alkalmazása a korrupció témáiban" />
+    <meta property="og:image" content="http://eszterkatona.github.io/atm-kmonitor/assets/img/vizimg/cover.png" />
+    <meta property="og:image:width" content="400" />
+    <meta property="og:image:height" content="300" />
 
     <!-- end of facebook data -->
 </head>
@@ -68,7 +70,7 @@
                     <br>
                     <br>
                     <h4>Survey statisztika MSc</h4>
-                                        <br>
+                    <br>
 
                     <h4>2018</h4>
                     <br>
@@ -87,20 +89,26 @@
     <div class="container">
         <div class="row centered mt mb">
             <h1>A vizualizációk háttere</h1>
+            <br>
+            <br>
             <p>
-                Szakdolgozatomban a K-Monitor <a href="http://k-monitor.hu/adatbazis/aktak" target = "_blank">cikkgyűjteményéből</a> származó dokumentumokon mutattam be a szerző-topikmodell (Author-Topic Model) használatát, ezáltal szerettem volna betekintést nyújtani a	szöveganalitikai	elemzés	legfontosabb lépéseibe. Szakdolgozatom egyik fő célja a topikok értelmezésének, és elnevezésének megkönnyítése volt, ehhez három interakítv vizualizzációt készítettem. Az elsőn a forrásoldalak és topikok kapcsolatát, a másodikon a topikokat jellemző kifejezéseket, az utolsón pedig a topikok közötti kapcsolatokat mutatom be.
-                Végül,	de	nem	utolsó	sorban	célom,	hogy	a K-Monitor cikkgyűjteményének	címkézését	segítsem,	standardizáljam	és	egyszerűsítsem.
+                Szakdolgozatomban a K-Monitor <a href="http://k-monitor.hu/adatbazis/aktak" target="_blank">cikkgyűjteményéből</a> származó dokumentumokon mutattam be a szerző-topikmodell (<a href="https://mimno.infosci.cornell.edu/info6150/readings/398.pdf" target="_blank">Author-Topic Model</a>) használatát, ezáltal szerettem volna betekintést nyújtani a szöveganalitikai elemzés legfontosabb lépéseibe. Szakdolgozatom egyik fő célja a topikok értelmezésének, és elnevezésének megkönnyítése volt, ehhez három interakítv vizualizzációt készítettem. Az elsőn a forrásoldalak és topikok kapcsolatát, a másodikon a topikokat jellemző kifejezéseket, az utolsón pedig a topikok közötti kapcsolatokat mutatom be.
+                <!--Végül,	de	nem	utolsó	sorban	célom,	hogy	a K-Monitor cikkgyűjteményének	címkézését	segítsem,	standardizáljam	és	egyszerűsítsem.-->
             </p>
+            <!--
             <p>
                 Az <a href="https://mimno.infosci.cornell.edu/info6150/readings/398.pdf" target = "_blank">Author-Topic Model</a> egy <a href="https://en.wikipedia.org/wiki/Generative_model" target="_blank">generatív valószínűségi modell</a>, ami szerzőségi információval egészíti ki a <a href="https://en.wikipedia.org/wiki/Latent_Dirichlet_allocation" target="_blank">látens Dirichlet allokációt</a>. Az ATM két modell (az Author Model és az LDA) ötvözése, egy-egy valószínűségi modell a szerzőkre és a topikokra. A dokumentumok topikeloszlása keveréke a dokumentumok szerzőihez tartozó topikeloszlásnak. Amíg az LDA-nál minden dokumentumhoz egy szerző tartozik, addig az ATM esetében minden szerzőhöz egyedi topikeloszlás tartozik, a modell segítségével megismerhetjük, hogy mely szerző mely topikokról ír, és milyen gyakran. Author-Topic Modelt akkor használhatunk, ha sok dokumentum áll rendelkezésünkre szerzőkkel (metaadatokkal), és szeretnénk felderíteni, hogy az egyes szerzők milyen témákkal járnak együtt.
             </p>
-          
-
+             -->
+  
             
+        </div>
+        <div class="row mt mb">
+
             <div class="col-lg-4 col-md-4 col-sm-4 gallery">
                 <a href="viz_alluvial.html"><img src="assets/img/vizimg/alluvial.png" class="img-responsive">
                 <div class="overlay">
-                    <div class="text">Alluvial</div>
+                    <div class="text">Híroldalak és topikok</div>
                 </div>
 
                 </a>
@@ -108,19 +116,19 @@
             <div class="col-lg-4 col-md-4 col-sm-4 gallery">
                 <a href="viz_bubble.html"><img src="assets/img/vizimg/bubble.png" class="img-responsive">
                 <div class="overlay">
-                    <div class="text">Bubble-chart</div>
+                    <div class="text">Topikok és topikszavak</div>
                 </div>
                 </a>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-4 gallery">
                 <a href="viz_matrix.html"><img src="assets/img/vizimg/matrix.png" class="img-responsive">
                 <div class="overlay">
-                    <div class="text">Matrix</div>
+                    <div class="text">Topikok keveredése</div>
                 </div>
                 </a>
             </div>
-
         </div>
+        
         <! --/row -->
     </div>
     <! --/container -->
@@ -129,7 +137,10 @@
         <div class="container">
             <div class="row centered">
 
-                <p><a href="javascript:window.open('https://www.facebook.com/sharer/sharer.php?u=https://eszterkatona.github.io/atm-kmonitor/', 'targetWindow', 'width=350, height=250');" rel="nofollow>"><i class="fa fa-facebook"></i></a><a href="javascript:window.open('https://www.linkedin.com/shareArticle?mini=true&url=https://eszterkatona.github.io/atm-kmonitor/&summary=Az Author-Topic Model gyakorlati alkalmazása a korrupció témáiban', 'targetWindow', 'width=350, height=250');" rel="nofollow"><i class="fa fa-linkedin"></i></a></p>    
+                <p>
+                    <a href="javascript:window.open('https://www.facebook.com/sharer/sharer.php?u=https://eszterkatona.github.io/atm-kmonitor/', 'targetWindow', 'width=350, height=250');" rel="nofollow>"><i class="fa fa-facebook"></i></a>
+                    <a href="javascript:window.open('https://www.linkedin.com/shareArticle?mini=true&url=https://eszterkatona.github.io/atm-kmonitor/&summary=Az Author-Topic Model gyakorlati alkalmazása a korrupció témáiban', 'targetWindow', 'width=350, height=250');" rel="nofollow"><i class="fa fa-linkedin"></i></a>
+                </p>
 
 
             </div>
@@ -147,8 +158,8 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
-    
-     
+
+
 </body>
 
 </html>
