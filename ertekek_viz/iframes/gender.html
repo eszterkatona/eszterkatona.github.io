@@ -115,7 +115,7 @@
                 top: h * 0.1,
                 right: h * 0.3,
                 bottom: h * 0.08,
-                left: h * 0.3
+                left: h * 0.2
             };
             var width = w - margin.left - margin.right;
             var height = h - margin.top - margin.bottom;
@@ -141,8 +141,9 @@
                 .scale(yScale);
 
             var topic_to_desc = {
-                0: '+ man',
-                1: '+ woman'
+                0: 'choosen word',
+                1: '+ man',
+                2: '+ woman'
             };
             var xAxis = d3.axisBottom()
                 .tickFormat(function(d) {
