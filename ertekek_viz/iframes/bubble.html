@@ -6,7 +6,7 @@
      original working example https://bl.ocks.org/clhenrick/raw/5394591a62a5e61fb8753c1dca13db47/ -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>K-Monitor ATM</title>
+    <title></title>
     <style type="text/css">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
@@ -43,7 +43,7 @@
         // computed after data loads
         var topics = [];
         // load our data! When done call our dispatch events with corresponding data
-        d3.csv('https://eszterkatona.github.io/ertekek_viz/data/bubble.csv', function(err, data) {
+        d3.csv('data/bubble.csv', function(err, data) {
             if (err) {
                 throw (error)
             }
