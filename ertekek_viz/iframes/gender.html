@@ -38,12 +38,12 @@
         var dispatch = d3.dispatch("load", "statechange");
 
         // the first term type of our dataset we want the chart to load with
-        var firstdropdownName = "sin";
+        var firstdropdownName = "lust";
         // unique topics of our dataset to be used by our xScale domain
         // computed after data loads
         var topics = [];
         // load our data! When done call our dispatch events with corresponding data
-        d3.csv('data/bubble.csv', function(err, data) {
+        d3.csv('data/bubble2.csv', function(err, data) {
             if (err) {
                 throw (error)
             }
@@ -109,11 +109,11 @@
         // set up our punchcard chart after our data loads
         dispatch.on("load.chart", function(map) {
             // layout properties
-            var w = window.innerWidth;
+            var w = window.innerWidth * 0.4;
             var h = window.innerHeight;
             var margin = {
                 top: h * 0.1,
-                right: h * 1.5,
+                right: h * 0.3,
                 bottom: h * 0.08,
                 left: h * 0.3
             };
@@ -141,9 +141,8 @@
                 .scale(yScale);
 
             var topic_to_desc = {
-                0: '+ catholicism',
-                1: '+ protestanntism',
-                2: '+ orthodoxy'
+                0: '+ man',
+                1: '+ woman'
             };
             var xAxis = d3.axisBottom()
                 .tickFormat(function(d) {
