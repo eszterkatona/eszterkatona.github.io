@@ -40,8 +40,8 @@
 
     <p id="chart" align= "center">
 
-        <script src="https://eszterkatona.github.io/ertekek_viz/js/d3.v3.min.js"></script>
-        <script src="https://eszterkatona.github.io/ertekek_viz/js/sankey.js"></script>
+        <script src="js/d3.v3.min.js"></script>
+        <script src="js/sankey.js"></script>
         <script>
             var units = "Widgets";
             var w = window.innerWidth;
@@ -73,7 +73,7 @@
                 .size([width, height]);
             var path = sankey.link();
             // load the data (using the timelyportfolio csv method)
-            d3.csv("https://eszterkatona.github.io/ertekek_viz/data/sankey_god.csv", function(error, data) {
+            d3.csv("data/sankey_god.csv", function(error, data) {
                 //set up graph in same style as original example but empty
                 graph = {
                     "nodes": [],

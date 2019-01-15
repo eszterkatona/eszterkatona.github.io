@@ -31,7 +31,7 @@
 </head>
 
 <body>
-    <script src="https://eszterkatona.github.io/ertekek_viz/js/d3.v4.min.js"></script>
+    <script src="js/d3.v4.min.js"></script>
     <script>
         // register events to emit & listen for via d3 dispatch
 
@@ -43,7 +43,7 @@
         // computed after data loads
         var topics = [];
         // load our data! When done call our dispatch events with corresponding data
-        d3.csv('https://eszterkatona.github.io/ertekek_viz/data/bubble.csv', function(err, data) {
+        d3.csv('data/bubble.csv', function(err, data) {
             if (err) {
                 throw (error)
             }
