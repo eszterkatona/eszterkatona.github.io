@@ -38,12 +38,12 @@
         var dispatch = d3.dispatch("load", "statechange");
 
         // the first term type of our dataset we want the chart to load with
-        var firstdropdownName = "sin";
+        var firstdropdownName = "god";
         // unique topics of our dataset to be used by our xScale domain
         // computed after data loads
         var topics = [];
         // load our data! When done call our dispatch events with corresponding data
-        d3.csv('data/bubble.csv', function(err, data) {
+        d3.csv('data/bubble_v2.csv', function(err, data) {
             if (err) {
                 throw (error)
             }
@@ -115,7 +115,7 @@
                 top: h * 0.1,
                 right: h * 0.3,
                 bottom: h * 0.08,
-                left: h * 0.3
+                left: h * 0.2
             };
             var width = w - margin.left - margin.right;
             var height = h - margin.top - margin.bottom;
@@ -141,9 +141,10 @@
                 .scale(yScale);
 
             var topic_to_desc = {
-                0: '+ catholicism',
-                1: '+ protestanntism',
-                2: '+ orthodoxy'
+                0: 'choosen word',
+                1: '+ catholicism',
+                2: '+ protestanntism',
+                3: '+ orthodoxy'
             };
             var xAxis = d3.axisBottom()
                 .tickFormat(function(d) {
