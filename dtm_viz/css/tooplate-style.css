@@ -170,7 +170,7 @@ p:last-child { margin-bottom: 0; }
 .tm-main-nav a:focus,
 .tm-main-nav a.active {
     background-image: url(../img/nav-item-highlight.png);
-    color: #000;
+    color: indianred;
     text-decoration: none;    
 }
 
@@ -347,7 +347,7 @@ footer a { color: white; }
         padding: 10px 15px;
         background: #000000c4;
         border: 1px solid;
-        color: #33ccff;
+        color: indianred;
         cursor: pointer;
         margin-top: 4px;
         margin-left: 4px;

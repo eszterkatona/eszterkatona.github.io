@@ -406,7 +406,7 @@
         data.forEach(function(d) {
             d.values.forEach(function(d) {
                 d.date = parseDate(d.date);
-                d.price = +d.price;
+                d.price = +d.price.toFixed(3);
             });
         });
 
@@ -540,7 +540,7 @@
             .attr("y", 15)
             .attr("transform", "rotate(-90)")
             .attr("fill", "#000")
-            .text('Topik "népszerűsége" (proportion)');
+            .text('Topik "népszerűsége"');
 
     </script>
 </body>
