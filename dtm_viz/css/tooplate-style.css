@@ -438,7 +438,7 @@ footer a { color: white; }
     margin: -75px 0 0 -75px;
     border-radius: 50%;
     border: 3px solid transparent;
-    border-top-color: #3498db;
+    border-top-color: gray;
 
     -webkit-animation: spin 2s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
     animation: spin 2s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
@@ -455,7 +455,7 @@ footer a { color: white; }
     bottom: 5px;
     border-radius: 50%;
     border: 3px solid transparent;
-    border-top-color: #e74c3c;
+    border-top-color: darkgrey;
 
     -webkit-animation: spin 3s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
     animation: spin 3s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
@@ -470,7 +470,7 @@ footer a { color: white; }
     bottom: 15px;
     border-radius: 50%;
     border: 3px solid transparent;
-    border-top-color: #f9c922;
+    border-top-color: lightgrey;
 
     -webkit-animation: spin 1.5s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
       animation: spin 1.5s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
@@ -506,7 +506,7 @@ footer a { color: white; }
     top: 0;
     width: 51%;
     height: 100%;
-    background: #222222;
+    background: white;
     z-index: 1000;
     -webkit-transform: translateX(0);  /* Chrome, Opera 15+, Safari 3.1+ */
     -ms-transform: translateX(0);  /* IE 9 */
@@ -559,4 +559,19 @@ footer a { color: white; }
 /* JavaScript Turned Off */
 .no-js #loader-wrapper {
     display: none;
+}
+
+.resp-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+}
+
+.resp-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 50%;
+    border: 0;
 }
