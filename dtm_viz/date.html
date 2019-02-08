@@ -12,8 +12,7 @@
     <script>
         var data = [{
             name: "Cikkek száma évenként",
-            values: [
-                {
+            values: [{
                     date: "2007",
                     price: "625"
                 },
@@ -65,9 +64,13 @@
             ]
         }];
 
-        var margin = 80;
-        var width = 1000 - 2 * margin;
-        var height = 680 - 2 * margin;
+
+        var w = window.innerWidth;
+        var h = window.innerHeight;
+        var margin = w * 0.1;
+        var width = w - margin*2;
+        var height = h - margin;
+
 
         var lineOpacity = "0.25";
         var lineOpacityHover = "0.85";
@@ -97,7 +100,7 @@
             .range([0, width - margin]);
 
         var yScale = d3.scaleLinear()
-            .domain([0, d3.max(data[0].values, d => d.price)])
+            .domain([0, 4000])
             .range([height - margin, 0]);
 
         var color = d3.scaleOrdinal(d3.schemeCategory10);

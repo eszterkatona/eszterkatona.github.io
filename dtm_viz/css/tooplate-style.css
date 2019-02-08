@@ -220,7 +220,7 @@ p:last-child { margin-bottom: 0; }
 
 .col-md-6.tm-contact-col { margin-bottom: 0; }
 
-.tm-img-slider { max-width: 940px; }
+.tm-img-slider { max-width: 100%; }
 #tm-section-1 { max-width: 700px; }
 
 .tm-icon-media {

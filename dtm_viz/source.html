@@ -83,22 +83,24 @@
 
             ];
 
-            const svg = d3.select('svg');
-            const svgContainer = d3.select('#container');
+            var svg = d3.select('svg');
+            var svgContainer = d3.select('#container');
 
-            const margin = 80;
-            const width = 1000 - 2 * margin;
-            const height = 600 - 2 * margin;
+            var w = window.innerWidth;
+            var h = window.innerHeight;
+            var margin = w * 0.06;
+            var width = w - margin * 7;
+            var height = h - margin*3;
 
-            const chart = svg.append('g')
+            var chart = svg.append('g')
                 .attr('transform', `translate(${margin}, ${margin})`);
 
-            const xScale = d3.scaleBand()
+            var xScale = d3.scaleBand()
                 .range([0, width])
                 .domain(sample.map((s) => s.language))
                 .padding(0.4)
 
-            const yScale = d3.scaleLinear()
+            var yScale = d3.scaleLinear()
                 .range([height, 0])
                 .domain([0, 5000]);
 
@@ -208,7 +210,7 @@
                 .append('text')
                 .attr('class', 'label')
                 .attr('x', -(height / 2) - margin)
-                .attr('y', margin / 2.4)
+                .attr('y', margin / 4)
                 .attr('transform', 'rotate(-90)')
                 .attr('text-anchor', 'middle')
                 .text('Cikkek száma')
@@ -216,7 +218,7 @@
             svg.append('text')
                 .attr('class', 'label')
                 .attr('x', width / 2 + margin)
-                .attr('y', height + margin * 1.7)
+                .attr('y', height + margin * 1.6)
                 .attr('text-anchor', 'middle')
                 .text('Cikkek forrása (top 15)')
 
