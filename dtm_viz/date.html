@@ -1,231 +1,35 @@
+<!DOCTYPE html>
 <html>
-
 <head>
-    <script src="https://d3js.org/d3.v4.min.js"></script>
-    <link rel='stylesheet' type='text/css' href='style2.css'>
-
+  <style>
+    .error {
+        color: red;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-lite@4.0.2"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-embed@6"></script>
 </head>
-
 <body>
-    <div id="chart"></div>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "layer": [{"mark": {"type": "line", "interpolate": "catmull-rom"}, "encoding": {"color": {"value": "lightsteelblue"}, "x": {"type": "quantitative", "field": "x"}, "y": {"type": "quantitative", "field": "y"}}}, {"mark": "point", "encoding": {"opacity": {"value": 0}, "x": {"type": "quantitative", "field": "x"}}, "selection": {"selector183": {"type": "single", "nearest": true, "on": "mouseover", "fields": ["x"], "empty": "none"}}}, {"mark": "point", "encoding": {"color": {"value": "lightsteelblue"}, "opacity": {"condition": {"value": 1, "selection": "selector183"}, "value": 0}, "x": {"type": "quantitative", "field": "x"}, "y": {"type": "quantitative", "field": "y"}}}, {"mark": {"type": "rule", "color": "RED"}, "encoding": {"x": {"type": "quantitative", "axis": {"format": "f", "title": ""}, "field": "x"}}, "transform": [{"filter": {"selection": "selector183"}}]}, {"mark": {"type": "text", "align": "left", "dx": -27, "dy": -10}, "encoding": {"color": {"value": "red"}, "text": {"condition": {"type": "quantitative", "field": "y", "selection": "selector183"}, "value": ""}, "x": {"type": "quantitative", "field": "x"}, "y": {"type": "quantitative", "field": "y"}}}], "data": {"name": "data-a6cc7862fdfb2f8496781b8c19532004"}, "height": 300, "width": 600, "$schema": "https://vega.github.io/schema/vega-lite/v4.0.2.json", "datasets": {"data-a6cc7862fdfb2f8496781b8c19532004": [{"x": 2007, "Cikkek sz\u00e1ma \u00e9venk\u00e9nt": "Cikkek sz\u00e1ma", "y": 625}, {"x": 2008, "Cikkek sz\u00e1ma \u00e9venk\u00e9nt": "Cikkek sz\u00e1ma", "y": 958}, {"x": 2009, "Cikkek sz\u00e1ma \u00e9venk\u00e9nt": "Cikkek sz\u00e1ma", "y": 1429}, {"x": 2010, "Cikkek sz\u00e1ma \u00e9venk\u00e9nt": "Cikkek sz\u00e1ma", "y": 1886}, {"x": 2011, "Cikkek sz\u00e1ma \u00e9venk\u00e9nt": "Cikkek sz\u00e1ma", "y": 2216}, {"x": 2012, "Cikkek sz\u00e1ma \u00e9venk\u00e9nt": "Cikkek sz\u00e1ma", "y": 2487}, {"x": 2013, "Cikkek sz\u00e1ma \u00e9venk\u00e9nt": "Cikkek sz\u00e1ma", "y": 2096}, {"x": 2014, "Cikkek sz\u00e1ma \u00e9venk\u00e9nt": "Cikkek sz\u00e1ma", "y": 3116}, {"x": 2015, "Cikkek sz\u00e1ma \u00e9venk\u00e9nt": "Cikkek sz\u00e1ma", "y": 3691}, {"x": 2016, "Cikkek sz\u00e1ma \u00e9venk\u00e9nt": "Cikkek sz\u00e1ma", "y": 2345}, {"x": 2017, "Cikkek sz\u00e1ma \u00e9venk\u00e9nt": "Cikkek sz\u00e1ma", "y": 3706}, {"x": 2018, "Cikkek sz\u00e1ma \u00e9venk\u00e9nt": "Cikkek sz\u00e1ma", "y": 1979}]}};
+      var embedOpt = {"mode": "vega-lite"};
 
-    <script>
-        var data = [{
-            name: "Cikkek száma évenként",
-            values: [{
-                    date: "2007",
-                    price: "625"
-                },
-                {
-                    date: "2008",
-                    price: "958"
-                },
-                {
-                    date: "2009",
-                    price: "1429"
-                },
-                {
-                    date: "2010",
-                    price: "1886"
-                },
-                {
-                    date: "2011",
-                    price: "2216"
-                },
-                {
-                    date: "2012",
-                    price: "2487"
-                },
-                {
-                    date: "2013",
-                    price: "2096"
-                },
-                {
-                    date: "2014",
-                    price: "3116"
-                },
-                {
-                    date: "2015",
-                    price: "3691"
-                },
-                {
-                    date: "2016",
-                    price: "2345"
-                },
-                {
-                    date: "2017",
-                    price: "3706"
-                },
-                {
-                    date: "2018",
-                    price: "1979"
-                }
+      function showError(el, error){
+          el.innerHTML = ('<div class="error" style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
 
-            ]
-        }];
-
-
-        var w = window.innerWidth;
-        var h = window.innerHeight;
-        var margin = w * 0.1;
-        var width = w - margin*2;
-        var height = h - margin;
-
-
-        var lineOpacity = "0.25";
-        var lineOpacityHover = "0.85";
-        var otherLinesOpacityHover = "0.1";
-        var lineStroke = "1.5px";
-        var lineStrokeHover = "2.5px";
-
-        var circleOpacity = '0.85';
-        var circleOpacityOnLineHover = "0.25"
-        var circleRadius = 3;
-        var circleRadiusHover = 6;
-
-
-        /* Format Data */
-        var parseDate = d3.timeParse("%Y");
-        data.forEach(function(d) {
-            d.values.forEach(function(d) {
-                d.date = parseDate(d.date);
-                d.price = +d.price;
-            });
-        });
-
-
-        /* Scale */
-        var xScale = d3.scaleTime()
-            .domain(d3.extent(data[0].values, d => d.date))
-            .range([0, width - margin]);
-
-        var yScale = d3.scaleLinear()
-            .domain([0, 4000])
-            .range([height - margin, 0]);
-
-        var color = d3.scaleOrdinal(d3.schemeCategory10);
-
-        /* Add SVG */
-        var svg = d3.select("#chart").append("svg")
-            .attr("width", (width + margin) + "px")
-            .attr("height", (height + margin) + "px")
-            .append('g')
-            .attr("transform", `translate(${margin}, ${margin})`);
-
-
-        /* Add line into SVG */
-        var line = d3.line()
-            .x(d => xScale(d.date))
-            .y(d => yScale(d.price));
-
-        let lines = svg.append('g')
-            .attr('class', 'lines');
-
-        lines.selectAll('.line-group')
-            .data(data).enter()
-            .append('g')
-            .attr('class', 'line-group')
-            .on("mouseover", function(d, i) {
-                svg.append("text")
-                    .attr("class", "title-text")
-                    .style("fill", color(i))
-                    .text(d.name)
-                    .attr("text-anchor", "middle")
-                    .attr("x", (width - margin) / 2)
-                    .attr("y", 5);
-            })
-            .on("mouseout", function(d) {
-                svg.select(".title-text").remove();
-            })
-            .append('path')
-            .attr('class', 'line')
-            .attr('d', d => line(d.values))
-            .style('stroke', (d, i) => color(i))
-            .style('opacity', lineOpacity)
-            .on("mouseover", function(d) {
-                d3.selectAll('.line')
-                    .style('opacity', otherLinesOpacityHover);
-                d3.selectAll('.circle')
-                    .style('opacity', circleOpacityOnLineHover);
-                d3.select(this)
-                    .style('opacity', lineOpacityHover)
-                    .style("stroke-width", lineStrokeHover)
-                    .style("cursor", "pointer");
-            })
-            .on("mouseout", function(d) {
-                d3.selectAll(".line")
-                    .style('opacity', lineOpacity);
-                d3.selectAll('.circle')
-                    .style('opacity', circleOpacity);
-                d3.select(this)
-                    .style("stroke-width", lineStroke)
-                    .style("cursor", "none");
-            });
-
-
-        /* Add circles in the line */
-        lines.selectAll("circle-group")
-            .data(data).enter()
-            .append("g")
-            .style("fill", (d, i) => color(i))
-            .selectAll("circle")
-            .data(d => d.values).enter()
-            .append("g")
-            .attr("class", "circle")
-            .on("mouseover", function(d) {
-                d3.select(this)
-                    .style("cursor", "pointer")
-                    .append("text")
-                    .attr("class", "text")
-                    .text(`${d.price}`)
-                    .attr("x", d => xScale(d.date) + 5)
-                    .attr("y", d => yScale(d.price) - 10);
-            })
-            .on("mouseout", function(d) {
-                d3.select(this)
-                    .style("cursor", "none")
-                    .transition()
-                    .duration(duration)
-                    .selectAll(".text").remove();
-            })
-            .append("circle")
-            .attr("cx", d => xScale(d.date))
-            .attr("cy", d => yScale(d.price))
-            .attr("r", circleRadius)
-            .style('opacity', circleOpacity)
-            .on("mouseover", function(d) {
-                d3.select(this)
-                    .transition()
-                    .duration(duration)
-                    .attr("r", circleRadiusHover);
-            })
-            .on("mouseout", function(d) {
-                d3.select(this)
-                    .transition()
-                    .duration(duration)
-                    .attr("r", circleRadius);
-            });
-
-
-        /* Add Axis into SVG */
-        var xAxis = d3.axisBottom(xScale).ticks(5);
-        var yAxis = d3.axisLeft(yScale).ticks(5);
-
-        svg.append("g")
-            .attr("class", "x axis")
-            .attr("transform", `translate(0, ${height-margin})`)
-            .call(xAxis);
-
-        svg.append("g")
-            .attr("class", "y axis")
-            .call(yAxis)
-            .append('text')
-            .attr("y", 15)
-            .attr("transform", "rotate(-90)")
-            .attr("fill", "#000")
-            .text("Cikkek száma");
-
-    </script>
+  </script>
 </body>
-
 </html>
