@@ -1,0 +1,264 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>DTM-VIZ</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="author" content="" />
+
+  <!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Flexslider  -->
+	<link rel="stylesheet" href="css/flexslider.css">
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+	</head>
+	<body>
+	<div id="colorlib-page">
+		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle"><i></i></a>
+		<aside id="colorlib-aside" role="complementary" class="border js-fullheight">
+			
+			<nav id="colorlib-main-menu" role="navigation">
+				<ul>
+					<li><a href="index.html">Intro</a></li>
+					<li><a href="kk1.html">A topikok jelentése</a></li>
+                    <li class="colorlib-active"><a href="kk2.html">A topikok viszonya</a></li>
+					<li><a href="kk3.html">Változási dinamikák</a></li>
+                    <li><a href="kk5.html">Determinánsok vizsgálata</a></li>
+                    <li><a href="portspec.html">Portálspecifikus elemzések</a></li>
+                    <li><a href="kk6.html">Tulajdonosváltás hatása</a></li>
+				</ul>
+			</nav>
+
+
+		</aside>
+
+		<div id="colorlib-main">
+			<div class="colorlib-blog">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-9">
+							<span class="heading-meta">Második kutatási kérdés</span>
+							<h2 class="colorlib-heading animate-box" data-animate-effect="fadeInLeft">Hogyan kapcsolódnak egymáshoz a topikok, vannak egymáshoz tartalmilag közelebb, egymástól távolabb levők? </h2>
+						</div>
+					</div>
+                    <div class="project-desc">
+                        <p>A grafikon létrehozására a Python pyLDAvis függvényét használtam (Sievert–Shirley, 2014). Többek között ezt a vizualizációt használtam arra, hogy megfigyeljem a topikok változásának dinamikáját, valamint, hogy interpretáljam a topikok jelentését. </p>
+                        
+                        <p>A vizualizáción bal oldalon a topikokat körökkel ábrázoljuk, ahol a körök területe a hozzájuk tartozó tokenek számával arányos, a körök középpontjának távolsága pedig a topikok tartalmi távolságának feleltethető meg. A kétdimenziós topik-elhelyezkedés (és ezzel a tartalmi távolság) meghatározása többdimenziós skálázás segítségével történt, ahol a skálázás input különbözőségi-mátrixában a topikok páronkénti különbözősége a Jensen-Shannon divergencia alapján lett meghatározva. Ez a divergencia-mutató két eloszlás távolságát méri, segítségével itt két topik távolságát a szóeloszlásuk távolságával tudjuk számszerűsíteni.  Azonban a kétdimenziós reprezentáció leegyszerűsíti a képet, nem feltétlenül ad hű képet az eredeti többdimenziós térbeli struktúráról. A látszólag egymásra csúszó topikok vélhetően nem fednek át úgy, hogy összevonhatók lennének, különben alacsonyabb optimális topikszám mellett dönthettem volna a korábbi elemzéseink kapcsán. A következő két évre tervezett feladataim közé tartozik, hogy különböző távolság-metrikákkal vizsgáljam a topikok szókészletének hasonlóságát, ezzel validálva, vagy cáfolva a fenti ábra interpretálhatóságát.</p>
+                    </div>
+                    <div class="img-container" >
+                        <img src="img/pyldagif.gif" style=" height: 30%; width: 30%; border: 1px solid #555;">
+                    </div>
+                    
+                    <p><br><br></p>
+                    
+                    <div class="project-desc">
+                        <p>Azt figyelhetjük meg, hogy a 3-as (pártokhoz/politikusokhoz köthető ügyek) és a 5-ös (igazságszolgáltatás) topik jól elkülönül a többitől, és ez az elkülönülés stabilan, a vizsgált időszak egészében megmarad. Az elemzett cikkek alapján ez indokolható is: mindkét topik általánosságban hasonló ügyeket dolgoz fel, melyek a többi topikban kevésbé jelennek meg, ám egymástól nagyon eltérő nézőponttal közelítenek ugyanazokhoz az ügyekhez. Két másik csoportot alkot – a fenti, tartalmi elemzés alapján szintén jól indokolhatóan – a 2-es és 4-es (nemzetközi ügyek és kormányzati és nem kormányzati szervek kapcsolatát vizsgáló topik) illetve az 1-es (közbeszerzések), 6-os (önkormányzati szintű ügyek) és 7-es (vállalkozások, vállalatok) topik csoportja, de az évek során e két csoport elkülönülése megszűnik, illetve a korábban ugyanazon csoporthoz tartozó topikok (pl. közbeszerzések, és a vállalkozások vállalatok) eltávolodnak egymástól. </p>
+                        
+                        <p>Az lent linkelt ábrák jobb oldalán az adott évre illesztett topikmodell globális jellemzése látható, ami azt mutatja meg, hogy a teljes korpuszon a topikok közötti szóeloszlás-különbséget tekintve mely kifejezések a leginkább informatívak. Az itt használt indikátor nem egyszerűen a szógyakoriság, hanem a szavak informativitása (saliency), azaz, hogy egy adott kifejezés mennyire jellemzi az adott topikot egy bármilyen véletlenszerűen kiválasztott szóhoz képest (Chuang et al. 2012). A jobb oldalon megjelenített szavak fölé téve a kurzort megjelenik a szó informativitása a bal oldali topikokon (a topikok felett megjelenő új pöttyökkel, ahol az informativitás a területtel arányos).</p>
+                    </div>
+
+                    <p><br><br></p>
+                    
+					<div class="row">
+						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="blog-entry">
+								<a href="img/2007.html" target="_blank" class="blog-img"><img src="img/2007.png" class="img-responsive"></a>
+								<div class="desc">
+									<span><small>625 cikk </small></span>
+									<h3><a href="img/2007.html" target="_blank">2007</a></h3>
+									<p></p>
+									<a href="img/2007.html" target="_blank" class="lead">Tovább az interaktív vizualizációhoz <i class="icon-arrow-right3"></i></a>
+								</div>
+							</div>
+						</div>
+                        
+						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="blog-entry">
+								<a href="img/2008.html" target="_blank" class="blog-img"><img src="img/2008.png" class="img-responsive" ></a>
+								<div class="desc">
+									<span><small>958 cikk </small></span>
+									<h3><a href="img/2008.html" target="_blank">2008</a></h3>
+									<p></p>
+									<a href="img/2008.html" target="_blank" class="lead">Tovább az interaktív vizualizációhoz <i class="icon-arrow-right3"></i></a>
+								</div>
+							</div>
+                        </div>
+                        
+						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="blog-entry">
+								<a href="img/2009.html" target="_blank" class="blog-img"><img src="img/2009.png" class="img-responsive" ></a>
+								<div class="desc">
+									<span><small>1429 cikk </small></span>
+									<h3><a href="img/2009.html" target="_blank">2009</a></h3>
+									<p></p>
+									<a href="img/2009.html" target="_blank" class="lead">Tovább az interaktív vizualizációhoz <i class="icon-arrow-right3"></i></a>
+								</div>
+							</div>
+						</div>
+                        
+						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="blog-entry">
+								<a href="img/2010.html" target="_blank" class="blog-img"><img src="img/2010.png" class="img-responsive" ></a>
+								<div class="desc">
+									<span><small>1886 cikk </small></span>
+									<h3><a href="img/2010.html" target="_blank">2010</a></h3>
+									<p></p>
+									<a href="img/2010.html" target="_blank" class="lead">Tovább az interaktív vizualizációhoz <i class="icon-arrow-right3"></i></a>
+								</div>
+							</div>
+                        </div>
+                        
+						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="blog-entry">
+								<a href="img/2011.html" target="_blank" class="blog-img"><img src="img/2011.png" class="img-responsive" ></a>
+								<div class="desc">
+									<span><small>2216 cikk </small></span>
+									<h3><a href="img/2011.html" target="_blank">2011</a></h3>
+									<p></p>
+									<a href="img/2011.html" target="_blank" class="lead">Tovább az interaktív vizualizációhoz <i class="icon-arrow-right3"></i></a>
+								</div>
+							</div>
+						</div>
+                        
+						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="blog-entry">
+								<a href="img/2012.html" target="_blank" class="blog-img"><img src="img/2012.png" class="img-responsive" ></a>
+								<div class="desc">
+									<span><small>2487 cikk </small></span>
+									<h3><a href="img/2012.html" target="_blank">2012</a></h3>
+									<p></p>
+									<a href="img/2012.html" target="_blank" class="lead">Tovább az interaktív vizualizációhoz <i class="icon-arrow-right3"></i></a>
+								</div>
+							</div>
+						</div>
+						
+                        <div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="blog-entry">
+								<a href="img/2013.html" target="_blank" class="blog-img"><img src="img/2013.png" class="img-responsive" ></a>
+								<div class="desc">
+									<span><small>2096 cikk </small></span>
+									<h3><a href="img/2013.html" target="_blank">2013</a></h3>
+									<p></p>
+									<a href="img/2013.html" target="_blank" class="lead">Tovább az interaktív vizualizációhoz <i class="icon-arrow-right3"></i></a>
+								</div>
+							</div>
+						</div>
+                        
+						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="blog-entry">
+								<a href="img/2014.html" target="_blank" class="blog-img"><img src="img/2014.png" class="img-responsive" ></a>
+								<div class="desc">
+									<span><small>3116 cikk </small></span>
+									<h3><a href="img/2014.html" target="_blank">2014</a></h3>
+									<p></p>
+									<a href="img/2014.html" target="_blank" class="lead">Tovább az interaktív vizualizációhoz <i class="icon-arrow-right3"></i></a>
+								</div>
+							</div>
+						</div>
+                        
+						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="blog-entry">
+								<a href="img/2015.html" target="_blank" class="blog-img"><img src="img/2015.png" class="img-responsive" ></a>
+								<div class="desc">
+									<span><small>3691 cikk </small></span>
+									<h3><a href="img/2015.html" target="_blank">2015</a></h3>
+									<p></p>
+									<a href="img/2015.html" target="_blank" class="lead">Tovább az interaktív vizualizációhoz <i class="icon-arrow-right3"></i></a>
+								</div>
+							</div>
+						</div>
+                        
+                        <div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="blog-entry">
+								<a href="img/2016.html" target="_blank" class="blog-img"><img src="img/2016.png" class="img-responsive" ></a>
+								<div class="desc">
+									<span><small>2345 cikk </small></span>
+									<h3><a href="img/2016.html" target="_blank">2016</a></h3>
+									<p></p>
+									<a href="img/2016.html" target="_blank" class="lead">Tovább az interaktív vizualizációhoz <i class="icon-arrow-right3"></i></a>
+								</div>
+							</div>
+						</div>
+                        
+						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="blog-entry">
+								<a href="img/2017.html" target="_blank" class="blog-img"><img src="img/2017.png" class="img-responsive" ></a>
+								<div class="desc">
+									<span><small>3706 cikk </small></span>
+									<h3><a href="img/2017.html" target="_blank">2017</a></h3>
+									<p></p>
+									<a href="img/2017.html" target="_blank" class="lead">Tovább az interaktív vizualizációhoz <i class="icon-arrow-right3"></i></a>
+								</div>
+							</div>
+						</div>
+                        
+						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="blog-entry">
+								<a href="img/2018.html" target="_blank" class="blog-img"><img src="img/2018.png" class="img-responsive" ></a>
+								<div class="desc">
+									<span><small>1979 cikk </small></span>
+									<h3><a href="img/2018.html" target="_blank">2018</a></h3>
+									<p></p>
+									<a href="img/2018.html" target="_blank" class="lead">Tovább az interaktív vizualizációhoz <i class="icon-arrow-right3"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Flexslider -->
+	<script src="js/jquery.flexslider-min.js"></script>
+	<!-- Sticky Kit -->
+	<script src="js/sticky-kit.min.js"></script>
+	
+	
+	<!-- MAIN JS -->
+	<script src="js/main.js"></script>
+
+	</body>
+</html>
+

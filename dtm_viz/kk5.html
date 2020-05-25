@@ -1,0 +1,136 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>DTM-VIZ</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="author" content="" />
+
+  <!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Flexslider  -->
+	<link rel="stylesheet" href="css/flexslider.css">
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+	</head>
+	<body>
+	<div id="colorlib-page">
+		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle"><i></i></a>
+		<aside id="colorlib-aside" role="complementary" class="border js-fullheight">
+			
+			<nav id="colorlib-main-menu" role="navigation">
+				<ul>
+					<li><a href="index.html">Intro</a></li>
+					<li><a href="kk1.html">A topikok jelentése</a></li>
+                    <li><a href="kk2.html">A topikok viszonya</a></li>
+                    <li><a href="kk3.html">Változási dinamikák</a></li>
+					<li class="colorlib-active"><a href="kk5.html">Determinánsok vizsgálata</a></li>
+                    <li><a href="portspec.html">Portálspecifikus elemzések</a></li>
+                    <li><a href="kk6.html">Tulajdonosváltás hatása</a></li>
+				</ul>
+			</nav>
+
+			
+
+		</aside>
+
+		<div id="colorlib-main">
+
+			<div class="colorlib-work">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-9">
+							<span class="heading-meta">Ötödik kutatási kérdés</span>
+							<h2 class="colorlib-heading animate-box" data-animate-effect="fadeInLeft" >Determinánsok vizsgálata: kampányidőszak és a kormányzathoz való viszony</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-8 image-content">
+							<iframe src="viz/korm_ellen.html" style="height: 18vw; width: 70vw; " frameBorder="0" scrolling="no"></iframe>
+
+                        </div>
+
+						<div class="col-md-4 ">
+							<div >
+								<div class="project-desc">
+									<p>
+                                        A regressziós modellt a 2016 és 2018 között született cikkekre illesztettem, mert erre az időszakra áll rendelkezésre megfelelő mennyiségű szöveg kormánypárti és ellenzéki oldalról is, és ekkorra az Origot érintő, és a G-nap kapcsán felmerülő változások is rendeződtek.
+                                    </p>
+                                </div>
+                            </div>        
+						</div>
+					</div>
+                    
+                <div class="col-md-11">
+                    <p>
+                        Lineáris regresszió segítségével vizsgáltam, hogy mely témákról ír az ellenzéki (atlatszo.hu, fn.hu, 24.hu, hvg.hu, index.hu, magyarnarancs.hu, mno.hu, nepszava.hu, nol.hu, 168ora.hu, 444.hu) és a kormánypárti (figyelo.hu, magyarhirlap.hu, magyaridok.hu, pestisracok.hu, origo.hu) média nagyobb arányban, van-e kapcsolat a temaika és az ellenzéki/kormánypárti pozíció között. Az elemzésbe csak a legnagyobb, online tartalmat (is) gyártó híroldalakat vettem be. Emellett a regressziós modellel azt is vizsgáltam, hogy a kampányhatás érvényesül-e.
+                    </p>                    
+                </div>
+                <div class="row">
+                    <div class="col-md-6 image-content">
+                        <img src="viz/regresszio.png" style="width: 35vw;">
+                    </div>
+                    <div class="col-md-6 ">
+                        <p>
+                            A két változó közötti interakciót is bevontam az elemzésbe, hogy lássam, van-e együttes hatásuk, de megállapítható, hogy nincsen, az interakció egyik esetben sem volt szignifikáns. 
+                            Az összes modell szignifikáns, ám a modellek magyarázóereje 7-ből 6 esetben nagyon alacsony, 1% körüli, tehát a tematikát csak kis részben magyarázza a két bevont változó. Egyetlen esetben, az igazságszolgáltatás topik esetében beszélhetünk 12 százalékos magyarázóerőről, az igazságszolgáltatás esetében. A tábla alapján azt mondhatjuk el, hogy míg a kormánypárti/ellenzéki besorolás hatása mindenhol szignifikáns, addig a kampányidőszak hatása csak a nemzetközi ügyek, a pártokhoz köthető ügyek, és a vállalkozások, vállalatok topik esetében szignifikáns. Kampányidőszakban az előbbi két topik nagyobb, míg utóbbi topik kisebb médianyilvánosságot kap. 
+                            A kormánypárti és ellenzéki bontást vizsgálva azt mondhatjuk, hogy a kormánypárti médiában a pártokhoz/politikusokhoz köthető ügyek aránya, valamint az igazságszolgáltatás (melynek aránya közel 50%) aránya szignifikánsan magasabb, a többi topik viszont az ellenzéki médiában kap jelentősebb szerepet. Ezt a fenti ábra is jól szemlélteti.
+                        </p>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+	</div>
+
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Flexslider -->
+	<script src="js/jquery.flexslider-min.js"></script>
+	<!-- Sticky Kit -->
+	<script src="js/sticky-kit.min.js"></script>
+	
+	
+	<!-- MAIN JS -->
+	<script src="js/main.js"></script>
+
+	</body>
+</html>
+
