@@ -1,0 +1,2 @@
+Az ábra az Információs Társadalom folyóirat elmúlt 15 évének szerzői kapcsolatait mutatja. A gráf a 2005 és 2020 között, társszerzőségben született cikkek hálózata.
+Készítette: Katona Eszter, Knap Árpád, Máté Fanni.
