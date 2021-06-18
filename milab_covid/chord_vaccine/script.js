@@ -2,7 +2,7 @@
 //////////////////////// Set-Up ////////////////////////////
 ////////////////////////////////////////////////////////////
 
-var margin = {left:2, top:2, right:2, bottom:2},
+var margin = {left:2, top:0, right:2, bottom:0},
 	width = Math.min(window.innerWidth, 400) - margin.left - margin.right,
     height = Math.min(window.innerWidth, 400) - margin.top - margin.bottom,
     innerRadius = Math.min(width, height) * .3,
