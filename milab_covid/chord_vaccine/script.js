@@ -3,8 +3,8 @@
 ////////////////////////////////////////////////////////////
 
 var margin = {left:20, top:20, right:20, bottom:20},
-	width = Math.min(window.innerWidth, 1000) - margin.left - margin.right,
-    height = Math.min(window.innerWidth, 1000) - margin.top - margin.bottom,
+	width = Math.min(window.innerWidth, 600) - margin.left - margin.right,
+    height = Math.min(window.innerWidth, 600) - margin.top - margin.bottom,
     innerRadius = Math.min(width, height) * .3,
     outerRadius = innerRadius * 1.05;
 	
@@ -115,7 +115,7 @@ outerArcs.append("path")
 outerArcs.append("text")
     .each(function(d) { d.angle = (d.startAngle + d.endAngle) / 2; })
     .attr("dy", ".35em")
-    .style("font-size", "24px")
+    .style("font-size", "14px")
     .style("fill", "gray")
 
   .attr("class", "titles")
