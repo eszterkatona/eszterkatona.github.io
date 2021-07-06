@@ -5,7 +5,7 @@
 var margin = {left:0, top:0, right:0, bottom:0},
 	width = Math.min(window.innerWidth, 400) - margin.left - margin.right,
     height = Math.min(window.innerWidth, 400) - margin.top - margin.bottom,
-    innerRadius = Math.min(width, height) * .3,
+    innerRadius = Math.min(width, height) * 0.3,
     outerRadius = innerRadius * 1.05;
 	
 var Names = ["effective", "efficient", "protection", "side effect", "voluntary", "negotiate", "contract", "delivery","Orbán","Szijjártó", "Pfizer","Moderna","Astrazeneca","Sputnik","Sinopharm"]
