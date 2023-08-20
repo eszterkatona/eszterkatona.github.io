@@ -362,15 +362,15 @@
                     .attr("x", 0)
                     .attr("y", function(d) {
                         return d.name == todayNode
-                            ? 3
+                            ? 4
                             : d.name == "2022.12.13"
                             ? 0
                             : d.name == "2022.12.16"
-                            ? 6
+                            ? 7
                             : d.name == "2022.12.29" || d.name == "2023.03.29"
                             ? -1
                             : d.name == "2022.12.31" || d.name == "2023.03.31"
-                            ? 7
+                            ? 8
                             : 5;
                     })
 
@@ -390,7 +390,7 @@
                             ")rotate(-90)"
                         );
                     })
-                    .style("font-size", 14)
+                    .style("font-size", 16)
                     .style("fill", "#afafaf")
                     .style("font-family", "Source Sans 3, sans-serif");
 
