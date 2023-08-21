@@ -1,6 +1,20 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <!-- Google tag (gtag.js) -->
+        <script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=G-R3YQ46G3KR"
+        ></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag("js", new Date());
+
+            gtag("config", "G-R3YQ46G3KR");
+        </script>
         <title>EU-s pénzek</title>
         <link rel="stylesheet" href="styles.css" />
 
@@ -43,8 +57,10 @@
         </div>
 
         <div class="lead">
-            Az Európai Uniós támogatások megérkezése rendkívül régóta tolódik. Hányszor és mikorra ígérte Navracsics Tibor a pénzek
-            beérkezését? Az ábrán az látható, hogy mikor tett ígéretet és milyen határidőt tűzött ki. Az adatokat a HVG saját cikkeiből gyűjtötte össze, és
+            Az Európai Uniós támogatások megérkezése rendkívül régóta tolódik.
+            Hányszor és mikorra ígérte Navracsics Tibor a pénzek beérkezését? Az
+            ábrán az látható, hogy mikor tett ígéretet és milyen határidőt
+            tűzött ki. Az adatokat a HVG saját cikkeiből gyűjtötte össze, és
             letölthetővé tette. Ha a pénzek megérkezését pl. év végéig ígérte a
             kormány, az ábrán december 31., ha az első negyedévre ígérte,
             március 31. szerepel. Az adatok forrása:
@@ -324,7 +340,18 @@
                 todayNodeGroup
                     .append("text")
                     .attr("x", 0)
-                    .attr("y", -10)
+                    .attr("y", -14)
+                    .text("|")
+                    .style("text-anchor", "middle")
+                    .style("font-size", 14)
+                    .style("fill", "#0b0b0b")
+                    .style("font-family", "Source Sans 3, sans-serif");
+
+                // Append text label to today's node
+                todayNodeGroup
+                    .append("text")
+                    .attr("x", 0)
+                    .attr("y", -28)
                     .text("Mai nap")
                     .style("text-anchor", "middle")
                     .style("font-size", 14)
