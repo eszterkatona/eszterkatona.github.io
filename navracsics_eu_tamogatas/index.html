@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=G-R3YQ46G3KR"
+        ></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag("js", new Date());
+
+            gtag("config", "G-R3YQ46G3KR");
+        </script>
+        <title>EU-s pénzek</title>
+        <link rel="stylesheet" href="styles.css" />
+
+        <meta charset="utf-8" />
+
+        <!-- Load d3.js -->
+        <script src="https://d3js.org/d3.v4.js"></script>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;600&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <div class="container">
+            <div class="left">
+                <h1>Mi az ábra az Uniós pénzekkel?</h1>
+            </div>
+            <div class="right">
+                <div class="kpi-container">
+                    <div class="kpi">
+                        <div class="kpi-label">összesen</div>
+                        <div class="kpi-value">11</div>
+                        <div class="kpi-label">ígéret</div>
+                    </div>
+                    <div class="kpi">
+                        <div class="kpi-label">minimum</div>
+                        <div class="kpi-value">31</div>
+                        <div class="kpi-label">nap</div>
+                    </div>
+                    <div class="kpi">
+                        <div class="kpi-label">maximum</div>
+                        <div class="kpi-value">275</div>
+                        <div class="kpi-label">nap</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="lead">
+            Az Európai Uniós támogatások megérkezése rendkívül régóta tolódik.
+            Hányszor és mikorra ígérte Navracsics Tibor a pénzek beérkezését? Az
+            ábrán az látható, hogy mikor tett ígéretet és milyen határidőt
+            tűzött ki. Az adatokat a HVG saját cikkeiből gyűjtötte össze, és
+            letölthetővé tette. Ha a pénzek megérkezését pl. év végéig ígérte a
+            kormány, az ábrán december 31., ha az első negyedévre ígérte,
+            március 31. szerepel. Az adatok forrása:
+            <a
+                href="https://hvg.hu/kkv/20230511_eu_penz_hatarido_navracsics_unios_penz"
+                target="_blank"
+                >hvg.hu</a
+            >
+        </div>
+
+        <div class="circle-container">
+            <div class="circle1"></div>
+            <p>Mikor ígérte?</p>
+
+            <div class="circle2"></div>
+            <p>Mikorra ígérte?</p>
+        </div>
+
+        <!-- Create a div where the graph will take place -->
+        <div id="my_dataviz"></div>
+
+        <script>
+            // set the dimensions and margins of the graph
+            var margin = { top: 0, right: 30, bottom: 90, left: 30 },
+                width = 1300 - margin.left - margin.right,
+                height = 430 - margin.top - margin.bottom;
+
+            // append the svg object to the body of the page
+            var svg = d3
+                .select("#my_dataviz")
+                .append("svg")
+                .attr("viewBox", `0 0 1300 430`)
+                .append("g")
+                .attr(
+                    "transform",
+                    "translate(" + margin.left + "," + margin.top + ")"
+                );
+
+            // Read data
+            d3.json("data.json", function(data) {
+                // List of node names
+                var allNodes = data.nodes.map(function(d) {
+                    return d.name;
+                });
+
+                // List of groups
+                var allGroups = data.nodes.map(function(d) {
+                    return d.grp;
+                });
+                allGroups = [...new Set(allGroups)];
+
+                // Colors
+                var customColors = ["#afafaf", "#F0993C", "#555B51"];
+
+                // A color scale for groups:
+                var color = d3
+                    .scaleOrdinal()
+                    .domain(allGroups)
+                    .range(customColors);
+
+                // A linear scale for node size
+                var size = d3
+                    .scaleLinear()
+                    .domain([1, 100])
+                    .range([2, 10]);
+
+                // A linear scale to position the nodes on the X axis
+                var x = d3
+                    .scalePoint()
+                    .range([0, width])
+                    .domain(allNodes);
+
+                // Link between id and the name
+                var idToNode = {};
+                data.nodes.forEach(function(n) {
+                    idToNode[n.id] = n;
+                });
+
+                // Add the links
+                var links = svg
+                    .selectAll("mylinks")
+                    .data(data.links)
+                    .enter()
+                    .append("path")
+                    .attr("d", function(d) {
+                        start = x(idToNode[d.source].name); // X position of start node on the X axis
+                        end = x(idToNode[d.target].name); // X position of end node
+                        return [
+                            "M",
+                            start,
+                            height - 30, // the arc starts at the coordinate x=start, y=height-30 (where the starting node is)
+                            "A", // This means we're gonna build an elliptical arc
+                            (start - end) / 2,
+                            ",", // Next 2 lines are the coordinates of the inflexion point. Height of this point is proportional with start - end distance
+                            (start - end) / 2,
+                            0,
+                            0,
+                            ",",
+                            start < end ? 1 : 0,
+                            end,
+                            ",",
+                            height - 30
+                        ] // We always want the arc on top. So if end is before start, putting 0 here turn the arc upside down.
+                            .join(" ");
+                    })
+                    .style("fill", "none")
+                    .style("stroke", "#afafaf")
+                    .style("stroke-width", function(d) {
+                        return size(d.value) + 0.5;
+                    });
+
+                // Add the highlighting functionality for links
+                links
+                    .on("mouseover", function(d) {
+                        // Highlight the hovered link
+                        d3.select(this)
+                            .style("stroke", color(d.grp))
+                            .style("stroke-opacity", 1);
+
+                        // Get the source and target nodes of the hovered link
+                        var sourceNode = idToNode[d.source];
+                        var targetNode = idToNode[d.target];
+
+                        // Highlight the source and target nodes
+                        nodes.style("opacity", node =>
+                            node === sourceNode || node === targetNode ? 1 : 0.2
+                        );
+
+                        // Highlight the labels of the source and target nodes
+                        labels.style("opacity", label_d =>
+                            label_d === sourceNode || label_d === targetNode
+                                ? 1
+                                : 0.2
+                        );
+
+                        labels.style("fill", label_d =>
+                            label_d === sourceNode || label_d === targetNode
+                                ? "#0b0b0b"
+                                : "#afafaf"
+                        );
+
+                        // Reduce opacity of non-selected links
+                        links.style("stroke-opacity", link =>
+                            link === d ? 1 : 0.2
+                        );
+                    })
+                    .on("mouseout", function(d) {
+                        // Revert the link's appearance
+                        d3.select(this)
+                            .style("stroke", "#afafaf")
+                            .style("stroke-opacity", function(d) {
+                                return size(d.value);
+                            });
+
+                        // Revert the opacity of nodes
+                        nodes.style("opacity", function(node) {
+                            var connectedNodes = data.links
+                                .filter(
+                                    link =>
+                                        link.source === node.id ||
+                                        link.target === node.id
+                                )
+                                .map(link =>
+                                    link.source === node.id
+                                        ? link.target
+                                        : link.source
+                                );
+
+                            return connectedNodes.length > 0 ? 1 : 1;
+                        });
+
+                        // Revert the opacity of labels
+                        labels.style("opacity", 1);
+                        labels.style("fill", "#afafaf");
+
+                        // Restore opacity of all links
+                        links.style("stroke-opacity", 1);
+                    });
+
+                // Append non-connected nodes
+                var nonConnectedNodes = svg
+                    .selectAll(".non-connected-nodes")
+                    .data(
+                        data.nodes.filter(function(d) {
+                            var connectedNodes = data.links
+                                .filter(
+                                    link =>
+                                        link.source === d.id ||
+                                        link.target === d.id
+                                )
+                                .map(link =>
+                                    link.source === d.id
+                                        ? link.target
+                                        : link.source
+                                );
+                            return connectedNodes.length === 0;
+                        })
+                    )
+                    .enter()
+                    .append("g")
+                    .attr("class", "node-group non-connected-nodes")
+                    .attr("transform", function(d) {
+                        return (
+                            "translate(" + x(d.name) + "," + (height - 30) + ")"
+                        );
+                    })
+                    .style("opacity", 1);
+
+                // Append connected nodes
+                var connectedNodes = svg
+                    .selectAll(".connected-nodes")
+                    .data(
+                        data.nodes.filter(function(d) {
+                            var connectedNodes = data.links
+                                .filter(
+                                    link =>
+                                        link.source === d.id ||
+                                        link.target === d.id
+                                )
+                                .map(link =>
+                                    link.source === d.id
+                                        ? link.target
+                                        : link.source
+                                );
+                            return connectedNodes.length > 0;
+                        })
+                    )
+                    .enter()
+                    .append("g")
+                    .attr("class", "node-group connected-nodes")
+                    .attr("transform", function(d) {
+                        return (
+                            "translate(" + x(d.name) + "," + (height - 30) + ")"
+                        );
+                    })
+                    .style("opacity", 1); // Set opacity for connected nodes
+
+                // Combine both non-connected and connected nodes for interactivity
+                var nodes = svg.selectAll(".node-group");
+
+                // Identify today's node
+                var today = new Date();
+                var todayFormatted = today
+                    .toISOString()
+                    .slice(0, 10)
+                    .replace(/-/g, ".");
+                var todayNode = data.nodes.find(function(d) {
+                    return d.name === todayFormatted;
+                });
+
+                var todayNodeGroup = svg
+                    .selectAll(".today-node-group")
+                    .data([todayNode])
+                    .enter()
+                    .append("g")
+                    .attr("class", "node-group today-node-group")
+                    .attr("transform", function(d) {
+                        return (
+                            "translate(" + x(d.name) + "," + (height - 30) + ")"
+                        );
+                    })
+                    .style("opacity", 1);
+
+                // Append circle to today's node
+                todayNodeGroup
+                    .append("circle")
+                    .attr("r", function(d) {
+                        return size(d.n);
+                    })
+                    .style("fill", function(d) {
+                        return color(d.grp);
+                    })
+                    .attr("stroke", "white")
+                    .attr("class", "today-node");
+
+                // Append text label to today's node
+                todayNodeGroup
+                    .append("text")
+                    .attr("x", 0)
+                    .attr("y", -14)
+                    .text("|")
+                    .style("text-anchor", "middle")
+                    .style("font-size", 14)
+                    .style("fill", "#0b0b0b")
+                    .style("font-family", "Source Sans 3, sans-serif");
+
+                // Append text label to today's node
+                todayNodeGroup
+                    .append("text")
+                    .attr("x", 0)
+                    .attr("y", -28)
+                    .text("Mai nap")
+                    .style("text-anchor", "middle")
+                    .style("font-size", 14)
+                    .style("fill", "#0b0b0b")
+                    .style("font-family", "Source Sans 3, sans-serif");
+
+                // Append circles to each group
+                nodes
+                    .append("circle")
+                    .attr("r", function(d) {
+                        return size(d.n);
+                    })
+                    .style("fill", function(d) {
+                        return color(d.grp);
+                    })
+                    .attr("stroke", "white")
+                    .attr("class", function(d) {
+                        return d === todayNode ? "today-node" : "regular-node";
+                    });
+
+                var sourceList = data.links.map(function(link) {
+                    return link.source;
+                });
+
+                var targetList = data.links.map(function(link) {
+                    return link.target;
+                });
+
+                // And give them a label
+                var labels = svg
+                    .selectAll("mylabels")
+                    .data(data.nodes)
+                    .enter()
+                    .append("text")
+                    .attr("x", 0)
+                    .attr("y", function(d) {
+                        return d.name == todayNode
+                            ? 4
+                            : d.name == "2022.12.13"
+                            ? 0
+                            : d.name == "2022.12.16"
+                            ? 7
+                            : d.name == "2022.12.29" || d.name == "2023.03.29"
+                            ? -1
+                            : d.name == "2022.12.31" || d.name == "2023.03.31"
+                            ? 8
+                            : 5;
+                    })
+
+                    .text(function(d) {
+                        return sourceList.includes(d.name) ||
+                            targetList.includes(d.name)
+                            ? d.name
+                            : ""; // Show d.name only if it's in the source or target list
+                    })
+                    .style("text-anchor", "end")
+                    .attr("transform", function(d) {
+                        return (
+                            "translate(" +
+                            x(d.name) +
+                            "," +
+                            (height - 15) +
+                            ")rotate(-90)"
+                        );
+                    })
+                    .style("font-size", 16)
+                    .style("fill", "#afafaf")
+                    .style("font-family", "Source Sans 3, sans-serif");
+
+                // Filter nodes with grp = 1 and store their IDs
+                var nonHoverableNodes = data.nodes
+                    .filter(function(d) {
+                        return d.grp === 1;
+                    })
+                    .map(function(d) {
+                        return d.id;
+                    });
+
+                // Add the highlighting functionality
+                nodes
+                    .on("mouseover", function(d) {
+                        if (nonHoverableNodes.includes(d.id)) {
+                            return; // Return without applying any highlighting
+                        }
+
+                        // Get the IDs of nodes connected to the hovered node
+                        var connectedNodes = data.links
+                            .filter(
+                                link =>
+                                    link.source === d.id || link.target === d.id
+                            )
+                            .map(link =>
+                                link.source === d.id ? link.target : link.source
+                            );
+                        // Highlight the nodes:
+                        nodes.style("opacity", node =>
+                            connectedNodes.includes(node.id) || node === d
+                                ? 1
+                                : 0.2
+                        );
+
+                        // Highlight the connections
+                        links
+                            .style("stroke", link =>
+                                link.source === d.id || link.target === d.id
+                                    ? color(d.grp)
+                                    : "#afafaf"
+                            )
+                            .style("stroke-opacity", link =>
+                                link.source === d.id || link.target === d.id
+                                    ? 1
+                                    : 0.2
+                            )
+                            .style("stroke-width", function(d) {
+                                return size(d.value);
+                            });
+
+                        // Highlight the labels of connected nodes
+                        labels.style("opacity", label_d =>
+                            connectedNodes.includes(label_d.id) || label_d === d
+                                ? 1
+                                : 0.2
+                        );
+                        labels.style("fill", label_d =>
+                            connectedNodes.includes(label_d.id) || label_d === d
+                                ? "#0b0b0b"
+                                : "#afafaf"
+                        );
+                    })
+                    .on("mouseout", function(d) {
+                        if (nonHoverableNodes.includes(d.id)) {
+                            return; // Return without reverting highlighting
+                        }
+
+                        nodes.style("opacity", function(node) {
+                            var connectedNodes = data.links
+                                .filter(
+                                    link =>
+                                        link.source === node.id ||
+                                        link.target === node.id
+                                )
+                                .map(link =>
+                                    link.source === node.id
+                                        ? link.target
+                                        : link.source
+                                );
+
+                            return connectedNodes.length > 0 ? 1 : 1;
+                        });
+
+                        links
+                            .style("stroke", "#afafaf")
+                            .style("stroke-opacity", 1)
+                            .style("stroke-width", function(d) {
+                                return size(d.value);
+                            });
+
+                        labels.style("opacity", 1);
+                        labels.style("fill", "#afafaf");
+                    });
+            });
+        </script>
+    </body>
+</html>
