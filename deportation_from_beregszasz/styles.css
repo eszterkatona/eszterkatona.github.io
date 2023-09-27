@@ -1,0 +1,43 @@
+body {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 16px;
+    color: #0b0b0b;
+    position: absolute;
+    left: 60px;
+    right: 60px;
+    top: 0px;
+    bottom: 0px;
+}
+a:link,
+a:visited {
+    text-decoration: none;
+    color: #B87066;
+    font-weight: bold;
+}
+h1 {
+    font-size: 40px;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.lead {
+    font-size: 16px;
+}
+
+.node text {
+    pointer-events: none;
+    text-shadow: 0 1px 0 #fff;
+}
+
+.link {
+    fill: none;
+    stroke: #e0e0e3;
+}
+
+.link:hover {
+    stroke: #c7c4c9;
+}

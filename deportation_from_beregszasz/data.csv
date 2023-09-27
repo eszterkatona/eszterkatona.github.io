@@ -1,0 +1,217 @@
+source,target,value
+Ghetto: Beregszász,C1: Auschwitz I,135
+Ghetto: Beregszász,C1: Auschwitz II-Birkenau ,24
+C1: Auschwitz I,C2: Bergen-Belsen,22
+C2: Bergen-Belsen,CX,20
+C1: Auschwitz I,C2: Gelsenkirchen-Horst,13
+C1: Auschwitz I,C2: Buchenwald,13
+C1: Auschwitz I,C2: Riese-Wolfsberg,12
+C4: Bergen-Belsen,CX,10
+C2: Gelsenkirchen-Horst,C3: Sömmerda,9
+C2: Buchenwald,C3: Mittelbau-Dora,9
+C1: Auschwitz I,C2: Ravensbrück,9
+C1: Auschwitz I,C2: Lübberstedt,9
+C3: Bergen-Belsen,CX,9
+C1: Auschwitz I,C2: Hamburg,8
+C1: Auschwitz I,C2: Fallersleben,8
+C2: Boizenburg,CX,8
+C3: Plön,CX,7
+C1: Auschwitz I,C2: Mauthausen,7
+C2: Fallersleben,C3: Salzwedel,7
+C3: Salzwedel,CX,7
+C2: Lübberstedt,C3: Plön,7
+C3: Neustadt-Glewe,CX,6
+C2: Gelsenkirchen-Horst,C3: Essen,6
+C2: Ravensbrück,C3: Neustadt-Glewe,6
+C3: Ebensee,CX,6
+C3: Essen,C4: Bergen-Belsen,5
+C3: Mittelbau-Dora,C4: Bergen-Belsen,5
+C1: Auschwitz II-Birkenau ,C2: Bergen-Belsen,5
+C6: Bergen-Belsen,CX,5
+C2: Stuttgart,CX,1,
+C2: Riese-Wolfsberg,C3: Ebensee,5
+C1: Auschwitz II-Birkenau ,C2: Ravensbrück,4
+C2: Hamburg,C3: Wedel,4
+C3: Flossenbürg,C4: Offenburg,4
+C3: Gleiwitz,C4: Mittelbau-Dora,4
+C5: Bergen-Belsen,CX,4
+C2: Ravensbrück,C3: Malchow,4
+C1: Auschwitz I,CX,4
+C1: Auschwitz II-Birkenau ,C2: Boizenburg,4
+C1: Auschwitz I,C2: Boizenburg,4
+C3: Sömmerda,CX,4
+C2: Riese-Wolfsberg,C3: Riese-Wüstegiersdorf,3
+C3: Celle,CX,3
+C3: Malchow,CX,3
+C6: Halbstadt,C7: Neustadt-Glewe,3
+C1: Auschwitz I,C2: Auschwitz III-Monowitz,3
+C6: Halbstadt,CX,3
+C1: Auschwitz II-Birkenau ,C2: Buchenwald,3
+C1: Auschwitz I,C2: Riese-Erlenbusch,3
+Ghetto: Beregszász,C1: Fürstengrube,3
+C2: Riese-Erlenbusch,C3: Flossenbürg,3
+C2: Mauthausen,C3: Gusen,3
+C4: Mittelbau-Dora,C5: Blankenburg-Regenstein,3
+C2: Mittelbau-Dora,C3: Bergen-Belsen,3
+C7: Neustadt-Glewe,CX,3
+C5: Blankenburg-Regenstein,C6: Halbstadt,3
+C3: Mittelbau-Dora,CX,3
+C1: Fürstengrube,C2: Mittelbau-Dora,3
+C1: Auschwitz II-Birkenau ,C2: Auschwitz I,3
+C2: Bergen-Belsen,C3: Celle,3
+C2: Auschwitz III-Monowitz,C3: Gleiwitz,3
+C1: Auschwitz I,C2: Riese-Schotterwerk,3
+C2: Rochlitz,CX,2
+C4: Bergen-Belsen,C5: Ilfeld,2
+C3: Hamburg-Eidelstedt,C4: Bergen-Belsen,2
+C4: Meuselwitz,CX,2
+C2: Ravensbrück,C3: Mauthausen,2
+C2: Riese-Schotterwerk,C3: Flossenbürg,2
+C2: Riese-Wolfsberg,C3: Bergen-Belsen,2
+C4: Celle,CX,2
+C3: Rochlitz,C4: Graslitz,2
+C4: Crawinkel,C5: Buchenwald,2
+C3: Mittelbau-Dora,C4: Osterode am Harz,2
+C4: Harzungen,CX,2
+C4: Gunskirchen,CX,2
+C3: Bergen-Belsen,C4: Celle,2
+C3: Flossenbürg,C4: Crawinkel,2
+C3: Sömmerda,C4: Meuselwitz,2
+C3: Braunau am Inn,CX,2
+C4: Graslitz,CX,2
+C3: München-Allach,CX,2
+C3: Sömmerda,C4: Glauchau,2
+C4: Glauchau,CX,2
+C3: Mittelbau-Dora,C4: Harzungen,2
+C2: Stutthof,C3: Braunau am Inn,2
+C3: Riese-Wüstegiersdorf,C4: Hildesheim,2
+C2: Bergen-Belsen,C3: Bergen-Belsen,2
+C5: Salzwedel,CX,2
+C1: Auschwitz II-Birkenau ,C2: Rochlitz,2
+C1: Auschwitz II-Birkenau ,C2: Gelsenkirchen-Horst,2
+C2: Bergen-Belsen,C3: Rochlitz,2
+C2: Buchenwald,C3: Bergen-Belsen,2
+C2: Falkenberg Oberschlesien,C3: Heydebreck,2
+C4: Theresienstadt,CX,2
+C2: Fürstengrube,C3: Mittelbau-Dora,2
+C2: Geislingen an der Steige,C3: München-Allach,2
+C5: Ilfeld,CX,2
+C5: Donaueschingen,CX,2
+C1: Auschwitz I,C2: Stutthof,2
+C2: Hamburg,C3: Hamburg-Eidelstedt,2
+C6: Flossenbürg,CX,2
+C1: Auschwitz I,C2: Falkenberg Oberschlesien,2
+C4: Offenburg,CX,2
+C4: Offenburg,C5: Donaueschingen,2
+C1: Auschwitz I,C2: Fürstengrube,2
+C5: Oranienburg,C6: Flossenbürg,1
+C4: Altenburg,CX,1
+C4: Buchenwald,C5: Theresienstadt,1
+C4: Buchenwald,C5: Bergen-Belsen,1
+C5: Hannover,C6: Bergen-Belsen,1
+C7: Hildesheim,C8: Hannover,1
+C4: Auschwitz III-Monowitz,C5: Oranienburg,1
+C3: Wedel,C4: Hamburg-Eidelstedt,1
+C5: Mittelbau-Dora,C6: Bergen-Belsen,1
+C3: Tröglitz (Rehmsdorf),C4: Theresienstadt,1
+C3: Sömmerda,C4: Altenburg,1
+C6: Buchenwald,CX,1
+C6: Bergen-Belsen,C7: Hildesheim,1
+C5: Wurzen,CX,1
+C5: Theresienstadt,CX,1
+C4: Buchenwald,CX,1
+C4: Mittelbau-Dora,C5: Bergen-Belsen,1
+C4: Hannover,C5: Bergen-Belsen,1
+C4: Mauthausen,CX,1
+C4: Leipzig,C5: Wurzen,1
+C4: Osterode am Harz,C5: Salzwedel,1
+C4: Kaufering,CX,1
+C3: Riese-Wüstegiersdorf,C4: Riese-Dörnhau,1
+C4: Hildesheim,C5: Hannover,1
+C4: Hildesheim,C5: Bergen-Belsen,1
+C4: Riese-Dörnhau,CX,1
+C4: Riese-Schotterwerk,CX,1
+C4: Stamsried,CX,1
+C5: Crawinkel,C6: Buchenwald,1
+C4: Hamburg-Eidelstedt,CX,1
+C4: Sömmerda,CX,1
+C5: Buchenberg,CX,1
+C5: Buchenwald,C6: Flossenbürg,1
+C4: Gleiwitz,C5: Mittelbau-Dora,1
+C5: Buchenwald,CX,1
+C4: Flossenbürg,C5: Crawinkel,1
+C4: Mittelbau-Dora,C5: Salzwedel,1
+C4: Ebensee,CX,1
+C4: Dachau,C5: Buchenberg,1
+C4: Osterode am Harz,CX,1
+C3: Crawinkel,C4: Stamsried,1
+C3: Riese-Fürstenstein,C4: Flossenbürg,1
+C2: Flossenbürg,C3: Crawinkel,1
+C2: Auschwitz I,C3: Lagischa,1
+C2: Buchenwald,C3: Berga-Elster,1
+C2: Buchenwald,C3: Gelsenkirchen-Horst,1
+C2: Buchenwald,C3: Ohrdruf,1
+C2: Buchenwald,C3: Tröglitz (Rehmsdorf),1
+C2: Fallersleben,CX,1
+C2: Hamburg,C3: Bergen-Belsen,1
+C2: Auschwitz I,C3: Fürstengrube,1
+C2: Hamburg,CX,1
+C2: Hindenburg,C3: Mittelbau-Dora,1
+C2: Kaufering,C3: Landsberg,1
+C2: Lübberstedt,C3: Bergen-Belsen,1
+C2: Lübberstedt,CX,1
+C2: Malchow,CX,1
+C2: Auschwitz I,C3: Gleiwitz,1
+C1: Riese-Fürstenstein,C2: Flossenbürg,1
+C2: Mauthausen,C3: Ebensee,1
+C1: Auschwitz I,C2: Malchow,1
+Ghetto: Beregszász,C1: Dachau,1
+Ghetto: Beregszász,C1: Riese-Fürstenstein,1
+C1: Auschwitz I,C2: Geislingen an der Steige,1
+C1: Auschwitz I,C2: Hindenburg,1
+C1: Auschwitz I,C2: Kaufering,1
+C1: Auschwitz I,C2: Peterswaldau,1
+C1: Dachau,C2: Waldlager bei Ampfing,1
+C1: Auschwitz I,C2: Riese-Fürstenstein,1
+C1: Auschwitz I,C2: Riese-Wüstegiersdorf,1
+C1: Auschwitz I,C2: Salzwedel,1
+C1: Auschwitz I,C2: St. Georgenthal,1
+C1: Auschwitz I,C2: Stuttgart,1
+C1: Auschwitz II-Birkenau ,C2: Geislingen an der Steige,1
+C2: Mauthausen,C3: Buchenwald,1
+C2: Mauthausen,C3: Gusen II.,1
+C3: Riese-Dörnhau,C4: Riese-Schotterwerk,1
+C3: Hildesheim,C4: Hannover,1
+C3: Gusen,C4: Gunskirchen,1
+C3: Gusen,C4: Mauthausen,1
+C3: Gusen,CX,1
+C3: Gusen II.,CX,1
+C3: Heydebreck,C4: Theresienstadt,1
+C3: Heydebreck,CX,1
+C3: Lagischa,C4: Auschwitz III-Monowitz,1
+C3: Fürstengrube,C4: Gleiwitz,1
+C3: Landsberg,C4: Dachau,1
+C3: Malchow,C4: Leipzig,1
+C3: Mauthausen,C4: Gunskirchen,1
+C3: Mauthausen,CX,1
+C3: Melk,C4: Ebensee,1
+C3: Ohrdruf,C4: Buchenwald,1
+C3: Gelsenkirchen-Horst,C4: Sömmerda,1
+C3: Flossenbürg,CX,1
+C2: Mauthausen,C3: Melk,1
+C2: Riese-Wüstegiersdorf,C3: Hildesheim,1
+C2: Peterswaldau,CX,1
+C2: Ravensbrück,CX,1
+C2: Riese-Fürstenstein,C3: Flossenbürg,1
+C2: Riese-Schotterwerk,C3: Riese-Dörnhau,1
+C2: Riese-Wolfsberg,C3: Riese-Fürstenstein,1
+C2: Riese-Wolfsberg,CX,1
+C2: Salzwedel,CX,1
+C3: Flossenbürg,C4: Kaufering,1
+C2: St. Georgenthal,CX,1
+C2: Waldlager bei Ampfing,CX,1
+C3: Berga-Elster,CX,1
+C3: Buchenwald,C4: Mittelbau-Dora,1
+C3: Essen,C4: Buchenwald,1
+C3: Essen,CX,1
+C8: Hannover,C9: Bergen-Belsen,1
