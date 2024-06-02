@@ -2,44 +2,45 @@
 <html>
     <head>
         <meta charset="utf-8" />
-        
+
         <title>Beregszász Ghetto</title>
-        
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
-            href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&display=swap"
             rel="stylesheet"
         />
-
         <link rel="stylesheet" href="styles.css" />
-
-        <!-- Google tag (gtag.js) -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-5BMTXRECNX"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'G-5BMTXRECNX');
-        </script>
-        
     </head>
-    
-    
+
     <body>
-        
         <div class="container">
             <h1>Deportation from Beregszász Ghetto</h1>
         </div>
 
         <div class="lead">
-            The staff of the National Committee for the Attending Deportees (DEGOB) recorded the personal stories of Holocaust survivors deported from Hungary. Based on these recollections, the diagram shows the deportation routes from the Beregszász (Berehovo) ghetto to different National Socialist camps and sites. The layout of the multiple locations shows how Hungarian Jews were deported further from Auschwitz-Birkenau, mainly for forced labor for the last push of the Nazi’s war effort. Visualization by <a href="https://eszterkatona.web.elte.hu/" target="_blank">Eszter Katona</a>. Data source: <a href="http://degob.org/" target="_blank">degob.org</a>, data preparation and interperatiton: <a href="https://dl.rc2s2.elte.hu/" target="_blank">Digital Lens</a>.
-            
+            The staff of the National Committee for the Attending Deportees
+            (DEGOB) recorded the personal stories of Holocaust survivors
+            deported from Hungary. Based on these recollections, the diagram
+            shows the deportation routes from the Beregszász (Berehovo) ghetto
+            to different National Socialist camps and sites. The layout of the
+            multiple locations shows how Hungarian Jews were deported further
+            from Auschwitz-Birkenau, mainly for forced labor for the last push
+            of the Nazi’s war effort. Visualization by
+            <a href="https://eszterkatona.web.elte.hu/" target="_blank"
+                >Eszter Katona</a
+            >. Data source:
+            <a href="http://degob.org/" target="_blank">degob.org</a>, data
+            preparation and interperatiton:
+            <a href="https://dl.rc2s2.elte.hu/" target="_blank">Digital Lens</a
+            >.
         </div>
-        
-        <br>
-        <br>
+
+        <br />
+        <br />
 
         <script src="https://d3js.org/d3.v4.min.js"></script>
         <script src="sankey.js"></script>
@@ -51,8 +52,10 @@
 
             // set the dimensions and margins of the graph
             var margin = { top: 20, right: 120, bottom: 20, left: 0 },
-                width = 2400,
-                height = 1350;
+            //    width = 6600,
+            //    height = 1550;
+             width = 3300,
+             height = 1550;
 
             // format variables
             var formatNumber = d3.format(",.0f"), // zero decimal places
@@ -65,7 +68,7 @@
             var svg = d3
                 .select("#my_dataviz")
                 .append("svg")
-                .attr("viewBox", `0 0 2600 1500`)
+                .attr("viewBox", `0 0 3700 1700`)
                 .append("g")
                 .attr(
                     "transform",
@@ -155,7 +158,6 @@
                     );
                 });
 
-
                 // add in the nodes
                 var node = svg
                     .append("g")
@@ -166,8 +168,7 @@
                     .attr("class", "node")
                     .attr("transform", function(d) {
                         return "translate(" + d.x + "," + d.y + ")";
-                    })
-                    
+                    });
 
                 // add the rectangles for the nodes
                 node.append("rect")
@@ -181,9 +182,7 @@
                                 ? "transparent"
                                 : color(d.name.replace(/ .*/, "")));
                     })
-                    .style("stroke", function(d) {
-                        return d3.rgb(d.color).darker(2);
-                    })
+                    .style("stroke", "none") // Change this line to remove stroke
                     .append("title")
                     .text(function(d) {
                         return d.name + "\n" + format(d.value);
@@ -191,8 +190,9 @@
 
                 // add in the title for the nodes
                 node.append("text")
-                    .attr("font-family", "Roboto Condensed", "sans-serif")
+                    .attr("font-family", "Montserrat", "sans-serif")
                     .attr("font-size", 22)
+                .attr("font-weight", 700)
                     .attr("x", -6)
                     .attr("y", function(d) {
                         return d.dy / 2;
@@ -204,9 +204,8 @@
                         return d.name == "CX" ? "" : d.name;
                     })
                     .attr("x", 6 + sankey.nodeWidth())
-                    .attr("text-anchor", "start");
-
-                
+                    .attr("text-anchor", "start")
+                    .style("fill", "#32366F"); // Add this line to set the font color
             });
         </script>
     </body>

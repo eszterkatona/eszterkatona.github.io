@@ -1,7 +1,8 @@
 source,target,value
-Ghetto: Beregszász,C1: Auschwitz I,135
+Ghetto: Beregszász,C1: Auschwitz I,137
 Ghetto: Beregszász,C1: Auschwitz II-Birkenau ,24
 C1: Auschwitz I,C2: Bergen-Belsen,22
+C1: Auschwitz I,C2: Fürstengrube,3
 C2: Bergen-Belsen,CX,20
 C1: Auschwitz I,C2: Gelsenkirchen-Horst,13
 C1: Auschwitz I,C2: Buchenwald,13
@@ -48,15 +49,14 @@ C1: Auschwitz I,C2: Auschwitz III-Monowitz,3
 C6: Halbstadt,CX,3
 C1: Auschwitz II-Birkenau ,C2: Buchenwald,3
 C1: Auschwitz I,C2: Riese-Erlenbusch,3
-Ghetto: Beregszász,C1: Fürstengrube,3
 C2: Riese-Erlenbusch,C3: Flossenbürg,3
 C2: Mauthausen,C3: Gusen,3
 C4: Mittelbau-Dora,C5: Blankenburg-Regenstein,3
-C2: Mittelbau-Dora,C3: Bergen-Belsen,3
+C3: Mittelbau-Dora,C4: Bergen-Belsen,3
 C7: Neustadt-Glewe,CX,3
 C5: Blankenburg-Regenstein,C6: Halbstadt,3
-C3: Mittelbau-Dora,CX,3
-C1: Fürstengrube,C2: Mittelbau-Dora,3
+C4: Mittelbau-Dora,CX,3
+C2: Fürstengrube,C3: Mittelbau-Dora,3
 C1: Auschwitz II-Birkenau ,C2: Auschwitz I,3
 C2: Bergen-Belsen,C3: Celle,3
 C2: Auschwitz III-Monowitz,C3: Gleiwitz,3
@@ -131,7 +131,7 @@ C4: Hildesheim,C5: Hannover,1
 C4: Hildesheim,C5: Bergen-Belsen,1
 C4: Riese-Dörnhau,CX,1
 C4: Riese-Schotterwerk,CX,1
-C4: Stamsried,CX,1
+C5: Stamsried,CX,1
 C5: Crawinkel,C6: Buchenwald,1
 C4: Hamburg-Eidelstedt,CX,1
 C4: Sömmerda,CX,1
@@ -144,9 +144,9 @@ C4: Mittelbau-Dora,C5: Salzwedel,1
 C4: Ebensee,CX,1
 C4: Dachau,C5: Buchenberg,1
 C4: Osterode am Harz,CX,1
-C3: Crawinkel,C4: Stamsried,1
+C4: Crawinkel,C5: Stamsried,1
 C3: Riese-Fürstenstein,C4: Flossenbürg,1
-C2: Flossenbürg,C3: Crawinkel,1
+C3: Flossenbürg,C4: Crawinkel,1
 C2: Auschwitz I,C3: Lagischa,1
 C2: Buchenwald,C3: Berga-Elster,1
 C2: Buchenwald,C3: Gelsenkirchen-Horst,1
@@ -162,11 +162,11 @@ C2: Lübberstedt,C3: Bergen-Belsen,1
 C2: Lübberstedt,CX,1
 C2: Malchow,CX,1
 C2: Auschwitz I,C3: Gleiwitz,1
-C1: Riese-Fürstenstein,C2: Flossenbürg,1
+C1: Auschwitz I,C2: Riese-Fürstenstein,1
+C2: Riese-Fürstenstein,C3: Flossenbürg,1
 C2: Mauthausen,C3: Ebensee,1
 C1: Auschwitz I,C2: Malchow,1
 Ghetto: Beregszász,C1: Dachau,1
-Ghetto: Beregszász,C1: Riese-Fürstenstein,1
 C1: Auschwitz I,C2: Geislingen an der Steige,1
 C1: Auschwitz I,C2: Hindenburg,1
 C1: Auschwitz I,C2: Kaufering,1
