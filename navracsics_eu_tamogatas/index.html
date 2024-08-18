@@ -305,63 +305,7 @@
                 // Combine both non-connected and connected nodes for interactivity
                 var nodes = svg.selectAll(".node-group");
 
-                // Identify today's node
-                var today = new Date();
-                var todayFormatted = today
-                    .toISOString()
-                    .slice(0, 10)
-                    .replace(/-/g, ".");
-                var todayNode = data.nodes.find(function(d) {
-                    return d.name === todayFormatted;
-                });
-
-                var todayNodeGroup = svg
-                    .selectAll(".today-node-group")
-                    .data([todayNode])
-                    .enter()
-                    .append("g")
-                    .attr("class", "node-group today-node-group")
-                    .attr("transform", function(d) {
-                        return (
-                            "translate(" + x(d.name) + "," + (height - 30) + ")"
-                        );
-                    })
-                    .style("opacity", 1);
-
-                // Append circle to today's node
-                todayNodeGroup
-                    .append("circle")
-                    .attr("r", function(d) {
-                        return size(d.n);
-                    })
-                    .style("fill", function(d) {
-                        return color(d.grp);
-                    })
-                    .attr("stroke", "white")
-                    .attr("class", "today-node");
-
-                // Append text label to today's node
-                todayNodeGroup
-                    .append("text")
-                    .attr("x", 0)
-                    .attr("y", -14)
-                    .text("|")
-                    .style("text-anchor", "middle")
-                    .style("font-size", 14)
-                    .style("fill", "#0b0b0b")
-                    .style("font-family", "Source Sans 3, sans-serif");
-
-                // Append text label to today's node
-                todayNodeGroup
-                    .append("text")
-                    .attr("x", 0)
-                    .attr("y", -28)
-                    .text("Mai nap")
-                    .style("text-anchor", "middle")
-                    .style("font-size", 14)
-                    .style("fill", "#0b0b0b")
-                    .style("font-family", "Source Sans 3, sans-serif");
-
+               
                 // Append circles to each group
                 nodes
                     .append("circle")
@@ -372,9 +316,7 @@
                         return color(d.grp);
                     })
                     .attr("stroke", "white")
-                    .attr("class", function(d) {
-                        return d === todayNode ? "today-node" : "regular-node";
-                    });
+                    ;
 
                 var sourceList = data.links.map(function(link) {
                     return link.source;
@@ -392,9 +334,7 @@
                     .append("text")
                     .attr("x", 0)
                     .attr("y", function(d) {
-                        return d.name == todayNode
-                            ? 4
-                            : d.name == "2022.12.13"
+                        return d.name == "2022.12.13"
                             ? 0
                             : d.name == "2022.12.16"
                             ? 7
